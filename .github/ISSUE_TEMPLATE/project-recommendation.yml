@@ -1,0 +1,57 @@
+name: Recommend an AI Agent project
+description: Suggest an early AI Agent ecosystem project for editorial review.
+title: "[Project] "
+labels: ["project-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping AGENT ATLAS find emerging projects. Submissions are public and not automatically listed. Do not post private keys or sensitive information."
+  - type: input
+    id: project
+    attributes:
+      label: Project name
+      placeholder: Project / Agent name
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official website or source
+      description: Include a direct, publicly accessible URL.
+    validations:
+      required: true
+  - type: input
+    id: x
+    attributes:
+      label: Official X account (optional)
+  - type: dropdown
+    id: chain
+    attributes:
+      label: Ecosystem
+      options:
+        - BNB Chain
+        - opBNB
+        - Binance Agentic Hub
+        - Multi-chain
+        - Other / unsure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What does this project do?
+      description: Briefly describe the product and why it belongs in the AI Agent ecosystem.
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Evidence / participation details
+      description: Link to official announcements, open-source code or verifiable references. Claims are checked before listing.
+  - type: checkboxes
+    id: policies
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand this is a public submission and that AGENT ATLAS does not endorse projects merely because they are suggested.
+          required: true
