@@ -1,0 +1,27 @@
+name: Feedback or correction
+description: Report incorrect project information or suggest a platform improvement.
+title: "[Feedback] "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Feedback type
+      options:
+        - Project information correction
+        - New feature request
+        - Broken website link
+        - UI or accessibility issue
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What should we change?
+      description: Include the relevant page or project, the issue and any public supporting links.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested solution (optional)
