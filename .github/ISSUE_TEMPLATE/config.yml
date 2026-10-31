@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Public community board
+    url: https://github.com/zsf11221/agent-atlas/discussions
+    about: Community discussion (requires Discussions to be enabled in Settings).
+  - name: Developer on X
+    url: https://x.com/zsf11221
+    about: Follow the developer and project news.
