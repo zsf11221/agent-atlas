@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-31T16:36:34.996613+00:00",
+  "checkedAt": "2026-10-31T21:30:15.139362+00:00",
   "state": "ok",
   "source": "GitHub public repository search",
   "queries": 3,
   "queryFailures": [],
   "matchingRepositories": 60,
-  "newCandidates": 36,
+  "newCandidates": 6,
   "changedCandidates": 0,
   "total": 48,
   "note": "GitHub metadata only; candidate is NOT an official endorsement, security audit, mint eligibility or verified live Agent service."
