@@ -1,0 +1,8 @@
+{
+  "state": "not_run",
+  "checkedAt": null,
+  "source": "GitHub public repository search",
+  "newCandidates": 0,
+  "queryFailures": [],
+  "note": "Scheduled workflow installed; awaiting first successful run. No source data has been validated by this pipeline yet."
+}
