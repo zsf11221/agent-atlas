@@ -1,8 +1,12 @@
 {
-  "state": "not_run",
-  "checkedAt": null,
+  "checkedAt": "2026-10-31T16:36:34.996613+00:00",
+  "state": "ok",
   "source": "GitHub public repository search",
-  "newCandidates": 0,
+  "queries": 3,
   "queryFailures": [],
-  "note": "Scheduled workflow installed; awaiting first successful run. No source data has been validated by this pipeline yet."
+  "matchingRepositories": 60,
+  "newCandidates": 36,
+  "changedCandidates": 0,
+  "total": 48,
+  "note": "GitHub metadata only; candidate is NOT an official endorsement, security audit, mint eligibility or verified live Agent service."
 }
