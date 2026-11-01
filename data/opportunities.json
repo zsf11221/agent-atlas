@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-01",
-  "methodology": "Source-announced opportunities only. Active minting, free quotas and safety are NOT independently verified. Check onchain contracts and official source before taking action.",
+  "methodology": "BSC Agent mint pages listed as free only when the linked source describes a free tier. Availability, transaction costs, contract safety and eligibility are not confirmed. A limited free software trial is not classified as a mint.",
   "opportunities": [
     {
       "id": "agentbnbai",
@@ -12,7 +12,10 @@
       "source": "https://agentbnbai.com/",
       "descriptionZh": "针对 .ai Agent ID 持有者的代币铸造页面，自称每个符合资格的 Agent ID 可铸造 9,000 AGENT。是否仍开放、资格与合约安全尚未独立核验。",
       "descriptionEn": "Token mint site for .ai Agent ID holders; claims 9,000 AGENT per eligible ID. Current availability and contract safety unverified.",
-      "mintVerified": false
+      "mintVerified": false,
+      "mintType": "free",
+      "costVerification": "source-claim-only",
+      "currentAvailability": "unknown"
     },
     {
       "id": "bnworld-agents",
@@ -24,7 +27,10 @@
       "source": "https://bncworld.fun/agents/",
       "descriptionZh": "项目页面称持有 Binance Agent ID 的钱包前两次 Mint 免费，但页面也提示铸造尚未开启。当前状态须重新核验。",
       "descriptionEn": "Site advertises the first two mints free for eligible Agent ID wallets, but states mint is not open yet. Recheck before participating.",
-      "mintVerified": false
+      "mintVerified": false,
+      "mintType": "free",
+      "costVerification": "source-claim-only",
+      "currentAvailability": "unknown"
     },
     {
       "id": "bnb-agent-studio",
@@ -36,7 +42,10 @@
       "source": "https://www.bnbchain.org/en/blog/bnb-agent-studio-is-live-on-bnb-chain-ai-agents-from-one-prompt",
       "descriptionZh": "BNB Chain 官方文章介绍过限时 AWS 免费体验，额度可能已用完。不是免费 NFT Mint。",
       "descriptionEn": "Official BNB Chain article described a limited free deployment experience; availability may have expired. Not an NFT mint.",
-      "mintVerified": false
+      "mintVerified": false,
+      "mintType": "other",
+      "costVerification": "source-claim-only",
+      "currentAvailability": "unknown"
     }
   ]
 }
