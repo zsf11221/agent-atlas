@@ -18,8 +18,10 @@ QUERIES = [
     "topic:ai-agent topic:bnb-chain archived:false fork:false",
     "topic:ai-agent topic:binance-smart-chain archived:false fork:false",
     "bnb agent in:name,description archived:false fork:false",
+    "erc-8004 bnb in:name,description archived:false fork:false",
+    "agentic bsc in:name,description archived:false fork:false",
 ]
-MAX_CANDIDATES = 36
+MAX_CANDIDATES = 180
 KEYWORDS = ("bnb", "binance", "opbnb", "bsc", "agent", "ai-agent", "ai agent")
 def github_search(query):
     params = urllib.parse.urlencode({"q": query, "sort": "updated", "order": "desc", "per_page": 30})
@@ -40,7 +42,9 @@ def credible(item):
     corpus = (" ".join(topics) + " " + name + " " + description).lower()
     agent = any(x in corpus for x in ("agent", "agents", "agentic", "defai", "erc-8004"))
     bnb = any(x in corpus for x in ("bnb", "binance", "opbnb", "bsc", "binance-smart-chain"))
-    return agent and bnb and not item.get("fork") and not item.get("archived") and not item.get("disabled")
+    # Avoid keyword matches arising only from the word "chain" or a casual mention of AI.
+    relevant = agent and bnb and (len(topics) >= 1 or len(description) >= 45)
+    return relevant and not item.get("fork") and not item.get("archived") and not item.get("disabled")
 def clean(value, limit=260):
     return re.sub(r"[\\x00-\\x1f]", " ", str(value or "")).strip()[:limit]
 def candidate(item):
@@ -107,11 +111,13 @@ def run():
             old[p["id"]] = p
             newly_added += 1
     full = list(old.values())
-    # Bounded list, preserving curated entries and recent discoveries.
+    # Persist independent candidate history, retaining a bounded recent pool.
     curated = [p for p in full if p.get("type") != "candidate"]
     candidates = sorted((p for p in full if p.get("type") == "candidate"), key=lambda p: p.get("lastActivityAt") or "", reverse=True)[:MAX_CANDIDATES]
     final = curated + candidates
     status = {
+        "candidateCount": len(candidates),
+        "curatedCount": len(curated),
         "checkedAt": NOW.isoformat(),
         "state": "ok" if not errors else ("partial" if matches else "error"),
         "source": "GitHub public repository search",
