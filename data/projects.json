@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T18:26:25.872261+00:00",
+  "updatedAt": "2026-11-01T22:50:51.732808+00:00",
   "methodology": "Curated ecosystem sources plus public GitHub discovery. GitHub candidates are NOT independently verified; no automatic contract, mint or social audit.",
   "projects": [
     {
@@ -2674,11 +2674,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-01T18:26:25.872261+00:00",
+      "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 139
+      "githubStars": 141
     },
     {
       "id": "github-1441883606",
@@ -3106,11 +3106,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-01T18:26:25.872261+00:00",
+      "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 635
+      "githubStars": 636
     },
     {
       "id": "github-1436826271",
@@ -3214,11 +3214,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-01T18:26:25.872261+00:00",
+      "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 19
+      "githubStars": 20
     },
     {
       "id": "github-1436046738",
@@ -3323,6 +3323,60 @@
       "date": "-  -",
       "firstSeen": "2026-11-01",
       "lastCheckedAt": "2026-11-01T18:26:25.872261+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
+      "id": "github-1442289299",
+      "name": "kosmo-skills",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/Kosmo-Protocol/kosmo-skills",
+      "website": "https://github.com/Kosmo-Protocol/kosmo-skills",
+      "descriptionZh": "GitHub 公开候选项目：gent skills  or  osmo  rotocol  launch tokens on  thereum,    ,  ase,  obinhood  hain and  nk.  our token, your rules.",
+      "descriptionEn": "Public GitHub discovery candidate: gent skills  or  osmo  rotocol  launch tokens on  thereum,    ,  ase,  obinhood  hain and  nk.  our token, your rules.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-01",
+      "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
+      "id": "github-1442183510",
+      "name": "agentplace",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/tierrabt/agentplace",
+      "website": "https://github.com/tierrabt/agentplace",
+      "descriptionZh": "GitHub 公开候选项目：nly agents can paint.  umans watch.  n-chain pi el wall on      hain.",
+      "descriptionEn": "Public GitHub discovery candidate: nly agents can paint.  umans watch.  n-chain pi el wall on      hain.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-01",
+      "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
