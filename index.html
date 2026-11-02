@@ -1253,7 +1253,7 @@ footer {
       </a>
       <a href="#trench">
         <span class="nav-left"><i class="nav-icon">⚡</i><span data-i18n="navTrench">.ai 铸造战壕</span></span>
-        <span class="nav-badge">3 热门</span>
+        
       </a>
       
       <a href="#discovery">
@@ -1262,7 +1262,7 @@ footer {
       </a>
     </nav>
 
-    <div class="side-group-label">.AI 专属准入筛选</div>
+    <div class="side-group-label">BINANCE .AI ID</div>
     <nav class="side-nav"><a href="#discovery"><span class="nav-left"><span class="nav-icon">✦</span>Binance .ai ID 相关项目</span></a><a href="#trench"><span class="nav-left"><span class="nav-icon">🎁</span>免费与付费 Mint</span></a></nav>
 
     <div class="side-group-label">PERSONAL</div>
@@ -1324,7 +1324,7 @@ footer {
               <span class="badge-live"><i class="pulse-dot"></i>BINANCE .AI DISCOVERY · SOURCE-BASED</span>
               <span class="badge-std">聚焦 Binance .ai ID · 数据来源可追溯</span>
             </div>
-            <h1 id="heroTitle">发现 BSC 上仅限 <em>.ai 钱包</em> 的打新与 Alpha</h1>
+            <h1 id="heroTitle">发现 BSC 上与 <em>.ai ID</em> 相关的项目与机会</h1>
             <p class="desc" data-i18n="heroSub">
               专为币安 Agentic Wallet（.ai Agent ID）持有人打造的链上扫链平台。整理 .ai 相关的免费铸造线索、AI 解题盘与生态动态，支持一键复制 baw 指令或 Skill 喂给你的 AI 执行。
             </p>
@@ -1390,9 +1390,9 @@ footer {
           <div>
             <div class="sec-kicker">EXPLORE .AI ECOSYSTEM</div>
             <h2 class="sec-title" data-i18n="exploreTitle">项目发现</h2>
-            <p class="sec-desc" data-i18n="exploreSub">探索适配币安 .ai 钱包的 AI 助手、DeFi 策略、打新工具与社区项目。</p>
+            <p class="sec-desc" data-i18n="exploreSub">BSC Agent 项目与候选线索，是否支持 Binance .ai ID 需独立核验。</p>
           </div>
-          <span class="mono" id="resultCounter" style="font-size:12.5px;color:var(--ink-secondary)">本区 9 条（精选 3 条）· 原站共 48 条线索</span>
+          <span class="mono" id="resultCounter" style="font-size:12.5px;color:var(--ink-secondary)">正在加载项目数据…</span>
         </div>
 
         <div class="filter-bar">
@@ -1503,7 +1503,7 @@ MINT_ITEMS=(op.opportunities||[]).filter(p=>/BSC|BNB/i.test(p.chain||'')&&['free
 const cats=[...new Set(PROJECTS.map(p=>p.cat))].sort();
 const tab=$('#catTabGroup');tab.innerHTML='<button class="filter-tab on" data-cat="all" type="button">全部</button><button class="filter-tab" data-cat="featured" type="button">精选项目</button>'+cats.map(c=>'<button class="filter-tab" data-cat="'+safeText(c)+'" type="button">'+safeText(c)+'</button>').join('');
 const kc=$('#kpiProjects'),km=$('#kpiMints'),kl=$('#kpiLatest');if(kc)kc.textContent=PROJECTS.length;if(km)km.textContent=MINT_ITEMS.length;if(kl)kl.textContent=PROJECTS.filter(p=>p.type==='candidate').length;
-const x=$('#sideTotalBadge');if(x)x.textContent=PROJECTS.length;
+
 $('#dataNotice').textContent='项目数据 '+(pj.updatedAt||'日期未知')+' · 铸造线索 '+(op.updatedAt||'日期未知')+' · .ai 资格尚未核验';
 renderProjects();renderMintTrench();renderStream();
 }catch(err){$('#dataNotice').textContent='项目数据加载失败，请检查 data/ 目录或稍后刷新。';renderProjects();renderMintTrench();renderStream();}}
@@ -1525,7 +1525,7 @@ var I18N = {
     navHome: '实时 .ai 扫链总览', navTrench: '.ai 铸造战壕', navRadar: '项目来源索引', navExplore: '.ai 生态探索库',
     gateExclusive: '仅限 .ai ID 准入', gateFree: '.ai 零撸 / 免费', gatePuzzle: 'AI 解题 / Prompt 盘', gateUtility: '持续产出 / 合成养成', gateSkill: '.ai 盯盘 Skill 插件',
     navFavs: '我的收藏夹', navGuide: '.ai 领取与 baw 指南', btnWallet: '🤖 接入币安 .ai 钱包',
-    heroTitle: '发现 BSC 上仅限 <em>.ai 钱包</em> 的打新与 Alpha',
+    heroTitle: '发现 BSC 上与 <em>.ai ID</em> 相关的项目与机会',
     heroSub: '专为币安 Agentic Wallet（.ai Agent ID）持有人打造的链上扫链平台。整理 .ai 相关的免费铸造线索、AI 解题盘与生态动态，支持一键复制 baw 指令或 Skill 喂给你的 AI 执行。',
     statProjects: '项目与线索', statFree: '.ai 免费 / 准入铸造', statSmart: '项目来源', statLatest: '最新发现 (.ai 生态)',
     mintTitle: '.ai 相关铸造线索', mintSub: '汇总要求持有币安 .ai Agent ID 才能参与的免费铸造与打新活动；条件、资格与价格以各项目实际规则为准。',
@@ -1596,19 +1596,6 @@ function renderStream(){const n=$('#liveStreamFeed');if(!n)return;const items=PR
 function renderMintTrench(){const el=$('#mintTrenchGrid');if(!el)return;el.innerHTML=['free','paid'].map(type=>{const arr=MINT_ITEMS.filter(m=>m.mintType===type);return '<div class="mint-group"><h3 style="margin:0 0 12px">'+(type==='free'?'免费 Mint · 来源声称':'付费 Mint')+' ('+arr.length+')</h3><div class="mint-list">'+(arr.length?arr.map(m=>'<article class="mint-card"><div class="mint-top"><span class="mint-status upcoming">未核验 · 状态未知</span><span class="mint-gate">'+(type==='free'?'来源称免费':'付费')+'</span></div><h3 style="margin:15px 0">'+safeText(m.name)+'</h3><p class="mint-desc">'+safeText(m.zh)+'</p><p style="font-size:12px;margin:10px 0;color:var(--ink-secondary)">宣称费用：'+safeText(m.price)+'；资格要求须向来源核实</p><a class="btn-detail-outline" target="_blank" rel="noopener noreferrer" href="'+safeUrl(m.source)+'">查看来源 ↗</a></article>').join(''):'<p style="padding:18px;color:var(--ink-muted)">暂无已记录的'+(type==='free'?'免费':'付费')+'线索</p>')+'</div></div>'}).join('')}
 
 /* ================= 渲染 3：项目来源索引榜 ================= */
-function renderRadarTable() {
-  $('#radarTableBody').innerHTML = RADAR_TRADERS.map(function(r, idx) {
-    return '<tr>' +
-      '<td><div class="ai-domain"><span>#' + (idx + 1) + ' ' + r.domain + '</span><i>来源待核验</i></div><div class="mono" style="font-size:11px;color:var(--ink-muted)">' + r.addr + '</div></td>' +
-      '<td class="mono">' + r.winRate + '</td>' +
-      '<td class="pnl-pos">' + r.pnl + '</td>' +
-      '<td style="font-size:12.5px">' + r.action + '</td>' +
-      '<td><span class="safety-pill mono" style="font-size:11.5px">✓ ' + r.brake + '</span></td>' +
-      '<td><button class="pill-btn mono" type="button" data-copy="' + r.task + '" style="font-size:11.5px">复制跟单 Prompt</button></td>' +
-    '</tr>';
-  }).join('');
-}
-
 /* ================= 渲染 4：.ai 项目探索库 ================= */
 function updateFavBadge() {
   var cnt = Object.keys(state.favs).filter(function(k) { return state.favs[k]; }).length;
