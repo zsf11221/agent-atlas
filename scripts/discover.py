@@ -18,7 +18,6 @@ QUERIES = [
     "topic:ai-agent topic:bnb-chain archived:false fork:false",
     "topic:ai-agent topic:binance-smart-chain archived:false fork:false",
     "bnb agent in:name,description archived:false fork:false",
-    "erc-8004 bnb in:name,description archived:false fork:false",
     "agentic bsc in:name,description archived:false fork:false",
 ]
 MAX_CANDIDATES = 180
