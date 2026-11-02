@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AgentAtlas V8.2 · Binance .ai ID 生态发现</title>
+<title>AgentAtlas V8.3 · BSC AI Agent 发现与 Binance .ai ID</title>
 <meta name="description" content="BSC / Binance .ai ID 生态项目发现、Mint 机会与来源索引。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1230,11 +1230,11 @@ footer {
   .proj-grid.list-mode .proj-card { flex-direction: column; align-items: flex-start; }
 }
 @media(max-width:820px){.topbar-right{width:100%}.quick-ca-box{flex:1;min-width:0}.quick-ca-box input{width:100%}.container{gap:22px}.mint-specs{grid-template-columns:1fr 1fr}}@media(prefers-reduced-motion:reduce){.pulse-dot{animation:none}}
-</style>
+.mint-group{grid-column:1/-1}.mint-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}.mobile-nav{display:none}@media(max-width:820px){.mobile-nav{display:flex;position:sticky;top:0;z-index:79;gap:8px;overflow:auto;padding:10px 14px;background:var(--bg-sidebar);color:#f1e6cc;white-space:nowrap}.mobile-nav a{padding:6px 10px;border:1px solid #98805c55;border-radius:30px;font-size:12px}.quick-ca-box input{width:min(45vw,190px)}}@media(max-width:480px){.container{padding-inline:12px}.topbar-right{width:100%;justify-content:space-between}.quick-ca-box{max-width:100%}.quick-ca-box input{width:125px}} </style>
 </head>
 <body>
 
-<div class="app-shell">
+<nav class="mobile-nav" aria-label="手机快速导航"><a href="#top">首页</a><a href="#trench">Mint</a><a href="#discovery">项目发现</a><a href="#guide">钱包指南</a><a href="#top" id="mobileFavLink">收藏 ☆</a></nav><div class="app-shell">
   <!-- ================= 左侧固定导航栏（100% 聚焦币安 .ai 生态） ================= -->
   <aside class="sidebar">
     <a class="brand" href="#top">
@@ -1263,28 +1263,7 @@ footer {
     </nav>
 
     <div class="side-group-label">.AI 专属准入筛选</div>
-    <nav class="side-nav" id="sideGateNav">
-      <button type="button" data-sidegate="exclusive">
-        <span class="nav-left"><i class="nav-icon">🔒</i><span data-i18n="gateExclusive">仅限 .ai ID 准入</span></span>
-        <span class="nav-badge">纯血</span>
-      </button>
-      <button type="button" data-sidegate="free">
-        <span class="nav-left"><i class="nav-icon">🎁</i><span data-i18n="gateFree">.ai 零撸 / 免费</span></span>
-        <span class="nav-badge">Gas Only</span>
-      </button>
-      <button type="button" data-sidegate="puzzle">
-        <span class="nav-left"><i class="nav-icon">🧠</i><span data-i18n="gatePuzzle">AI 解题 / Prompt 盘</span></span>
-        <span class="nav-badge">防脚本</span>
-      </button>
-      <button type="button" data-sidegate="utility">
-        <span class="nav-left"><i class="nav-icon">🎮</i><span data-i18n="gateUtility">持续产出 / 合成养成</span></span>
-        <span class="nav-badge">Yield</span>
-      </button>
-      <button type="button" data-sidegate="skill">
-        <span class="nav-left"><i class="nav-icon">🤖</i><span data-i18n="gateSkill">.ai 盯盘 Skill 插件</span></span>
-        <span class="nav-badge">baw</span>
-      </button>
-    </nav>
+    <nav class="side-nav"><a href="#discovery"><span class="nav-left"><span class="nav-icon">✦</span>Binance .ai ID 相关项目</span></a><a href="#trench"><span class="nav-left"><span class="nav-icon">🎁</span>免费与付费 Mint</span></a></nav>
 
     <div class="side-group-label">PERSONAL</div>
     <nav class="side-nav">
@@ -1323,14 +1302,11 @@ footer {
         <div class="quick-ca-box" title="输入 xxx.ai 检查白名单资格，或粘贴 CA 检索">
           <span>⌕</span>
           <input id="quickCaInput" type="search" placeholder="输入 xxx.ai 验资 或 粘贴合约 CA…">
-          <button class="verify-btn" id="verifyAiIdBtn" type="button">验资</button>
+          <button class="verify-btn" id="verifyAiIdBtn" type="button">资格说明</button>
         </div>
         <button id="langBtn" class="pill-btn" type="button">EN</button>
         <button id="themeBtn" class="pill-btn" type="button">☾ 夜间</button>
-        <button id="agentWalletBtn" class="btn-agent-wallet" type="button">
-          <span data-i18n="btnWallet">🤖 接入币安 .ai 钱包</span>
-          <span class="ai-tag">baw CLI</span>
-        </button>
+        <button id="agentWalletBtn" class="btn-agent-wallet" type="button">了解 .ai 钱包</button>
       </div>
     </header>
 
@@ -1345,7 +1321,7 @@ footer {
           </svg>
           <div class="hero-top">
             <div class="hero-badges">
-              <span class="badge-live"><i class="pulse-dot"></i>BINANCE .AI AGENT RADAR · LIVE</span>
+              <span class="badge-live"><i class="pulse-dot"></i>BINANCE .AI DISCOVERY · SOURCE-BASED</span>
               <span class="badge-std">聚焦 Binance .ai ID · 数据来源可追溯</span>
             </div>
             <h1 id="heroTitle">发现 BSC 上仅限 <em>.ai 钱包</em> 的打新与 Alpha</h1>
@@ -1381,17 +1357,12 @@ footer {
               <i class="pulse-dot"></i>
               <span>BSC EVENTS · 待接入</span>
             </div>
-            <div class="term-controls" id="streamFilterGroup">
-              <button class="term-filter-btn on" data-sf="all" type="button">全部</button>
-              <button class="term-filter-btn" data-sf="mint" type="button">.ai 打新</button>
-              <button class="term-filter-btn" data-sf="id" type="button">.ai 抢注</button>
-              
-            </div>
+            <div class="term-controls" id="streamFilterGroup"><span style="color:#cbb789;font-size:11px">项目资料更新流</span></div>
           </div>
           <div class="term-feed" id="liveStreamFeed"></div>
           <div class="term-foot">
-            <span id="streamStatusText">正在扫描 BSC 上携带 .ai ID 凭证的链上交互…</span>
-            <button id="toggleStreamBtn" style="color:#E8C974;font-family:var(--font-mono)" type="button">[暂停]</button>
+            <span id="streamStatusText">展示已采集项目动态，不代表实时链上事件</span>
+            <span id="toggleStreamBtn" style="font-size:11px;color:#b7a685">来源：项目数据库</span>
           </div>
         </div>
       </section>
@@ -1402,9 +1373,9 @@ footer {
           <div>
             <div class="sec-kicker">MINT TRENCH · 币安 .AI 准入战壕</div>
             <h2 class="sec-title" data-i18n="mintTitle">.ai 相关铸造线索</h2>
-            <p class="sec-desc" data-i18n="mintSub">汇总要求持有币安 .ai Agent ID 才能参与的免费铸造与打新活动；条件、资格与价格以各项目实际规则为准。</p>
+            <p class="sec-desc" data-i18n="mintSub">BSC 免费与付费铸造线索；活动状态与 .ai ID 准入需以官方来源为准。</p>
           </div>
-          <span class="mono" style="font-size:12px;color:var(--ink-muted)">支持一键复制 baw 终端命令或 AI Pro 喂料指令</span>
+          <span class="mono" style="font-size:12px;color:var(--ink-muted)">仅供信息查询；参与前核验资格与费用</span>
         </div>
 
         <div class="trench-grid" id="mintTrenchGrid"></div>
@@ -1442,26 +1413,14 @@ footer {
           </div>
 
           <div class="filter-row-sub">
-            <div class="gate-chips" id="gateChipGroup">
-              <span class="lbl">.ai 玩法与准入:</span>
-              <button class="gate-btn on" data-gate="all" type="button">全部 .ai 生态</button>
-              <button class="gate-btn" data-gate="exclusive" type="button">🔒 仅限 .ai ID 准入</button>
-              <button class="gate-btn" data-gate="free" type="button">🎁 .ai 零撸 / 免费</button>
-              <button class="gate-btn" data-gate="puzzle" type="button">🧠 AI 解题铸造</button>
-              <button class="gate-btn" data-gate="utility" type="button">🎮 持续产出 / 养成</button>
-              <button class="gate-btn" data-gate="skill" type="button">🤖 盯盘 Skill 插件</button>
-            </div>
+            <div class="gate-chips" id="gateChipGroup"><span class="lbl">项目来源</span><button class="gate-btn on" data-gate="all" type="button">全部</button><button class="gate-btn" data-gate="ecosystem" type="button">生态项目</button><button class="gate-btn" data-gate="candidate" type="button">GitHub 线索</button></div>
 
             <div class="search-sort-group">
               <label class="search-box">
                 <span>⌕</span>
                 <input id="dirSearchInput" type="search" placeholder="搜索项目、.ai 玩法或关键词…">
               </label>
-              <select class="sort-select" id="sortSelect" aria-label="排序方式">
-                <option value="hot">按 .ai 钱包热度排序</option>
-                <option value="fav">按收藏量排序</option>
-                <option value="latest">按最新区块收录</option>
-              </select>
+              <select class="sort-select" id="sortSelect" aria-label="排序方式"><option value="recent">最近活动</option><option value="name">名称 A–Z</option></select>
             </div>
           </div>
         </div>
@@ -1535,8 +1494,19 @@ baw wallet agent-id</code>
 <script>
 function safeText(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 function safeUrl(u){try{var z=new URL(u,location.href);return ['http:','https:'].includes(z.protocol)?safeText(z.href):'#'}catch(e){return '#'}}
-async function loadAtlasData(){try{var rs=await Promise.all([fetch('data/projects.json',{cache:'no-store'}),fetch('data/opportunities.json',{cache:'no-store'})]);if(!rs[0].ok||!rs[1].ok)throw Error('数据文件读取失败');var pj=await rs[0].json(),op=await rs[1].json();PROJECTS=(pj.projects||[]).filter(function(x){return /BSC|BNB|opBNB/i.test(x.chain||'')}).map(function(p,i){return {id:p.id,name:p.name,zh:p.descriptionZh||'',en:p.descriptionEn||'',cat:p.category||'tools',chain:p.chain||'BSC',source:p.source||p.website,ca:'未提供',featured:p.type==='ecosystem',type:p.type,gates:['all'],gateLabels:[],fav:0,fol:'—',hot:0,block:0}});MINT_ITEMS=(op.opportunities||[]).filter(function(p){return p.mintType==='free'||p.mintType==='paid'}).map(function(p){return {id:p.id,name:p.name,zh:p.descriptionZh,en:p.descriptionEn,price:p.announcedCost,source:p.source,gate:'准入待核验',ca:'未核验',brake:null}});renderProjects();renderMintTrench();var kp=document.querySelector('#kpiProjects'),km=document.querySelector('#kpiMints'),kl=document.querySelector('#kpiLatest');if(kp)kp.textContent=PROJECTS.length;if(km)km.textContent=MINT_ITEMS.length;if(kl)kl.textContent=PROJECTS.filter(p=>p.type==='candidate').length;var x=document.querySelector('#sideTotalBadge');if(x)x.textContent=PROJECTS.length;var nc=document.querySelector('#dataNotice');if(nc)nc.textContent='项目数据更新于 '+safeText(pj.updatedAt||'未知')+'；Mint 条目均需二次核验。'}catch(err){var x=document.querySelector('#dataNotice');if(x)x.textContent='数据读取失败：请将本文件与 data/projects.json、data/opportunities.json 一起部署，并通过网站访问。';renderProjects();renderMintTrench()}}
-
+async function loadAtlasData(){try{
+const [pr,or]=await Promise.all([fetch('data/projects.json',{cache:'no-store'}),fetch('data/opportunities.json',{cache:'no-store'})]);
+if(!pr.ok||!or.ok)throw Error('HTTP '+pr.status+'/'+or.status);
+const pj=await pr.json(),op=await or.json();
+PROJECTS=(pj.projects||[]).filter(p=>/BSC|BNB/i.test(p.chain||'')).map(p=>({id:p.id,name:p.name,zh:p.descriptionZh||'',en:p.descriptionEn||'',cat:p.category||'other',chain:p.chain,source:p.source||p.website,ca:'未提供',featured:p.type==='ecosystem',type:p.type,gates:['all'],fav:0,date:p.lastActivityAt||p.date||'',updated:p.lastActivityAt||p.date||'',tags:p.tags||[],evidence:p.evidence||'',walletSupport:'unverified'}));
+MINT_ITEMS=(op.opportunities||[]).filter(p=>/BSC|BNB/i.test(p.chain||'')&&['free','paid'].includes(p.mintType)).map(p=>({id:p.id,name:p.name,zh:p.descriptionZh||'',en:p.descriptionEn||'',price:p.announcedCost||'费用未确认',source:p.source,mintType:p.mintType,gate:'资格待核验',ca:'未核验',status:p.currentAvailability||'unknown'}));
+const cats=[...new Set(PROJECTS.map(p=>p.cat))].sort();
+const tab=$('#catTabGroup');tab.innerHTML='<button class="filter-tab on" data-cat="all" type="button">全部</button><button class="filter-tab" data-cat="featured" type="button">精选项目</button>'+cats.map(c=>'<button class="filter-tab" data-cat="'+safeText(c)+'" type="button">'+safeText(c)+'</button>').join('');
+const kc=$('#kpiProjects'),km=$('#kpiMints'),kl=$('#kpiLatest');if(kc)kc.textContent=PROJECTS.length;if(km)km.textContent=MINT_ITEMS.length;if(kl)kl.textContent=PROJECTS.filter(p=>p.type==='candidate').length;
+const x=$('#sideTotalBadge');if(x)x.textContent=PROJECTS.length;
+$('#dataNotice').textContent='项目数据 '+(pj.updatedAt||'日期未知')+' · 铸造线索 '+(op.updatedAt||'日期未知')+' · .ai 资格尚未核验';
+renderProjects();renderMintTrench();renderStream();
+}catch(err){$('#dataNotice').textContent='项目数据加载失败，请检查 data/ 目录或稍后刷新。';renderProjects();renderMintTrench();renderStream();}}
 /* ================= 1. 实时 .ai 链上事件流数据（纯血 .ai 维度） ================= */
 var STREAM_EVENTS = [];
 
@@ -1591,7 +1561,7 @@ var state = {
   catFilter: 'all',
   gateFilter: 'all',
   searchQuery: '',
-  sortBy: 'hot',
+  sortBy: 'recent',
   viewMode: 'grid',
   favs: {}
 };
@@ -1618,15 +1588,12 @@ function copyText(txt,label){
 }
 
 /* ================= 渲染 1：实时扫链瀑布流 ================= */
-function renderStream(){ var n=document.querySelector('#liveStreamFeed'); if(n) n.innerHTML='<div style="padding:20px;color:#91aa98">链上实时监听尚未连接。待接入有来源的 BSC 事件索引后显示。</div>'; }
+function renderStream(){const n=$('#liveStreamFeed');if(!n)return;const items=PROJECTS.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date))).slice(0,7);n.innerHTML=items.length?items.map(p=>'<div class="feed-row" data-open="'+safeText(p.id)+'"><span class="feed-tag id">项目</span><span class="feed-main">'+safeText(p.name)+'</span><span class="feed-time">'+safeText((p.date||'—').slice(0,10))+'</span></div>').join(''):'<div style="padding:20px;color:#91aa98">正在读取项目动态。暂无实时链上事件数据。</div>';$('#streamStatusText').textContent='项目数据动态 · 非实时链上监听';}
 
 
 
 /* ================= 渲染 2：.ai 铸造战壕 ================= */
-function renderMintTrench(){
- var el=document.querySelector('#mintTrenchGrid'); if(!el)return;
- el.innerHTML=MINT_ITEMS.length?MINT_ITEMS.map(function(m){return '<article class="mint-card"><div class="mint-top"><span class="mint-status upcoming">来源线索 · 尚未核验</span><span class="mint-gate">BSC</span></div><h3 style="margin:15px 0">'+safeText(m.name)+'</h3><p class="mint-desc">'+safeText(m.zh)+'</p><div class="mint-specs"><div><span>费用声明</span><b>'+safeText(m.price)+'</b></div><div><span>可用状态</span><b>未知</b></div><div><span>资格要求</span><b>请核验</b></div></div><div class="mint-actions"><a class="btn-detail-outline" target="_blank" rel="noopener noreferrer" href="'+safeUrl(m.source)+'">查看原始来源 ↗</a></div></article>'}).join(''):'<p style="padding:24px">尚无可核验的 Mint 记录。</p>';
-}
+function renderMintTrench(){const el=$('#mintTrenchGrid');if(!el)return;el.innerHTML=['free','paid'].map(type=>{const arr=MINT_ITEMS.filter(m=>m.mintType===type);return '<div class="mint-group"><h3 style="margin:0 0 12px">'+(type==='free'?'免费 Mint · 来源声称':'付费 Mint')+' ('+arr.length+')</h3><div class="mint-list">'+(arr.length?arr.map(m=>'<article class="mint-card"><div class="mint-top"><span class="mint-status upcoming">未核验 · 状态未知</span><span class="mint-gate">'+(type==='free'?'来源称免费':'付费')+'</span></div><h3 style="margin:15px 0">'+safeText(m.name)+'</h3><p class="mint-desc">'+safeText(m.zh)+'</p><p style="font-size:12px;margin:10px 0;color:var(--ink-secondary)">宣称费用：'+safeText(m.price)+'；资格要求须向来源核实</p><a class="btn-detail-outline" target="_blank" rel="noopener noreferrer" href="'+safeUrl(m.source)+'">查看来源 ↗</a></article>').join(''):'<p style="padding:18px;color:var(--ink-muted)">暂无已记录的'+(type==='free'?'免费':'付费')+'线索</p>')+'</div></div>'}).join('')}
 
 /* ================= 渲染 3：项目来源索引榜 ================= */
 function renderRadarTable() {
@@ -1649,20 +1616,13 @@ function updateFavBadge() {
 }
 
 function renderProjects(){
- var q=(state.searchQuery||'').trim().toLowerCase();
- var list=PROJECTS.filter(function(p){
- var cat=state.catFilter==='all'||(state.catFilter==='featured'?p.featured:p.cat===state.catFilter);
- var gate=state.gateFilter==='all'||(p.gates||[]).includes(state.gateFilter);
- return cat&&gate&&(!q||[p.name,p.zh,p.en,p.ca].join(' ').toLowerCase().includes(q));
- });
- list.sort(function(a,b){return state.sortBy==='fav'?(b.fav-a.fav):state.sortBy==='latest'?(b.block-a.block):b.hot-a.hot});
- var rc=$('#resultCounter');if(rc)rc.textContent='当前显示 '+list.length+' 条 · 已加载 '+PROJECTS.length+' 条项目记录';
- var grid=$('#projectGrid');if(!grid)return;grid.classList.toggle('list-mode',state.viewMode==='list');
- grid.innerHTML=list.length?list.map(function(p){
- var f=!!state.favs[p.id];return '<article class="proj-card" data-open="'+safeText(p.id)+'"><div class="pcard-head"><div class="pcard-id"><div class="pcard-avatar">✧</div><div class="pcard-title"><h4>'+safeText(p.name)+'</h4><div class="pcard-ca">'+safeText(p.cat)+' · '+safeText(p.chain)+'</div></div></div><button class="star-btn'+(f?' fav':'')+'" data-star="'+safeText(p.id)+'" aria-label="收藏">'+(f?'★':'☆')+'</button></div><p class="pcard-desc">'+safeText(p[state.lang]||p.zh)+'</p><div class="pcard-tags"><span class="ptag">'+safeText(p.type==='candidate'?'待核验 GitHub 线索':'项目资料')+'</span></div><div class="pcard-foot"><span>详情与来源</span><span>查看 ↗</span></div></article>';
- }).join(''):'<p style="padding:24px">暂无匹配项目。请检查数据加载状态或清除筛选条件。</p>';
+const q=(state.searchQuery||'').trim().toLowerCase();
+let list=PROJECTS.filter(p=>{const cat=state.catFilter==='all'||(state.catFilter==='featured'?p.featured:p.cat===state.catFilter);const gate=state.gateFilter==='all'||(state.gateFilter==='ecosystem'?p.type==='ecosystem':state.gateFilter==='candidate'?p.type==='candidate':true);return cat&&gate&&(!q||[p.name,p.zh,p.en,p.ca,p.cat,...p.tags].join(' ').toLowerCase().includes(q))});
+list.sort((a,b)=>state.sortBy==='name'?a.name.localeCompare(b.name):String(b.date).localeCompare(String(a.date)));
+$('#resultCounter').textContent='显示 '+list.length+' 条 · 数据库 '+PROJECTS.length+' 条 BSC 记录';
+const grid=$('#projectGrid');grid.classList.toggle('list-mode',state.viewMode==='list');
+grid.innerHTML=list.length?list.map(p=>{const f=!!state.favs[p.id];return '<article class="proj-card" data-open="'+safeText(p.id)+'"><div class="pcard-head"><div class="pcard-id"><div class="pcard-avatar">✧</div><div class="pcard-title"><h4>'+safeText(p.name)+'</h4><div class="pcard-ca">'+safeText(p.cat)+' · '+safeText(p.chain)+'</div></div></div><button type="button" class="star-btn'+(f?' fav':'')+'" data-star="'+safeText(p.id)+'" aria-label="收藏">'+(f?'★':'☆')+'</button></div><p class="pcard-desc">'+safeText(p[state.lang]||p.zh)+'</p><div class="pcard-tags"><span class="ptag">'+(p.type==='candidate'?'GitHub 发现 · 待核验':'生态项目 · .ai 适配待核验')+'</span></div><div class="pcard-foot"><span>'+safeText(p.date||'更新日期未知')+'</span><span>查看来源 ↗</span></div></article>'}).join(''):'<p style="padding:24px">没有符合条件的项目。试试其他类别或清空搜索。</p>';
 }
-
 /* ================= 详情抽屉与 .ai 验资面板 ================= */
 function findAnyItem(id) {
   for (var i = 0; i < MINT_ITEMS.length; i++) if (MINT_ITEMS[i].id === id) return MINT_ITEMS[i];
@@ -1780,11 +1740,7 @@ $('#streamFilterGroup').addEventListener('click', function(e) {
   renderStream();
 });
 
-$('#toggleStreamBtn').addEventListener('click', function() {
-  state.streamPaused = !state.streamPaused;
-  this.textContent = state.streamPaused ? '[恢复]' : '[暂停]';
-  $('#streamStatusText').textContent = state.streamPaused ? '实时流已暂停' : '正在扫描 BSC 上携带 .ai ID 凭证的链上交互…';
-});
+/* Live stream pause removed: data is not a real-time chain feed. */
 
 $('#catTabGroup').addEventListener('click', function(e) {
   var b = e.target.closest('[data-cat]');
@@ -1839,6 +1795,7 @@ $('#langBtn').addEventListener('click', function() {
   applyLang();
 });
 
+$('#mobileFavLink').addEventListener('click',function(e){e.preventDefault();openFavsDrawer()});
 $('#agentWalletBtn').addEventListener('click', function() {
   openVerifyAiModal('');
 });
