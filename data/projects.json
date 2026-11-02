@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:50:51.732808+00:00",
+  "updatedAt": "2026-11-02T02:33:12.964138+00:00",
   "methodology": "Curated ecosystem sources plus public GitHub discovery. GitHub candidates are NOT independently verified; no automatic contract, mint or social audit.",
   "projects": [
     {
@@ -2674,11 +2674,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
+      "lastCheckedAt": "2026-11-02T02:33:12.964138+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 141
+      "githubStars": 144
     },
     {
       "id": "github-1441883606",
@@ -3106,11 +3106,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
+      "lastCheckedAt": "2026-11-02T02:33:12.964138+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 636
+      "githubStars": 637
     },
     {
       "id": "github-1436826271",
@@ -3349,11 +3349,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
+      "lastCheckedAt": "2026-11-02T02:33:12.964138+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 0
+      "githubStars": 1
     },
     {
       "id": "github-1442183510",
@@ -3377,6 +3377,60 @@
       "date": "-  -",
       "firstSeen": "2026-11-01",
       "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
+      "id": "github-1264420018",
+      "name": "calibrated-conviction",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/ryonzhang/calibrated-conviction",
+      "website": "https://github.com/ryonzhang/calibrated-conviction",
+      "descriptionZh": "GitHub 公开候选项目：crypto trading  kill that outputs calibrated probabilities and sizes by  ractional  elly — built to survive, not just to score.",
+      "descriptionEn": "Public GitHub discovery candidate: crypto trading  kill that outputs calibrated probabilities and sizes by  ractional  elly — built to survive, not just to score.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-02",
+      "lastCheckedAt": "2026-11-02T02:33:12.964138+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 2
+    },
+    {
+      "id": "github-1361085663",
+      "name": "bnb-agent-marketplace",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/LingoAI/bnb-agent-marketplace",
+      "website": "https://github.com/LingoAI/bnb-agent-marketplace",
+      "descriptionZh": "GitHub 公开候选项目：hain agent marketplace on     mainnet  discover    -     agents, veri y them, hire through real    -     escrow, and let  olon's personal ontology e plain which agent  its you.",
+      "descriptionEn": "Public GitHub discovery candidate: hain agent marketplace on     mainnet  discover    -     agents, veri y them, hire through real    -     escrow, and let  olon's personal ontology e plain which agent  its you.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-02",
+      "lastCheckedAt": "2026-11-02T02:33:12.964138+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
