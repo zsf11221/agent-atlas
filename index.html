@@ -1507,16 +1507,8 @@ const kc=$('#kpiProjects'),km=$('#kpiMints'),kl=$('#kpiLatest');if(kc)kc.textCon
 $('#dataNotice').textContent='项目数据 '+(pj.updatedAt||'日期未知')+' · 铸造线索 '+(op.updatedAt||'日期未知')+' · .ai 资格尚未核验';
 renderProjects();renderMintTrench();renderStream();
 }catch(err){$('#dataNotice').textContent='项目数据加载失败，请检查 data/ 目录或稍后刷新。';renderProjects();renderMintTrench();renderStream();}}
-/* ================= 1. 实时 .ai 链上事件流数据（纯血 .ai 维度） ================= */
-var STREAM_EVENTS = [];
-
-/* ================= 2. 铸造战壕数据（保留你 v6 的 AGENT 与 BN World，并补充 AI 解题盘） ================= */
+/* Project and mint data populated from local JSON */
 var MINT_ITEMS = [];
-
-/* ================= 3. 项目来源索引榜数据 ================= */
-var RADAR_TRADERS = [];
-
-/* ================= 4. 探索发现项目（100% 保留你 v6 原稿的 7 个项目并升级为纯血 .ai 玩法属性） ================= */
 var PROJECTS = [];
 
 /* ================= 双语字典（保留你 v6 的中英切换体验） ================= */
@@ -1556,8 +1548,6 @@ var I18N = {
 /* ================= 状态管理 ================= */
 var state = {
   lang: 'zh',
-  streamFilter: 'all',
-  streamPaused: false,
   catFilter: 'all',
   gateFilter: 'all',
   searchQuery: '',
@@ -1719,15 +1709,7 @@ document.addEventListener('click', function(e) {
   }
 });
 
-$('#streamFilterGroup').addEventListener('click', function(e) {
-  var b = e.target.closest('[data-sf]');
-  if (!b) return;
-  state.streamFilter = b.getAttribute('data-sf');
-  $$('#streamFilterGroup .term-filter-btn').forEach(function(el) { el.classList.toggle('on', el === b); });
-  renderStream();
-});
 
-/* Live stream pause removed: data is not a real-time chain feed. */
 
 $('#catTabGroup').addEventListener('click', function(e) {
   var b = e.target.closest('[data-cat]');
