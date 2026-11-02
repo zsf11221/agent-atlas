@@ -1,43 +1,49 @@
 # AGENT ATLAS
 
-An independent, bilingual (Chinese/English), evidence-led BNB Chain / Binance Agent ecosystem discovery site. **Not affiliated with Binance or BNB Chain.**
+独立的 BSC AI Agent 生态与 Binance .ai ID 相关机会发现站点。**非 Binance 或 BNB Chain 官方网站。**
 
-## Features
+**正式网站：** https://agentatlas.vip/
 
-- Responsive editorial dashboard, dark/light theme and language switch
-- Search, sector filter, network filter, sorting and project dossiers
-- Browser-local watchlist, evidence links, source/provenance labels
-- Opportunity radar that explicitly marks unavailable live feeds **as unavailable**
-- No wallet connection, token trading or simulated safety conclusions
+## 网站功能
 
-## Quick start
+- BSC Agent 项目目录、搜索、类别筛选、最近活动与名称排序
+- 免费 / 付费 Mint 来源线索（未核验时明确标示）
+- Binance .ai ID 相关指南；不宣称已接入钱包或链上资格核验
+- 中英文界面、夜间主题与本机收藏
+- GitHub Actions 定时采集公开 GitHub 项目线索
 
-Static HTML/CSS/JS; no npm dependencies or paid API required.
+## 文件与自动更新
+
+- `index.html`：正式网站页面及交互
+- `data/projects.json`：项目数据库
+- `data/opportunities.json`：Mint 机会来源
+- `data/pipeline_status.json`：项目采集运行状态
+- `scripts/discover.py`：GitHub 候选项目采集器
+- `.github/workflows/discover.yml`：定时采集任务
+
+GitHub Actions 按工作流设定的时间运行，自动提交项目数据库和采集状态的变化。GitHub 定时任务可能延迟，不承诺精确整点更新。Mint 数据目前不由该工作流自动核验。
+
+## 本地预览
 
 ```bash
-cd agent-atlas
 python -m http.server 8000
 ```
 
-Open http://localhost:8000 . Do not open index.html using file:// because browsers block local JSON fetches.
+访问 http://localhost:8000/ 。不要直接双击 `index.html` 使用 `file://` 打开，否则浏览器可能阻止读取本地 JSON。
 
-## GitHub Pages
+## 部署
 
-Create a public GitHub repository and upload the contents of this folder to its default branch root. In **Settings → Pages**, choose **Deploy from a branch** and select the default branch and `/ (root)` folder. The URL will be `https://USERNAME.github.io/REPO/` (GitHub may take time to publish). No workflow or package build required.
+仓库 `main` 分支推送后，由既有 Cloudflare Pages 集成发布到 https://agentatlas.vip/ 。修改生产站点前应确认现有绑定与构建设置。
 
-## Updating projects
+## 数据可信度及安全边界
 
-Edit `data/projects.json`. Keep `id` unique and stable. List only verifiable projects, supply provenance in `source`, and never display inferred prices, live mint status, risk levels, tokenomics or social numbers as fact. Update `updatedAt` and `date` when rechecking information. Dynamic auto-ingestion needs a separate backend and source contracts; it is **not** implemented in this version.
+项目来源是线索而非背书。被纳入 BSC Agent 目录**不等于**支持 Binance .ai ID，也不等于经过安全审核。Mint 是否开放、费用、合约安全及资格要求，需要以对应官方原始来源和链上记录核对。
 
-## Data scope and limitations
+本站目前不连接用户钱包、不发起交易、不提供经过验证的实时区块事件流或自动跟单；任何未实际接入的数据都不可标注为实时。收藏保存在当前浏览器中。
 
-This is a **working, source-backed curated MVP**, not a live on-chain scanner. Directory entries were prepared on **2026-10-31** from public Binance and BNB Chain sources. A source listing does not certify contract safety, project legitimacy, activity, usability or returns. Some ecosystem cards link to the BNB Chain directory when an independently verified official product page is not available. The source/provenance distinction in project dossiers must not be removed. The free-mint indicator is explicitly unset because this site has **not** simulated or verified mint transactions. The X engagement radar is a future module, not live. Watchlist stays in localStorage.
+如需新增项目，保持项目 `id` 稳定唯一，完善来源和更新时间，不要将推断的收益、热度或安全结论当作事实。
 
-Public sources:
+参考资料：
 - https://web3.binance.com/en/agentic-hub
 - https://developers.binance.com/en/docs/products/agentic-wallet/welcome
 - https://www.bnbchain.org/en/solutions/ai-agent
-
-## Security
-
-All project-generated text is HTML-escaped before insertion. External links use `noopener noreferrer`. No private keys, wallet approvals, credential capture, analytics scripts or server components. Google Fonts are requested when online; system fonts are fallback.
