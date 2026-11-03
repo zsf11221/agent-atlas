@@ -1304,11 +1304,7 @@ footer {
       </div>
 
       <div class="topbar-right">
-        <div class="quick-ca-box" title="输入 xxx.ai 检查白名单资格，或粘贴 CA 检索">
-          <span>⌕</span>
-          <input id="quickCaInput" type="search" placeholder="输入 xxx.ai 验资 或 粘贴合约 CA…">
-          <button class="verify-btn" id="verifyAiIdBtn" type="button">资格说明</button>
-        </div>
+
         <button id="langBtn" class="pill-btn" type="button">EN</button>
         <button id="themeBtn" class="pill-btn" type="button">☾ 夜间</button>
         <button id="agentWalletBtn" class="btn-agent-wallet" type="button">了解 .ai 钱包</button>
@@ -1745,18 +1741,6 @@ $('#dirSearchInput').addEventListener('input', function(e) {
   renderProjects();
 });
 
-$('#quickCaInput').addEventListener('input', function(e) {
-  var val = e.target.value || '';
-  if (val.indexOf('.ai') === -1) {
-    state.searchQuery = val;
-    $('#dirSearchInput').value = val;
-    renderProjects();
-  }
-});
-
-$('#verifyAiIdBtn').addEventListener('click', function() {
-  openVerifyAiModal($('#quickCaInput').value);
-});
 
 $('#sortSelect').addEventListener('change', function(e) {
   state.sortBy = e.target.value;
