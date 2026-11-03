@@ -1250,7 +1250,31 @@ footer {
 .bsc-status-foot a{color:#e8c974;text-decoration:underline;text-underline-offset:3px}
 .bsc-feed-label{padding:12px 24px 0;color:#a1ae9f;font-size:11px;letter-spacing:.04em}
 @media(max-width:480px){.bsc-status{grid-template-columns:1fr 1fr}.bsc-status-cell:nth-child(2){border-right:0}.bsc-status-cell:last-child{grid-column:1/-1;border-right:0;border-top:1px solid rgba(236,231,217,.1);padding-top:12px}.bsc-status-foot{padding-inline:20px}.bsc-feed-label{padding-left:20px}}
-@media(max-width:820px){#periodChipGroup{width:100%}}\n</style>
+@media(max-width:820px){#periodChipGroup{width:100%}}\n
+/* Combined Mint directory; cards share project directory's three-column rhythm. */
+.mint-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 14px}
+.mint-toolbar-title{display:flex;align-items:center;gap:9px;flex-wrap:wrap;color:var(--ink-primary);font-family:var(--font-serif);font-weight:600;font-size:clamp(17px,1.6vw,21px)}
+.mint-count{font-family:var(--font-sans);font-size:11px;font-weight:600;color:var(--gold);background:var(--gold-bg);border-radius:99px;padding:3px 9px}
+.mint-filter-group{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.mint-filter{font-family:var(--font-sans);font-size:12px;font-weight:600;line-height:1.25;color:var(--ink-secondary);background:var(--bg-card);border:1px solid var(--border-line);padding:6px 13px;border-radius:99px;cursor:pointer;transition:background .18s,color .18s,border-color .18s}
+.mint-filter:hover{border-color:var(--gold-border)}
+.mint-filter.is-active{background:var(--ink-primary);border-color:var(--ink-primary);color:var(--bg-elevated)}
+.mint-filter:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+#mintTrenchGrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+#mintTrenchGrid .mint-card-compact{min-width:0;min-height:208px;padding:16px 18px;justify-content:flex-start;gap:0;box-shadow:var(--shadow-sm)}
+.mint-card-compact .mint-top{align-items:center;flex-wrap:wrap;gap:6px}
+.mint-card-compact .mint-status,.mint-card-compact .mint-gate{font-size:10.5px;line-height:1.25;padding:3px 8px}
+.mint-card-compact h3{font-size:15px;line-height:1.38;margin:12px 0 0;font-weight:700;overflow-wrap:anywhere}
+.mint-card-compact .mint-desc{font-size:12.5px;line-height:1.55;margin:9px 0 0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.mint-card-compact .mint-cost{font-size:11.5px;line-height:1.5;color:var(--ink-secondary);margin:9px 0 0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.mint-card-compact .mint-card-bottom{margin-top:auto;padding-top:10px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.mint-card-compact .mint-card-bottom a{font-size:12px;font-weight:600;color:var(--ink-primary);text-decoration:none;border:1px solid var(--border-line);border-radius:8px;padding:6px 10px}
+.mint-card-compact .mint-card-bottom a:hover{border-color:var(--gold-border);color:var(--gold)}
+.mint-card-compact .mint-card-bottom span{font-size:10.5px;color:var(--ink-muted)}
+.mint-empty{grid-column:1/-1;border:1px dashed var(--border-line);background:var(--bg-card);border-radius:var(--radius-lg);padding:24px;color:var(--ink-muted);font-size:13px}
+@media(max-width:1100px){#mintTrenchGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:820px){#mintTrenchGrid{grid-template-columns:1fr}.mint-toolbar{align-items:flex-start}.mint-filter-group{width:100%}#mintTrenchGrid .mint-card-compact{min-height:0}}
+</style>
 </head>
 <body>
 
@@ -1414,7 +1438,15 @@ footer {
           <span class="mono" style="font-size:12px;color:var(--ink-muted)">仅供信息查询；参与前核验资格与费用</span>
         </div>
 
-        <div class="trench-grid" id="mintTrenchGrid"></div>
+        <div class="mint-toolbar">
+          <h3 class="mint-toolbar-title"><span data-i18n="mintCombined">免费与付费 Mint</span> <span id="mintTotalCount" class="mint-count">0 条线索</span></h3>
+          <div class="mint-filter-group" id="mintFilterGroup" role="group" aria-label="Mint 分类筛选">
+            <button class="mint-filter is-active" type="button" data-mint-filter="all" aria-pressed="true">全部 0</button>
+            <button class="mint-filter" type="button" data-mint-filter="free" aria-pressed="false">免费 0</button>
+            <button class="mint-filter" type="button" data-mint-filter="paid" aria-pressed="false">付费 0</button>
+          </div>
+        </div>
+        <div class="trench-grid" id="mintTrenchGrid" role="list"></div>
       </section>
 
       <!-- ================= 模块 2：.ai 项目来源 ================= -->
@@ -1598,7 +1630,7 @@ var I18N = {
     heroTitle: '更早发现 BSC 上的 <em>AI Agent</em> 新项目',
     heroSub: '聚合 BSC 上的 DEX 新线索、BNB Chain 官方提及和 GitHub 项目。记录首次收录时间、来源与 Mint 机会；线索不等于项目已经验证。',
     statProjects: '项目与线索', statFree: 'Mint 机会线索', statSmart: '项目来源', statLatest: '7天内首次收录',
-    mintTitle: 'Agent Mint 线索', mintSub: '免费与付费 BSC 铸造线索；费用、活动状态及 .ai ID 准入以项目来源为准。',
+    mintTitle: 'Agent Mint 线索', mintCombined: '免费与付费 Mint', mintSub: '免费与付费 BSC 铸造线索；费用、活动状态及 .ai ID 准入以项目来源为准。',
     exploreTitle: '项目发现', exploreSub: '发现 BSC 早期 AI Agent 项目，按来源和首次收录时间过滤。',
     filterAll: '全部', tabFeatured: '✦ 精选项目', tabAssistant: 'AI 助手', tabDefi: 'DeFi 策略', tabTools: '工具与基建', tabCommunity: '社区',
     viewGrid: '卡片', viewList: '列表',
@@ -1612,7 +1644,7 @@ var I18N = {
     heroTitle: 'Discover <em>Early AI Agent</em> Projects on BSC',
     heroSub: 'Follow BSC project leads from DEX Screener, the BNB Chain ecosystem and GitHub. Every lead is source-labeled; collection time is not launch time or verification.',
     statProjects: 'Projects & Leads', statFree: 'Mint Leads', statSmart: 'Active .ai Wallets', statLatest: 'First Seen in 7 Days',
-    mintTitle: 'Agent Mint Leads', mintSub: 'Free and paid BSC mint leads; eligibility and availability remain unverified.',
+    mintTitle: 'Agent Mint Leads', mintCombined: 'Free & Paid Mint', mintSub: 'Free and paid BSC mint leads; eligibility and availability remain unverified.',
     exploreTitle: 'Project Discovery', exploreSub: 'Discover early BSC AI agent leads by source and first-seen time.',
     filterAll: 'All', tabFeatured: '✦ Featured', tabAssistant: 'AI Assistant', tabDefi: 'DeFi Strategy', tabTools: 'Tools & Infra', tabCommunity: 'Community',
     viewGrid: 'Cards', viewList: 'List',
@@ -1625,6 +1657,7 @@ var I18N = {
 var state = {
   lang: 'zh',
   catFilter: 'all',
+  mintFilter: 'all',
   gateFilter: 'all',
   searchQuery: '',
   sortBy: 'seen',
@@ -1663,7 +1696,36 @@ $('#streamStatusText').textContent='最近收录 · 非链上事件；收录时�
 }
 
 /* ================= 渲染 2：.ai 铸造战壕 ================= */
-function renderMintTrench(){const el=$('#mintTrenchGrid');if(!el)return;el.innerHTML=['free','paid'].map(type=>{const arr=MINT_ITEMS.filter(m=>m.mintType===type);return '<div class="mint-group"><h3 style="margin:0 0 12px">'+(type==='free'?'免费 Mint · 来源声称':'付费 Mint')+' ('+arr.length+')</h3><div class="mint-list">'+(arr.length?arr.map(m=>'<article class="mint-card"><div class="mint-top"><span class="mint-status upcoming">未核验 · 状态未知</span><span class="mint-gate">'+(type==='free'?'来源称免费':'付费')+'</span></div><h3 style="margin:15px 0">'+safeText(m.name)+'</h3><p class="mint-desc">'+safeText(m.zh)+'</p><p style="font-size:12px;margin:10px 0;color:var(--ink-secondary)">宣称费用：'+safeText(m.price)+'；资格要求须向来源核实</p><a class="btn-detail-outline" target="_blank" rel="noopener noreferrer" href="'+safeUrl(m.source)+'">查看来源 ↗</a></article>').join(''):'<p style="padding:18px;color:var(--ink-muted)">暂无已记录的'+(type==='free'?'免费':'付费')+'线索</p>')+'</div></div>'}).join('')}
+function renderMintTrench(){
+  const el=$('#mintTrenchGrid'), controls=$('#mintFilterGroup');
+  if(!el||!controls)return;
+  const zh=state.lang==='zh';
+  const counts={all:MINT_ITEMS.length,free:0,paid:0};
+  MINT_ITEMS.forEach(m=>{if(m.mintType==='free'||m.mintType==='paid')counts[m.mintType]++});
+  $('#mintTotalCount').textContent=zh?counts.all+' 条线索':counts.all+' leads';
+  controls.querySelectorAll('[data-mint-filter]').forEach(btn=>{
+    const type=btn.getAttribute('data-mint-filter');
+    btn.textContent=(zh?{all:'全部',free:'免费',paid:'付费'}:{all:'All',free:'Free',paid:'Paid'})[type]+' '+counts[type];
+    const selected=type===state.mintFilter;
+    btn.classList.toggle('is-active',selected);
+    btn.setAttribute('aria-pressed',String(selected));
+  });
+  const shown=state.mintFilter==='all'?MINT_ITEMS:MINT_ITEMS.filter(m=>m.mintType===state.mintFilter);
+  el.innerHTML=shown.length?shown.map(m=>{
+    const isFree=m.mintType==='free';
+    const typeLabel=zh?(isFree?'免费 · 来源声称':'付费 · 来源声称'):(isFree?'Free · source claim':'Paid · source claim');
+    const statusLabel=zh?'状态未核验':'Unverified';
+    const title=safeText(m.name);
+    const desc=safeText((zh?m.zh:m.en)||m.zh||m.en);
+    const cost=safeText(m.price|| (zh?'费用未知':'Price unknown'));
+    const url=safeUrl(m.source);
+    return '<article class="mint-card mint-card-compact" role="listitem">'
+      +'<div class="mint-top"><span class="mint-status upcoming">'+statusLabel+'</span><span class="mint-gate">'+typeLabel+'</span></div>'
+      +'<h3>'+title+'</h3><p class="mint-desc" title="'+desc+'">'+desc+'</p>'
+      +'<p class="mint-cost" title="'+cost+'">'+(zh?'来源声称费用：':'Claimed cost: ')+cost+'</p>'
+      +'<div class="mint-card-bottom"><a href="'+url+'" target="_blank" rel="noopener noreferrer">'+(zh?'查看来源 ↗':'View source ↗')+'</a><span>'+(zh?'参与条件待核验':'Terms unverified')+'</span></div></article>';
+  }).join(''):'<div class="mint-empty">'+(state.mintFilter==='paid'?(zh?'暂无已收录的付费 Mint 线索。':'No paid Mint leads have been recorded.'):(state.mintFilter==='free'?(zh?'暂无已收录的免费 Mint 线索。':'No free Mint leads have been recorded.'):(zh?'暂无已收录的 Mint 线索。':'No Mint leads recorded.')))+'</div>';
+}
 
 /* ================= 渲染 3：项目来源索引榜 ================= */
 /* ================= 渲染 4：.ai 项目探索库 ================= */
@@ -1817,6 +1879,12 @@ const btn=e.target.closest('[data-period]');if(!btn)return;
 state.periodFilter=btn.getAttribute('data-period');
 $$('#periodChipGroup .gate-btn').forEach(el=>el.classList.toggle('on',el===btn));
 renderProjects();
+});
+$('#mintFilterGroup').addEventListener('click',function(e){
+  const btn=e.target.closest('[data-mint-filter]');
+  if(!btn)return;
+  state.mintFilter=btn.getAttribute('data-mint-filter');
+  renderMintTrench();
 });
 $('#gateChipGroup').addEventListener('click', function(e) {
   var b = e.target.closest('[data-gate]');
