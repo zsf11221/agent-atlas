@@ -27,7 +27,7 @@ DEX_ENDPOINTS = [
 ]
 OFFICIAL_PAGE = "https://www.bnbchain.org/en/solutions/ai-agent"
 # Names visibly published on the BNB Chain ecosystem page; do not infer launch dates.
-OFFICIAL_NAMES = ("OptimAI", "SwarmBase", "Pieverse", "Tearline", "BNBAgent SDK")
+OFFICIAL_NAMES = ("Pieverse", "Tearline", "ARK DeFAI", "Decentralized Intelligence", "BNBAgent SDK")
 
 
 def request(url):
