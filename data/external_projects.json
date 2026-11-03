@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T13:58:59.420101+00:00",
+  "updatedAt": "2026-11-03T14:03:20.411489+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -20,11 +20,11 @@
     },
     "bnbchain-official": {
       "ok": true,
-      "qualified": 5
+      "qualified": 6
     }
   },
-  "newCount": 11,
-  "changedCount": 0,
+  "newCount": 1,
+  "changedCount": 5,
   "projects": [
     {
       "id": "bnb-official-mention-pieverse",
@@ -35,18 +35,18 @@
       "type": "ecosystem",
       "stage": "source-mentioned",
       "source": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "website": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "descriptionZh": "BNB Chain 官方 AI Agent 生态页面提及的项目；上线时间和独立功能尚未在此核验。",
-      "descriptionEn": "Mentioned on BNB Chain's official AI ecosystem page; independent project details not verified here.",
+      "website": "https://dappbay.bnbchain.org/detail/pieverse",
+      "descriptionZh": "BNB Chain 官方生态页面提及的 BSC AI Agent 相关项目；独立功能与项目成立时间尚未核验。",
+      "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
       "tags": [
         "Official source mention",
         "Ecosystem"
       ],
       "mint": "unknown",
-      "evidence": "Project name found on BNB Chain official AI Agent ecosystem page.",
+      "evidence": "Project name appears in the BNB Chain AI ecosystem directory.",
       "date": "",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-03T13:58:59.420101+00:00",
+      "lastCheckedAt": "2026-11-03T14:03:20.411489+00:00",
       "discoverySource": "bnbchain-ecosystem-page",
       "verification": "official-mention-only"
     },
@@ -59,18 +59,18 @@
       "type": "ecosystem",
       "stage": "source-mentioned",
       "source": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "website": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "descriptionZh": "BNB Chain 官方 AI Agent 生态页面提及的项目；上线时间和独立功能尚未在此核验。",
-      "descriptionEn": "Mentioned on BNB Chain's official AI ecosystem page; independent project details not verified here.",
+      "website": "https://dappbay.bnbchain.org/detail/tearline",
+      "descriptionZh": "BNB Chain 官方生态页面提及的 BSC AI Agent 相关项目；独立功能与项目成立时间尚未核验。",
+      "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
       "tags": [
         "Official source mention",
         "Ecosystem"
       ],
       "mint": "unknown",
-      "evidence": "Project name found on BNB Chain official AI Agent ecosystem page.",
+      "evidence": "Project name appears in the BNB Chain AI ecosystem directory.",
       "date": "",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-03T13:58:59.420101+00:00",
+      "lastCheckedAt": "2026-11-03T14:03:20.411489+00:00",
       "discoverySource": "bnbchain-ecosystem-page",
       "verification": "official-mention-only"
     },
@@ -83,18 +83,18 @@
       "type": "ecosystem",
       "stage": "source-mentioned",
       "source": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "website": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "descriptionZh": "BNB Chain 官方 AI Agent 生态页面提及的项目；上线时间和独立功能尚未在此核验。",
-      "descriptionEn": "Mentioned on BNB Chain's official AI ecosystem page; independent project details not verified here.",
+      "website": "https://dappbay.bnbchain.org/detail/ark-defai",
+      "descriptionZh": "BNB Chain 官方生态页面提及的 BSC AI Agent 相关项目；独立功能与项目成立时间尚未核验。",
+      "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
       "tags": [
         "Official source mention",
         "Ecosystem"
       ],
       "mint": "unknown",
-      "evidence": "Project name found on BNB Chain official AI Agent ecosystem page.",
+      "evidence": "Project name appears in the BNB Chain AI ecosystem directory.",
       "date": "",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-03T13:58:59.420101+00:00",
+      "lastCheckedAt": "2026-11-03T14:03:20.411489+00:00",
       "discoverySource": "bnbchain-ecosystem-page",
       "verification": "official-mention-only"
     },
@@ -107,18 +107,18 @@
       "type": "ecosystem",
       "stage": "source-mentioned",
       "source": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "website": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "descriptionZh": "BNB Chain 官方 AI Agent 生态页面提及的项目；上线时间和独立功能尚未在此核验。",
-      "descriptionEn": "Mentioned on BNB Chain's official AI ecosystem page; independent project details not verified here.",
+      "website": "https://dappbay.bnbchain.org/detail/decentralized-intelligence",
+      "descriptionZh": "BNB Chain 官方生态页面提及的 BSC AI Agent 相关项目；独立功能与项目成立时间尚未核验。",
+      "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
       "tags": [
         "Official source mention",
         "Ecosystem"
       ],
       "mint": "unknown",
-      "evidence": "Project name found on BNB Chain official AI Agent ecosystem page.",
+      "evidence": "Project name appears in the BNB Chain AI ecosystem directory.",
       "date": "",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-03T13:58:59.420101+00:00",
+      "lastCheckedAt": "2026-11-03T14:03:20.411489+00:00",
       "discoverySource": "bnbchain-ecosystem-page",
       "verification": "official-mention-only"
     },
@@ -132,17 +132,41 @@
       "stage": "source-mentioned",
       "source": "https://www.bnbchain.org/en/solutions/ai-agent",
       "website": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "descriptionZh": "BNB Chain 官方 AI Agent 生态页面提及的项目；上线时间和独立功能尚未在此核验。",
-      "descriptionEn": "Mentioned on BNB Chain's official AI ecosystem page; independent project details not verified here.",
+      "descriptionZh": "BNB Chain 官方生态页面提及的 BSC AI Agent 相关项目；独立功能与项目成立时间尚未核验。",
+      "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
       "tags": [
         "Official source mention",
         "Ecosystem"
       ],
       "mint": "unknown",
-      "evidence": "Project name found on BNB Chain official AI Agent ecosystem page.",
+      "evidence": "Project name appears in the BNB Chain AI ecosystem directory.",
       "date": "",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-03T13:58:59.420101+00:00",
+      "lastCheckedAt": "2026-11-03T14:03:20.411489+00:00",
+      "discoverySource": "bnbchain-ecosystem-page",
+      "verification": "official-mention-only"
+    },
+    {
+      "id": "bnb-official-mention-dataline",
+      "name": "Dataline",
+      "symbol": "BNB",
+      "category": "ecosystem",
+      "chain": "BNB Chain",
+      "type": "ecosystem",
+      "stage": "source-mentioned",
+      "source": "https://www.bnbchain.org/en/solutions/ai-agent",
+      "website": "https://dappbay.bnbchain.org/detail/dataline",
+      "descriptionZh": "BNB Chain 官方生态页面提及的 BSC AI Agent 相关项目；独立功能与项目成立时间尚未核验。",
+      "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
+      "tags": [
+        "Official source mention",
+        "Ecosystem"
+      ],
+      "mint": "unknown",
+      "evidence": "Project name appears in the BNB Chain AI ecosystem directory.",
+      "date": "",
+      "firstSeen": "2026-11-03",
+      "lastCheckedAt": "2026-11-03T14:03:20.411489+00:00",
       "discoverySource": "bnbchain-ecosystem-page",
       "verification": "official-mention-only"
     },
