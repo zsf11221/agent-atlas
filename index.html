@@ -1779,7 +1779,7 @@ $('#catTabGroup').addEventListener('click', function(e) {
 $('#periodChipGroup').addEventListener('click',function(e){
 const btn=e.target.closest('[data-period]');if(!btn)return;
 state.periodFilter=btn.getAttribute('data-period');
-$('#periodChipGroup .gate-btn').forEach(el=>el.classList.toggle('on',el===btn));
+$$('#periodChipGroup .gate-btn').forEach(el=>el.classList.toggle('on',el===btn));
 renderProjects();
 });
 $('#gateChipGroup').addEventListener('click', function(e) {
