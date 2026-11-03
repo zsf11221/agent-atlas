@@ -1,0 +1,12 @@
+{
+  "monthUTC": null,
+  "reservedPostReads": 0,
+  "maxMonthlyPostReads": 800,
+  "worstCaseEstimatedUSD": 0,
+  "checkedAt": null,
+  "state": "disabled",
+  "sources": [],
+  "newLeads": 0,
+  "total": 0,
+  "note": "X searches are disabled. No requests or API charges have been made by this workflow."
+}
