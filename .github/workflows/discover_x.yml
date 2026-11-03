@@ -1,0 +1,59 @@
+name: Discover early BSC Agent leads on X
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/discover_x.py'
+      - '.github/workflows/discover_x.yml'
+  schedule:
+    - cron: '35 1,7,13,19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agent-atlas-x-discovery
+  cancel-in-progress: false
+
+jobs:
+  x-leads:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Python syntax and run offline test cases (no API cost)
+        run: |
+          python -m py_compile scripts/discover_x.py
+          python scripts/discover_x.py --self-test
+      - name: Read-only X search (opt-in and never on code pushes)
+        id: read_x
+        if: vars.ENABLE_X_DISCOVERY == 'true' && github.event_name != 'push'
+        continue-on-error: true
+        env:
+          ENABLE_X_DISCOVERY: 'true'
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: python scripts/discover_x.py
+      - name: Preserve source data and monthly search ledger
+        if: steps.read_x.outcome == 'success' || steps.read_x.outcome == 'failure'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/x_projects.json data/x_pipeline_status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh X early project leads"
+            git pull --rebase origin main
+            git push origin main
+          fi
+      - name: Status: API discovery disabled by default
+        if: vars.ENABLE_X_DISCOVERY != 'true'
+        run: echo "X API searches disabled; zero paid requests. Set repository variable ENABLE_X_DISCOVERY=true only after billing approval." >> "$GITHUB_STEP_SUMMARY"
+      - name: Report X API access or billing issue
+        if: steps.read_x.outcome == 'failure'
+        run: |
+          echo "X search failed; check billing, endpoint access and data/x_pipeline_status.json" >> "$GITHUB_STEP_SUMMARY"
+          exit 1
