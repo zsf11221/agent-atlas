@@ -1,5 +1,11 @@
 name: Discover ecosystem projects
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/discover.py'
+      - 'scripts/discover_external.py'
+      - '.github/workflows/discover.yml'
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
