@@ -28,15 +28,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/discover.py
+      - name: Validate discovery scripts
+        run: python -m py_compile scripts/discover.py scripts/discover_external.py
+      - name: Discover DEX Screener and BNB Chain ecosystem leads
+        id: external
+        continue-on-error: true
+        run: python scripts/discover_external.py
       - name: Publish data and pipeline status
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/projects.json data/pipeline_status.json
+          git add data/projects.json data/pipeline_status.json data/external_projects.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh source-led agent project discovery"
             git push
           fi
+      - name: Report unavailable external sources
+        if: steps.external.outcome == 'failure'
+        run: echo "External discovery sources unavailable; previous records retained" >> "$GITHUB_STEP_SUMMARY"
       - name: Report failed source checks
         if: steps.discover.outcome == 'failure'
         run: |
