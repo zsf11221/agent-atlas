@@ -1534,14 +1534,14 @@ async function loadAtlasData(){try{
 const [pr,or]=await Promise.all([fetch('data/projects.json',{cache:'no-store'}),fetch('data/opportunities.json',{cache:'no-store'})]);
 if(!pr.ok||!or.ok)throw Error('HTTP '+pr.status+'/'+or.status);
 const pj=await pr.json(),op=await or.json();
-PROJECTS=(pj.projects||[]).filter(p=>/BSC|BNB/i.test(p.chain||'')&&!/opBNB/i.test(p.chain||'')).map(p=>({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:p.descriptionEn||'',cat:p.category||'other',chain:p.chain,source:p.source||p.website,website:p.website||'',socialX:p.socialX||'',ca:p.contractAddress||'未提供',featured:p.type==='ecosystem',type:p.type,gates:['all'],fav:0,date:/^\d{4}-\d{2}-\d{2}/.test(p.lastActivityAt||p.date||'')?(p.lastActivityAt||p.date).slice(0,10):'',firstSeen:p.firstSeen||'',origin:p.discoverySource==='github-search'||p.type==='candidate'?'github':'curated',tags:p.tags||[],evidence:p.evidence||'',walletSupport:'unverified'}));
+PROJECTS=(pj.projects||[]).filter(p=>/BSC|BNB/i.test(p.chain||'')&&!/opBNB/i.test(p.chain||'')).map(p=>({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:p.descriptionEn||'',cat:p.category||'other',chain:p.chain,source:p.source||p.website,website:p.website||'',socialX:p.socialX||'',ca:p.contractAddress||'未提供',featured:p.type==='ecosystem',type:p.type,gates:['all'],fav:0,date:/^\d{4}-\d{2}-\d{2}/.test(p.lastActivityAt||p.date||'')?(p.lastActivityAt||p.date).slice(0,10):'',firstSeen:p.firstSeen||'',origin:p.discoverySource==='github-search'||p.type==='candidate'?'github':/^https:\/\/www\.bnbchain\.org\//.test(p.source||'')?'official':'curated',tags:p.tags||[],evidence:p.evidence||'',walletSupport:'unverified'}));
 MINT_ITEMS=(op.opportunities||[]).filter(p=>/BSC|BNB/i.test(p.chain||'')&&['free','paid'].includes(p.mintType)).map(p=>({id:p.id,name:p.name,zh:p.descriptionZh||'',en:p.descriptionEn||'',price:p.announcedCost||'费用未确认',source:p.source,mintType:p.mintType,gate:'资格待核验',ca:'未核验',status:p.currentAvailability||'unknown'}));
 try {
 const er=await fetch('data/external_projects.json',{cache:'no-store'});
 if(er.ok) {
 const out=await er.json();
 const ids=new Set(PROJECTS.map(p=>p.id));
-const names=new Set(PROJECTS.filter(p=>p.origin==='curated').map(p=>String(p.name).toLowerCase().replace(/\s+ai$/,'')));
+const names=new Set(PROJECTS.filter(p=>p.origin==='curated'||p.origin==='official').map(p=>String(p.name).toLowerCase().replace(/\s+ai$/,'')));
 for(const p of out.projects||[]) {
 if(!/BSC|BNB Chain/i.test(p.chain||'')||/opBNB/i.test(p.chain||'')||ids.has(p.id))continue;
 const origin=String(p.discoverySource||'').startsWith('dexscreener-')?'dex':'official';
