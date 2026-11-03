@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T02:55:45.030200+00:00",
+  "updatedAt": "2026-11-03T10:54:50.411738+00:00",
   "methodology": "Curated ecosystem sources plus public GitHub discovery. GitHub candidates are NOT independently verified; no automatic contract, mint or social audit.",
   "projects": [
     {
@@ -1216,11 +1216,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-10-31",
-      "lastCheckedAt": "2026-11-01T18:26:25.872261+00:00",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 21
+      "githubStars": 23
     },
     {
       "id": "github-1193346763",
@@ -3106,11 +3106,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-03T02:55:45.030200+00:00",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 639
+      "githubStars": 640
     },
     {
       "id": "github-1436826271",
@@ -3214,11 +3214,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-01T22:50:51.732808+00:00",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 20
+      "githubStars": 21
     },
     {
       "id": "github-1436046738",
@@ -3770,8 +3770,8 @@
       "stage": "unverified",
       "source": "https://github.com/agentic-404/agent404",
       "website": "https://github.com/agentic-404/agent404",
-      "descriptionZh": "GitHub 公开候选项目：nonymous   -    on      hain  or the  inance  gent    ecosystem.    % community distribution —  ree + paid claims,     .  he badge market is live  non-custodial, agents only.",
-      "descriptionEn": "Public GitHub discovery candidate: nonymous   -    on      hain  or the  inance  gent    ecosystem.    % community distribution —  ree + paid claims,     .  he badge market is live  non-custodial, agents only.",
+      "descriptionZh": "GitHub 公开候选项目：nonymous   -    on      hain  or the  inance  gent    ecosystem.    % community distribution —  ree + paid claims,     .  gent un is live  launching a token costs         , hal  burned  orever.  he badge market is live  non-custod",
+      "descriptionEn": "Public GitHub discovery candidate: nonymous   -    on      hain  or the  inance  gent    ecosystem.    % community distribution —  ree + paid claims,     .  gent un is live  launching a token costs         , hal  burned  orever.  he badge market is live  non-custod",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3781,11 +3781,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "-  -",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-03T02:55:45.030200+00:00",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 0
+      "githubStars": 1
     },
     {
       "id": "github-1324417722",
@@ -3867,6 +3867,168 @@
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
       "githubStars": 1
+    },
+    {
+      "id": "github-1443823630",
+      "name": "blackpool",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/blackpooldev/blackpool",
+      "website": "https://github.com/blackpooldev/blackpool",
+      "descriptionZh": "GitHub 公开候选项目：rivate payments that leave no trail.  ero-knowledge privacy pools on  obinhood  hain,  ase,  rbitrum and      hain  shield once, then send, swap and bridge privately.     and       .md  or    agents.",
+      "descriptionEn": "Public GitHub discovery candidate: rivate payments that leave no trail.  ero-knowledge privacy pools on  obinhood  hain,  ase,  rbitrum and      hain  shield once, then send, swap and bridge privately.     and       .md  or    agents.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-03",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
+      "id": "github-1443969605",
+      "name": "kavony",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/kavonyx-Labs/kavonyx",
+      "website": "https://github.com/kavonyx-Labs/kavonyx",
+      "descriptionZh": "GitHub 公开候选项目：wner-controlled vault  ramework  or autonomous agents on      mart  hain.  our ramparts bound every call  spend caps, an allowlist, a time lock, and an owner  reeze.",
+      "descriptionEn": "Public GitHub discovery candidate: wner-controlled vault  ramework  or autonomous agents on      mart  hain.  our ramparts bound every call  spend caps, an allowlist, a time lock, and an owner  reeze.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-03",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
+      "id": "github-1443921266",
+      "name": "piupiu",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/anglee0323/piupiu",
+      "website": "https://github.com/anglee0323/piupiu",
+      "descriptionZh": "GitHub 公开候选项目：desktop trading terminal  or  inance  gentic  allet on      hain.",
+      "descriptionEn": "Public GitHub discovery candidate: desktop trading terminal  or  inance  gentic  allet on      hain.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-03",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
+      "id": "github-837590299",
+      "name": "sunbnb-app",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/sun-bnb/sunbnb-app",
+      "website": "https://github.com/sun-bnb/sunbnb-app",
+      "descriptionZh": "GitHub 公开候选项目：unbnb is a comprehensive beach hospitality plat orm.  onorepo contains    conte t and agentic development tools, three  e t.js web applications  user, partner, admin   a  eact  ative (with   po) mobile app  or beach management, da",
+      "descriptionEn": "Public GitHub discovery candidate: unbnb is a comprehensive beach hospitality plat orm.  onorepo contains    conte t and agentic development tools, three  e t.js web applications  user, partner, admin   a  eact  ative (with   po) mobile app  or beach management, da",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-03",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
+      "id": "github-1443878396",
+      "name": "renzo",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/frenzo-tech/frenzo",
+      "website": "https://github.com/frenzo-tech/frenzo",
+      "descriptionZh": "GitHub 公开候选项目：gent 社交挖矿协议 ·      hain ·  olidity +    viewer + poster renderer",
+      "descriptionEn": "Public GitHub discovery candidate: gent 社交挖矿协议 ·      hain ·  olidity +    viewer + poster renderer",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-03",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
+      "id": "github-1408033896",
+      "name": "",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/kazzysax/KEEL",
+      "website": "https://github.com/kazzysax/KEEL",
+      "descriptionZh": "GitHub 公开候选项目：nalysis unit  or agents  grades crypto + tokenized stock pairs by published rules over     &    .  uilt  or      ack.",
+      "descriptionEn": "Public GitHub discovery candidate: nalysis unit  or agents  grades crypto + tokenized stock pairs by published rules over     &    .  uilt  or      ack.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "-  -",
+      "firstSeen": "2026-11-03",
+      "lastCheckedAt": "2026-11-03T10:54:50.411738+00:00",
+      "lastActivityAt": "-  -",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
     }
   ]
 }
