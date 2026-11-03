@@ -45,7 +45,7 @@ def credible(item):
     relevant = agent and bnb and (len(topics) >= 1 or len(description) >= 45)
     return relevant and not item.get("fork") and not item.get("archived") and not item.get("disabled")
 def clean(value, limit=260):
-    return re.sub(r"[\\x00-\\x1f]", " ", str(value or "")).strip()[:limit]
+    return re.sub(r"[\x00-\x1f]", " ", str(value or "")).strip()[:limit]
 def candidate(item):
     full = clean(item["full_name"], 150)
     desc = clean(item.get("description"), 230) or "Public GitHub repository; functionality needs independent verification."
