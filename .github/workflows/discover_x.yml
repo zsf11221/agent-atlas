@@ -49,7 +49,7 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
-      - name: Status: API discovery disabled by default
+      - name: "Status - API discovery disabled by default"
         if: vars.ENABLE_X_DISCOVERY != 'true'
         run: echo "X API searches disabled; zero paid requests. Set repository variable ENABLE_X_DISCOVERY=true only after billing approval." >> "$GITHUB_STEP_SUMMARY"
       - name: Report X API access or billing issue
