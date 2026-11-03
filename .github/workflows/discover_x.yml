@@ -7,7 +7,7 @@ on:
       - 'scripts/discover_x.py'
       - '.github/workflows/discover_x.yml'
   schedule:
-    - cron: '35 1,7,13,19 * * *'
+    - cron: '35 13 * * *'
   workflow_dispatch:
 
 permissions:
