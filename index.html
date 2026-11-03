@@ -1541,11 +1541,11 @@ const er=await fetch('data/external_projects.json',{cache:'no-store'});
 if(er.ok) {
 const out=await er.json();
 const ids=new Set(PROJECTS.map(p=>p.id));
-const names=new Set(PROJECTS.filter(p=>p.origin==='curated').map(p=>String(p.name).toLowerCase().replace(/\\s+ai$/,'')));
+const names=new Set(PROJECTS.filter(p=>p.origin==='curated').map(p=>String(p.name).toLowerCase().replace(/\s+ai$/,'')));
 for(const p of out.projects||[]) {
 if(!/BSC|BNB Chain/i.test(p.chain||'')||/opBNB/i.test(p.chain||'')||ids.has(p.id))continue;
 const origin=String(p.discoverySource||'').startsWith('dexscreener-')?'dex':'official';
-if(origin==='official'&&names.has(String(p.name||'').toLowerCase().replace(/\\s+ai$/,'')))continue;
+if(origin==='official'&&names.has(String(p.name||'').toLowerCase().replace(/\s+ai$/,'')))continue;
 ids.add(p.id);
 PROJECTS.push({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:p.descriptionEn||'',cat:p.category||'other',chain:p.chain,source:p.source||p.website,website:p.website||'',socialX:p.socialX||'',ca:p.contractAddress||'未提供',featured:origin==='official',type:p.type||'candidate',gates:['all'],fav:0,date:/^\d{4}-\d{2}-\d{2}/.test(p.date||'')?p.date.slice(0,10):'',firstSeen:p.firstSeen||'',origin:origin,tags:p.tags||[],evidence:p.evidence||'',walletSupport:'unverified'});
 }
@@ -1565,14 +1565,13 @@ var PROJECTS = [];
 /* ================= 双语字典（保留你 v6 的中英切换体验） ================= */
 var I18N = {
   zh: {
-    navHome: '实时 .ai 扫链总览', navTrench: '.ai 铸造战壕', navRadar: '项目来源索引', navExplore: '.ai 生态探索库',
+    navHome: '早期项目总览', navTrench: '.ai 铸造战壕', navRadar: '项目来源索引', navExplore: '.ai 生态探索库',
     gateExclusive: '仅限 .ai ID 准入', gateFree: '.ai 零撸 / 免费', gatePuzzle: 'AI 解题 / Prompt 盘', gateUtility: '持续产出 / 合成养成', gateSkill: '.ai 盯盘 Skill 插件',
     navFavs: '我的收藏夹', navGuide: '.ai 领取与 baw 指南', btnWallet: '🤖 接入币安 .ai 钱包',
     heroTitle: '更早发现 BSC 上的 <em>AI Agent</em> 新项目',
-    heroSub: '专为币安 Agentic Wallet（.ai Agent ID）持有人打造的链上扫链平台。整理 .ai 相关的免费铸造线索、AI 解题盘与生态动态，支持一键复制 baw 指令或 Skill 喂给你的 AI 执行。',
-    statProjects: '项目与线索', statFree: '.ai 免费 / 准入铸造', statSmart: '项目来源', statLatest: '最新发现 (.ai 生态)',
-    mintTitle: '.ai 相关铸造线索', mintSub: '汇总要求持有币安 .ai Agent ID 才能参与的免费铸造与打新活动；条件、资格与价格以各项目实际规则为准。',
-    radarTitle: '高胜率 .ai 钱包链上动向', radarSub: '追踪通过币安 Agentic Wallet 在 BSC 上打新与交易的高胜率 .ai 账户，一键复制跟单指令卡。',
+    heroSub: '聚合 BSC 上的 DEX 新线索、BNB Chain 官方提及和 GitHub 项目。记录首次收录时间、来源与 Mint 机会；线索不等于项目已经验证。',
+    statProjects: '项目与线索', statFree: 'Mint 机会线索', statSmart: '项目来源', statLatest: '7天内首次收录',
+    mintTitle: '.ai 相关铸造线索', mintSub: '免费与付费 BSC 铸造线索；费用、活动状态及 .ai ID 准入以项目来源为准。',
     exploreTitle: '项目发现', exploreSub: '发现 BSC 早期 AI Agent 项目，按来源和首次收录时间过滤。',
     filterAll: '全部', tabFeatured: '✦ 精选项目', tabAssistant: 'AI 助手', tabDefi: 'DeFi 策略', tabTools: '工具与基建', tabCommunity: '社区',
     viewGrid: '卡片', viewList: '列表',
@@ -1580,15 +1579,14 @@ var I18N = {
     disc1: '内容仅作项目发现参考，不构成安全认证、投资建议或参与保证；铸造条件、资格与价格以各项目实际规则为准。'
   },
   en: {
-    navHome: 'Live .ai Scanner', navTrench: '.ai Mint Trench', navRadar: 'Smart .ai Radar', navExplore: '.ai Directory',
+    navHome: 'Early Projects', navTrench: '.ai Mint Trench', navRadar: 'Smart .ai Radar', navExplore: '.ai Directory',
     gateExclusive: '.ai ID Exclusive', gateFree: '.ai Free Mint', gatePuzzle: 'AI Puzzle Mint', gateUtility: 'Utility & Yield', gateSkill: 'Trading Skills',
     navFavs: 'My Favorites', navGuide: '.ai & baw Guide', btnWallet: '🤖 Connect .ai Wallet',
-    heroTitle: 'Discover <em>.ai Exclusive</em> Mints & Alpha on BSC',
-    heroSub: 'Built exclusively for Binance Agentic Wallet (.ai Agent ID) holders. Track .ai-gated free mints, AI puzzle launches, and smart .ai wallets with 1-click baw CLI & Skill commands.',
-    statProjects: 'Projects & Leads', statFree: '.ai Free / Gated Mints', statSmart: 'Active .ai Wallets', statLatest: 'Latest .ai Leads',
-    mintTitle: '.ai Exclusive Mint Trench', mintSub: 'Free and gated mints requiring a Binance .ai Agent ID; eligibility and terms follow each project’s actual rules.',
-    radarTitle: 'Smart .ai Wallet Radar', radarSub: 'Track top-performing .ai wallets executing via Binance Agentic Wallet on BSC.',
-    exploreTitle: 'Project Discovery', exploreSub: 'Explore AI assistants, DeFi strategies, launch tools and community agents built for .ai wallets.',
+    heroTitle: 'Discover <em>Early AI Agent</em> Projects on BSC',
+    heroSub: 'Follow BSC project leads from DEX Screener, the BNB Chain ecosystem and GitHub. Every lead is source-labeled; collection time is not launch time or verification.',
+    statProjects: 'Projects & Leads', statFree: 'Mint Leads', statSmart: 'Active .ai Wallets', statLatest: 'First Seen in 7 Days',
+    mintTitle: 'BSC Mint Leads', mintSub: 'Free and paid BSC mint leads; eligibility and availability remain unverified.',
+    exploreTitle: 'Project Discovery', exploreSub: 'Discover early BSC AI agent leads by source and first-seen time.',
     filterAll: 'All', tabFeatured: '✦ Featured', tabAssistant: 'AI Assistant', tabDefi: 'DeFi Strategy', tabTools: 'Tools & Infra', tabCommunity: 'Community',
     viewGrid: 'Cards', viewList: 'List',
     guideTitle: 'How to claim your Binance .ai ID and mint with baw CLI?',
