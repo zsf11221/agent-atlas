@@ -30,7 +30,7 @@ QUERY_PAIRS = (
     '(("AI agent" OR agentic OR DeFAI) (BNB OR BSC)) -is:retweet -is:reply',
     '("Binance Agentic Wallet" OR "Agent ID") (agent OR mint OR launch) -is:retweet -is:reply',
 )
-BSC = re.compile(r"\b(?:BNB(?:\s+(?:Smart\s+)?Chain)?|BSC|Binance\s+(?:Smart\s+Chain|Agentic\s+Wallet|Agent\s+ID)|opBNB)\b|币安(?:智能)?链|币安(?:钱包|智能体)|BNB链", re.I)
+BSC = re.compile(r"\b(?:BNB(?:\s+(?:Smart\s+)?Chain)?|BSC|Binance\s+(?:Smart\s+Chain|Agentic\s+Wallet|Agent\s+ID))\b|币安(?:智能)?链|币安(?:钱包|智能体)|BNB链", re.I)
 AGENT = re.compile(r"\b(?:AI\s+agents?|agentic|autonomous\s+agents?|DeFAI|agent\s+ID|agent\s+wallet)\b|智能体|智能代理|自主代理|智能代理", re.I)
 RELEASE = re.compile(r"\b(?:launch|launched|launching|mint|coming soon|build|building|develop|beta|demo|testnet|mainnet|deploy|introduc|announce|released|open source)\b|发布|上线|推出|开发|开放|铸造|测试|公测|预告|启动", re.I)
 NOT_PROJECT = re.compile(r"\b(?:giveaway|airdrops? bot|100x|guaranteed returns|free money)\b", re.I)
@@ -57,6 +57,9 @@ def parse_record(post, seen_at):
     if not pid.isdigit() or not author.isdigit() or not content:
         return None
     if not (BSC.search(content) and AGENT.search(content) and RELEASE.search(content)):
+        return None
+    # Never import opBNB-only announcements into the BSC-only directory.
+    if re.search(r"\bopBNB\b", content, re.I):
         return None
     if NOT_PROJECT.search(content):
         return None
@@ -236,6 +239,7 @@ def self_test():
     assert found["name"] == "agent-example.dev" and found["source"].startswith("https://x.com/")
     assert parse_record({**positive, "text": "Launching our Solana AI agent demo today."}, stamp) is None
     assert parse_record({**positive, "text": "BSC meme token moon 100x!"}, stamp) is None
+    assert parse_record({**positive, "text": "Launching our opBNB AI agent demo today."}, stamp) is None
     merged, added = upsert([dict(found, firstSeen="2026-11-02")], [found])
     assert added == 0 and len(merged) == 1 and merged[0]["firstSeen"] == "2026-11-02"
     print("Self-test PASS: X classification, BSC restriction, no fake Agent verification, dedup.")
