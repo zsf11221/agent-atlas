@@ -140,16 +140,45 @@ class PlainText(HTMLParser):
             self.words.append(data)
 
 
+class OfficialLinks(HTMLParser):
+    """Read BNB Chain's linked ecosystem directory entries, without JavaScript execution."""
+    def __init__(self):
+        super().__init__()
+        self.href = None
+        self.parts = []
+        self.links = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "a":
+            self.href = dict(attrs).get("href")
+            self.parts = []
+
+    def handle_data(self, data):
+        if self.href is not None:
+            self.parts.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self.href is not None:
+            self.links.append((self.href, " ".join(self.parts)))
+            self.href = None
+            self.parts = []
+
+
 def official_candidates(page):
     parser = PlainText()
     parser.feed(page)
     body = " ".join(parser.words)
-    result = []
-    for name in OFFICIAL_NAMES:
-        if not re.search(r"(?<![A-Za-z0-9])" + re.escape(name) + r"(?![A-Za-z0-9])", body, re.I):
-            continue
-        result.append({
-            "id": "bnb-official-mention-" + re.sub(r"[^a-z0-9]+", "-", name.lower()),
+    anchors = OfficialLinks()
+    anchors.feed(page)
+    found = {}
+
+    def add(name, detail_url=""):
+        slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        if not slug or len(name) > 90:
+            return
+        ident = "bnb-official-mention-" + slug
+        found[ident] = {
+            "id": ident,
             "name": name,
             "symbol": "BNB",
             "category": "ecosystem",
@@ -157,19 +186,39 @@ def official_candidates(page):
             "type": "ecosystem",
             "stage": "source-mentioned",
             "source": OFFICIAL_PAGE,
-            "website": OFFICIAL_PAGE,
-            "descriptionZh": "BNB Chain 官方 AI Agent 生态页面提及的项目；上线时间和独立功能尚未在此核验。",
-            "descriptionEn": "Mentioned on BNB Chain's official AI ecosystem page; independent project details not verified here.",
+            "website": detail_url or OFFICIAL_PAGE,
+            "descriptionZh": "BNB Chain 官方生态页面提及的 BSC AI Agent 相关项目；独立功能与项目成立时间尚未核验。",
+            "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
             "tags": ["Official source mention", "Ecosystem"],
             "mint": "unknown",
-            "evidence": "Project name found on BNB Chain official AI Agent ecosystem page.",
+            "evidence": "Project name appears in the BNB Chain AI ecosystem directory.",
             "date": "",
             "firstSeen": DATE,
             "lastCheckedAt": STAMP,
             "discoverySource": "bnbchain-ecosystem-page",
             "verification": "official-mention-only",
-        })
-    return result
+        }
+
+    for href, label in anchors.links:
+        url = link(urllib.parse.urljoin(OFFICIAL_PAGE, href))
+        if (urllib.parse.urlsplit(url).hostname or "").lower() != "dappbay.bnbchain.org":
+            continue
+        label = text(label, 600)
+        # Explicit BSC entries only; never import opBNB projects into the BSC directory.
+        if "BNB Smart Chain" not in label or "opBNB" in label:
+            continue
+        m = re.search(r"^\s*\d+\s+(.+?)\s+(?:AI Agent(?: Platform)?|AI Infra|AI Data)\s+BNB Smart Chain\b", label, re.I)
+        if m:
+            add(text(m.group(1), 90), url)
+
+    # When the official site renders names outside anchor text, still track listed BSC names.
+    for name in OFFICIAL_NAMES:
+        if not re.search(r"(?<![A-Za-z0-9])" + re.escape(name) + r"(?![A-Za-z0-9])", body, re.I):
+            continue
+        ident = "bnb-official-mention-" + re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        if ident not in found:
+            add(name)
+    return list(found.values())
 
 
 def merge(old, found):
