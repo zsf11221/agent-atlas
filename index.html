@@ -1563,9 +1563,9 @@ const cats=[...new Set(PROJECTS.map(p=>p.cat))].sort();
 const tab=$('#catTabGroup');tab.innerHTML='<button class="filter-tab on" data-cat="all" type="button">'+(state.lang==='zh'?'全部':'All')+'</button><button class="filter-tab" data-cat="featured" type="button">'+(state.lang==='zh'?'精选项目':'Featured')+'</button>'+cats.map(c=>'<button class="filter-tab" data-cat="'+safeText(c)+'" type="button">'+safeText(categoryLabel(c))+'</button>').join('');
 const kc=$('#kpiProjects'),km=$('#kpiMints'),kl=$('#kpiLatest');if(kc)kc.textContent=PROJECTS.length;if(km)km.textContent=MINT_ITEMS.length;if(kl)kl.textContent=PROJECTS.filter(p=>atlasRecent(p.firstSeen,7)).length;
 
-$('#dataNotice').textContent='项目数据 '+(pj.updatedAt||'日期未知')+' · 铸造线索 '+(op.updatedAt||'日期未知')+' · 来源仅供发现参考';
+$('#dataNotice').textContent=state.lang==='zh'?'项目数据 '+(pj.updatedAt||'日期未知')+' · 铸造线索 '+(op.updatedAt||'日期未知')+' · 来源仅供发现参考':'Projects updated '+(pj.updatedAt||'unknown')+' · Mint leads updated '+(op.updatedAt||'unknown')+' · For discovery only';
 renderProjects();renderMintTrench();renderStream();
-}catch(err){$('#dataNotice').textContent='项目数据加载失败，请检查 data/ 目录或稍后刷新。';renderProjects();renderMintTrench();renderStream();}}
+}catch(err){$('#dataNotice').textContent='项目资料暂不可用，请稍后刷新。';renderProjects();renderMintTrench();renderStream();}}
 /* Project and mint data populated from local JSON */
 var MINT_ITEMS = [];
 var PROJECTS = [];
@@ -1669,9 +1669,9 @@ function renderProjects(){
 const q=(state.searchQuery||'').trim().toLowerCase();
 let list=PROJECTS.filter(p=>{const cat=state.catFilter==='all'||(state.catFilter==='featured'?p.featured:p.cat===state.catFilter);const gate=state.gateFilter==='all'||p.origin===state.gateFilter;return cat&&gate&&(state.periodFilter==='all'||atlasRecent(p.firstSeen,Number(state.periodFilter)))&&(!q||[p.name,p.zh,p.en,p.ca,p.cat,...p.tags].join(' ').toLowerCase().includes(q))});
 list.sort((a,b)=>state.sortBy==='name'?a.name.localeCompare(b.name):state.sortBy==='recent'?String(b.date).localeCompare(String(a.date)):String(b.firstSeen).localeCompare(String(a.firstSeen)));
-$('#resultCounter').textContent='显示 '+list.length+' 条 · 数据库 '+PROJECTS.length+' 条 BSC 记录';
+$('#resultCounter').textContent=(state.lang==='zh'?'显示 '+list.length+' 条 · 共 '+PROJECTS.length+' 条 BSC 线索':'Showing '+list.length+' of '+PROJECTS.length+' BSC leads');
 const grid=$('#projectGrid');grid.classList.toggle('list-mode',state.viewMode==='list');
-grid.innerHTML=list.length?list.map(p=>{const f=!!state.favs[p.id];return '<article class="proj-card" data-open="'+safeText(p.id)+'"><div class="pcard-head"><div class="pcard-id"><div class="pcard-avatar">✧</div><div class="pcard-title"><h4>'+safeText(p.name)+'</h4><div class="pcard-ca">'+safeText(p.cat)+' · '+safeText(p.chain)+'</div></div></div><button type="button" class="star-btn'+(f?' fav':'')+'" data-star="'+safeText(p.id)+'" aria-label="收藏">'+(f?'★':'☆')+'</button></div><p class="pcard-desc">'+safeText(p[state.lang]||p.zh)+'</p><div class="pcard-tags"><span class="ptag">'+(p.type==='candidate'?'GitHub 发现 · 待核验':'生态项目 · .ai 适配待核验')+'</span></div><div class="pcard-foot"><span>'+safeText(p.date||'更新日期未知')+'</span><span>查看来源 ↗</span></div></article>'}).join(''):'<p style="padding:24px">没有符合条件的项目。试试其他类别或清空搜索。</p>';
+grid.innerHTML=list.length?list.map(p=>{const f=!!state.favs[p.id];return '<article class="proj-card" data-open="'+safeText(p.id)+'"><div class="pcard-head"><div class="pcard-id"><div class="pcard-avatar">✧</div><div class="pcard-title"><h4>'+safeText(p.name)+'</h4><div class="pcard-ca">'+safeText(categoryLabel(p.cat))+' · '+safeText(p.chain)+'</div></div></div><button type="button" class="star-btn'+(f?' fav':'')+'" data-star="'+safeText(p.id)+'" aria-label="收藏">'+(f?'★':'☆')+'</button></div><p class="pcard-desc">'+safeText(p[state.lang]||p.zh)+'</p><div class="pcard-tags"><span class="ptag">'+safeText(sourceLabel(p))+'</span></div><div class="pcard-foot"><span>'+safeText(p.date||'更新日期未知')+'</span><span>'+(state.lang==='zh'?'查看详情':'Details')+' ↗</span></div></article>'}).join(''):'<p style="padding:24px">'+(state.lang==='zh'?'没有符合条件的项目，请调整筛选。':'No matching projects. Try another filter.')+'</p>';
 }
 /* ================= 详情抽屉与 .ai 验资面板 ================= */
 function findAnyItem(id) {
@@ -1682,7 +1682,7 @@ function findAnyItem(id) {
 
 function openDrawerFor(id){
  var p=findAnyItem(id);if(!p)return;
- $('#drawerContent').innerHTML='<div class="sec-kicker">'+(state.lang==='zh'?'项目详情':'PROJECT DETAILS')+'</div><h3 class="serif" style="font-size:24px">'+safeText(p.name)+'</h3><p style="margin:16px 0;color:var(--ink-secondary)">'+safeText(p[state.lang]||p.zh)+'</p><div class="brake-box"><h5>信息状态</h5><p>本页面不提供合约安全认证、自动交易或钱包签名。项目名称和来源需自行核验。</p></div>'+(p.source?'<a class="btn-detail-outline" target="_blank" rel="noopener noreferrer" href="'+safeUrl(p.source)+'">查看项目来源 ↗</a>':'');
+ $('#drawerContent').innerHTML='<div class="sec-kicker">'+(state.lang==='zh'?'项目详情':'PROJECT DETAILS')+'</div><h3 class="serif" style="font-size:24px">'+safeText(p.name)+'</h3><p style="margin:16px 0;color:var(--ink-secondary)">'+safeText(p[state.lang]||p.zh)+'</p><div class="brake-box"><h5>'+(state.lang==='zh'?'项目来源与状态':'Source and status')+'</h5><p>'+safeText(sourceLabel(p))+' · '+(state.lang==='zh'?'首次收录：':'First seen: ')+safeText(p.firstSeen||'未知')+'</p><p>'+(state.lang==='zh'?'仅用于项目发现，不代表已确认 Agent 功能、铸造资格或安全性。':'For discovery only; Agent functionality, mint eligibility and security are not verified.')+'</p></div>'+(p.source?'<a class="btn-detail-outline" target="_blank" rel="noopener noreferrer" href="'+safeUrl(p.source)+'">'+(state.lang==='zh'?'查看原始来源':'Original source')+' ↗</a>':'');
  showDrawer();
 }
 
@@ -1833,9 +1833,7 @@ $('#langBtn').addEventListener('click', function() {
 });
 
 $('#mobileFavLink').addEventListener('click',function(e){e.preventDefault();openFavsDrawer()});
-$('#agentWalletBtn').addEventListener('click', function() {
-  openVerifyAiModal('');
-});
+$('#agentWalletBtn').addEventListener('click', function() { $('#guide').scrollIntoView({behavior:'smooth'}); });
 $('#openFavDrawerBtn').addEventListener('click', openFavsDrawer);
 $('#drawerCloseBtn').addEventListener('click', closeDrawer);
 $('#backdrop').addEventListener('click', closeDrawer);
