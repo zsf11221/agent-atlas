@@ -1235,6 +1235,21 @@ footer {
   .topbar .quick-ca-box { display: none !important; }
   .topbar .topbar-right { justify-content: flex-start; margin-left: 0; }
 }
+/* Stage 2: actual BSC read-only RPC values from same-origin /api/bsc */
+.bsc-health-dot{width:8px;height:8px;flex:none;border-radius:50%;background:#85968b;box-shadow:none}
+.bsc-health-dot.is-online{background:#44c486;box-shadow:0 0 10px rgba(68,196,134,.35)}
+.bsc-health-dot.is-error{background:#d9a165}
+.bsc-status{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:0;padding:15px 14px 9px}
+.bsc-status-cell{min-width:0;padding:6px 12px;border-right:1px solid rgba(236,231,217,.10)}
+.bsc-status-cell:last-child{border-right:0}
+.bsc-status-label{display:block;font-size:11px;letter-spacing:.035em;color:#93aa99;margin-bottom:7px}
+.bsc-status-value{display:block;color:#f2ebd8;font-size:clamp(15px,1.5vw,21px);line-height:1.25;overflow-wrap:anywhere}
+.bsc-status-value.bsc-time{font-size:13px;line-height:1.5}
+.bsc-status-cell small{display:block;color:#8ea79a;font-size:10px;margin-top:2px}
+.bsc-status-foot{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;padding:0 25px 14px;font-family:var(--font-mono);font-size:10.5px;color:#9cb1a2;border-bottom:1px solid rgba(236,231,217,.08)}
+.bsc-status-foot a{color:#e8c974;text-decoration:underline;text-underline-offset:3px}
+.bsc-feed-label{padding:12px 24px 0;color:#a1ae9f;font-size:11px;letter-spacing:.04em}
+@media(max-width:480px){.bsc-status{grid-template-columns:1fr 1fr}.bsc-status-cell:nth-child(2){border-right:0}.bsc-status-cell:last-child{grid-column:1/-1;border-right:0;border-top:1px solid rgba(236,231,217,.1);padding-top:12px}.bsc-status-foot{padding-inline:20px}.bsc-feed-label{padding-left:20px}}
 </style>
 </head>
 <body>
@@ -1355,11 +1370,31 @@ footer {
         <div class="scanner-terminal">
           <div class="term-head">
             <div class="term-title">
-              <i class="pulse-dot"></i>
-              <span>BSC EVENTS · 待接入</span>
+              <span class="bsc-health-dot" id="bscHealthDot" aria-hidden="true"></span>
+              <span>BSC MAINNET · 链上状态</span>
             </div>
             <div class="term-controls" id="streamFilterGroup"><span style="color:#cbb789;font-size:11px">项目资料更新流</span></div>
           </div>
+          <div class="bsc-status" role="group" aria-label="BNB Chain 主网只读数据">
+            <div class="bsc-status-cell">
+              <span class="bsc-status-label">最新区块</span>
+              <strong class="bsc-status-value mono" id="bscBlockNumber">—</strong>
+            </div>
+            <div class="bsc-status-cell">
+              <span class="bsc-status-label">Gas Price</span>
+              <strong class="bsc-status-value mono" id="bscGasPrice">—</strong>
+              <small>Gwei</small>
+            </div>
+            <div class="bsc-status-cell">
+              <span class="bsc-status-label">最后查询</span>
+              <strong class="bsc-status-value bsc-time" id="bscCheckedAt">—</strong>
+            </div>
+          </div>
+          <div class="bsc-status-foot">
+            <span id="bscStatusMessage" role="status" aria-live="polite">正在连接 BNB Chain 主网…</span>
+            <a href="/api/bsc" target="_blank" rel="noopener noreferrer">查看原始数据 ↗</a>
+          </div>
+          <div class="bsc-feed-label">项目数据库动态 · 非链上事件索引</div>
           <div class="term-feed" id="liveStreamFeed"></div>
           <div class="term-foot">
             <span id="streamStatusText">展示已采集项目动态，不代表实时链上事件</span>
@@ -1774,6 +1809,40 @@ function applyTheme(dark) {
 $('#themeBtn').addEventListener('click', function() {
   applyTheme(document.documentElement.getAttribute('data-theme') !== 'dark');
 });
+
+
+// Mainnet RPC read-only telemetry; no wallet access and no .ai ID inference.
+async function refreshBscStatus(){
+  const msg=$('#bscStatusMessage'),dot=$('#bscHealthDot');
+  const ctrl=new AbortController();
+  const timeout=setTimeout(()=>ctrl.abort(),9000);
+  try{
+    const response=await fetch('/api/bsc',{cache:'no-store',signal:ctrl.signal});
+    if(!response.ok)throw Error('HTTP '+response.status);
+    const data=await response.json();
+    const valid=data&&data.ok===true&&data.chainId===56&&data.readOnly===true&&
+      Number.isSafeInteger(data.blockNumber)&&data.blockNumber>0&&
+      typeof data.gasPriceGwei==='number'&&Number.isFinite(data.gasPriceGwei)&&data.gasPriceGwei>=0&&
+      typeof data.checkedAt==='string'&&!Number.isNaN(Date.parse(data.checkedAt));
+    if(!valid)throw Error('Unexpected mainnet data');
+    $('#bscBlockNumber').textContent=new Intl.NumberFormat('zh-CN').format(data.blockNumber);
+    $('#bscGasPrice').textContent=data.gasPriceGwei.toLocaleString('en-US',{maximumFractionDigits:4});
+    $('#bscCheckedAt').textContent=new Date(data.checkedAt).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
+    const age=Date.now()-Date.parse(data.checkedAt);
+    msg.textContent=age>120000?'数据延迟 · 稍后自动重试':'BSC RPC 正常 · 每 60 秒更新';
+    dot.classList.toggle('is-online',age<=120000);
+    dot.classList.toggle('is-error',age>120000);
+  }catch(err){
+    // Old values are retained as a snapshot, never represented as fresh.
+    msg.textContent='当前无法刷新链上数据 · 稍后自动重试';
+    dot.classList.remove('is-online');
+    dot.classList.add('is-error');
+    $('#bscCheckedAt').textContent='更新失败';
+  }finally{clearTimeout(timeout)}
+}
+refreshBscStatus();
+setInterval(()=>{if(!document.hidden)refreshBscStatus()},60000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshBscStatus()});
 
 /* 初始化 */
 try { if (localStorage.getItem('atlas-theme') === 'dark') applyTheme(true); } catch (e) {}
