@@ -1,5 +1,34 @@
 {
-  "updatedAt": null,
-  "projects": [],
-  "methodology": "X recent search is not activated. Leads will be posted only when user enables API and approves costs. All future posts remain unverified."
+  "updatedAt": "2026-11-03T16:54:28.711893+00:00",
+  "projects": [
+    {
+      "id": "x-post-2117657394021056794",
+      "name": "playagentcards.com",
+      "symbol": "X",
+      "category": "early",
+      "chain": "BNB Chain (X claim only)",
+      "type": "candidate",
+      "stage": "x-lead-unverified",
+      "source": "https://x.com/i/web/status/2117657394021056794",
+      "website": "https://playagentcards.com",
+      "authorId": "1557997056727269378",
+      "postId": "2117657394021056794",
+      "descriptionZh": "X 上发现与 BSC AI Agent 相关的Mint 或参与公告。该帖所指项目的身份、功能与上线时间尚未独立核实。 来源提供项目链接。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "evidence": "Public X post ID and author ID; no independently verified project identity",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "lastActivityAt": "2026-11-03",
+      "lastCheckedAt": "2026-11-03T16:54:28.711893+00:00",
+      "discoverySource": "x-recent-search",
+      "verification": "x-post-claim-only",
+      "mint": "unknown"
+    }
+  ],
+  "methodology": "X recent-search leads; no claim of Agent verification, Mint eligibility, project identity or safety. Post IDs and authored summaries only."
 }

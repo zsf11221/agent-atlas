@@ -1,12 +1,19 @@
 {
-  "monthUTC": null,
-  "reservedPostReads": 0,
+  "monthUTC": "2026-11",
+  "reservedPostReads": 20,
   "maxMonthlyPostReads": 800,
-  "worstCaseEstimatedUSD": 0,
-  "checkedAt": null,
-  "state": "disabled",
-  "sources": [],
-  "newLeads": 0,
-  "total": 0,
-  "note": "X searches are disabled. No requests or API charges have been made by this workflow."
+  "worstCaseEstimatedUSD": 0.1,
+  "checkedAt": "2026-11-03T16:54:28.711893+00:00",
+  "state": "ok",
+  "sources": [
+    {
+      "state": "ok"
+    },
+    {
+      "state": "ok"
+    }
+  ],
+  "newLeads": 1,
+  "total": 1,
+  "note": "This ledger is only for AgentAtlas X searches, not an X account billing cap. Rates may change; check X Console. Results are unverified leads."
 }
