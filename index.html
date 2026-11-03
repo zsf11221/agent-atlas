@@ -1449,7 +1449,7 @@ footer {
           </div>
 
           <div class="filter-row-sub">
-            <div class="gate-chips" id="gateChipGroup"><span class="lbl">来源</span><button class="gate-btn on" data-gate="all" type="button">全部</button><button class="gate-btn" data-gate="dex" type="button">DEX</button><button class="gate-btn" data-gate="official" type="button">BNB 官方</button><button class="gate-btn" data-gate="github" type="button">GitHub</button><button class="gate-btn" data-gate="curated" type="button">生态资料</button></div><div class="gate-chips" id="periodChipGroup"><span class="lbl">首次收录</span><button class="gate-btn on" data-period="all" type="button">全部时间</button><button class="gate-btn" data-period="1" type="button">24小时</button><button class="gate-btn" data-period="7" type="button">7天</button><button class="gate-btn" data-period="30" type="button">30天</button></div>
+            <div class="gate-chips" id="gateChipGroup"><span class="lbl">来源</span><button class="gate-btn on" data-gate="all" type="button">全部</button><button class="gate-btn" data-gate="dex" type="button">DEX</button><button class="gate-btn" data-gate="x" type="button">X 线索</button><button class="gate-btn" data-gate="official" type="button">BNB 官方</button><button class="gate-btn" data-gate="github" type="button">GitHub</button><button class="gate-btn" data-gate="curated" type="button">生态资料</button></div><div class="gate-chips" id="periodChipGroup"><span class="lbl">首次收录</span><button class="gate-btn on" data-period="all" type="button">全部时间</button><button class="gate-btn" data-period="1" type="button">24小时</button><button class="gate-btn" data-period="7" type="button">7天</button><button class="gate-btn" data-period="30" type="button">30天</button></div>
 
             <div class="search-sort-group">
               <label class="search-box">
@@ -1554,11 +1554,30 @@ PROJECTS.push({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:
 } catch(ex) { /* External source outage must not break the existing directory. */ }
 // Prefer reviewed, source-grounded Chinese summaries. A newly discovered
 // project without a translation gets an honest Chinese placeholder rather than English.
+// X recent search is a separately sourced lead stream; never replace core data on API failure.
+try{
+ const xr=await fetch('data/x_projects.json',{cache:'no-store'});
+ if(xr.ok){
+  const xdata=await xr.json();
+  const known=new Set(PROJECTS.map(p=>p.id));
+  for(const xp of (xdata.projects||[])){
+   if(!/^x-post-[0-9]+$/.test(xp.id||'')||known.has(xp.id))continue;
+   if(!/BNB Chain|BSC/i.test(xp.chain||''))continue;
+   known.add(xp.id);
+   PROJECTS.push({id:xp.id,name:xp.name||'X 早期项目线索',zh:xp.descriptionZh||'X 上发现 BSC Agent 相关线索，项目仍需独立核验。',en:xp.descriptionEn||'Unverified BSC Agent lead from X.',cat:'early',
+    chain:'BNB Chain（来源声称）',source:xp.source||'',website:xp.website||'',socialX:xp.source||'',ca:'未提供',featured:false,type:'candidate',origin:'x',firstSeen:xp.firstSeen||'',date:xp.date||'',
+    tags:['X','待核验'],evidence:xp.evidence||'',walletSupport:'unverified'});
+  }
+ }
+}catch(e){/* Missing X access must never break existing directory. */}
 for(const p of PROJECTS){
  if(typeof zhMap[p.id]==='string'&&zhMap[p.id].trim())p.zh=zhMap[p.id].trim();
  else if(p.origin==='github'&&(!p.zh||/^GitHub 公开候选项目[：:]/.test(p.zh)))
    p.zh='来自 GitHub 的 BSC Agent 相关候选项目，公开介绍尚待整理为中文；具体功能与进展请查看原始来源。';
 }
+const xLeadCount=PROJECTS.filter(p=>p.origin==='x').length;
+const xTab=$('#gateChipGroup [data-gate="x"]');
+if(xTab)xTab.textContent=xLeadCount?'X 线索 ('+xLeadCount+')':'X 线索 · 待启用';
 const cats=[...new Set(PROJECTS.map(p=>p.cat))].sort();
 const tab=$('#catTabGroup');tab.innerHTML='<button class="filter-tab on" data-cat="all" type="button">'+(state.lang==='zh'?'全部':'All')+'</button><button class="filter-tab" data-cat="featured" type="button">'+(state.lang==='zh'?'精选项目':'Featured')+'</button>'+cats.map(c=>'<button class="filter-tab" data-cat="'+safeText(c)+'" type="button">'+safeText(categoryLabel(c))+'</button>').join('');
 const kc=$('#kpiProjects'),km=$('#kpiMints'),kl=$('#kpiLatest');if(kc)kc.textContent=PROJECTS.length;if(km)km.textContent=MINT_ITEMS.length;if(kl)kl.textContent=PROJECTS.filter(p=>atlasRecent(p.firstSeen,7)).length;
@@ -1653,11 +1672,11 @@ function updateFavBadge() {
   $('#favCountBadge').textContent = cnt;
 }
 
-var CATEGORY_ZH={assistant:'AI 助手',commerce:'商业应用',defai:'DeFi Agent',developer:'开发者工具',ecosystem:'生态项目',identity:'身份与认证',infrastructure:'基础设施',platform:'Agent 平台',token:'Agent 主题代币',wallet:'钱包',tools:'工具',community:'社区',defi:'DeFi',marketplace:'Agent 市场',security:'安全工具',gaming:'游戏',other:'其他'};
+var CATEGORY_ZH={early:'早期发现',assistant:'AI 助手',commerce:'商业应用',defai:'DeFi Agent',developer:'开发者工具',ecosystem:'生态项目',identity:'身份与认证',infrastructure:'基础设施',platform:'Agent 平台',token:'Agent 主题代币',wallet:'钱包',tools:'工具',community:'社区',defi:'DeFi',marketplace:'Agent 市场',security:'安全工具',gaming:'游戏',other:'其他'};
 function categoryLabel(cat){return state.lang==='zh'?(CATEGORY_ZH[cat]||cat):cat}
 function sourceLabel(p){
-const zh={dex:'DEX 主题代币线索',official:'BNB 官方生态提及',github:'GitHub 候选 · 待核验',curated:'生态项目资料'};
-const en={dex:'DEX token lead',official:'BNB ecosystem listing',github:'GitHub lead · unverified',curated:'Ecosystem reference'};
+const zh={x:'X 帖子线索 · 待核验',dex:'DEX 主题代币线索',official:'BNB 官方生态提及',github:'GitHub 候选 · 待核验',curated:'生态项目资料'};
+const en={x:'X post lead · unverified',dex:'DEX token lead',official:'BNB ecosystem listing',github:'GitHub lead · unverified',curated:'Ecosystem reference'};
 return (state.lang==='zh'?zh:en)[p.origin]||(state.lang==='zh'?'来源待核验':'Source unverified');
 }
 function atlasRecent(day,num){
