@@ -16,7 +16,7 @@ UTC = dt.timezone.utc
 NOW = dt.datetime.now(UTC)
 STAMP = NOW.isoformat()
 DATE = NOW.date().isoformat()
-AGENT_TERMS = re.compile(r"\\b(?:ai[ -]?agents?|agentic|autonomous agents?|defai|agent infrastructure|agent economy)\\b", re.I)
+AGENT_TERMS = re.compile(r"\b(?:ai[ -]?agents?|agentic|autonomous agents?|defai|agent infrastructure|agent economy)\b", re.I)
 ADDRESS = re.compile(r"^0x[a-fA-F0-9]{40}$")
 MAX_RECORDS = 160
 DEX_ENDPOINTS = [
@@ -43,7 +43,7 @@ def request(url):
 
 
 def text(value, limit=500):
-    return re.sub(r"[\\x00-\\x1f]+", " ", str(value or "")).strip()[:limit]
+    return re.sub(r"[\x00-\x1f]+", " ", str(value or "")).strip()[:limit]
 
 
 def link(value):
@@ -239,7 +239,7 @@ def run():
         previous["sources"] = states
         previous["lastFailedAt"] = STAMP
         result = previous
-    TARGET.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    TARGET.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"sources": states, "new": added, "updated": updated, "total": len(result.get("projects", []))}))
     return 0 if any(s["ok"] for s in states.values()) else 1
 
