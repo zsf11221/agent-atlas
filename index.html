@@ -1556,7 +1556,7 @@ PROJECTS.push({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:
 // project without a translation gets an honest Chinese placeholder rather than English.
 for(const p of PROJECTS){
  if(typeof zhMap[p.id]==='string'&&zhMap[p.id].trim())p.zh=zhMap[p.id].trim();
- else if(p.origin==='github'&&(!p.zh||/GitHub 公开候选项目[：:]/.test(p.zh)&&!/[一-龥]{4}/.test(p.zh.replace(/^GitHub 公开候选项目[：:]\s*/,''))))
+ else if(p.origin==='github'&&(!p.zh||/^GitHub 公开候选项目[：:]/.test(p.zh)))
    p.zh='来自 GitHub 的 BSC Agent 相关候选项目，公开介绍尚待整理为中文；具体功能与进展请查看原始来源。';
 }
 const cats=[...new Set(PROJECTS.map(p=>p.cat))].sort();
