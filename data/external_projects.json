@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T18:27:57.733759+00:00",
+  "updatedAt": "2026-11-03T23:59:31.501261+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -12,7 +12,7 @@
     },
     "search-agent": {
       "ok": true,
-      "qualified": 4
+      "qualified": 5
     },
     "search-agentic": {
       "ok": true,
@@ -23,7 +23,7 @@
       "qualified": 6
     }
   },
-  "newCount": 0,
+  "newCount": 1,
   "changedCount": 0,
   "projects": [
     {
@@ -336,6 +336,34 @@
       "firstSeen": "2026-11-03",
       "lastCheckedAt": "2026-11-03T13:58:59.420101+00:00",
       "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0x8c8d2a7d8d9cf26f5ee1bbfc0ba56e93f4a4a7ac",
+      "name": "AIvalanche DeFAI Agents",
+      "symbol": "AVAXAI",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0x73e9550e3a33ad9d06ce18c11be0bec87c9bba32",
+      "website": "https://www.avaxai.org",
+      "socialX": "https://x.com/ai_avalanche",
+      "contractAddress": "0x8c8d2a7d8d9CF26F5ee1BbFc0bA56e93F4A4A7aC",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2025-02-07",
+      "projectCreatedAt": "2025-02-07",
+      "firstSeen": "2026-11-03",
+      "lastCheckedAt": "2026-11-03T23:59:31.501261+00:00",
+      "discoverySource": "dexscreener-search-agent",
       "verification": "token-metadata-only"
     }
   ]
