@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AgentAtlas V8.3 · BSC AI Agent 发现与 Binance .ai ID</title>
+<title>AgentAtlas V8.4 · BSC 早期 AI Agent 项目发现</title>
 <meta name="description" content="BSC / Binance .ai ID 生态项目发现、Mint 机会与来源索引。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1340,9 +1340,9 @@ footer {
               <span class="badge-live"><i class="pulse-dot"></i>BINANCE .AI DISCOVERY · SOURCE-BASED</span>
               <span class="badge-std">聚焦 Binance .ai ID · 数据来源可追溯</span>
             </div>
-            <h1 id="heroTitle">发现 BSC 上与 <em>.ai ID</em> 相关的项目与机会</h1>
+            <h1 id="heroTitle">更早发现 BSC 上的 <em>AI Agent</em> 新项目</h1>
             <p class="desc" data-i18n="heroSub">
-              专为币安 Agentic Wallet（.ai Agent ID）持有人打造的链上扫链平台。整理 .ai 相关的免费铸造线索、AI 解题盘与生态动态，支持一键复制 baw 指令或 Skill 喂给你的 AI 执行。
+              聚合 BSC 项目的 DEX 线索、BNB Chain 官方提及和 GitHub 更新。追踪首次收录与 Mint 情报，所有线索附有来源；不将收录等同于项目发布、资格核验或安全背书。
             </p>
           </div>
 
@@ -1359,9 +1359,9 @@ footer {
             </div>
             
             <div class="kpi-item" data-scroll="#discovery">
-              <div class="kpi-label"><span>7天新收录</span><span>↗</span></div>
+              <div class="kpi-label"><span>7天内首次收录</span><span>↗</span></div>
               <div class="kpi-val" id="kpiLatest">—</div>
-              <div class="kpi-sub">按数据源更新</div>
+              <div class="kpi-sub">收录日期 ≠ 项目创建日期</div>
             </div>
           </div>
         </div>
@@ -1426,7 +1426,7 @@ footer {
           <div>
             <div class="sec-kicker">EXPLORE .AI ECOSYSTEM</div>
             <h2 class="sec-title" data-i18n="exploreTitle">项目发现</h2>
-            <p class="sec-desc" data-i18n="exploreSub">BSC Agent 项目与候选线索，是否支持 Binance .ai ID 需独立核验。</p>
+            <p class="sec-desc" data-i18n="exploreSub">BSC 早期项目和候选线索；收录时间不是创建时间，也不代表安全或 .ai ID 准入认证。</p>
           </div>
           <span class="mono" id="resultCounter" style="font-size:12.5px;color:var(--ink-secondary)">正在加载项目数据…</span>
         </div>
@@ -1541,11 +1541,11 @@ const er=await fetch('data/external_projects.json',{cache:'no-store'});
 if(er.ok) {
 const out=await er.json();
 const ids=new Set(PROJECTS.map(p=>p.id));
-const names=new Set(PROJECTS.filter(p=>p.origin==='curated').map(p=>String(p.name).toLowerCase()));
+const names=new Set(PROJECTS.filter(p=>p.origin==='curated').map(p=>String(p.name).toLowerCase().replace(/\\s+ai$/,'')));
 for(const p of out.projects||[]) {
 if(!/BSC|BNB Chain/i.test(p.chain||'')||/opBNB/i.test(p.chain||'')||ids.has(p.id))continue;
 const origin=String(p.discoverySource||'').startsWith('dexscreener-')?'dex':'official';
-if(origin==='official'&&names.has(String(p.name||'').toLowerCase()))continue;
+if(origin==='official'&&names.has(String(p.name||'').toLowerCase().replace(/\\s+ai$/,'')))continue;
 ids.add(p.id);
 PROJECTS.push({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:p.descriptionEn||'',cat:p.category||'other',chain:p.chain,source:p.source||p.website,website:p.website||'',socialX:p.socialX||'',ca:p.contractAddress||'未提供',featured:origin==='official',type:p.type||'candidate',gates:['all'],fav:0,date:/^\d{4}-\d{2}-\d{2}/.test(p.date||'')?p.date.slice(0,10):'',firstSeen:p.firstSeen||'',origin:origin,tags:p.tags||[],evidence:p.evidence||'',walletSupport:'unverified'});
 }
@@ -1568,12 +1568,12 @@ var I18N = {
     navHome: '实时 .ai 扫链总览', navTrench: '.ai 铸造战壕', navRadar: '项目来源索引', navExplore: '.ai 生态探索库',
     gateExclusive: '仅限 .ai ID 准入', gateFree: '.ai 零撸 / 免费', gatePuzzle: 'AI 解题 / Prompt 盘', gateUtility: '持续产出 / 合成养成', gateSkill: '.ai 盯盘 Skill 插件',
     navFavs: '我的收藏夹', navGuide: '.ai 领取与 baw 指南', btnWallet: '🤖 接入币安 .ai 钱包',
-    heroTitle: '发现 BSC 上与 <em>.ai ID</em> 相关的项目与机会',
+    heroTitle: '更早发现 BSC 上的 <em>AI Agent</em> 新项目',
     heroSub: '专为币安 Agentic Wallet（.ai Agent ID）持有人打造的链上扫链平台。整理 .ai 相关的免费铸造线索、AI 解题盘与生态动态，支持一键复制 baw 指令或 Skill 喂给你的 AI 执行。',
     statProjects: '项目与线索', statFree: '.ai 免费 / 准入铸造', statSmart: '项目来源', statLatest: '最新发现 (.ai 生态)',
     mintTitle: '.ai 相关铸造线索', mintSub: '汇总要求持有币安 .ai Agent ID 才能参与的免费铸造与打新活动；条件、资格与价格以各项目实际规则为准。',
     radarTitle: '高胜率 .ai 钱包链上动向', radarSub: '追踪通过币安 Agentic Wallet 在 BSC 上打新与交易的高胜率 .ai 账户，一键复制跟单指令卡。',
-    exploreTitle: '项目发现', exploreSub: '探索适配币安 .ai 钱包的 AI 助手、DeFi 策略、打新工具与社区项目。',
+    exploreTitle: '项目发现', exploreSub: '发现 BSC 早期 AI Agent 项目，按来源和首次收录时间过滤。',
     filterAll: '全部', tabFeatured: '✦ 精选项目', tabAssistant: 'AI 助手', tabDefi: 'DeFi 策略', tabTools: '工具与基建', tabCommunity: '社区',
     viewGrid: '卡片', viewList: '列表',
     guideTitle: '如何领取币安 .ai Agent ID 并用 baw 参与专属打新？',
@@ -1630,9 +1630,12 @@ function copyText(txt,label){
 }
 
 /* ================= 渲染 1：实时扫链瀑布流 ================= */
-function renderStream(){const n=$('#liveStreamFeed');if(!n)return;const items=PROJECTS.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date))).slice(0,7);n.innerHTML=items.length?items.map(p=>'<div class="feed-row" data-open="'+safeText(p.id)+'"><span class="feed-tag id">项目</span><span class="feed-main">'+safeText(p.name)+'</span><span class="feed-time">'+safeText((p.date||'—').slice(0,10))+'</span></div>').join(''):'<div style="padding:20px;color:#91aa98">正在读取项目动态。暂无实时链上事件数据。</div>';$('#streamStatusText').textContent='项目数据动态 · 非实时链上监听';}
-
-
+function renderStream(){
+const n=$('#liveStreamFeed');if(!n)return;
+const items=PROJECTS.filter(p=>/^\d{4}-\d{2}-\d{2}$/.test(String(p.firstSeen||''))).slice().sort((a,b)=>String(b.firstSeen).localeCompare(String(a.firstSeen))).slice(0,7);
+n.innerHTML=items.length?items.map(p=>'<div class="feed-row" data-open="'+safeText(p.id)+'"><span class="feed-tag id">收录</span><span class="feed-main">'+safeText(p.name)+'</span><span class="feed-time">'+safeText(p.firstSeen)+'</span></div>').join(''):'<div style="padding:20px;color:#91aa98">暂无带首次收录日期的项目线索。</div>';
+$('#streamStatusText').textContent='最近收录 · 非链上事件；收录时间不代表项目创建';
+}
 
 /* ================= 渲染 2：.ai 铸造战壕 ================= */
 function renderMintTrench(){const el=$('#mintTrenchGrid');if(!el)return;el.innerHTML=['free','paid'].map(type=>{const arr=MINT_ITEMS.filter(m=>m.mintType===type);return '<div class="mint-group"><h3 style="margin:0 0 12px">'+(type==='free'?'免费 Mint · 来源声称':'付费 Mint')+' ('+arr.length+')</h3><div class="mint-list">'+(arr.length?arr.map(m=>'<article class="mint-card"><div class="mint-top"><span class="mint-status upcoming">未核验 · 状态未知</span><span class="mint-gate">'+(type==='free'?'来源称免费':'付费')+'</span></div><h3 style="margin:15px 0">'+safeText(m.name)+'</h3><p class="mint-desc">'+safeText(m.zh)+'</p><p style="font-size:12px;margin:10px 0;color:var(--ink-secondary)">宣称费用：'+safeText(m.price)+'；资格要求须向来源核实</p><a class="btn-detail-outline" target="_blank" rel="noopener noreferrer" href="'+safeUrl(m.source)+'">查看来源 ↗</a></article>').join(''):'<p style="padding:18px;color:var(--ink-muted)">暂无已记录的'+(type==='free'?'免费':'付费')+'线索</p>')+'</div></div>'}).join('')}
