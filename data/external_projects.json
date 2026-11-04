@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-04T06:26:39.157051+00:00",
+  "updatedAt": "2026-11-04T15:27:24.135553+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
       "ok": true,
-      "qualified": 1
+      "qualified": 0
     },
     "boosts": {
       "ok": true,
@@ -16,15 +16,15 @@
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 2
+      "qualified": 5
     },
     "bnbchain-official": {
       "ok": true,
       "qualified": 6
     }
   },
-  "newCount": 1,
-  "changedCount": 0,
+  "newCount": 0,
+  "changedCount": 1,
   "projects": [
     {
       "id": "bnb-official-mention-pieverse",
@@ -346,7 +346,7 @@
       "chain": "BNB Chain",
       "type": "candidate",
       "stage": "unverified",
-      "source": "https://dexscreener.com/bsc/0xe56041cddbb46db01c67b7a62684f428a04db8c6",
+      "source": "https://dexscreener.com/bsc/0xbb0a01fd88abf74a8f80fd26c03062bbe781446c",
       "website": "https://agcc.fun/",
       "socialX": "https://x.com/Agentic_coin",
       "contractAddress": "0x63dea5aCdbE1F27c968907D08610A5f0A0284bA6",
@@ -359,10 +359,10 @@
       ],
       "mint": "unknown",
       "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
-      "date": "2026-11-02",
-      "projectCreatedAt": "2026-11-02",
+      "date": "2026-11-03",
+      "projectCreatedAt": "2026-11-03",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-03T13:58:59.420101+00:00",
+      "lastCheckedAt": "2026-11-04T15:27:24.135553+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
