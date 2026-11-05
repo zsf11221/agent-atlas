@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T21:54:04.047849+00:00",
+  "updatedAt": "2026-11-05T02:29:46.475234+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -12,18 +12,18 @@
     },
     "search-agent": {
       "ok": true,
-      "qualified": 4
+      "qualified": 5
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 8
+      "qualified": 9
     },
     "bnbchain-official": {
       "ok": true,
       "qualified": 6
     }
   },
-  "newCount": 3,
+  "newCount": 1,
   "changedCount": 0,
   "projects": [
     {
@@ -169,6 +169,34 @@
       "lastCheckedAt": "2026-11-03T14:03:20.411489+00:00",
       "discoverySource": "bnbchain-ecosystem-page",
       "verification": "official-mention-only"
+    },
+    {
+      "id": "dex-bsc-0x425e4968051bcae208cf282568af6aa5cdd67777",
+      "name": "Agentic Inu",
+      "symbol": "AI",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0xfce81ee5f756f55cca91bdfb6a5aaa72860dac33",
+      "website": "https://dexscreener.com/bsc/0xfce81ee5f756f55cca91bdfb6a5aaa72860dac33",
+      "socialX": "",
+      "contractAddress": "0x425e4968051Bcae208cF282568Af6aa5cDd67777",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-10-23",
+      "projectCreatedAt": "2026-10-23",
+      "firstSeen": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T02:29:46.475234+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
     },
     {
       "id": "dex-bsc-0x7de1606230aa70802caecf1a3e90039a6265b1c4",
