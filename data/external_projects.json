@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T02:29:46.475234+00:00",
+  "updatedAt": "2026-11-05T10:58:24.930367+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -12,11 +12,11 @@
     },
     "search-agent": {
       "ok": true,
-      "qualified": 5
+      "qualified": 4
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 9
+      "qualified": 8
     },
     "bnbchain-official": {
       "ok": true,
@@ -195,6 +195,34 @@
       "projectCreatedAt": "2026-10-23",
       "firstSeen": "2026-11-05",
       "lastCheckedAt": "2026-11-05T02:29:46.475234+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0x72afd673c7a024b7fdfeff10993fbd7fa1397777",
+      "name": "Agenticdotfun",
+      "symbol": "Agentic",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0x8ea6332e7bfc4bf87b8b9f3d8ce577f8634926e1",
+      "website": "https://dexscreener.com/bsc/0x8ea6332e7bfc4bf87b8b9f3d8ce577f8634926e1",
+      "socialX": "",
+      "contractAddress": "0x72AfD673C7a024b7fDFeFf10993fbD7fA1397777",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-11-05",
+      "projectCreatedAt": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T10:58:24.930367+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
