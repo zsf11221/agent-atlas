@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T15:56:32.646640+00:00",
+  "updatedAt": "2026-11-06T21:30:33.158961+00:00",
   "methodology": "Curated ecosystem sources plus public GitHub discovery. GitHub candidates are NOT independently verified; no automatic contract, mint or social audit.",
   "projects": [
     {
@@ -845,6 +845,33 @@
       "githubStars": 0
     },
     {
+      "id": "github-1435437550",
+      "name": "toll-plugins",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/t0ll-xyz/toll-plugins",
+      "website": "https://github.com/t0ll-xyz/toll-plugins",
+      "descriptionZh": "GitHub 公开候选项目：Toll for AI agents and bots: SDKs (JS, Python) and plugins for ElizaOS, Coinbase AgentKit, Vercel AI SDK and GOAT. Coin and product (LARP) checks on Robinhood Chain, Solana and BSC.",
+      "descriptionEn": "Public GitHub discovery candidate: Toll for AI agents and bots: SDKs (JS, Python) and plugins for ElizaOS, Coinbase AgentKit, Vercel AI SDK and GOAT. Coin and product (LARP) checks on Robinhood Chain, Solana and BSC.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "2026-10-27",
+      "firstSeen": "2026-11-01",
+      "lastCheckedAt": "2026-11-03T13:58:54.616409+00:00",
+      "lastActivityAt": "2026-11-06",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
       "id": "github-1444442737",
       "name": "agent-card-studio",
       "symbol": "GH",
@@ -953,33 +980,6 @@
       "githubStars": 1
     },
     {
-      "id": "github-1435437550",
-      "name": "toll-plugins",
-      "symbol": "GH",
-      "category": "developer",
-      "chain": "BNB Chain (unverified)",
-      "type": "candidate",
-      "stage": "unverified",
-      "source": "https://github.com/t0ll-xyz/toll-plugins",
-      "website": "https://github.com/t0ll-xyz/toll-plugins",
-      "descriptionZh": "GitHub 公开候选项目：Toll for AI agents and bots: SDKs (JS, Python) and plugins for ElizaOS, Coinbase AgentKit, Vercel AI SDK and GOAT. Coin and product (LARP) checks on Robinhood Chain, Solana and BSC.",
-      "descriptionEn": "Public GitHub discovery candidate: Toll for AI agents and bots: SDKs (JS, Python) and plugins for ElizaOS, Coinbase AgentKit, Vercel AI SDK and GOAT. Coin and product (LARP) checks on Robinhood Chain, Solana and BSC.",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "mint": "unknown",
-      "evidence": "GitHub public repository metadata; independent verification pending",
-      "date": "2026-10-27",
-      "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-03T13:58:54.616409+00:00",
-      "lastActivityAt": "2026-11-05",
-      "discoverySource": "github-search",
-      "verification": "repository-exists-only",
-      "githubStars": 0
-    },
-    {
       "id": "github-1398962791",
       "name": "kaiba-ultimate-agent-public",
       "symbol": "GH",
@@ -1000,11 +1000,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "2026-10-01",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-03T13:58:54.616409+00:00",
+      "lastCheckedAt": "2026-11-06T21:30:33.158961+00:00",
       "lastActivityAt": "2026-11-05",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 1
+      "githubStars": 0
     },
     {
       "id": "github-1446498665",
