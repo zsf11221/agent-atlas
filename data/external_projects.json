@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T00:18:28.574259+00:00",
+  "updatedAt": "2026-11-06T07:56:35.416489+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -16,7 +16,7 @@
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 13
+      "qualified": 15
     },
     "bnbchain-official": {
       "ok": true,
@@ -195,6 +195,34 @@
       "projectCreatedAt": "2026-10-20",
       "firstSeen": "2026-11-06",
       "lastCheckedAt": "2026-11-06T00:18:28.574259+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0xc9f14ae3cc40716554f837800f92344c4c237777",
+      "name": "Agentic",
+      "symbol": "Agentic",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0xaaf1df02d74142a1189892b915dd13e16c86fb69",
+      "website": "https://dexscreener.com/bsc/0xaaf1df02d74142a1189892b915dd13e16c86fb69",
+      "socialX": "",
+      "contractAddress": "0xc9F14AE3cc40716554f837800F92344c4C237777",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-11-06",
+      "projectCreatedAt": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T07:56:35.416489+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
