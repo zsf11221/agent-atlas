@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:46:25.184062+00:00",
+  "updatedAt": "2026-11-06T00:18:24.967174+00:00",
   "methodology": "Curated ecosystem sources plus public GitHub discovery. GitHub candidates are NOT independently verified; no automatic contract, mint or social audit.",
   "projects": [
     {
@@ -251,6 +251,33 @@
       "date": "2026-10-31"
     },
     {
+      "id": "github-1432947986",
+      "name": "pengupunk",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/pengupunk/pengupunk",
+      "website": "https://github.com/pengupunk/pengupunk",
+      "descriptionZh": "GitHub 公开候选项目：Punk penguins for .ai agents on BNB Chain. 2,222 pieces, traits sealed by block hash.",
+      "descriptionEn": "Public GitHub discovery candidate: Punk penguins for .ai agents on BNB Chain. 2,222 pieces, traits sealed by block hash.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "2026-10-25",
+      "firstSeen": "2026-11-01",
+      "lastCheckedAt": "2026-11-03T13:58:54.616409+00:00",
+      "lastActivityAt": "2026-11-06",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
       "id": "github-1427764788",
       "name": "gang-launchpad",
       "symbol": "GH",
@@ -486,33 +513,6 @@
       "mint": "unknown",
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "2026-11-01",
-      "firstSeen": "2026-11-01",
-      "lastCheckedAt": "2026-11-03T13:58:54.616409+00:00",
-      "lastActivityAt": "2026-11-05",
-      "discoverySource": "github-search",
-      "verification": "repository-exists-only",
-      "githubStars": 0
-    },
-    {
-      "id": "github-1432947986",
-      "name": "pengupunk",
-      "symbol": "GH",
-      "category": "developer",
-      "chain": "BNB Chain (unverified)",
-      "type": "candidate",
-      "stage": "unverified",
-      "source": "https://github.com/pengupunk/pengupunk",
-      "website": "https://github.com/pengupunk/pengupunk",
-      "descriptionZh": "GitHub 公开候选项目：Punk penguins for .ai agents on BNB Chain. 2,222 pieces, traits sealed by block hash.",
-      "descriptionEn": "Public GitHub discovery candidate: Punk penguins for .ai agents on BNB Chain. 2,222 pieces, traits sealed by block hash.",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "mint": "unknown",
-      "evidence": "GitHub public repository metadata; independent verification pending",
-      "date": "2026-10-25",
       "firstSeen": "2026-11-01",
       "lastCheckedAt": "2026-11-03T13:58:54.616409+00:00",
       "lastActivityAt": "2026-11-05",
@@ -1088,6 +1088,60 @@
       "githubStars": 0
     },
     {
+      "id": "github-1249312853",
+      "name": "vike-data-cli",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/vike-io/vike-data-cli",
+      "website": "https://github.com/vike-io/vike-data-cli",
+      "descriptionZh": "GitHub 公开候选项目：CLI and MCP agent skills for the free Vike Data API: Polymarket full-L2 order-book archive (Parquet, CC BY 4.0), Hyperliquid positions, fills and cohort data, labelled Ethereum/BNB wallets.",
+      "descriptionEn": "Public GitHub discovery candidate: CLI and MCP agent skills for the free Vike Data API: Polymarket full-L2 order-book archive (Parquet, CC BY 4.0), Hyperliquid positions, fills and cohort data, labelled Ethereum/BNB wallets.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "2026-05-25",
+      "firstSeen": "2026-11-02",
+      "lastCheckedAt": "2026-11-06T00:18:24.967174+00:00",
+      "lastActivityAt": "2026-11-05",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 1
+    },
+    {
+      "id": "github-1259701758",
+      "name": "NoNamedBot",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/AlejoReyna/NoNamedBot",
+      "website": "https://github.com/AlejoReyna/NoNamedBot",
+      "descriptionZh": "GitHub 公开候选项目：Autonomous BSC momentum trading agent — regime-aware strategy, CMC market data, strict risk guardrails, self-custody execution via TWAK.",
+      "descriptionEn": "Public GitHub discovery candidate: Autonomous BSC momentum trading agent — regime-aware strategy, CMC market data, strict risk guardrails, self-custody execution via TWAK.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "2026-06-04",
+      "firstSeen": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T00:18:24.967174+00:00",
+      "lastActivityAt": "2026-11-05",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
       "id": "github-1444691569",
       "name": "bnbu-portal-mcp",
       "symbol": "GH",
@@ -1243,11 +1297,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "2026-11-04",
       "firstSeen": "2026-11-04",
-      "lastCheckedAt": "2026-11-05T18:46:25.184062+00:00",
+      "lastCheckedAt": "2026-11-06T00:18:24.967174+00:00",
       "lastActivityAt": "2026-11-04",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 105
+      "githubStars": 106
     },
     {
       "id": "github-1360539553",
@@ -4511,33 +4565,6 @@
       "date": "-  -",
       "firstSeen": "2026-11-02",
       "lastCheckedAt": "2026-11-02T02:33:12.964138+00:00",
-      "lastActivityAt": "-  -",
-      "discoverySource": "github-search",
-      "verification": "repository-exists-only",
-      "githubStars": 0
-    },
-    {
-      "id": "github-1249312853",
-      "name": "vike-data-cli",
-      "symbol": "GH",
-      "category": "developer",
-      "chain": "BNB Chain (unverified)",
-      "type": "candidate",
-      "stage": "unverified",
-      "source": "https://github.com/vike-io/vike-data-cli",
-      "website": "https://github.com/vike-io/vike-data-cli",
-      "descriptionZh": "GitHub 公开候选项目：and     agent skills  or the  ree  ike  ata       olymarket  ull-   order-book archive ( arquet,        . ),  yperliquid positions,  ills and cohort data, labelled  thereum/    wallets.",
-      "descriptionEn": "Public GitHub discovery candidate: and     agent skills  or the  ree  ike  ata       olymarket  ull-   order-book archive ( arquet,        . ),  yperliquid positions,  ills and cohort data, labelled  thereum/    wallets.",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "mint": "unknown",
-      "evidence": "GitHub public repository metadata; independent verification pending",
-      "date": "-  -",
-      "firstSeen": "2026-11-02",
-      "lastCheckedAt": "2026-11-02T11:13:00.051045+00:00",
       "lastActivityAt": "-  -",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
