@@ -1,0 +1,29 @@
+name: Test chain indexer (offline)
+
+on:
+  push:
+    paths:
+      - 'chain-worker/**'
+      - '.github/workflows/test-chain-worker.yml'
+  pull_request:
+    paths:
+      - 'chain-worker/**'
+      - '.github/workflows/test-chain-worker.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax check
+        run: node --check chain-worker/src/index.js
+      - name: Run independent offline tests (no RPC, D1 or paid APIs)
+        run: cd chain-worker && node --test
