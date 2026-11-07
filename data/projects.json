@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T16:07:41.846953+00:00",
+  "updatedAt": "2026-11-07T20:14:42.826899+00:00",
   "methodology": "Curated ecosystem sources plus public GitHub discovery. GitHub candidates are NOT independently verified; no automatic contract, mint or social audit.",
   "projects": [
     {
@@ -812,7 +812,7 @@
       "date": "2026-03-27",
       "firstSeen": "2026-11-01",
       "lastCheckedAt": "2026-11-03T13:58:54.616409+00:00",
-      "lastActivityAt": "2026-11-06",
+      "lastActivityAt": "2026-11-07",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
       "githubStars": 0

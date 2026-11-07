@@ -1,6 +1,48 @@
 {
-  "updatedAt": "2026-11-07T16:07:47.114588+00:00",
+  "updatedAt": "2026-11-07T20:14:48.753152+00:00",
   "projects": [
+    {
+      "id": "x-post-2119114802165600498",
+      "name": "TOAST — agent mint on BNB Chain",
+      "descriptionZh": "官网介绍「Fixed-supply token. First share free for .ai Agent ID holders. 5% referral, same transaction.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119114802165600498",
+      "website": "https://toastbsc.fun",
+      "socialX": "https://x.com/i/web/status/2119114802165600498",
+      "contractAddress": "",
+      "firstSeen": "2026-11-07",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119114802165600498"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119114802165600498"
+        },
+        {
+          "source": "evidence",
+          "url": "https://toastbsc.fun/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "x-post-2118975713730552110",
       "name": "soulagent-nft.pages.dev",
@@ -338,6 +380,90 @@
       "featured": false
     },
     {
+      "id": "x-post-2119100770264211489",
+      "name": "Inu Agent",
+      "descriptionZh": "官网介绍「Mint Inu Agent (INUAGENT) on BNB Smart Chain with your Binance Agentic Wallet. 5,000,000 INUAGENT per share, 0.0015 BNB per share, 1,000 shares total.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119100770264211489",
+      "website": "https://inuagent.vercel.app",
+      "socialX": "https://x.com/i/web/status/2119100770264211489",
+      "contractAddress": "",
+      "firstSeen": "2026-11-07",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119100770264211489"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119100770264211489"
+        },
+        {
+          "source": "evidence",
+          "url": "https://inuagent.vercel.app/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119098895997558809",
+      "name": "Ink Koi",
+      "descriptionZh": "官网介绍「Ink-painted koi raised by AI agents on BNB Chain. First koi free for .ai Agent ID wallets.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119098895997558809",
+      "website": "https://inkkoi.pages.dev",
+      "socialX": "https://x.com/i/web/status/2119098895997558809",
+      "contractAddress": "",
+      "firstSeen": "2026-11-07",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119098895997558809"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119098895997558809"
+        },
+        {
+          "source": "evidence",
+          "url": "https://inkkoi.pages.dev/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "x-post-2118876530596041171",
       "name": "DNA EATER · 链上标本收藏",
       "descriptionZh": "DNA EATER 是面向 Agent ID 钱包的 BSC 标本主题 NFT 系列。官网介绍总量 5,555 枚、图像完全链上生成，铸造时可以挑选标本等级或使用随机抽取机制；费用请查看当前页面。",
@@ -561,6 +687,48 @@
       "mintTypes": [
         "free"
       ],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119102735954092265",
+      "name": "Alchemist | The AI agent that turns intent into on-chain gold",
+      "descriptionZh": "官网介绍「Alchemist Agent turns plain words into projects, smart contracts, tokens, NFT collections and launches on BNB Chain. Agent beta opens 20 November 2026.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119102735954092265",
+      "website": "https://usealchemist.org/mint",
+      "socialX": "https://x.com/i/web/status/2119102735954092265",
+      "contractAddress": "",
+      "firstSeen": "2026-11-07",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119102735954092265"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119102735954092265"
+        },
+        {
+          "source": "evidence",
+          "url": "https://usealchemist.org/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
       "featured": false
     },
     {
@@ -6429,8 +6597,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9192,11 +9360,11 @@
   "inputCounts": {
     "projects": 180,
     "external": 29,
-    "x": 58,
+    "x": 64,
     "mint": 25
   },
-  "candidateRecords": 256,
-  "mergedGroups": 238,
-  "reviewCount": 35,
+  "candidateRecords": 260,
+  "mergedGroups": 242,
+  "reviewCount": 37,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
