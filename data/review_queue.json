@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T05:19:19.924075+00:00",
+  "updatedAt": "2026-11-07T08:49:00.205563+00:00",
   "items": [
     {
       "id": "x-post-2118875145792270638",
@@ -24,6 +24,12 @@
       "name": "X 早期项目线索 · 869652",
       "reason": "x-post-without-specific-product-evidence",
       "source": "https://x.com/i/web/status/2118877647849869652"
+    },
+    {
+      "id": "x-post-2118978906732847210",
+      "name": "war3.xyz",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2118978906732847210"
     },
     {
       "id": "x-post-2118852462354522598",
@@ -234,6 +240,15 @@
         "dex-bsc-0xf7ccc7d9674fb4e1233d8bea613712c910857777"
       ],
       "source": "https://dexscreener.com/bsc/0xfce81ee5f756f55cca91bdfb6a5aaa72860dac33"
+    },
+    {
+      "name": "AI Agent",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "dex-bsc-0x575766af0e9c3e96a8c3f262912de47eddd59c68",
+        "dex-bsc-0x7aede49f29bf7bc643853c1136854ea8e4da7777"
+      ],
+      "source": "https://dexscreener.com/bsc/0x20a2b30b036b6313aff82ffa33bdf8b03b033fe6"
     }
   ],
   "methodology": "Raw candidate evidence retained in its original discovery files. Review before asserting identity or product functionality."
