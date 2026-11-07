@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/discover_x.py'
       - 'scripts/discover_mint.py'
+      - 'scripts/enrich_x.py'
       - '.github/workflows/discover_x.yml'
   schedule:
     # Asia/Singapore / Beijing (UTC+8): 00:00, 06:00, 10:00, 15:00, 20:00 daily
@@ -34,6 +35,8 @@ jobs:
           python scripts/discover_x.py --self-test
           python -m py_compile scripts/discover_mint.py
           python scripts/discover_mint.py --self-test
+          python -m py_compile scripts/enrich_x.py
+          python scripts/enrich_x.py --self-test
       - name: Read-only X search (opt-in and never on code pushes)
         id: read_x
         if: vars.ENABLE_X_DISCOVERY == 'true' && github.event_name != 'push'
@@ -42,13 +45,15 @@ jobs:
           ENABLE_X_DISCOVERY: 'true'
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: python scripts/discover_x.py
+      - name: Add project website metadata to X discovery descriptions (no X API call)
+        run: python scripts/enrich_x.py
       - name: Build Mint and claim watchlist from existing discovery data (no API calls)
         run: python scripts/discover_mint.py
       - name: Preserve source data and monthly search ledger
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/x_projects.json data/x_pipeline_status.json data/mint_leads.json data/mint_pipeline_status.json
+          git add data/x_projects.json data/x_pipeline_status.json data/x_profiles.json data/mint_leads.json data/mint_pipeline_status.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh X early project leads"
             git pull --rebase origin main
