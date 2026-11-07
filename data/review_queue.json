@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T15:40:39.834846+00:00",
+  "updatedAt": "2026-11-07T16:07:17.652192+00:00",
   "items": [
     {
       "id": "x-post-2118875145792270638",
@@ -180,24 +180,6 @@
       "name": "fanbei.fun",
       "reason": "x-post-without-specific-product-evidence",
       "source": "https://x.com/i/web/status/2118057691931345248"
-    },
-    {
-      "name": "ARK DeFAI",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "ark-defai",
-        "bnb-official-mention-ark-defai"
-      ],
-      "source": "https://www.bnbchain.org/en/solutions/ai-agent"
-    },
-    {
-      "name": "BNBAgent SDK",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "bnb-agent-sdk",
-        "bnb-official-mention-bnbagent-sdk"
-      ],
-      "source": "https://www.bnbchain.org/en/solutions/ai-agent"
     },
     {
       "name": "bnbagent",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T15:40:39.834846+00:00",
+  "updatedAt": "2026-11-07T16:07:17.652192+00:00",
   "projects": [
     {
       "id": "x-post-2118975713730552110",
@@ -3533,43 +3533,6 @@
       "featured": false
     },
     {
-      "id": "bnb-official-mention-bnbagent-sdk",
-      "name": "BNBAgent SDK",
-      "descriptionZh": "BNB Chain 生态目录列出了「BNBAgent SDK」，可从来源页面了解其产品和进展。",
-      "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
-      "descriptionBasis": "official-directory-mention",
-      "category": "ecosystem",
-      "chain": "BNB Chain",
-      "type": "ecosystem",
-      "source": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "website": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
-      "tags": [
-        "Official source mention",
-        "Ecosystem"
-      ],
-      "origins": [
-        "official"
-      ],
-      "origin": "official",
-      "recordIds": [
-        "bnb-official-mention-bnbagent-sdk"
-      ],
-      "sources": [
-        {
-          "source": "official",
-          "url": "https://www.bnbchain.org/en/solutions/ai-agent"
-        }
-      ],
-      "evidenceLevel": "early-lead",
-      "mintTypes": [],
-      "featured": true
-    },
-    {
       "id": "github-1443823630",
       "name": "blackpool",
       "descriptionZh": "面向多条链的零知识隐私支付方案，公开资料包含 BNB Chain 支持；Agent 相关性与真实部署情况待核验。",
@@ -3644,43 +3607,6 @@
       "evidenceLevel": "early-lead",
       "mintTypes": [],
       "featured": false
-    },
-    {
-      "id": "bnb-official-mention-ark-defai",
-      "name": "ARK DeFAI",
-      "descriptionZh": "BNB Chain 生态目录列出了「ARK DeFAI」，可从来源页面了解其产品和进展。",
-      "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
-      "descriptionBasis": "official-directory-mention",
-      "category": "ecosystem",
-      "chain": "BNB Chain",
-      "type": "ecosystem",
-      "source": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "website": "https://dappbay.bnbchain.org/detail/ark-defai",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
-      "tags": [
-        "Official source mention",
-        "Ecosystem"
-      ],
-      "origins": [
-        "official"
-      ],
-      "origin": "official",
-      "recordIds": [
-        "bnb-official-mention-ark-defai"
-      ],
-      "sources": [
-        {
-          "source": "official",
-          "url": "https://www.bnbchain.org/en/solutions/ai-agent"
-        }
-      ],
-      "evidenceLevel": "early-lead",
-      "mintTypes": [],
-      "featured": true
     },
     {
       "id": "dex-bsc-0x8c8d2a7d8d9cf26f5ee1bbfc0ba56e93f4a4a7ac",
@@ -4666,6 +4592,44 @@
       "featured": false
     },
     {
+      "id": "github-1382640005",
+      "name": "STONKMUSE",
+      "descriptionZh": "面向 BNB Chain 的 AI Agent 身份及钱包基础设施线索，原始仓库缺少完整名称和可核验说明。",
+      "descriptionEn": "Public GitHub discovery candidate: -owned agents with - wallets and - identity on mart hain.",
+      "descriptionBasis": "reviewed-translation",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/NachoLLMJS/STONKMUSE",
+      "website": "https://github.com/NachoLLMJS/STONKMUSE",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-01",
+      "lastActivityAt": "",
+      "date": "",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1382640005"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/NachoLLMJS/STONKMUSE"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1428865113",
       "name": "stamp",
       "descriptionZh": "BNB Chain 上的 Agent 身份凭证与生命周期注册系统线索，原始项目说明不完整。",
@@ -5609,6 +5573,44 @@
         {
           "source": "github",
           "url": "https://github.com/0xGriffinN/gmgn-binance-agent"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1391342652",
+      "name": "GMFAMILY",
+      "descriptionZh": "BNB Chain Agent 网络项目线索，描述涉及链上身份和市场情报，但原始仓库名称及说明不完整。",
+      "descriptionEn": "Public GitHub discovery candidate: ndependent hain agent network with - identities and market intelligence",
+      "descriptionBasis": "reviewed-translation",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/NachoLLMJS/GMFAMILY",
+      "website": "https://github.com/NachoLLMJS/GMFAMILY",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-01",
+      "lastActivityAt": "",
+      "date": "",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1391342652"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/NachoLLMJS/GMFAMILY"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -7440,82 +7442,6 @@
       "featured": false
     },
     {
-      "id": "github-1382640005",
-      "name": "",
-      "descriptionZh": "面向 BNB Chain 的 AI Agent 身份及钱包基础设施线索，原始仓库缺少完整名称和可核验说明。",
-      "descriptionEn": "Public GitHub discovery candidate: -owned agents with - wallets and - identity on mart hain.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/NachoLLMJS/STONKMUSE",
-      "website": "https://github.com/NachoLLMJS/STONKMUSE",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1382640005"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/NachoLLMJS/STONKMUSE"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1391342652",
-      "name": "",
-      "descriptionZh": "BNB Chain Agent 网络项目线索，描述涉及链上身份和市场情报，但原始仓库名称及说明不完整。",
-      "descriptionEn": "Public GitHub discovery candidate: ndependent hain agent network with - identities and market intelligence",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/NachoLLMJS/GMFAMILY",
-      "website": "https://github.com/NachoLLMJS/GMFAMILY",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1391342652"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/NachoLLMJS/GMFAMILY"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1319483961",
       "name": "web3",
       "descriptionZh": "BNB Chain 上的全链游戏项目，包含文明建设与策略机制；AI Agent 功能尚待核验。",
@@ -8705,19 +8631,22 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-31",
-      "date": "2026-10-31",
+      "lastActivityAt": "2026-11-03",
+      "date": "2026-11-03",
       "tags": [
         "SDK",
         "ERC-8004",
-        "Python"
+        "Python",
+        "Official source mention",
+        "Ecosystem"
       ],
       "origins": [
         "official"
       ],
       "origin": "official",
       "recordIds": [
-        "bnb-agent-sdk"
+        "bnb-agent-sdk",
+        "bnb-official-mention-bnbagent-sdk"
       ],
       "sources": [
         {
@@ -8815,22 +8744,25 @@
       "chain": "BNB Chain",
       "type": "ecosystem",
       "source": "https://www.bnbchain.org/en/solutions/ai-agent",
-      "website": "https://www.bnbchain.org/en/solutions/ai-agent",
+      "website": "https://dappbay.bnbchain.org/detail/ark-defai",
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-31",
-      "date": "2026-10-31",
+      "lastActivityAt": "2026-11-03",
+      "date": "2026-11-03",
       "tags": [
         "DeFAI",
-        "Agent"
+        "Agent",
+        "Official source mention",
+        "Ecosystem"
       ],
       "origins": [
         "official"
       ],
       "origin": "official",
       "recordIds": [
-        "ark-defai"
+        "ark-defai",
+        "bnb-official-mention-ark-defai"
       ],
       "sources": [
         {
@@ -9226,7 +9158,7 @@
     "mint": 25
   },
   "candidateRecords": 255,
-  "mergedGroups": 239,
-  "reviewCount": 37,
+  "mergedGroups": 237,
+  "reviewCount": 35,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

@@ -86,6 +86,21 @@ def normalized_name(name):
     return re.sub(r"[^a-z0-9\u4e00-\u9fff]+", "", str(name or "").casefold())
 
 
+def fallback_name(item, website, source):
+    """Empty discovery names fall back to the repo slug, never to a blank card."""
+    for url in (website, source):
+        u = url_parts(url)
+        if not u:
+            continue
+        host = (u.hostname or "").lower().removeprefix("www.")
+        segs = [x for x in u.path.strip("/").split("/") if x]
+        if host == "github.com" and len(segs) >= 2:
+            return segs[1]
+        if host and host not in GENERIC_DOMAINS:
+            return host
+    return ""
+
+
 def bsc_related(item):
     chain = str(item.get("chain") or "")
     if re.search(r"\bopBNB\b", chain, re.I) and not re.search(r"\bBSC\b|\bBNB (?:Smart )?Chain\b", chain, re.I):
@@ -169,7 +184,7 @@ def candidates(data, translations, profiles):
                     continue
             else:
                 profile = None
-            title = clean((profile or {}).get("name") or item.get("name"), 110)
+            title = clean((profile or {}).get("name") or item.get("name"), 110) or fallback_name(item, website, str(item.get("source") or ""))
             description, basis = unique_desc(item, orig, translations, profile)
             if collection == "mint" and item.get("researchSource"):
                 evidence = item.get("researchSource")
@@ -212,9 +227,20 @@ def combine(items, existing=None):
     keys = defaultdict(list)
     conflicts = []
     for item in ordered:
+        # Narrow exception: same official name + same exact official source,
+        # no contract on either side. bnbchain.org is a generic hub, so it
+        # yields no siteKey; without this, the same official listing appears
+        # twice (curated copy + ecosystem-page copy). Different names, or a
+        # contract on either side, never merge here.
+        official_key = ""
+        if item["origin"] == "official" and not item["contractAddress"] and item["source"]:
+            nn = normalized_name(item["name"])
+            if len(nn) >= 4:
+                official_key = "official-name:" + nn + "|" + item["source"]
         possible = set()
         for key in ([item["siteKey"]] if item["siteKey"] else []) + (
-                ["contract:bsc:" + item["contractAddress"]] if item["contractAddress"] else []):
+                ["contract:bsc:" + item["contractAddress"]] if item["contractAddress"] else []) + (
+                [official_key] if official_key else []):
             possible.update(keys.get(key, []))
         compatible = []
         for idx in sorted(possible):
@@ -243,6 +269,8 @@ def combine(items, existing=None):
             keys[item["siteKey"]].append(chosen)
         if item["contractAddress"] and chosen not in keys["contract:bsc:" + item["contractAddress"]]:
             keys["contract:bsc:" + item["contractAddress"]].append(chosen)
+        if official_key and chosen not in keys[official_key]:
+            keys[official_key].append(chosen)
     # Colliding project names without a matching identity should stay separate.
     name_groups = defaultdict(list)
     for idx, group in enumerate(groups):
@@ -359,6 +387,20 @@ def self_test():
     assert len(result["projects"]) == 5, result["mergedGroups"]
     result2, _ = build(inputs, result, now=dt.datetime(2026, 11, 7, tzinfo=UTC))
     assert {p["id"] for p in result["projects"]} == {p["id"] for p in result2["projects"]}
+    # Same official name + same exact official source merges; empty GitHub
+    # names fall back to the repo slug instead of a blank card.
+    inputs2 = {"projects": {"projects": [
+        dict(base, id="o1", name="BNBAgent SDK", type="official", website="https://www.bnbchain.org/en/solutions/ai-agent", source="https://www.bnbchain.org/en/solutions/ai-agent"),
+        dict(base, id="g1", name="", website="https://github.com/NachoLLMJS/STONKMUSE", source="https://github.com/NachoLLMJS/STONKMUSE", discoverySource="github-search"),
+    ]}, "x": {"projects": []}, "profiles": {"profiles": []}, "mint": {"opportunities": []},
+      "external": {"projects": [
+        dict(base, id="o2", name="BNBAgent SDK", type="ecosystem", website="https://www.bnbchain.org/en/solutions/ai-agent", source="https://www.bnbchain.org/en/solutions/ai-agent", discoverySource="bnbchain-ecosystem-page"),
+    ]}, "translations": {"translations": {}}}
+    result3, _ = build(inputs2, now=dt.datetime(2026, 11, 7, tzinfo=UTC))
+    merged = [p for p in result3["projects"] if set(("o1", "o2")).issubset(set(p["recordIds"]))]
+    assert len(merged) == 1, result3["projects"]
+    assert any(p["name"] == "STONKMUSE" for p in result3["projects"]), result3["projects"]
+    assert not any(not p["name"] for p in result3["projects"])
     print("PASS: BSC scope, site dedup, contract collision veto, shared hub exclusion, stable IDs.")
     return 0
 
