@@ -91,6 +91,17 @@ def parse_record(post, seen_at):
         hint = "Mint 或参与公告"
     elif re.search(r"\b(?:demo|beta|launch|testnet|mainnet)\b|公测|上线", content, re.I):
         hint = "产品发布或演示"
+    # Preserve only classification signals, not the original post text.
+    # "Free"/"paid" is an unverified X source claim, never a verified cost.
+    mint_signal = ("mint" if re.search(r"\\bmint(?:ing)?\\b|铸造", content, re.I)
+                   else "claim" if re.search(r"\\b(?:claim|whitelist)\\b|领取|白名单", content, re.I)
+                   else "none")
+    free_claim = bool(re.search(r"\\bfree\\s+(?:(?:NFT|token)\\s+)?mint\\b|\\bmint(?:ing)?\\s+(?:is\\s+)?free\\b|免费(?:铸造|mint)|免费\\s*mint", content, re.I))
+    paid_claim = bool(re.search(r"\\bpaid\\s+mint\\b|\\bmint\\s+(?:price|fee|cost)\\s*[:=]?\\s*\\d+(?:\\.\\d+)?\\s*BNB\\b|付费(?:铸造|mint)", content, re.I))
+    negated_free = bool(re.search(r"\\bnot\\s+free\\b|\\bno\\s+free\\s+mint\\b|不免费", content, re.I))
+    claimed_cost = ("free" if mint_signal == "mint" and free_claim and not paid_claim and not negated_free
+                    else "paid" if mint_signal == "mint" and paid_claim and not free_claim
+                    else "unknown")
     link = "https://x.com/i/web/status/" + pid
     return {
         "id": "x-post-" + pid,
@@ -106,6 +117,8 @@ def parse_record(post, seen_at):
         "postId": pid,
         "descriptionZh": "X 上发现与 BSC AI Agent 相关的" + hint + "。该帖所指项目的身份、功能与上线时间尚未独立核实。" + (" 来源提供项目链接。" if project_url else " 尚未发现独立项目官网。"),
         "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+        "mintSignal": mint_signal,
+        "claimedMintCost": claimed_cost,
         "tags": ["X", "Early lead", "Unverified"],
         "evidence": "Public X post ID and author ID; no independently verified project identity",
         "date": date,
@@ -240,6 +253,12 @@ def self_test():
     assert parse_record({**positive, "text": "Launching our Solana AI agent demo today."}, stamp) is None
     assert parse_record({**positive, "text": "BSC meme token moon 100x!"}, stamp) is None
     assert parse_record({**positive, "text": "Launching our opBNB AI agent demo today."}, stamp) is None
+    free_post = parse_record({**positive, "text": "BSC AI agent launching free mint today."}, stamp)
+    paid_post = parse_record({**positive, "text": "BSC AI agent launching paid mint today."}, stamp)
+    ambiguous = parse_record({**positive, "text": "BSC AI agent launching mint soon."}, stamp)
+    assert free_post["mintSignal"] == "mint" and free_post["claimedMintCost"] == "free"
+    assert paid_post["mintSignal"] == "mint" and paid_post["claimedMintCost"] == "paid"
+    assert ambiguous["mintSignal"] == "mint" and ambiguous["claimedMintCost"] == "unknown"
     merged, added = upsert([dict(found, firstSeen="2026-11-02")], [found])
     assert added == 0 and len(merged) == 1 and merged[0]["firstSeen"] == "2026-11-02"
     print("Self-test PASS: X classification, BSC restriction, no fake Agent verification, dedup.")
