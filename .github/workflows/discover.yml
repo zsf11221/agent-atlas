@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: agent-atlas-data-refresh
+  group: agent-atlas-discovery
   cancel-in-progress: false
 
 jobs:
