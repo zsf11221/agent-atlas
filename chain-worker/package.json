@@ -1,0 +1,14 @@
+{
+  "name": "agent-atlas-chain-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "migrate": "wrangler d1 migrations apply agent-atlas-chain --remote"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
