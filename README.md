@@ -15,7 +15,10 @@
 
 ## 文件与自动更新
 
-- `index.html`：正式网站页面及交互
+- `index.html`：正式网站页面及交互，优先读取统一项目目录（不可用时回退至原始来源）
+- `data/catalog.json`：综合 GitHub、X、DEX、Mint 和公开生态资料的统一 BSC 项目目录
+- `data/review_queue.json`：无法自动关联身份、缺少产品资料或同名冲突的候选来源记录
+- `scripts/build_catalog.py`：离线身份归并、BSC 限定、简介择优、证据来源整合及自测
 - `data/projects.json`：项目数据库
 - `data/opportunities.json`：人工整理的 Mint 来源声明（费用及活动状态仍需核验）
 - `data/mint_leads.json`：由既有 X 数据自动整理的 Mint / 领取候选清单，按来源网站去重
@@ -32,7 +35,7 @@
 - `.github/workflows/discover_x.yml`：X 线索独立自动化，按预算设置默认停用
 - `.github/workflows/discover.yml`：定时采集任务
 
-GitHub Actions 按工作流设定的时间运行，自动更新项目库、X 线索及 Mint 候选来源。部分来源失败时保留已有数据；GitHub 定时任务可能延迟，不承诺精确整点更新。Mint 候选自动收集并不等于已核实费用、合约或开放状态。
+GitHub Actions 按工作流设定的时间运行，自动更新项目库、X 线索及 Mint 候选来源，并重新生成 `catalog.json` 和复核队列。部分来源失败时保留已有数据；GitHub 定时任务可能延迟，不承诺精确整点更新。Mint 候选自动收集并不等于已核实费用、合约或开放状态。
 
 ## 本地预览
 
@@ -76,6 +79,15 @@ python -m http.server 8000
 3. 设置后，工作流按 UTC+8 每天 00:00、06:00、10:00、15:00、20:00 计划执行，可能延迟；每次最多 2 组最近搜索，各取最多 10 条。月度预留读取上限 800 条（按 $0.005/帖估算约 $4），因此可能在月初提前耗尽并停止付费读取。**实际收费及最终支出保护应以 X 控制台为准**，本地计数并非账户账单限额。
 4. 读取结果只保存帖文 ID、来源链接、作者 ID 和自行撰写的中文线索摘要；不会公开复制原帖正文。筛选须有 BSC + Agent + 发布/开发的文本信号；不认为匹配关键词就证明项目存在或安全。
 5. 任何 HTTP 401/402/403/429 等访问异常会在 `data/x_pipeline_status.json` 标记，不会制造或删除旧记录。没有可用 X API 额度时保持停用，不能声称实时 X 发现已启用。
+
+## 统一项目目录与保守去重
+
+- 主页面从 `data/catalog.json` 读取统一项目档案，同一站点的多个来源不会重复展示；点击详情可查看关联来源。
+- 只以项目专属 HTTPS 站点、**精确** GitHub 仓库 URL，或 **精确** BSC 合约地址自动归并。共享的 Binance 入口、GitHub 首页、交易所目录等不是项目唯一身份；同名不直接归并。
+- 如果相同网站出现不同代币合约，自动合并会被阻止并留作来源冲突记录；只在来源确实相同且无冲突时合并。
+- 无具体产品介绍的 X 帖子留在 `review_queue.json` 与原始数据，不冒充已有产品；已有官方/项目说明和逐项中文描述优先于模板。
+- `data/projects.json`、`data/external_projects.json`、`data/x_projects.json` 和 `data/opportunities.json` 保持原样作为可追溯输入，构建统一目录不额外产生 X API 费用。
+- 新的统一目录由现有 **每小时**和 **每天 5 次**的采集工作流在数据更新后重新生成。构建自测：`python scripts/build_catalog.py --self-test`；本地生成：`python scripts/build_catalog.py`。
 
 ## Mint / Claim 候选发现
 
