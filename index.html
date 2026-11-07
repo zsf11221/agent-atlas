@@ -1281,6 +1281,13 @@ footer {
 .creator-x-link:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .creator-x-symbol{font-size:15px;line-height:1}
 @media(max-width:560px){.creator-x-handle{display:none}.creator-x-link{padding:6px 10px}.topbar-right{gap:6px}}
+
+/* Safely browse the expanded source-backed Mint candidate pool. */
+.mint-more-wrap{display:flex;justify-content:center;margin-top:12px}
+.mint-more-btn{border:1px solid var(--gold-border);border-radius:99px;padding:8px 18px;background:var(--bg-card);color:var(--ink-primary);font-size:12.5px;cursor:pointer}
+.mint-more-btn:hover{border-color:var(--gold);background:var(--gold-bg)}
+.mint-more-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.mint-card-compact .mint-cost-unknown{color:var(--ink-muted)}
 </style>
 </head>
 <body>
@@ -1451,9 +1458,11 @@ footer {
             <button class="mint-filter is-active" type="button" data-mint-filter="all" aria-pressed="true">全部 0</button>
             <button class="mint-filter" type="button" data-mint-filter="free" aria-pressed="false">免费 0</button>
             <button class="mint-filter" type="button" data-mint-filter="paid" aria-pressed="false">付费 0</button>
+            <button class="mint-filter" type="button" data-mint-filter="unknown" aria-pressed="false">待核验 0</button>
           </div>
         </div>
         <div class="trench-grid" id="mintTrenchGrid" role="list"></div>
+        <div class="mint-more-wrap"><button type="button" id="mintShowMoreBtn" class="mint-more-btn" hidden>查看更多线索</button></div>
       </section>
 
       <!-- ================= 模块 2：.ai 项目来源 ================= -->
@@ -1591,6 +1600,25 @@ PROJECTS.push({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:
 }
 }
 } catch(ex) { /* External source outage must not break the existing directory. */ }
+// Mint watchlist is derived offline from existing X records; failure is non-fatal.
+try{
+ const mr=await fetch('data/mint_leads.json',{cache:'no-store'});
+ if(mr.ok){
+  const ml=await mr.json();
+  const seen=new Set(MINT_ITEMS.map(m=>m.id));
+  for(const p of (ml.leads||[])){
+   if(!/^mint-x-[a-z0-9.-]+$/i.test(p.id||'')||seen.has(p.id))continue;
+   if(!/^https:\/\/x\.com\/i\/web\/status\/[0-9]+$/.test(p.source||''))continue;
+   if(!/BNB Chain|BSC/i.test(p.chain||'')||/opBNB/i.test(p.chain||''))continue;
+   const type=['free','paid'].includes(p.mintType)?p.mintType:'unknown';
+   seen.add(p.id);
+   MINT_ITEMS.push({id:p.id,name:p.name,zh:p.descriptionZh||'',en:p.descriptionEn||'',
+     price:p.announcedCost||'费用未知',source:p.source,website:p.website||'',
+     mintType:type,gate:'来源待核验',ca:'未核验',status:p.currentAvailability||'unknown',
+     origin:'x',firstSeen:p.firstSeen||'',evidence:p.evidenceLevel||'unverified-x-lead'});
+  }
+ }
+}catch(err){/* Mint watchlist unavailability never hides curated items. */}
 // Prefer reviewed, source-grounded Chinese summaries. A newly discovered
 // project without a translation gets an honest Chinese placeholder rather than English.
 // X recent search is a separately sourced lead stream; never replace core data on API failure.
@@ -1665,6 +1693,7 @@ var state = {
   lang: 'zh',
   catFilter: 'all',
   mintFilter: 'all',
+  mintExpanded: false,
   gateFilter: 'all',
   searchQuery: '',
   sortBy: 'seen',
@@ -1704,24 +1733,26 @@ $('#streamStatusText').textContent='最近收录 · 非链上事件；收录时�
 
 /* ================= 渲染 2：.ai 铸造战壕 ================= */
 function renderMintTrench(){
-  const el=$('#mintTrenchGrid'), controls=$('#mintFilterGroup');
-  if(!el||!controls)return;
+  const el=$('#mintTrenchGrid'), controls=$('#mintFilterGroup'), more=$('#mintShowMoreBtn');
+  if(!el||!controls||!more)return;
   const zh=state.lang==='zh';
-  const counts={all:MINT_ITEMS.length,free:0,paid:0};
-  MINT_ITEMS.forEach(m=>{if(m.mintType==='free'||m.mintType==='paid')counts[m.mintType]++});
+  const counts={all:MINT_ITEMS.length,free:0,paid:0,unknown:0};
+  MINT_ITEMS.forEach(m=>{if(Object.prototype.hasOwnProperty.call(counts,m.mintType))counts[m.mintType]++});
   $('#mintTotalCount').textContent=zh?counts.all+' 条线索':counts.all+' leads';
   controls.querySelectorAll('[data-mint-filter]').forEach(btn=>{
     const type=btn.getAttribute('data-mint-filter');
-    btn.textContent=(zh?{all:'全部',free:'免费',paid:'付费'}:{all:'All',free:'Free',paid:'Paid'})[type]+' '+counts[type];
+    btn.textContent=(zh?{all:'全部',free:'免费',paid:'付费',unknown:'待核验'}:{all:'All',free:'Free',paid:'Paid',unknown:'Unverified'})[type]+' '+counts[type];
     const selected=type===state.mintFilter;
     btn.classList.toggle('is-active',selected);
     btn.setAttribute('aria-pressed',String(selected));
   });
-  const shown=state.mintFilter==='all'?MINT_ITEMS:MINT_ITEMS.filter(m=>m.mintType===state.mintFilter);
+  const list=state.mintFilter==='all'?MINT_ITEMS:MINT_ITEMS.filter(m=>m.mintType===state.mintFilter);
+  const shown=state.mintExpanded?list:list.slice(0,6);
   el.innerHTML=shown.length?shown.map(m=>{
-    const isFree=m.mintType==='free';
-    const typeLabel=zh?(isFree?'免费 · 来源声称':'付费 · 来源声称'):(isFree?'Free · source claim':'Paid · source claim');
-    const statusLabel=zh?'状态未核验':'Unverified';
+    const unknown=m.mintType==='unknown';
+    const fromX=m.origin==='x';
+    const typeLabel=zh?(unknown?'Mint / 领取 · 费用待核验':m.mintType==='free'?'免费 · 来源声称':'付费 · 来源声称'):(unknown?'Mint / claim · cost unknown':m.mintType==='free'?'Free · claimed':'Paid · claimed');
+    const statusLabel=zh?(fromX?'X 帖子线索 · 未核验':'来源声称 · 未核验'):(fromX?'X post · unverified':'Source claim · unverified');
     const title=safeText(m.name);
     const desc=safeText((zh?m.zh:m.en)||m.zh||m.en);
     const cost=safeText(m.price|| (zh?'费用未知':'Price unknown'));
@@ -1729,9 +1760,11 @@ function renderMintTrench(){
     return '<article class="mint-card mint-card-compact" role="listitem">'
       +'<div class="mint-top"><span class="mint-status upcoming">'+statusLabel+'</span><span class="mint-gate">'+typeLabel+'</span></div>'
       +'<h3>'+title+'</h3><p class="mint-desc" title="'+desc+'">'+desc+'</p>'
-      +'<p class="mint-cost" title="'+cost+'">'+(zh?'来源声称费用：':'Claimed cost: ')+cost+'</p>'
-      +'<div class="mint-card-bottom"><a href="'+url+'" target="_blank" rel="noopener noreferrer">'+(zh?'查看来源 ↗':'View source ↗')+'</a><span>'+(zh?'参与条件待核验':'Terms unverified')+'</span></div></article>';
-  }).join(''):'<div class="mint-empty">'+(state.mintFilter==='paid'?(zh?'暂无已收录的付费 Mint 线索。':'No paid Mint leads have been recorded.'):(state.mintFilter==='free'?(zh?'暂无已收录的免费 Mint 线索。':'No free Mint leads have been recorded.'):(zh?'暂无已收录的 Mint 线索。':'No Mint leads recorded.')))+'</div>';
+      +'<p class="mint-cost'+(unknown?' mint-cost-unknown':'')+'" title="'+cost+'">'+(zh?(unknown?'费用及开放状态：':'来源声称费用：'):(unknown?'Cost & availability: ':'Source-claimed cost: '))+cost+'</p>'
+      +'<div class="mint-card-bottom"><a href="'+url+'" target="_blank" rel="noopener noreferrer">'+(zh?'查看原始来源 ↗':'Original source ↗')+'</a><span>'+(zh?'参与前独立核验':'Verify before participating')+'</span></div></article>';
+  }).join(''):'<div class="mint-empty">'+(zh?'该类别暂无符合条件的来源记录。':'No sourced records in this category.')+'</div>';
+  more.hidden=list.length<=6;
+  more.textContent=state.mintExpanded?(zh?'收起线索':'Show fewer'):(zh?'查看更多线索 ('+(list.length-6)+')':'Show '+(list.length-6)+' more');
 }
 
 /* ================= 渲染 3：项目来源索引榜 ================= */
@@ -1891,6 +1924,11 @@ $('#mintFilterGroup').addEventListener('click',function(e){
   const btn=e.target.closest('[data-mint-filter]');
   if(!btn)return;
   state.mintFilter=btn.getAttribute('data-mint-filter');
+  state.mintExpanded=false;
+  renderMintTrench();
+});
+$('#mintShowMoreBtn').addEventListener('click',function(){
+  state.mintExpanded=!state.mintExpanded;
   renderMintTrench();
 });
 $('#gateChipGroup').addEventListener('click', function(e) {
