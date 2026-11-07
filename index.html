@@ -1899,7 +1899,10 @@ function categoryLabel(cat){return state.lang==='zh'?(CATEGORY_ZH[cat]||cat):cat
 function sourceLabel(p){
 const zh={x:'X 项目线索',dex:'DEX 代币线索',official:'BNB 生态来源',github:'GitHub 开源项目',curated:'项目资料'};
 const en={x:'X-discovered project',dex:'DEX token lead',official:'BNB ecosystem listing',github:'GitHub repository',curated:'Project source'};
-return (state.lang==='zh'?zh:en)[p.origin]||(state.lang==='zh'?'项目来源':'Project reference');
+const dict=state.lang==='zh'?zh:en;
+const origins=Array.isArray(p.origins)?p.origins:[];
+if(origins.length>1)return origins.map(x=>dict[x]||x).join(' · ');
+return dict[p.origin]||(state.lang==='zh'?'项目来源':'Project reference');
 }
 function atlasRecent(day,num){
 if(!/^\d{4}-\d{2}-\d{2}$/.test(String(day||'')))return false;
@@ -1922,8 +1925,29 @@ function findAnyItem(id) {
 }
 
 function openDrawerFor(id){
- var p=findAnyItem(id);if(!p)return;
- $('#drawerContent').innerHTML='<div class="sec-kicker">'+(state.lang==='zh'?'项目详情':'PROJECT DETAILS')+'</div><h3 class="serif" style="font-size:24px">'+safeText(p.name)+'</h3><p style="margin:16px 0;color:var(--ink-secondary)">'+safeText(p[state.lang]||p.zh)+'</p><div class="brake-box"><h5>'+(state.lang==='zh'?'项目来源与状态':'Source and status')+'</h5><p>'+safeText(sourceLabel(p))+' · '+(state.lang==='zh'?'首次收录：':'First seen: ')+safeText(p.firstSeen||'未知')+'</p><p>'+(state.lang==='zh'?'仅用于项目发现，不代表已确认 Agent 功能、铸造资格或安全性。':'For discovery only; Agent functionality, mint eligibility and security are not verified.')+'</p></div>'+(p.source?'<a class="btn-detail-outline" target="_blank" rel="noopener noreferrer" href="'+safeUrl(p.source)+'">'+(state.lang==='zh'?'查看原始来源':'Original source')+' ↗</a>':'');
+ const p=findAnyItem(id);if(!p)return;
+ const zh=state.lang==='zh';
+ let html='<div class="sec-kicker">'+(zh?'项目详情':'PROJECT DETAILS')+'</div>'
+   +'<h3 class="serif" style="font-size:24px">'+safeText(p.name)+'</h3>'
+   +'<p style="margin:16px 0;color:var(--ink-secondary);line-height:1.7">'+safeText(p[state.lang]||p.zh)+'</p>'
+   +'<div class="brake-box"><h5>'+(zh?'项目来源与状态':'Source and status')+'</h5>'
+   +'<p>'+safeText(sourceLabel(p))+' · '+(zh?'首次收录：':'First seen: ')+safeText(p.firstSeen||'未知')+'</p>'
+   +'<p>'+(zh?'内容来自公开项目资料；来源记录不等于安全审计、Mint 资格或产品功能实测。':'Public-source data is not a security audit, Mint eligibility check or product functionality test.')+'</p></div>';
+ const sources=Array.isArray(p.sources)?p.sources:[];
+ if(sources.length){
+   html+='<div class="brake-box" style="margin:12px 0"><h5>'+(zh?'项目来源记录':'Project source records')+'</h5>';
+   html+=sources.slice(0,9).map((entry,i)=>{
+     const url=safeUrl(entry.url);
+     if(url==='#')return '';
+     const kind=safeText(entry.source||'source');
+     return '<div style="margin-top:7px"><a href="'+url+'" target="_blank" rel="noopener noreferrer" style="color:var(--gold);word-break:break-all;font-size:12px">'+kind+' · '+safeText((entry.url||'').replace(/^https?:\/\//,'').slice(0,85))+' ↗</a></div>';
+   }).join('');
+   if(sources.length>9)html+='<p style="font-size:11px;color:var(--ink-muted)">'+(zh?'另有 ':'Plus ')+(sources.length-9)+(zh?' 条来源记录':' additional sources')+'</p>';
+   html+='</div>';
+ }else if(p.source){
+   html+='<a class="btn-detail-outline" href="'+safeUrl(p.source)+'" target="_blank" rel="noopener noreferrer">'+(zh?'查看原始来源':'Original source')+' ↗</a>';
+ }
+ $('#drawerContent').innerHTML=html;
  showDrawer();
 }
 
