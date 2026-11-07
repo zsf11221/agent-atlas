@@ -1603,6 +1603,7 @@ PROJECTS.push({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:
 // record only when it has its own meaningful description and an external source.
 const domainOf=url=>{try{const u=new URL(url);return u.protocol==='https:'?u.hostname.toLowerCase().replace(/^www\./,''):''}catch(e){return ''}};
 const normName=s=>String(s||'').toLowerCase().replace(/[^a-z0-9\u4e00-\u9fa5]+/g,'');
+let xProfileByDomain={};
 const seenIds=new Set(PROJECTS.map(p=>p.id));
 const seenNames=new Set(PROJECTS.map(p=>normName(p.name)).filter(Boolean));
 const seenSites=new Set(PROJECTS.map(p=>domainOf(p.website)).filter(Boolean));
@@ -1628,6 +1629,7 @@ try{
   const xdata=await xr.json();
   let profiles={};
   if(hr&&hr.ok){try{for(const p of (await hr.json()).profiles||[]){if(p.domain&&p.descriptionZh)profiles[p.domain]=p}}catch(e){}}
+  xProfileByDomain=profiles;
   const uniqueX=new Set();
   for(const xp of (xdata.projects||[])){
    if(!/^x-post-[0-9]+$/.test(xp.id||'')||!/BNB Chain|BSC/i.test(xp.chain||'')||/opBNB/i.test(xp.chain||''))continue;
@@ -1650,6 +1652,30 @@ try{
   }
  }
 }catch(e){/* Missing external data must not stop the core directory. */}
+// Surface only price-evidenced X Mint records; never show cost-unknown posts in free/paid.
+try{
+ const mr=await fetch('data/mint_leads.json',{cache:'no-store'});
+ if(mr.ok){
+  const mintData=await mr.json();
+  const seenMintSites=new Set(MINT_ITEMS.map(m=>domainOf(m.source)).filter(Boolean));
+  const seenMintIds=new Set(MINT_ITEMS.map(m=>m.id));
+  for(const p of (mintData.leads||[])){
+   if(!['free','paid'].includes(p.mintType)||!/^mint-x-[a-z0-9.-]+$/.test(p.id||''))continue;
+   if(!/^https:\/\/x\.com\/i\/web\/status\/\d+$/.test(p.source||''))continue;
+   const host=domainOf(p.website);
+   if(!host||seenMintSites.has(host)||seenMintIds.has(p.id))continue;
+   const profile=xProfileByDomain[host];
+   // A meaningful website description is mandatory for promotion to a Mint card.
+   if(!profile||!profile.descriptionZh)continue;
+   seenMintSites.add(host);seenMintIds.add(p.id);
+   MINT_ITEMS.push({id:p.id,name:profile.name||p.name||host,
+      zh:profile.descriptionZh,en:profile.descriptionEn||p.descriptionEn||'',
+      price:p.announcedCost||'来源未给出固定价格',source:p.source,
+      mintType:p.mintType,status:'source-claim',sourceKind:'X 原帖',origin:'x',
+      firstSeen:p.firstSeen||'',researchSource:profile.source||''});
+  }
+ }
+}catch(e){/* An unavailable watchlist cannot break curated Mint records. */}
 // Keep original repository descriptions distinct. Untranslated open-source
 // details are quoted faithfully rather than replaced with identical filler.
 for(const p of PROJECTS){
