@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: agent-atlas-data-refresh
+  group: agent-atlas-x-discovery
   cancel-in-progress: false
 
 jobs:
@@ -52,13 +52,11 @@ jobs:
         run: python scripts/enrich_x.py
       - name: Build Mint and claim watchlist from existing discovery data (no API calls)
         run: python scripts/discover_mint.py
-      - name: Consolidate BSC Agent project identities and prepare review queue (offline)
-        run: python scripts/build_catalog.py
       - name: Preserve source data and monthly search ledger
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/x_projects.json data/x_pipeline_status.json data/x_profiles.json data/mint_leads.json data/mint_pipeline_status.json data/catalog.json data/review_queue.json
+          git add data/x_projects.json data/x_pipeline_status.json data/x_profiles.json data/mint_leads.json data/mint_pipeline_status.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh X early project leads"
             published=0
