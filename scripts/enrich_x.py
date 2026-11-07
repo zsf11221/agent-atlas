@@ -166,6 +166,10 @@ def profile_summary(x_posts, prior, now):
     new = 0
     for host, url in sorted(seen_urls.items()):
         existing = known.get(host)
+        # Retain individually researched Chinese summaries instead of overwriting
+        # them with scraped English marketing metadata.
+        if existing and existing.get("sourceKind") == "editorial-source-review":
+            continue
         if existing and existing.get("descriptionZh") and existing.get("sourceKind") == "website-metadata":
             last = str(existing.get("checkedAt") or "")[:10]
             if last:
