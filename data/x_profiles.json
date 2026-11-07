@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T16:07:41.470628+00:00",
+  "updatedAt": "2026-11-07T17:17:00.866465+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -142,6 +142,26 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "inkkoi.pages.dev",
+      "name": "Ink Koi",
+      "descriptionZh": "官网介绍「Ink-painted koi raised by AI agents on BNB Chain. First koi free for .ai Agent ID wallets.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Ink-painted koi raised by AI agents on BNB Chain. First koi free for .ai Agent ID wallets.",
+      "source": "https://inkkoi.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T17:17:00.866465+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "inuagent.vercel.app",
+      "name": "Inu Agent",
+      "descriptionZh": "官网介绍「Mint Inu Agent (INUAGENT) on BNB Smart Chain with your Binance Agentic Wallet. 5,000,000 INUAGENT per share, 0.0015 BNB per share, 1,000 shares total.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Mint Inu Agent (INUAGENT) on BNB Smart Chain with your Binance Agentic Wallet. 5,000,000 INUAGENT per share, 0.0015 BNB per share, 1,000 shares total.",
+      "source": "https://inuagent.vercel.app/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T17:17:00.866465+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
       "domain": "lunar-agent-rion.vercel.app",
       "name": "LunarAgentRion — Minted by Agents",
       "descriptionZh": "官网介绍「8 celestial guardians on BNB Chain. First 2 mints FREE per wallet, then $0.80 in BNB. Agent ID only.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -232,6 +252,26 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "toastbsc.fun",
+      "name": "TOAST — agent mint on BNB Chain",
+      "descriptionZh": "官网介绍「Fixed-supply token. First share free for .ai Agent ID holders. 5% referral, same transaction.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Fixed-supply token. First share free for .ai Agent ID holders. 5% referral, same transaction.",
+      "source": "https://toastbsc.fun/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T17:17:00.866465+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "usealchemist.org",
+      "name": "Alchemist | The AI agent that turns intent into on-chain gold",
+      "descriptionZh": "官网介绍「Alchemist Agent turns plain words into projects, smart contracts, tokens, NFT collections and launches on BNB Chain. Agent beta opens 20 November 2026.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Alchemist Agent turns plain words into projects, smart contracts, tokens, NFT collections and launches on BNB Chain. Agent beta opens 20 November 2026.",
+      "source": "https://usealchemist.org/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T17:17:00.866465+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
       "domain": "web3league.pages.dev",
       "name": "Pick your role.",
       "descriptionZh": "官网介绍「Web3League: 10,000 role cards on BNB Chain. Pick your role, mint free with your AI agent, hold 5 cards and mine $W3L — 5,000 to 50,000 per hour by tier. To」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -242,7 +282,7 @@
       "firstSeen": "2026-11-07"
     }
   ],
-  "scannedThisRun": 9,
-  "newProfiles": 0,
+  "scannedThisRun": 12,
+  "newProfiles": 4,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
