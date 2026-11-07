@@ -1288,6 +1288,24 @@ footer {
 .mint-more-btn:hover{border-color:var(--gold);background:var(--gold-bg)}
 .mint-more-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .mint-card-compact .mint-cost-unknown{color:var(--ink-muted)}
+
+.chain-discovery-panel{margin-top:34px;padding-top:23px;border-top:1px solid var(--border-line)}
+.chain-discovery-panel[hidden]{display:none!important}
+.chain-discovery-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+.chain-discovery-head .sec-title{margin:5px 0 7px}
+.chain-scanner-status{font-size:11px;font-family:var(--font-mono);color:var(--emerald);border:1px solid var(--border-line);background:var(--bg-card);padding:6px 11px;border-radius:99px;white-space:nowrap}
+.chain-leads-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.chain-lead{background:var(--bg-card);border:1px solid var(--border-line);border-radius:var(--radius-md);padding:15px 16px;min-width:0;box-shadow:var(--shadow-sm)}
+.chain-lead-name{font-size:15px;line-height:1.4;overflow-wrap:anywhere;color:var(--ink-primary);margin-bottom:6px}
+.chain-lead-label{font-size:10.5px;color:var(--ink-muted);margin:4px 0 9px}
+.chain-lead-risk{display:inline-block;border-radius:99px;padding:4px 9px;font-size:11px;background:var(--gold-bg);color:var(--amber);border:1px solid var(--gold-border)}
+.chain-lead-risk.high{background:rgba(174,56,43,.10);color:#b34a39;border-color:rgba(174,56,43,.28)}
+.chain-lead-info{font-size:11.5px;line-height:1.6;color:var(--ink-secondary);margin-top:9px;overflow-wrap:anywhere}
+.chain-lead-link{display:inline-block;font-weight:600;font-size:12px;color:var(--gold);margin-top:10px;text-decoration:none}
+.chain-lead-link:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.chain-scanner-foot{font-size:11.5px;line-height:1.6;margin-top:14px;color:var(--ink-muted)}
+@media(max-width:1100px){.chain-leads-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.chain-leads-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -1509,6 +1527,18 @@ footer {
         </div>
 
         <div class="proj-grid" id="projectGrid"></div>
+        <div class="chain-discovery-panel" id="chainDiscoveryPanel" hidden>
+          <div class="chain-discovery-head">
+            <div>
+              <div class="sec-kicker">ONCHAIN RADAR · BSC MAINNET</div>
+              <h3 class="sec-title" style="font-size:21px">链上早期代币线索</h3>
+              <p class="sec-desc">监测 PancakeSwap V2 新交易池。命中 Agent 关键词不代表是 AI Agent 产品，风险检测也不构成安全保证。</p>
+            </div>
+            <span class="chain-scanner-status" id="chainScannerStatus">正在核对扫描状态</span>
+          </div>
+          <div class="chain-leads-grid" id="chainLeadsGrid"></div>
+          <p class="chain-scanner-foot">链上事件与风险信号来自独立读取服务，和人工整理的项目档案分开显示；数据延迟或风险 API 失效时，不会标注为安全。</p>
+        </div>
       </section>
 
       <!-- ================= 模块 4：纯血 .ai 钱包领取与打新指南 ================= -->
@@ -2170,6 +2200,45 @@ renderMintTrench();
 
 renderProjects();
 loadAtlasData();
+
+/* Optional Worker+D1 feed. It remains hidden until a real successful onchain scan exists. */
+async function loadChainCandidates(){
+ const section=$('#chainDiscoveryPanel'),list=$('#chainLeadsGrid'),stateLine=$('#chainScannerStatus');
+ if(!section||!list||!stateLine)return;
+ try{
+  const healthRes=await fetch('/api/chain-leads?kind=health',{cache:'no-store'});
+  if(!healthRes.ok)throw Error('not configured');
+  const health=await healthRes.json();
+  if(health.ok!==true||health.chainId!==56||health.lastScan?.ok!==1)throw Error('no completed scan');
+  const leadsRes=await fetch('/api/chain-leads?kind=leads&limit=12',{cache:'no-store'});
+  if(!leadsRes.ok)throw Error('leads not ready');
+  const data=await leadsRes.json();
+  if(data.ok!==true||data.chainId!==56||!Array.isArray(data.leads))throw Error('bad feed');
+  stateLine.textContent='真实扫链已运行 · '+safeText(String(data.leads.length))+' 条近期候选';
+  list.innerHTML=data.leads.length?data.leads.map(p=>{
+    const address=String(p.address||'').toLowerCase();
+    if(!/^0x[0-9a-f]{40}$/.test(address))return '';
+    const risk=String(p.riskStatus||'');
+    const flags=Array.isArray(p.risk?.flags)?p.risk.flags:[];
+    const statusText=risk==='risk-detected'?'发现高风险信号':risk==='caution'?'发现需注意的权限':'风险资料不足';
+    const high=risk==='risk-detected'?' high':'';
+    const label=flags.length?'检测标记：'+flags.slice(0,3).map(f=>safeText(f.code)).join('、'):'未发现可作出安全结论的充分检测数据';
+    const stamp=Date.parse(p.firstSeen||'');
+    const seen=Number.isFinite(stamp)?new Date(stamp).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Shanghai'}):'时间未知';
+    return '<article class="chain-lead"><h4 class="chain-lead-name">'+safeText(p.name||p.symbol||'未命名代币')+'</h4>'
+      +'<p class="chain-lead-label">BSC · Agent 关键词候选 · '+safeText(p.symbol||'')+'</p>'
+      +'<span class="chain-lead-risk'+high+'">'+statusText+'</span>'
+      +'<p class="chain-lead-info">'+label+'</p><p class="chain-lead-info">发现时间（北京） '+safeText(seen)+'</p>'
+      +'<a class="chain-lead-link" href="https://bscscan.com/token/'+address+'" rel="noopener noreferrer" target="_blank">查看链上合约 ↗</a></article>';
+  }).join(''):'<p class="chain-scanner-foot">扫描正在运行，目前尚无符合关键词条件的 BSC 新交易池。</p>';
+  section.hidden=false;
+ }catch(err){
+  // Never imply a running chain indexer before deployment and real D1/RPC scan success.
+  section.hidden=true;
+ }
+}
+loadChainCandidates();
+setInterval(()=>{if(!document.hidden)loadChainCandidates()},300000);
 </script>
 </body>
 </html>
