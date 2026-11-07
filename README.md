@@ -35,7 +35,7 @@
 - `.github/workflows/discover_x.yml`：X 线索独立自动化，按预算设置默认停用
 - `.github/workflows/discover.yml`：定时采集任务
 
-GitHub Actions 按工作流设定的时间运行，自动更新项目库、X 线索及 Mint 候选来源，并重新生成 `catalog.json` 和复核队列。部分来源失败时保留已有数据；GitHub 定时任务可能延迟，不承诺精确整点更新。Mint 候选自动收集并不等于已核实费用、合约或开放状态。
+GitHub Actions 按工作流设定的时间运行：X 工作流每天五次更新 X 帖子、官网简介和 Mint 来源；独立的每小时项目发现工作流负责将所有来源合并到 `catalog.json` 并重建复核队列。X 新项目需等到下一轮每小时目录整理后才进入首页展示。部分来源失败时保留已有数据；GitHub 定时任务可能延迟，不承诺精确整点更新。Mint 候选自动收集并不等于已核实费用、合约或开放状态。
 
 ## 本地预览
 
@@ -87,7 +87,7 @@ python -m http.server 8000
 - 如果相同网站出现不同代币合约，自动合并会被阻止并留作来源冲突记录；只在来源确实相同且无冲突时合并。
 - 无具体产品介绍的 X 帖子留在 `review_queue.json` 与原始数据，不冒充已有产品；已有官方/项目说明和逐项中文描述优先于模板。
 - `data/projects.json`、`data/external_projects.json`、`data/x_projects.json` 和 `data/opportunities.json` 保持原样作为可追溯输入，构建统一目录不额外产生 X API 费用。
-- 新的统一目录由现有 **每小时**和 **每天 5 次**的采集工作流在数据更新后重新生成。构建自测：`python scripts/build_catalog.py --self-test`；本地生成：`python scripts/build_catalog.py`。
+- **只有每小时**的项目发现工作流负责重新生成统一目录与复核队列，避免它与每天五次的 X 来源更新争写同一数据文件。两者都使用标准库，不新增 X API 查询。构建自测：`python scripts/build_catalog.py --self-test`；本地生成：`python scripts/build_catalog.py`。
 
 ## Mint / Claim 候选发现
 
