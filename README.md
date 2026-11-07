@@ -82,7 +82,7 @@ python -m http.server 8000
 - `data/opportunities.json` 保留人工整理的来源声明，分为免费和付费，均不代表已开放或安全。
 - 每次 X 工作流执行 `scripts/discover_mint.py`，只使用已有的 `data/x_projects.json`，不额外访问 X API。候选必须包含可溯源的 X 帖子和独立 HTTPS 网站，按网站去重。
 - 历史 X 记录缺乏原始费用证据，统一标记「待核验」。新采集帖子仅在出现明确免费/付费字样时，标记「来源声称免费」或「来源声称付费」，**绝不等同费用已确认**。
-- 前端「全部 / 免费 / 付费 / 待核验」筛选均来自来源记录，默认只显示 6 张卡片，可展开更多；不进行自动 Mint、钱包签名或收费操作。
+- Mint 前端仅展示有来源明确声称免费或付费的记录，保留「全部 / 免费 / 付费」筛选；费用未知的 X 候选仅留作内部数据排查，不对外展示，也不推断已验证或可安全参与。网站不进行自动 Mint、钱包签名或收费操作。
 - 对已经收录的普通 GitHub / DEX 项目，不能仅因含有 Agent、token 或 NFT 关键词，就猜测其存在 Mint 活动。真正的 Mint 合约状态、资格和费用需要额外验证，当前未接入链上 Mint 事件索引。
 
 官方参考：https://docs.x.com/x-api/posts/search/quickstart/recent-search 、https://docs.x.com/x-api/getting-started/pricing
