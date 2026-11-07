@@ -1607,6 +1607,30 @@ baw wallet agent-id</code>
 <script>
 function safeText(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 function safeUrl(u){try{var z=new URL(u,location.href);return ['http:','https:'].includes(z.protocol)?safeText(z.href):'#'}catch(e){return '#'}}
+// Mint verification results from the Worker (keyed by opportunity id).
+// Empty until the Worker is deployed and a mint contract is recorded:
+// a missing entry means "not verified", never "free" or "safe".
+let MINT_CHECKS={};
+function formatWeiBnb(wei){
+  try{
+    const w=BigInt(String(wei));
+    const whole=w/1000000000000000000n, frac=w%1000000000000000000n;
+    if(frac===0n)return whole.toString()+' BNB';
+    return whole.toString()+'.'+frac.toString().padStart(18,'0').replace(/0+$/,'').slice(0,4)+' BNB';
+  }catch(e){return null}
+}
+async function loadMintChecks(){
+  try{
+    const res=await fetch('/api/chain-leads?kind=mint-checks&limit=25',{cache:'no-store'});
+    if(!res.ok)return;
+    const data=await res.json();
+    if(data.ok!==true||data.chainId!==56||!Array.isArray(data.checks))return;
+    const next={};
+    data.checks.forEach(c=>{if(c&&c.mintId)next[c.mintId]=c});
+    MINT_CHECKS=next;
+    if(typeof renderMintTrench==='function')renderMintTrench();
+  }catch(e){/* Mint feed optional: cards keep showing "not verified". */}
+}
 // Prefer the single consolidated catalog; keep legacy source loading only as an outage fallback.
 async function loadAtlasData(){
   try{
@@ -1907,10 +1931,26 @@ function renderMintTrench(){
     const desc=safeText((zh?m.zh:m.en)||m.zh||m.en);
     const cost=safeText(m.price|| (zh?'费用未知':'Price unknown'));
     const url=safeUrl(m.source);
+    const check=MINT_CHECKS[m.id];
+    let verified='';
+    if(check){
+      const price=check.priceWei!=null?formatWeiBnb(check.priceWei):null;
+      const stamp=Date.parse(check.checkedAt||'');
+      const when=Number.isFinite(stamp)?new Date(stamp).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Shanghai'}):'时间未知';
+      const openText=check.mintOpen===true?(zh?'开放中':'Open'):check.mintOpen===false?(zh?'已关闭/暂停':'Closed/paused'):(zh?'开放状态未知':'Open state unknown');
+      const addr=/^0x[0-9a-fA-F]{40}$/.test(check.address||'')?check.address.toLowerCase():'';
+      const supply=(check.totalSupply!=null&&check.maxSupply!=null)?(' · '+check.totalSupply+'/'+check.maxSupply):'';
+      verified=check.error
+        ?'<p class="mint-cost mint-cost-unknown" title="'+safeText(check.error)+'">'+(zh?'本次链上核验未成功':'Mint check failed')+' · '+safeText(when)+'</p>'
+        :'<p class="mint-cost" title="'+(zh?'链上只读核验：价格与开放状态，不代表安全审计':'Onchain read-only check: price and open state, not a safety audit')+'">'
+          +(zh?'已核验':'Verified')+' · '+(price||(zh?'价格未知':'Price unknown'))+' · '+openText+supply+' · '+safeText(when)
+          +(addr?' · <a href="https://bscscan.com/address/'+addr+'" target="_blank" rel="noopener noreferrer">BscScan ↗</a>':'')+'</p>';
+    }
     return '<article class="mint-card mint-card-compact" role="listitem">'
       +'<div class="mint-top"><span class="mint-status upcoming">'+statusLabel+'</span><span class="mint-gate">'+typeLabel+'</span></div>'
       +'<h3>'+title+'</h3><p class="mint-desc" title="'+desc+'">'+desc+'</p>'
       +'<p class="mint-cost'+(unknown?' mint-cost-unknown':'')+'" title="'+cost+'">'+(zh?(unknown?'费用及开放状态：':'来源声称费用：'):(unknown?'Cost & availability: ':'Source-claimed cost: '))+cost+'</p>'
+      +verified
       +'<div class="mint-card-bottom"><a href="'+url+'" target="_blank" rel="noopener noreferrer">'+(zh?'查看原始来源 ↗':'Original source ↗')+'</a><span>'+(zh?'查看实际开放情况':'Check current availability')+'</span></div></article>';
   }).join(''):'<div class="mint-empty">'+(zh?'该类别暂无符合条件的来源记录。':'No sourced records in this category.')+'</div>';
   more.hidden=list.length<=6;
@@ -2238,7 +2278,9 @@ async function loadChainCandidates(){
  }
 }
 loadChainCandidates();
+loadMintChecks();
 setInterval(()=>{if(!document.hidden)loadChainCandidates()},300000);
+setInterval(()=>{if(!document.hidden)loadMintChecks()},300000);
 </script>
 </body>
 </html>

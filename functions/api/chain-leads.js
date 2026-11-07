@@ -1,4 +1,4 @@
-// Cloudflare Pages Function: GET /api/chain-leads?kind=health|leads
+// Cloudflare Pages Function: GET /api/chain-leads?kind=health|leads|mint-checks
 // Proxy fixed read-only endpoints to the optional separate Cloudflare Worker.
 // CHAIN_WORKER_URL is a Pages environment variable, never a client-supplied URL.
 export async function onRequestGet({ request, env }) {
@@ -16,10 +16,11 @@ export async function onRequestGet({ request, env }) {
         !(host.endsWith(".workers.dev") || host === "chain.agentatlas.vip") ||
         base.username || base.password) throw new Error("invalid-config");
     const url = new URL(request.url);
-    const kind = url.searchParams.get("kind") === "health" ? "health" : "leads";
+    const rawKind = url.searchParams.get("kind");
+    const kind = rawKind === "health" ? "health" : rawKind === "mint-checks" ? "mint-checks" : "leads";
     const limit = Math.min(30, Math.max(1, parseInt(url.searchParams.get("limit") || "12", 10) || 12));
     const target = new URL("/v1/" + kind, base);
-    if (kind === "leads") target.searchParams.set("limit", String(limit));
+    if (kind !== "health") target.searchParams.set("limit", String(limit));
     const res = await fetch(target.toString(), {
       headers: { "accept": "application/json" },
       signal: AbortSignal.timeout(9000)
