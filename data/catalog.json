@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T05:12:15.129485+00:00",
+  "updatedAt": "2026-11-07T05:17:21.047475+00:00",
   "projects": [
     {
       "id": "sidecoo-daily",
@@ -1013,8 +1013,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-06",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
       "tags": [
         "GitHub",
         "Candidate",
@@ -1514,8 +1514,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-05",
-      "lastActivityAt": "2026-11-05",
-      "date": "2026-11-05",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3600,7 +3600,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0xe56041cddbb46db01c67b7a62684f428a04db8c6"
+          "url": "https://dexscreener.com/bsc/0x0fc5a0f0167bc4003066ae60289c40b93f935b9a"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -4473,8 +4473,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4891,8 +4891,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6259,8 +6259,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8385,8 +8385,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
       "tags": [
         "GitHub",
         "Candidate",
