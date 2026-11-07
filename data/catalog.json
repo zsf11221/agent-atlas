@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T16:07:17.652192+00:00",
+  "updatedAt": "2026-11-07T16:07:47.114588+00:00",
   "projects": [
     {
       "id": "x-post-2118975713730552110",
@@ -709,6 +709,44 @@
         {
           "source": "dex",
           "url": "https://dexscreener.com/bsc/0x605eeaf01bd74133f982793f09fa557fe4c3b226"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0xc9baeba48051799a3239e4b3e102ab7a2e4e7777",
+      "name": "Agentic Inu",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic Inu」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0xec25090c33561d88a836baafc9e1a29048d1802b",
+      "website": "https://dexscreener.com/bsc/0xec25090c33561d88a836baafc9e1a29048d1802b",
+      "socialX": "",
+      "contractAddress": "0xc9baeba48051799a3239e4b3e102ab7a2e4e7777",
+      "firstSeen": "2026-11-07",
+      "lastActivityAt": "2026-10-27",
+      "date": "2026-10-27",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0xc9baeba48051799a3239e4b3e102ab7a2e4e7777"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0xec25090c33561d88a836baafc9e1a29048d1802b"
         }
       ],
       "evidenceLevel": "early-lead",
@@ -9153,12 +9191,12 @@
   ],
   "inputCounts": {
     "projects": 180,
-    "external": 28,
+    "external": 29,
     "x": 58,
     "mint": 25
   },
-  "candidateRecords": 255,
-  "mergedGroups": 237,
+  "candidateRecords": 256,
+  "mergedGroups": 238,
   "reviewCount": 35,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

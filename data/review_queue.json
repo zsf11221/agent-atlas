@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T16:07:17.652192+00:00",
+  "updatedAt": "2026-11-07T16:07:47.114588+00:00",
   "items": [
     {
       "id": "x-post-2118875145792270638",
@@ -219,6 +219,7 @@
         "dex-bsc-0x425e4968051bcae208cf282568af6aa5cdd67777",
         "dex-bsc-0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc",
         "dex-bsc-0xbdfcd595f1d8d2d9b8c7e9754e2636cf29fd7777",
+        "dex-bsc-0xc9baeba48051799a3239e4b3e102ab7a2e4e7777",
         "dex-bsc-0xf7ccc7d9674fb4e1233d8bea613712c910857777"
       ],
       "source": "https://dexscreener.com/bsc/0xfce81ee5f756f55cca91bdfb6a5aaa72860dac33"
