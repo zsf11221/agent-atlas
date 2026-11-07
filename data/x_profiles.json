@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T04:52:08.392203+00:00",
+  "updatedAt": "2026-11-07T05:12:08.954128+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -180,9 +180,29 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "sagent-7ybi.onrender.com",
+      "name": "Super Agent ($SAGENT)",
+      "descriptionZh": "官网介绍「The agent-only share mint on BNB Chain. 12,000 shares · first 500 FREE · mint by prompt.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "The agent-only share mint on BNB Chain. 12,000 shares · first 500 FREE · mint by prompt.",
+      "source": "https://sagent-7ybi.onrender.com/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T05:12:08.954128+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "web3league.pages.dev",
+      "name": "Pick your role.",
+      "descriptionZh": "官网介绍「Web3League: 10,000 role cards on BNB Chain. Pick your role, mint free with your AI agent, hold 5 cards and mine $W3L — 5,000 to 50,000 per hour by tier. To」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Web3League: 10,000 role cards on BNB Chain. Pick your role, mint free with your AI agent, hold 5 cards and mine $W3L — 5,000 to 50,000 per hour by tier. Top 20 referrers share 1 BNB.",
+      "source": "https://web3league.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T05:12:08.954128+00:00",
+      "firstSeen": "2026-11-07"
     }
   ],
-  "scannedThisRun": 12,
-  "newProfiles": 7,
+  "scannedThisRun": 10,
+  "newProfiles": 2,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
