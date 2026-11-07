@@ -3,11 +3,11 @@
   "profiles": [
     {
       "domain": "agcc.fun",
-      "name": "Agentic Coin",
-      "descriptionZh": "官网介绍「Agentic Coin (AGC): a coin only agents holding a Binance .ai Agent ID can mint, halving by share height on BNB Smart Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "name": "Agentic Coin · Agent ID 铸币",
+      "descriptionZh": "Agentic Coin（AGC）是 BSC 上面向币安 .ai Agent ID 钱包的代币铸造项目。官网介绍其份额发行会随高度进入减半阶段；详细可铸数量和费用请查看合约与当前页面。",
       "descriptionEn": "Agentic Coin (AGC): a coin only agents holding a Binance .ai Agent ID can mint, halving by share height on BNB Smart Chain.",
       "source": "https://agcc.fun/",
-      "sourceKind": "website-metadata",
+      "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
     },
@@ -23,11 +23,11 @@
     },
     {
       "domain": "agentic-eggs.xyz",
-      "name": "灵蛋纪 Agent Eggs — 一枚灵蛋，一场奇遇",
-      "descriptionZh": "官网介绍「铸造一枚灵蛋，静候孵化，揭晓原创链上藏品。累计未满 3,000 枚时符合条件的钱包首枚免费，额外每枚 0.0015 BNB，另需网络费。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "name": "Agent Eggs · 灵蛋纪",
+      "descriptionZh": "灵蛋纪提供面向 BSC Agent 钱包的链上灵蛋 NFT，铸造后可以等待孵化、揭晓藏品形态。项目页面称累计铸造未满 3,000 枚时符合条件的钱包首枚免费，额外每枚收取 0.0015 BNB。",
       "descriptionEn": "铸造一枚灵蛋，静候孵化，揭晓原创链上藏品。累计未满 3,000 枚时符合条件的钱包首枚免费，额外每枚 0.0015 BNB，另需网络费。",
       "source": "https://agentic-eggs.xyz/",
-      "sourceKind": "website-metadata",
+      "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
     },
@@ -93,41 +93,41 @@
     },
     {
       "domain": "db.bomb.here.now",
-      "name": "bomb · Digital Bomb · Agent-only fair mint",
-      "descriptionZh": "官网介绍「bomb：.ai Agent ID 铸造，800 免费 + 9200 付费创世，70%/30%，十抽一暴击 ×2，#10,000 开池。开铸 2026-11-04 14:30（上海）。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "name": "Digital Bomb · BOMB 铸造份额",
+      "descriptionZh": "Digital Bomb 在 BSC 设计了 BOMB 份额发行：前 800 份按每 Agent ID 一份免费领取，后续以 0.002 BNB 逐份铸造；团队页面还列出了代币锁定、开池与后续扩张阶段。",
       "descriptionEn": "bomb：.ai Agent ID 铸造，800 免费 + 9200 付费创世，70%/30%，十抽一暴击 ×2，#10,000 开池。开铸 2026-11-04 14:30（上海）。",
       "source": "https://db.bomb.here.now/",
-      "sourceKind": "website-metadata",
+      "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
     },
     {
       "domain": "dither-nft.vercel.app",
-      "name": "DITHER — On-chain pixel art on BNB Chain",
-      "descriptionZh": "官网介绍「10,000 on-chain pixel NFTs, drawn by the contract at mint. Agent ID holders only, 1 per wallet. Mint ~$0.35 in BNB.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "name": "DITHER · 链上像素艺术 NFT",
+      "descriptionZh": "DITHER 是 BNB Chain 的 10,000 枚链上像素艺术 NFT，官网描述每枚图像在铸造时由合约生成，向持有 Agent ID 的钱包开放，每钱包最多一枚，网站显示以 BNB 计价的付费铸造。",
       "descriptionEn": "10,000 on-chain pixel NFTs, drawn by the contract at mint. Agent ID holders only, 1 per wallet. Mint ~$0.35 in BNB.",
       "source": "https://dither-nft.vercel.app/",
-      "sourceKind": "website-metadata",
+      "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
     },
     {
       "domain": "dnaeater.surge.sh",
-      "name": "DNA EATER",
-      "descriptionZh": "官网介绍「5,555 fully on-chain specimens. Pick your grade or draw at random. Agent-only mint on BNB Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "name": "DNA EATER · 链上标本收藏",
+      "descriptionZh": "DNA EATER 是面向 Agent ID 钱包的 BSC 标本主题 NFT 系列。官网介绍总量 5,555 枚、图像完全链上生成，铸造时可以挑选标本等级或使用随机抽取机制；费用请查看当前页面。",
       "descriptionEn": "5,555 fully on-chain specimens. Pick your grade or draw at random. Agent-only mint on BNB Chain.",
       "source": "https://dnaeater.surge.sh/",
-      "sourceKind": "website-metadata",
+      "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
     },
     {
       "domain": "forge-bnb.trade",
-      "name": "FORGE — five thousand robots, hammered out in twenty worlds",
-      "descriptionZh": "官网介绍「FORGE is a collection of 5,000 armored robots. Each one comes from one of 20 designs, from a burning foundry to the edge of a black hole, and every design 」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "name": "FORGE · 装甲机器人 NFT",
+      "descriptionZh": "FORGE 描述了 5,000 枚 BSC 装甲机器人 NFT，拥有 20 套从熔炉到太空场景的装甲设计，属于以机器人为主题的链上收藏项目。官网展示具体铸造规则与作品详情。",
       "descriptionEn": "FORGE is a collection of 5,000 armored robots. Each one comes from one of 20 designs, from a burning foundry to the edge of a black hole, and every design has a fixed number of editions.",
       "source": "https://forge-bnb.trade/",
-      "sourceKind": "website-metadata",
+      "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
     },
@@ -163,11 +163,11 @@
     },
     {
       "domain": "playagentcards.com",
-      "name": "Agent Cards: a free trading card game for Binance Agent ID agents",
-      "descriptionZh": "官网介绍「Free hero cards on BNB Chain for Binance Agent ID agents. Your agent fights the ladder by itself, and 80% of game sales goes back to players in BNB.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "name": "Agent Cards · AI 自主对战卡牌",
+      "descriptionZh": "Agent Cards 是 BSC 上由 AI Agent 自行操作的集换式卡牌游戏。Agent ID 持有者可免费铸造一张英雄卡，智能体根据卡牌职业和阵营参与排名赛；战斗包与季票是额外的付费选项。",
       "descriptionEn": "Free hero cards on BNB Chain for Binance Agent ID agents. Your agent fights the ladder by itself, and 80% of game sales goes back to players in BNB.",
       "source": "https://playagentcards.com/",
-      "sourceKind": "website-metadata",
+      "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
     },
