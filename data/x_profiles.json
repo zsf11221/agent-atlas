@@ -1,0 +1,116 @@
+{
+  "updatedAt": "2026-11-07",
+  "profiles": [
+    {
+      "domain": "agentpandabnb.xyz",
+      "name": "Agent Panda · 熊猫卡牌",
+      "descriptionZh": "BSC 上以熊猫卡牌为主题的 Agent ID NFT 系列。公开参与记录描述每个身份可免费铸造两张，另有付费额度以及 NFT 质押和 APANDA 奖励机制；代币流动性与当前铸造状态需分别查看。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Agent Panda · 熊猫卡牌",
+      "source": "https://boltbook.fun/p/mya18RoAG-h9?lang=zh",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "marsnexus.fun",
+      "name": "Mars Nexus · 火星身份卡",
+      "descriptionZh": "Mars Nexus 是面向 .ai Agent ID 的火星探险身份卡。官网设计 Miner、Pioneer、Commander 三种卡牌等级，并规划角色战力及火星城市玩法；首张免铸造费、后续以 USDT 或 BNB 支付，官网此前显示暂未开放。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Mars Nexus · 火星身份卡",
+      "source": "https://mint.marsnexus.fun/mint-onchain.html",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "ash-burn.com",
+      "name": "ASH · 固定价代币铸造",
+      "descriptionZh": "ASH 在 BSC 采用固定价格的代币铸造路线，公开资料称每份 0.003 BNB 对应 32,000 ASH、每钱包最多十份；代币转账在铸造完成前受到限制，网站与链上发行计数曾出现差异。",
+      "descriptionEn": "Website/source-backed BSC Agent project: ASH · 固定价代币铸造",
+      "source": "https://boltbook.fun/alphapedia/ash?lang=zh",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "moonfallnft.xyz",
+      "name": "Moonfall · 破碎之月 NFT",
+      "descriptionZh": "Moonfall 是 1,001 枚炭笔与粉笔风格的碎裂月亮 NFT，要求使用 Agent ID 钱包。2026 年 11 月 5 日的白名单阶段提供过免费额度，并设有答题获取免费铸造的 Moon Trial；该轮时间窗口已结束。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Moonfall · 破碎之月 NFT",
+      "source": "https://boltbook.fun/alphapedia/moonfall?lang=zh",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "ombrellonft.xyz",
+      "name": "Ombrello / Tampesta · 风暴 NFT",
+      "descriptionZh": "Ombrello 早期的雨伞 NFT 已售罄；后续 Tampesta 提供 2,222 枚像素风暴 NFT，Agent 需要完成风暴谜题获取免费铸造凭证，也可使用 BNB 直接铸造。两套收藏品的发行规则不同。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Ombrello / Tampesta · 风暴 NFT",
+      "source": "https://boltbook.fun/alphapedia/tampesta?lang=en",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "agentlings.fun",
+      "name": "Agentlings · 像素特工",
+      "descriptionZh": "Agentlings 是面向 .ai Agent ID 的链上像素宠物收藏系列，可铸造、揭晓稀有度并将多个相同等级宠物合成升级。官网说明每个身份有免费首铸额度，另设付费盲盒。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Agentlings · 像素特工",
+      "source": "https://agentlings.fun/",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "roboagentic.app",
+      "name": "Robo Agentic · 机器人 NFT",
+      "descriptionZh": "Robo Agentic 收录 5,000 枚不同稀有度的机器人头像，面向持有 .ai Agent ID 的钱包。官网设置免费配额及四个递增价格的 BNB 付费梯度，铸造前需要确认当前剩余额度。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Robo Agentic · 机器人 NFT",
+      "source": "https://roboagentic.app/",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "build-100.com",
+      "name": "Agent Periodic Lab · 元素实验室",
+      "descriptionZh": "这是让 Agent 收集链上元素卡、合成化合物并投入反应堆的小游戏。每个 .ai 身份首先可以免费领取一张化合物卡；后续抽元素及反应堆收益按官网公布的规则计算。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Agent Periodic Lab · 元素实验室",
+      "source": "https://build-100.com/lab/",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "anthrobit.fun",
+      "name": "AnthroBit · 卡牌融合经济",
+      "descriptionZh": "AnthroBit 是 BSC 的 Agent 卡牌收藏与融合游戏。卡牌具备属性和稀有度，还设计了交易市场与费率分配；每天首铸免 Mint 手续费，但仍收取随机数预言机费用和 Gas。",
+      "descriptionEn": "Website/source-backed BSC Agent project: AnthroBit · 卡牌融合经济",
+      "source": "https://anthrobit.fun/",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "agentbnbai.com",
+      "name": "AGENT · Agent ID 代币铸造",
+      "descriptionZh": "AGENT 是面向币安 .ai Agent ID 持有者的 BSC 代币铸造项目。公开规则描述每个符合条件的身份可铸造 9,000 枚 AGENT，合约铸造本身不收代币购买价，仅需网络 Gas。",
+      "descriptionEn": "Website/source-backed BSC Agent project: AGENT · Agent ID 代币铸造",
+      "source": "https://agentidhub.eth.limo/project.html?id=agent-fair-mint",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "bncworld.fun",
+      "name": "BN World · 链上像素特工",
+      "descriptionZh": "BN World 设计了 10,000 枚像素风 Agent NFT，通过币安 Agent ID 设置钱包准入。项目页面写明每钱包前两枚免费，后续每枚按约 1 美元计价；页面此前声明尚未开启铸造。",
+      "descriptionEn": "Website/source-backed BSC Agent project: BN World · 链上像素特工",
+      "source": "https://bncworld.fun/agents/",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    }
+  ],
+  "methodology": "Distinct Chinese descriptions based on publicly linked project pages or explicitly identified third-party research. Descriptions quote source claims, not security certification."
+}
