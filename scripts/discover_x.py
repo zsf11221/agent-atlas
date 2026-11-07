@@ -93,12 +93,12 @@ def parse_record(post, seen_at):
         hint = "产品发布或演示"
     # Preserve only classification signals, not the original post text.
     # "Free"/"paid" is an unverified X source claim, never a verified cost.
-    mint_signal = ("mint" if re.search(r"\\bmint(?:ing)?\\b|铸造", content, re.I)
-                   else "claim" if re.search(r"\\b(?:claim|whitelist)\\b|领取|白名单", content, re.I)
+    mint_signal = ("mint" if re.search(r"\bmint(?:ing)?\b|铸造", content, re.I)
+                   else "claim" if re.search(r"\b(?:claim|whitelist)\b|领取|白名单", content, re.I)
                    else "none")
-    free_claim = bool(re.search(r"\\bfree\\s+(?:(?:NFT|token)\\s+)?mint\\b|\\bmint(?:ing)?\\s+(?:is\\s+)?free\\b|免费(?:铸造|mint)|免费\\s*mint", content, re.I))
-    paid_claim = bool(re.search(r"\\bpaid\\s+mint\\b|\\bmint\\s+(?:price|fee|cost)\\s*[:=]?\\s*\\d+(?:\\.\\d+)?\\s*BNB\\b|付费(?:铸造|mint)", content, re.I))
-    negated_free = bool(re.search(r"\\bnot\\s+free\\b|\\bno\\s+free\\s+mint\\b|不免费", content, re.I))
+    free_claim = bool(re.search(r"\bfree\s+(?:(?:NFT|token)\s+)?mint\b|\bmint(?:ing)?\s+(?:is\s+)?free\b|免费(?:铸造|mint)|免费\s*mint", content, re.I))
+    paid_claim = bool(re.search(r"\bpaid\s+mint\b|\bmint\s+(?:price|fee|cost)\s*[:=]?\s*\d+(?:\.\d+)?\s*BNB\b|付费(?:铸造|mint)", content, re.I))
+    negated_free = bool(re.search(r"\bnot\s+free\b|\bno\s+free\s+mint\b|不免费", content, re.I))
     claimed_cost = ("free" if mint_signal == "mint" and free_claim and not paid_claim and not negated_free
                     else "paid" if mint_signal == "mint" and paid_claim and not free_claim
                     else "unknown")
