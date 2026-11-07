@@ -339,8 +339,8 @@ def self_test():
     base = {"chain": "BNB Chain", "category": "ecosystem", "descriptionZh": "这是一份针对 Agent 卡牌经济的产品介绍，涵盖自动战斗、卡牌等级和参与机制。"}
     inputs = {"projects": {"projects": [
         dict(base, id="p1", name="Panda", website="https://panda.example/", source="https://panda.example/"),
-        dict(base, id="p2", name="Other Token", website="https://panda.example/another", source="https://panda.example/another", contractAddress="0x" + "1"*40),
-        dict(base, id="p3", name="Other Token", website="https://panda.example/y", source="https://panda.example/y", contractAddress="0x" + "2"*40),
+        dict(base, id="p2", name="Other Token", website="https://token.example/another", source="https://token.example/another", contractAddress="0x" + "1"*40),
+        dict(base, id="p3", name="Other Token", website="https://token.example/y", source="https://token.example/y", contractAddress="0x" + "2"*40),
         dict(base, id="p4", name="Wallet One", website="https://web3.binance.com/en/agentic-hub", source="https://web3.binance.com/en/agentic-hub"),
         dict(base, id="p5", name="Wallet Two", website="https://web3.binance.com/en/agentic-hub", source="https://web3.binance.com/en/agentic-hub"),
         dict(base, id="p6", name="Wrong Chain", chain="opBNB", website="https://bad.example", source="https://bad.example"),
