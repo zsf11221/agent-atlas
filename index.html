@@ -1583,7 +1583,7 @@ if(!pr.ok||!or.ok)throw Error('HTTP '+pr.status+'/'+or.status);
 const pj=await pr.json(),op=await or.json();
 let zhMap={};if(zhr&&zhr.ok){try{zhMap=(await zhr.json()).translations||{}}catch(e){zhMap={}}}
 PROJECTS=(pj.projects||[]).filter(p=>/BSC|BNB/i.test(p.chain||'')&&!/opBNB/i.test(p.chain||'')).map(p=>({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:p.descriptionEn||'',cat:p.category||'other',chain:p.chain,source:p.source||p.website,website:p.website||'',socialX:p.socialX||'',ca:p.contractAddress||'未提供',featured:p.type==='ecosystem',type:p.type,gates:['all'],fav:0,date:/^\d{4}-\d{2}-\d{2}/.test(p.lastActivityAt||p.date||'')?(p.lastActivityAt||p.date).slice(0,10):'',firstSeen:p.firstSeen||'',origin:p.discoverySource==='github-search'||p.type==='candidate'?'github':/^https:\/\/www\.bnbchain\.org\//.test(p.source||'')?'official':'curated',tags:p.tags||[],evidence:p.evidence||'',walletSupport:'unverified'}));
-MINT_ITEMS=(op.opportunities||[]).filter(p=>/BSC|BNB/i.test(p.chain||'')&&['free','paid'].includes(p.mintType)).map(p=>({id:p.id,name:p.name,zh:p.descriptionZh||'',en:p.descriptionEn||'',price:p.announcedCost||'费用未确认',source:p.source,mintType:p.mintType,gate:'资格待核验',ca:'未核验',status:p.currentAvailability||'unknown'}));
+MINT_ITEMS=(op.opportunities||[]).filter(p=>/BSC|BNB/i.test(p.chain||'')&&!/opBNB/i.test(p.chain||'')&&['free','paid'].includes(p.mintType)).map(p=>({id:p.id,name:p.name,zh:p.descriptionZh||'',en:p.descriptionEn||'',price:p.announcedCost||'费用以来源为准',source:p.source,mintType:p.mintType,gate:'来源规则',ca:'—',status:p.currentAvailability||'unknown',sourceKind:p.researchSource?'来源资料':'项目页面',researchSource:p.researchSource||'',firstSeen:p.discoveredAt||'',kind:p.kind||''}));
 try {
 const er=await fetch('data/external_projects.json',{cache:'no-store'});
 if(er.ok) {
@@ -1599,30 +1599,67 @@ PROJECTS.push({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:
 }
 }
 } catch(ex) { /* External source outage must not break the existing directory. */ }
-// Prefer reviewed, source-grounded Chinese summaries. A newly discovered
-// project without a translation gets an honest Chinese placeholder rather than English.
-// X recent search is a separately sourced lead stream; never replace core data on API failure.
+// Add source-backed Mint projects to the main directory. A Mint event is a project
+// record only when it has its own meaningful description and an external source.
+const domainOf=url=>{try{const u=new URL(url);return u.protocol==='https:'?u.hostname.toLowerCase().replace(/^www\\./,''):''}catch(e){return ''}};
+const normName=s=>String(s||'').toLowerCase().replace(/[^a-z0-9\\u4e00-\\u9fa5]+/g,'');
+const seenIds=new Set(PROJECTS.map(p=>p.id));
+const seenNames=new Set(PROJECTS.map(p=>normName(p.name)).filter(Boolean));
+const seenSites=new Set(PROJECTS.map(p=>domainOf(p.website)).filter(Boolean));
+for(const p of (op.opportunities||[])){
+ if(!['free','paid'].includes(p.mintType)||!/BSC|BNB/i.test(p.chain||'')||/opBNB/i.test(p.chain||''))continue;
+ if(!p.descriptionZh||!p.source)continue;
+ const id='mint-'+String(p.id||'');
+ const nameKey=normName(p.name),site=domainOf(p.source);
+ if(seenIds.has(id)||seenNames.has(nameKey)||(site&&!/agentidhub\\.eth\\.limo|boltbook\\.fun/.test(site)&&seenSites.has(site)))continue;
+ seenIds.add(id);seenNames.add(nameKey);
+ if(site&&!/agentidhub\\.eth\\.limo|boltbook\\.fun/.test(site))seenSites.add(site);
+ const cat=/game|lab/i.test(p.kind||'')?'gaming':/token/i.test(p.kind||'')?'token':'ecosystem';
+ PROJECTS.push({id,name:p.name,zh:p.descriptionZh,en:p.descriptionEn||'',cat,chain:'BNB Chain',source:p.source,website:p.source,socialX:'',ca:'—',featured:false,type:'ecosystem',origin:'curated',origins:['mint'],date:p.discoveredAt||'',firstSeen:p.discoveredAt||'',tags:[p.mintType==='free'?'免费首铸':'付费铸造','公开来源'],evidence:p.researchSource||p.source,walletSupport:'source-described'});
+}
+// Read structured, source-derived X website profiles. One project per website;
+// bare X posts without a factual product introduction stay in the source ledger.
 try{
- const xr=await fetch('data/x_projects.json',{cache:'no-store'});
+ const [xr,hr]=await Promise.all([
+   fetch('data/x_projects.json',{cache:'no-store'}),
+   fetch('data/x_profiles.json',{cache:'no-store'}).catch(()=>null)
+ ]);
  if(xr.ok){
   const xdata=await xr.json();
-  const known=new Set(PROJECTS.map(p=>p.id));
+  let profiles={};
+  if(hr&&hr.ok){try{for(const p of (await hr.json()).profiles||[]){if(p.domain&&p.descriptionZh)profiles[p.domain]=p}}catch(e){}}
+  const uniqueX=new Set();
   for(const xp of (xdata.projects||[])){
-   if(!/^x-post-[0-9]+$/.test(xp.id||'')||known.has(xp.id))continue;
-   if(!/BNB Chain|BSC/i.test(xp.chain||''))continue;
-   known.add(xp.id);
-   PROJECTS.push({id:xp.id,name:xp.name||'X 早期项目线索',zh:xp.descriptionZh||'X 上发现 BSC Agent 相关线索，项目仍需独立核验。',en:xp.descriptionEn||'Unverified BSC Agent lead from X.',cat:'early',
-    chain:'BNB Chain（来源声称）',source:xp.source||'',website:xp.website||'',socialX:xp.source||'',ca:'未提供',featured:false,type:'candidate',origin:'x',firstSeen:xp.firstSeen||'',date:xp.date||'',
-    tags:['X','待核验'],evidence:xp.evidence||'',walletSupport:'unverified'});
+   if(!/^x-post-[0-9]+$/.test(xp.id||'')||!/BNB Chain|BSC/i.test(xp.chain||'')||/opBNB/i.test(xp.chain||''))continue;
+   const site=domainOf(xp.website);
+   if(!site||uniqueX.has(site)||!profiles[site])continue;
+   uniqueX.add(site);
+   const existing=PROJECTS.find(p=>domainOf(p.website)===site);
+   if(existing){
+    existing.origins=[...new Set([...(existing.origins||[]),'x'])];
+    existing.socialX=existing.socialX||xp.source;
+    continue;
+   }
+   const profile=profiles[site];
+   PROJECTS.push({id:xp.id,name:profile.name||xp.name||site,
+     zh:profile.descriptionZh,en:profile.descriptionEn||'Public website description with original X source.',
+     cat:'early',chain:'BNB Chain（X 来源声称）',source:xp.source||'',website:xp.website,
+     socialX:xp.source||'',ca:'—',featured:false,type:'candidate',origin:'x',origins:['x'],
+     firstSeen:xp.firstSeen||'',date:xp.date||'',tags:['X 来源','项目介绍'],
+     evidence:profile.source||xp.source||'',walletSupport:'source-described'});
   }
  }
-}catch(e){/* Missing X access must never break existing directory. */}
+}catch(e){/* Missing external data must not stop the core directory. */}
+// Keep original repository descriptions distinct. Untranslated open-source
+// details are quoted faithfully rather than replaced with identical filler.
 for(const p of PROJECTS){
  if(typeof zhMap[p.id]==='string'&&zhMap[p.id].trim())p.zh=zhMap[p.id].trim();
- else if(p.origin==='github'&&(!p.zh||/^GitHub 公开候选项目[：:]/.test(p.zh)))
-   p.zh='来自 GitHub 的 BSC Agent 相关候选项目，公开介绍尚待整理为中文；具体功能与进展请查看原始来源。';
+ else if(p.origin==='github'&&/^GitHub 公开候选项目[：:]/.test(p.zh||'')){
+   const original=String(p.zh).replace(/^GitHub 公开候选项目[：:]\\s*/,'').trim();
+   p.zh=original.length>20?'仓库「'+p.name+'」的公开简介：'+original.slice(0,190):'GitHub 上发现的 '+p.name+' 开源项目，请从原始仓库了解具体功能。';
+ }
 }
-const xLeadCount=PROJECTS.filter(p=>p.origin==='x').length;
+const xLeadCount=PROJECTS.filter(p=>p.origin==='x'||(p.origins||[]).includes('x')).length;
 const xTab=$('#gateChipGroup [data-gate="x"]');
 if(xTab)xTab.textContent=xLeadCount?'X 线索 ('+xLeadCount+')':'X 线索 · 待启用';
 const cats=[...new Set(PROJECTS.map(p=>p.cat))].sort();
@@ -1732,8 +1769,8 @@ function renderMintTrench(){
   el.innerHTML=shown.length?shown.map(m=>{
     const unknown=m.mintType==='unknown';
     const fromX=m.origin==='x';
-    const typeLabel=zh?(unknown?'Mint / 领取 · 费用待核验':m.mintType==='free'?'免费 · 来源声称':'付费 · 来源声称'):(unknown?'Mint / claim · cost unknown':m.mintType==='free'?'Free · claimed':'Paid · claimed');
-    const statusLabel=zh?(fromX?'X 帖子线索 · 未核验':'来源声称 · 未核验'):(fromX?'X post · unverified':'Source claim · unverified');
+    const typeLabel=zh?(m.mintType==='free'?'免费 · 来源规则':'付费 · 来源规则'):(m.mintType==='free'?'Free · source terms':'Paid · source terms');
+    const statusLabel=zh?(fromX?'X 原帖来源':'独立项目来源'):(fromX?'X post source':'Project source');
     const title=safeText(m.name);
     const desc=safeText((zh?m.zh:m.en)||m.zh||m.en);
     const cost=safeText(m.price|| (zh?'费用未知':'Price unknown'));
@@ -1742,7 +1779,7 @@ function renderMintTrench(){
       +'<div class="mint-top"><span class="mint-status upcoming">'+statusLabel+'</span><span class="mint-gate">'+typeLabel+'</span></div>'
       +'<h3>'+title+'</h3><p class="mint-desc" title="'+desc+'">'+desc+'</p>'
       +'<p class="mint-cost'+(unknown?' mint-cost-unknown':'')+'" title="'+cost+'">'+(zh?(unknown?'费用及开放状态：':'来源声称费用：'):(unknown?'Cost & availability: ':'Source-claimed cost: '))+cost+'</p>'
-      +'<div class="mint-card-bottom"><a href="'+url+'" target="_blank" rel="noopener noreferrer">'+(zh?'查看原始来源 ↗':'Original source ↗')+'</a><span>'+(zh?'参与前独立核验':'Verify before participating')+'</span></div></article>';
+      +'<div class="mint-card-bottom"><a href="'+url+'" target="_blank" rel="noopener noreferrer">'+(zh?'查看原始来源 ↗':'Original source ↗')+'</a><span>'+(zh?'查看实际开放情况':'Check current availability')+'</span></div></article>';
   }).join(''):'<div class="mint-empty">'+(zh?'该类别暂无符合条件的来源记录。':'No sourced records in this category.')+'</div>';
   more.hidden=list.length<=6;
   more.textContent=state.mintExpanded?(zh?'收起线索':'Show fewer'):(zh?'查看更多线索 ('+(list.length-6)+')':'Show '+(list.length-6)+' more');
@@ -1758,9 +1795,9 @@ function updateFavBadge() {
 var CATEGORY_ZH={early:'早期发现',assistant:'AI 助手',commerce:'商业应用',defai:'DeFi Agent',developer:'开发者工具',ecosystem:'生态项目',identity:'身份与认证',infrastructure:'基础设施',platform:'Agent 平台',token:'Agent 主题代币',wallet:'钱包',tools:'工具',community:'社区',defi:'DeFi',marketplace:'Agent 市场',security:'安全工具',gaming:'游戏',other:'其他'};
 function categoryLabel(cat){return state.lang==='zh'?(CATEGORY_ZH[cat]||cat):cat}
 function sourceLabel(p){
-const zh={x:'X 帖子线索 · 待核验',dex:'DEX 主题代币线索',official:'BNB 官方生态提及',github:'GitHub 候选 · 待核验',curated:'生态项目资料'};
-const en={x:'X post lead · unverified',dex:'DEX token lead',official:'BNB ecosystem listing',github:'GitHub lead · unverified',curated:'Ecosystem reference'};
-return (state.lang==='zh'?zh:en)[p.origin]||(state.lang==='zh'?'来源待核验':'Source unverified');
+const zh={x:'X 项目线索',dex:'DEX 代币线索',official:'BNB 生态来源',github:'GitHub 开源项目',curated:'项目资料'};
+const en={x:'X-discovered project',dex:'DEX token lead',official:'BNB ecosystem listing',github:'GitHub repository',curated:'Project source'};
+return (state.lang==='zh'?zh:en)[p.origin]||(state.lang==='zh'?'项目来源':'Project reference');
 }
 function atlasRecent(day,num){
 if(!/^\d{4}-\d{2}-\d{2}$/.test(String(day||'')))return false;
@@ -1769,7 +1806,7 @@ return age>=-86400000&&age<=(num+1)*86400000;
 }
 function renderProjects(){
 const q=(state.searchQuery||'').trim().toLowerCase();
-let list=PROJECTS.filter(p=>{const cat=state.catFilter==='all'||(state.catFilter==='featured'?p.featured:p.cat===state.catFilter);const gate=state.gateFilter==='all'||p.origin===state.gateFilter;return cat&&gate&&(state.periodFilter==='all'||atlasRecent(p.firstSeen,Number(state.periodFilter)))&&(!q||[p.name,p.zh,p.en,p.ca,p.cat,...p.tags].join(' ').toLowerCase().includes(q))});
+let list=PROJECTS.filter(p=>{const cat=state.catFilter==='all'||(state.catFilter==='featured'?p.featured:p.cat===state.catFilter);const gate=state.gateFilter==='all'||p.origin===state.gateFilter||(p.origins||[]).includes(state.gateFilter);return cat&&gate&&(state.periodFilter==='all'||atlasRecent(p.firstSeen,Number(state.periodFilter)))&&(!q||[p.name,p.zh,p.en,p.ca,p.cat,...p.tags].join(' ').toLowerCase().includes(q))});
 list.sort((a,b)=>state.sortBy==='name'?a.name.localeCompare(b.name):state.sortBy==='recent'?String(b.date).localeCompare(String(a.date)):String(b.firstSeen).localeCompare(String(a.firstSeen)));
 $('#resultCounter').textContent=(state.lang==='zh'?'显示 '+list.length+' 条 · 共 '+PROJECTS.length+' 条 BSC 线索':'Showing '+list.length+' of '+PROJECTS.length+' BSC leads');
 const grid=$('#projectGrid');grid.classList.toggle('list-mode',state.viewMode==='list');
