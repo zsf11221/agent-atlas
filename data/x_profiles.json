@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T05:12:08.954128+00:00",
+  "updatedAt": "2026-11-07T05:18:59.187602+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -202,7 +202,7 @@
       "firstSeen": "2026-11-07"
     }
   ],
-  "scannedThisRun": 10,
-  "newProfiles": 2,
+  "scannedThisRun": 8,
+  "newProfiles": 0,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
