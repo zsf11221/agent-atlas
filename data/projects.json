@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T20:14:42.826899+00:00",
+  "updatedAt": "2026-11-07T23:40:37.733783+00:00",
   "methodology": "Curated ecosystem sources plus public GitHub discovery. GitHub candidates are NOT independently verified; no automatic contract, mint or social audit.",
   "projects": [
     {
@@ -812,6 +812,33 @@
       "date": "2026-03-27",
       "firstSeen": "2026-11-01",
       "lastCheckedAt": "2026-11-03T13:58:54.616409+00:00",
+      "lastActivityAt": "2026-11-07",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
+    },
+    {
+      "id": "github-1449753698",
+      "name": "jolt-claim-season",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/Goatleaf12/jolt-claim-season",
+      "website": "https://github.com/Goatleaf12/jolt-claim-season",
+      "descriptionZh": "GitHub 公开候选项目：JOLT — a 3-day Agent-ID-gated claim season on BNB Chain: solve the route puzzle, earn a signed voucher, claim on-chain; 70% of claim fees lock into the listing pool.",
+      "descriptionEn": "Public GitHub discovery candidate: JOLT — a 3-day Agent-ID-gated claim season on BNB Chain: solve the route puzzle, earn a signed voucher, claim on-chain; 70% of claim fees lock into the listing pool.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "2026-11-07",
+      "firstSeen": "2026-11-07",
+      "lastCheckedAt": "2026-11-07T23:40:37.733783+00:00",
       "lastActivityAt": "2026-11-07",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",

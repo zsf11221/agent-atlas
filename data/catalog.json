@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T20:14:48.753152+00:00",
+  "updatedAt": "2026-11-07T23:40:44.015381+00:00",
   "projects": [
     {
       "id": "x-post-2119114802165600498",
@@ -376,6 +376,44 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1449753698",
+      "name": "jolt-claim-season",
+      "descriptionZh": "仓库「jolt-claim-season」公开介绍：JOLT — a 3-day Agent-ID-gated claim season on BNB Chain: solve the route puzzle, earn a signed voucher, claim on-chain; 70% of claim fees lock into the listing pool.",
+      "descriptionEn": "Public GitHub discovery candidate: JOLT — a 3-day Agent-ID-gated claim season on BNB Chain: solve the route puzzle, earn a signed voucher, claim on-chain; 70% of claim fees lock into the listing pool.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Goatleaf12/jolt-claim-season",
+      "website": "https://github.com/Goatleaf12/jolt-claim-season",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-07",
+      "lastActivityAt": "2026-11-07",
+      "date": "2026-11-07",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1449753698"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Goatleaf12/jolt-claim-season"
+        }
+      ],
+      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -915,6 +953,44 @@
         {
           "source": "dex",
           "url": "https://dexscreener.com/bsc/0xec25090c33561d88a836baafc9e1a29048d1802b"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x2778875994faa223b2ee526601f8d956a276a878",
+      "name": "Agentic Digger",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic Digger」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0xc53a49ef8f47352ea59c485fb440bf453bbfae9c",
+      "website": "https://dexscreener.com/bsc/0xc53a49ef8f47352ea59c485fb440bf453bbfae9c",
+      "socialX": "",
+      "contractAddress": "0x2778875994faa223b2ee526601f8d956a276a878",
+      "firstSeen": "2026-11-07",
+      "lastActivityAt": "2026-11-06",
+      "date": "2026-11-06",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x2778875994faa223b2ee526601f8d956a276a878"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0xc53a49ef8f47352ea59c485fb440bf453bbfae9c"
         }
       ],
       "evidenceLevel": "early-lead",
@@ -9358,13 +9434,13 @@
     }
   ],
   "inputCounts": {
-    "projects": 180,
-    "external": 29,
+    "projects": 181,
+    "external": 30,
     "x": 64,
     "mint": 25
   },
-  "candidateRecords": 260,
-  "mergedGroups": 242,
+  "candidateRecords": 262,
+  "mergedGroups": 244,
   "reviewCount": 37,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

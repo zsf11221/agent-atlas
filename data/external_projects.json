@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T20:14:47.213870+00:00",
+  "updatedAt": "2026-11-07T23:40:42.105644+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -16,14 +16,14 @@
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 9
+      "qualified": 7
     },
     "bnbchain-official": {
       "ok": true,
       "qualified": 6
     }
   },
-  "newCount": 0,
+  "newCount": 1,
   "changedCount": 0,
   "projects": [
     {
@@ -251,6 +251,34 @@
       "projectCreatedAt": "2026-10-27",
       "firstSeen": "2026-11-07",
       "lastCheckedAt": "2026-11-07T16:07:45.293094+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0x2778875994faa223b2ee526601f8d956a276a878",
+      "name": "Agentic Digger",
+      "symbol": "AGD",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0xc53a49ef8f47352ea59c485fb440bf453bbfae9c",
+      "website": "https://dexscreener.com/bsc/0xc53a49ef8f47352ea59c485fb440bf453bbfae9c",
+      "socialX": "",
+      "contractAddress": "0x2778875994fAA223B2EE526601f8d956A276a878",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-11-06",
+      "projectCreatedAt": "2026-11-06",
+      "firstSeen": "2026-11-07",
+      "lastCheckedAt": "2026-11-07T23:40:42.105644+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
