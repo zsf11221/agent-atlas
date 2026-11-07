@@ -1458,7 +1458,6 @@ footer {
             <button class="mint-filter is-active" type="button" data-mint-filter="all" aria-pressed="true">全部 0</button>
             <button class="mint-filter" type="button" data-mint-filter="free" aria-pressed="false">免费 0</button>
             <button class="mint-filter" type="button" data-mint-filter="paid" aria-pressed="false">付费 0</button>
-            <button class="mint-filter" type="button" data-mint-filter="unknown" aria-pressed="false">待核验 0</button>
           </div>
         </div>
         <div class="trench-grid" id="mintTrenchGrid" role="list"></div>
@@ -1600,25 +1599,6 @@ PROJECTS.push({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:
 }
 }
 } catch(ex) { /* External source outage must not break the existing directory. */ }
-// Mint watchlist is derived offline from existing X records; failure is non-fatal.
-try{
- const mr=await fetch('data/mint_leads.json',{cache:'no-store'});
- if(mr.ok){
-  const ml=await mr.json();
-  const seen=new Set(MINT_ITEMS.map(m=>m.id));
-  for(const p of (ml.leads||[])){
-   if(!/^mint-x-[a-z0-9.-]+$/i.test(p.id||'')||seen.has(p.id))continue;
-   if(!/^https:\/\/x\.com\/i\/web\/status\/[0-9]+$/.test(p.source||''))continue;
-   if(!/BNB Chain|BSC/i.test(p.chain||'')||/opBNB/i.test(p.chain||''))continue;
-   const type=['free','paid'].includes(p.mintType)?p.mintType:'unknown';
-   seen.add(p.id);
-   MINT_ITEMS.push({id:p.id,name:p.name,zh:p.descriptionZh||'',en:p.descriptionEn||'',
-     price:p.announcedCost||'费用未知',source:p.source,website:p.website||'',
-     mintType:type,gate:'来源待核验',ca:'未核验',status:p.currentAvailability||'unknown',
-     origin:'x',firstSeen:p.firstSeen||'',evidence:p.evidenceLevel||'unverified-x-lead'});
-  }
- }
-}catch(err){/* Mint watchlist unavailability never hides curated items. */}
 // Prefer reviewed, source-grounded Chinese summaries. A newly discovered
 // project without a translation gets an honest Chinese placeholder rather than English.
 // X recent search is a separately sourced lead stream; never replace core data on API failure.
@@ -1736,17 +1716,18 @@ function renderMintTrench(){
   const el=$('#mintTrenchGrid'), controls=$('#mintFilterGroup'), more=$('#mintShowMoreBtn');
   if(!el||!controls||!more)return;
   const zh=state.lang==='zh';
-  const counts={all:MINT_ITEMS.length,free:0,paid:0,unknown:0};
-  MINT_ITEMS.forEach(m=>{if(Object.prototype.hasOwnProperty.call(counts,m.mintType))counts[m.mintType]++});
+  const counts={all:0,free:0,paid:0};
+  MINT_ITEMS.forEach(m=>{if(m.mintType==='free'||m.mintType==='paid'){counts[m.mintType]++;counts.all++}});
   $('#mintTotalCount').textContent=zh?counts.all+' 条线索':counts.all+' leads';
   controls.querySelectorAll('[data-mint-filter]').forEach(btn=>{
     const type=btn.getAttribute('data-mint-filter');
-    btn.textContent=(zh?{all:'全部',free:'免费',paid:'付费',unknown:'待核验'}:{all:'All',free:'Free',paid:'Paid',unknown:'Unverified'})[type]+' '+counts[type];
+    btn.textContent=(zh?{all:'全部',free:'免费',paid:'付费'}:{all:'All',free:'Free',paid:'Paid'})[type]+' '+counts[type];
     const selected=type===state.mintFilter;
     btn.classList.toggle('is-active',selected);
     btn.setAttribute('aria-pressed',String(selected));
   });
-  const list=state.mintFilter==='all'?MINT_ITEMS:MINT_ITEMS.filter(m=>m.mintType===state.mintFilter);
+  const priced=MINT_ITEMS.filter(m=>m.mintType==='free'||m.mintType==='paid');
+  const list=state.mintFilter==='all'?priced:priced.filter(m=>m.mintType===state.mintFilter);
   const shown=state.mintExpanded?list:list.slice(0,6);
   el.innerHTML=shown.length?shown.map(m=>{
     const unknown=m.mintType==='unknown';
