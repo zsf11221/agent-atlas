@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-07T04:52:08.392203+00:00",
   "profiles": [
+    {
+      "domain": "agcc.fun",
+      "name": "Agentic Coin",
+      "descriptionZh": "官网介绍「Agentic Coin (AGC): a coin only agents holding a Binance .ai Agent ID can mint, halving by share height on BNB Smart Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Agentic Coin (AGC): a coin only agents holding a Binance .ai Agent ID can mint, halving by share height on BNB Smart Chain.",
+      "source": "https://agcc.fun/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T04:52:08.392203+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "agentbnbai.com",
+      "name": "AGENT · Agent ID 代币铸造",
+      "descriptionZh": "AGENT 是面向币安 .ai Agent ID 持有者的 BSC 代币铸造项目。公开规则描述每个符合条件的身份可铸造 9,000 枚 AGENT，合约铸造本身不收代币购买价，仅需网络 Gas。",
+      "descriptionEn": "Website/source-backed BSC Agent project: AGENT · Agent ID 代币铸造",
+      "source": "https://agentidhub.eth.limo/project.html?id=agent-fair-mint",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "agentic-eggs.xyz",
+      "name": "灵蛋纪 Agent Eggs — 一枚灵蛋，一场奇遇",
+      "descriptionZh": "官网介绍「铸造一枚灵蛋，静候孵化，揭晓原创链上藏品。累计未满 3,000 枚时符合条件的钱包首枚免费，额外每枚 0.0015 BNB，另需网络费。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "铸造一枚灵蛋，静候孵化，揭晓原创链上藏品。累计未满 3,000 枚时符合条件的钱包首枚免费，额外每枚 0.0015 BNB，另需网络费。",
+      "source": "https://agentic-eggs.xyz/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T04:52:08.392203+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "agentlings.fun",
+      "name": "Agentlings · 像素特工",
+      "descriptionZh": "Agentlings 是面向 .ai Agent ID 的链上像素宠物收藏系列，可铸造、揭晓稀有度并将多个相同等级宠物合成升级。官网说明每个身份有免费首铸额度，另设付费盲盒。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Agentlings · 像素特工",
+      "source": "https://agentlings.fun/",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
     {
       "domain": "agentpandabnb.xyz",
       "name": "Agent Panda · 熊猫卡牌",
@@ -12,11 +52,11 @@
       "firstSeen": "2026-11-07"
     },
     {
-      "domain": "marsnexus.fun",
-      "name": "Mars Nexus · 火星身份卡",
-      "descriptionZh": "Mars Nexus 是面向 .ai Agent ID 的火星探险身份卡。官网设计 Miner、Pioneer、Commander 三种卡牌等级，并规划角色战力及火星城市玩法；首张免铸造费、后续以 USDT 或 BNB 支付，官网此前显示暂未开放。",
-      "descriptionEn": "Website/source-backed BSC Agent project: Mars Nexus · 火星身份卡",
-      "source": "https://mint.marsnexus.fun/mint-onchain.html",
+      "domain": "anthrobit.fun",
+      "name": "AnthroBit · 卡牌融合经济",
+      "descriptionZh": "AnthroBit 是 BSC 的 Agent 卡牌收藏与融合游戏。卡牌具备属性和稀有度，还设计了交易市场与费率分配；每天首铸免 Mint 手续费，但仍收取随机数预言机费用和 Gas。",
+      "descriptionEn": "Website/source-backed BSC Agent project: AnthroBit · 卡牌融合经济",
+      "source": "https://anthrobit.fun/",
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07",
       "firstSeen": "2026-11-07"
@@ -27,6 +67,76 @@
       "descriptionZh": "ASH 在 BSC 采用固定价格的代币铸造路线，公开资料称每份 0.003 BNB 对应 32,000 ASH、每钱包最多十份；代币转账在铸造完成前受到限制，网站与链上发行计数曾出现差异。",
       "descriptionEn": "Website/source-backed BSC Agent project: ASH · 固定价代币铸造",
       "source": "https://boltbook.fun/alphapedia/ash?lang=zh",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "bncworld.fun",
+      "name": "BN World · 链上像素特工",
+      "descriptionZh": "BN World 设计了 10,000 枚像素风 Agent NFT，通过币安 Agent ID 设置钱包准入。项目页面写明每钱包前两枚免费，后续每枚按约 1 美元计价；页面此前声明尚未开启铸造。",
+      "descriptionEn": "Website/source-backed BSC Agent project: BN World · 链上像素特工",
+      "source": "https://bncworld.fun/agents/",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "build-100.com",
+      "name": "Agent Periodic Lab · 元素实验室",
+      "descriptionZh": "这是让 Agent 收集链上元素卡、合成化合物并投入反应堆的小游戏。每个 .ai 身份首先可以免费领取一张化合物卡；后续抽元素及反应堆收益按官网公布的规则计算。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Agent Periodic Lab · 元素实验室",
+      "source": "https://build-100.com/lab/",
+      "sourceKind": "editorial-source-review",
+      "checkedAt": "2026-11-07",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "db.bomb.here.now",
+      "name": "bomb · Digital Bomb · Agent-only fair mint",
+      "descriptionZh": "官网介绍「bomb：.ai Agent ID 铸造，800 免费 + 9200 付费创世，70%/30%，十抽一暴击 ×2，#10,000 开池。开铸 2026-11-04 14:30（上海）。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "bomb：.ai Agent ID 铸造，800 免费 + 9200 付费创世，70%/30%，十抽一暴击 ×2，#10,000 开池。开铸 2026-11-04 14:30（上海）。",
+      "source": "https://db.bomb.here.now/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T04:52:08.392203+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "dither-nft.vercel.app",
+      "name": "DITHER — On-chain pixel art on BNB Chain",
+      "descriptionZh": "官网介绍「10,000 on-chain pixel NFTs, drawn by the contract at mint. Agent ID holders only, 1 per wallet. Mint ~$0.35 in BNB.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "10,000 on-chain pixel NFTs, drawn by the contract at mint. Agent ID holders only, 1 per wallet. Mint ~$0.35 in BNB.",
+      "source": "https://dither-nft.vercel.app/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T04:52:08.392203+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "dnaeater.surge.sh",
+      "name": "DNA EATER",
+      "descriptionZh": "官网介绍「5,555 fully on-chain specimens. Pick your grade or draw at random. Agent-only mint on BNB Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "5,555 fully on-chain specimens. Pick your grade or draw at random. Agent-only mint on BNB Chain.",
+      "source": "https://dnaeater.surge.sh/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T04:52:08.392203+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "forge-bnb.trade",
+      "name": "FORGE — five thousand robots, hammered out in twenty worlds",
+      "descriptionZh": "官网介绍「FORGE is a collection of 5,000 armored robots. Each one comes from one of 20 designs, from a burning foundry to the edge of a black hole, and every design 」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "FORGE is a collection of 5,000 armored robots. Each one comes from one of 20 designs, from a burning foundry to the edge of a black hole, and every design has a fixed number of editions.",
+      "source": "https://forge-bnb.trade/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T04:52:08.392203+00:00",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "marsnexus.fun",
+      "name": "Mars Nexus · 火星身份卡",
+      "descriptionZh": "Mars Nexus 是面向 .ai Agent ID 的火星探险身份卡。官网设计 Miner、Pioneer、Commander 三种卡牌等级，并规划角色战力及火星城市玩法；首张免铸造费、后续以 USDT 或 BNB 支付，官网此前显示暂未开放。",
+      "descriptionEn": "Website/source-backed BSC Agent project: Mars Nexus · 火星身份卡",
+      "source": "https://mint.marsnexus.fun/mint-onchain.html",
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07",
       "firstSeen": "2026-11-07"
@@ -52,13 +162,13 @@
       "firstSeen": "2026-11-07"
     },
     {
-      "domain": "agentlings.fun",
-      "name": "Agentlings · 像素特工",
-      "descriptionZh": "Agentlings 是面向 .ai Agent ID 的链上像素宠物收藏系列，可铸造、揭晓稀有度并将多个相同等级宠物合成升级。官网说明每个身份有免费首铸额度，另设付费盲盒。",
-      "descriptionEn": "Website/source-backed BSC Agent project: Agentlings · 像素特工",
-      "source": "https://agentlings.fun/",
-      "sourceKind": "editorial-source-review",
-      "checkedAt": "2026-11-07",
+      "domain": "playagentcards.com",
+      "name": "Agent Cards: a free trading card game for Binance Agent ID agents",
+      "descriptionZh": "官网介绍「Free hero cards on BNB Chain for Binance Agent ID agents. Your agent fights the ladder by itself, and 80% of game sales goes back to players in BNB.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Free hero cards on BNB Chain for Binance Agent ID agents. Your agent fights the ladder by itself, and 80% of game sales goes back to players in BNB.",
+      "source": "https://playagentcards.com/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
     },
     {
@@ -70,47 +180,9 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07",
       "firstSeen": "2026-11-07"
-    },
-    {
-      "domain": "build-100.com",
-      "name": "Agent Periodic Lab · 元素实验室",
-      "descriptionZh": "这是让 Agent 收集链上元素卡、合成化合物并投入反应堆的小游戏。每个 .ai 身份首先可以免费领取一张化合物卡；后续抽元素及反应堆收益按官网公布的规则计算。",
-      "descriptionEn": "Website/source-backed BSC Agent project: Agent Periodic Lab · 元素实验室",
-      "source": "https://build-100.com/lab/",
-      "sourceKind": "editorial-source-review",
-      "checkedAt": "2026-11-07",
-      "firstSeen": "2026-11-07"
-    },
-    {
-      "domain": "anthrobit.fun",
-      "name": "AnthroBit · 卡牌融合经济",
-      "descriptionZh": "AnthroBit 是 BSC 的 Agent 卡牌收藏与融合游戏。卡牌具备属性和稀有度，还设计了交易市场与费率分配；每天首铸免 Mint 手续费，但仍收取随机数预言机费用和 Gas。",
-      "descriptionEn": "Website/source-backed BSC Agent project: AnthroBit · 卡牌融合经济",
-      "source": "https://anthrobit.fun/",
-      "sourceKind": "editorial-source-review",
-      "checkedAt": "2026-11-07",
-      "firstSeen": "2026-11-07"
-    },
-    {
-      "domain": "agentbnbai.com",
-      "name": "AGENT · Agent ID 代币铸造",
-      "descriptionZh": "AGENT 是面向币安 .ai Agent ID 持有者的 BSC 代币铸造项目。公开规则描述每个符合条件的身份可铸造 9,000 枚 AGENT，合约铸造本身不收代币购买价，仅需网络 Gas。",
-      "descriptionEn": "Website/source-backed BSC Agent project: AGENT · Agent ID 代币铸造",
-      "source": "https://agentidhub.eth.limo/project.html?id=agent-fair-mint",
-      "sourceKind": "editorial-source-review",
-      "checkedAt": "2026-11-07",
-      "firstSeen": "2026-11-07"
-    },
-    {
-      "domain": "bncworld.fun",
-      "name": "BN World · 链上像素特工",
-      "descriptionZh": "BN World 设计了 10,000 枚像素风 Agent NFT，通过币安 Agent ID 设置钱包准入。项目页面写明每钱包前两枚免费，后续每枚按约 1 美元计价；页面此前声明尚未开启铸造。",
-      "descriptionEn": "Website/source-backed BSC Agent project: BN World · 链上像素特工",
-      "source": "https://bncworld.fun/agents/",
-      "sourceKind": "editorial-source-review",
-      "checkedAt": "2026-11-07",
-      "firstSeen": "2026-11-07"
     }
   ],
-  "methodology": "Distinct Chinese descriptions based on publicly linked project pages or explicitly identified third-party research. Descriptions quote source claims, not security certification."
+  "scannedThisRun": 12,
+  "newProfiles": 7,
+  "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }

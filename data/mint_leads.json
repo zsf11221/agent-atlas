@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T04:37:21.166084+00:00",
+  "updatedAt": "2026-11-07T04:52:16.615804+00:00",
   "leads": [
     {
       "id": "mint-x-tiedi.pages.dev",
@@ -17,27 +17,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-07",
       "postDate": "2026-11-07",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
-      "sourceCount": 1,
-      "evidenceLevel": "unverified-x-lead"
-    },
-    {
-      "id": "mint-x-agentpandabnb.xyz",
-      "name": "agentpandabnb.xyz",
-      "chain": "BNB Chain (X claim only)",
-      "kind": "mint-or-claim-lead",
-      "mintType": "unknown",
-      "costVerification": "unknown",
-      "currentAvailability": "unknown",
-      "mintVerified": false,
-      "source": "https://x.com/i/web/status/2118869915914649919",
-      "website": "https://agentpandabnb.xyz/",
-      "announcedCost": "未确认；需查看原帖与项目规则",
-      "descriptionZh": "X 上出现与 BSC Agent 相关的 Mint 或领取线索，并提供了该网站链接。当前无法证明该网站确实开放 Mint；项目身份、费用、资格和合约安全都需要进一步核对。",
-      "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
-      "firstSeen": "2026-11-07",
-      "postDate": "2026-11-07",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -57,7 +37,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-07",
       "postDate": "2026-11-07",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -77,28 +57,8 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-06",
       "postDate": "2026-11-06",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 4,
-      "evidenceLevel": "unverified-x-lead"
-    },
-    {
-      "id": "mint-x-ash-burn.com",
-      "name": "ash-burn.com",
-      "chain": "BNB Chain (X claim only)",
-      "kind": "mint-or-claim-lead",
-      "mintType": "unknown",
-      "costVerification": "unknown",
-      "currentAvailability": "unknown",
-      "mintVerified": false,
-      "source": "https://x.com/i/web/status/2118628455608676459",
-      "website": "https://ash-burn.com",
-      "announcedCost": "未确认；需查看原帖与项目规则",
-      "descriptionZh": "X 上出现与 BSC Agent 相关的 Mint 或领取线索，并提供了该网站链接。当前无法证明该网站确实开放 Mint；项目身份、费用、资格和合约安全都需要进一步核对。",
-      "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
-      "firstSeen": "2026-11-06",
-      "postDate": "2026-11-06",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
-      "sourceCount": 5,
       "evidenceLevel": "unverified-x-lead"
     },
     {
@@ -117,7 +77,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-06",
       "postDate": "2026-11-06",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -137,7 +97,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-06",
       "postDate": "2026-11-06",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -157,27 +117,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-06",
       "postDate": "2026-11-06",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
-      "sourceCount": 1,
-      "evidenceLevel": "unverified-x-lead"
-    },
-    {
-      "id": "mint-x-ombrellonft.xyz",
-      "name": "ombrellonft.xyz",
-      "chain": "BNB Chain (X claim only)",
-      "kind": "mint-or-claim-lead",
-      "mintType": "unknown",
-      "costVerification": "unknown",
-      "currentAvailability": "unknown",
-      "mintVerified": false,
-      "source": "https://x.com/i/web/status/2118761395793907869",
-      "website": "https://ombrellonft.xyz/tampesta/skill.md",
-      "announcedCost": "未确认；需查看原帖与项目规则",
-      "descriptionZh": "X 上出现与 BSC Agent 相关的 Mint 或领取线索，并提供了该网站链接。当前无法证明该网站确实开放 Mint；项目身份、费用、资格和合约安全都需要进一步核对。",
-      "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
-      "firstSeen": "2026-11-06",
-      "postDate": "2026-11-06",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -197,7 +137,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-06",
       "postDate": "2026-11-06",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -217,7 +157,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-05",
       "postDate": "2026-11-05",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -237,7 +177,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-05",
       "postDate": "2026-11-05",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 2,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -257,7 +197,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-05",
       "postDate": "2026-11-05",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -277,7 +217,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-05",
       "postDate": "2026-11-05",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 2,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -297,7 +237,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-05",
       "postDate": "2026-11-05",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 2,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -317,7 +257,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-04",
       "postDate": "2026-11-04",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 2,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -337,7 +277,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-04",
       "postDate": "2026-11-04",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -357,7 +297,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-04",
       "postDate": "2026-11-04",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -377,7 +317,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-04",
       "postDate": "2026-11-04",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -397,7 +337,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-04",
       "postDate": "2026-11-04",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -417,7 +357,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-04",
       "postDate": "2026-11-04",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     },
@@ -437,7 +377,7 @@
       "descriptionEn": "An X post links to a site and mentions a BSC Agent mint or claim. The project, cost, availability, eligibility and contract safety are not verified.",
       "firstSeen": "2026-11-03",
       "postDate": "2026-11-03",
-      "lastCheckedAt": "2026-11-07T04:37:21.166084+00:00",
+      "lastCheckedAt": "2026-11-07T04:52:16.615804+00:00",
       "sourceCount": 1,
       "evidenceLevel": "unverified-x-lead"
     }
