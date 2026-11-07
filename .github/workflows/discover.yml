@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/discover.py'
       - 'scripts/discover_external.py'
+      - 'scripts/build_catalog.py'
       - '.github/workflows/discover.yml'
   schedule:
     - cron: '17 * * * *'
@@ -14,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: agent-atlas-discovery
+  group: agent-atlas-data-refresh
   cancel-in-progress: false
 
 jobs:
@@ -40,14 +41,20 @@ jobs:
         id: external
         continue-on-error: true
         run: python scripts/discover_external.py
+      - name: Validate and build consolidated project catalog (no external API)
+        run: |
+          python -m py_compile scripts/build_catalog.py
+          python scripts/build_catalog.py --self-test
+          python scripts/build_catalog.py
       - name: Publish data and pipeline status
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/projects.json data/pipeline_status.json data/external_projects.json
+          git add data/projects.json data/pipeline_status.json data/external_projects.json data/catalog.json data/review_queue.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh source-led agent project discovery"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
       - name: Report unavailable external sources
         if: steps.external.outcome == 'failure'
