@@ -81,7 +81,20 @@ Be careful granting deployment credentials to a public repository or its collabo
     npx wrangler d1 migrations apply agent-atlas-chain --local
     npx wrangler dev
 
-Worker endpoints: GET /v1/health and GET /v1/leads. No public write endpoints.
+Worker endpoints: GET /v1/health, GET /v1/leads and GET /v1/mint-checks. No public write endpoints.
+
+## Mint verification (scaffold, no contracts recorded yet)
+
+- `mint_contracts` holds only contracts whose address and price method were
+  confirmed from the project's own site/docs or BscScan. The migration creates
+  the table empty; a price check is never run for a contract that is not there.
+- Each 5-minute tick checks at most 2 recorded mint contracts (price, paused,
+  total supply) and upserts `mint_checks`. A mint failure is recorded per
+  contract and never fails the pair scan.
+- A price/open check is evidence about cost and availability only, never a
+  safety audit. Unrecorded mints stay unverified; do not invent an address or
+  a price method. Mint contracts use different price methods, so the selector
+  is stored per contract, not assumed.
 
 ## Coverage expansion
 

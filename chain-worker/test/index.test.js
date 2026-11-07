@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import worker, { parsePair, decodeString, assess, tick } from "../src/index.js";
+import worker, { parsePair, decodeString, decodeUint256, assess, checkMint, tick } from "../src/index.js";
 
 const topic = "0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9";
 const token0 = "0x" + "1".repeat(40);
@@ -28,6 +28,45 @@ test("ABI string and bytes32 reader", () => {
   assert.equal(decodeString("not hex"), "");
   assert.equal(decodeString("0x" + word(655360) + word(10) + text), "");
 });
+test("Mint uint256 reader only accepts a single 32-byte word", () => {
+  assert.equal(decodeUint256("0x" + "0".repeat(63) + "1"), "1");
+  assert.equal(decodeUint256("0x" + BigInt("1000000000000000000").toString(16).padStart(64, "0")), "1000000000000000000");
+  assert.equal(decodeUint256("0x1234"), null);
+  assert.equal(decodeUint256("not hex"), null);
+  assert.equal(decodeUint256(null), null);
+});
+
+test("Mint check reads price, paused and supply without claiming safety", async () => {
+  const uint = (v) => "0x" + BigInt(v).toString(16).padStart(64, "0");
+  const original = globalThis.fetch;
+  globalThis.fetch = async (url, init) => {
+    const msg = JSON.parse(init?.body);
+    const data = msg.params[0].data;
+    let result = uint(0);
+    if (data === "0x5c975abb") result = uint(0); // not paused
+    else if (data === "0x18160ddd") result = uint(5);
+    else if (data === "0x12345678") result = uint(0); // free mint price
+    else throw Error("Unexpected mint call: " + data);
+    return Response.json({ jsonrpc: "2.0", id: 1, result });
+  };
+  try {
+    const checked = await checkMint({ BSC_RPC_URL: "https://rpc.example" }, {
+      mint_id: "agentlings", contract_address: "0x" + "a".repeat(40),
+      price_selector: "0x12345678", paused_selector: "0x5c975abb",
+      total_supply_selector: "0x18160ddd", max_supply_selector: null
+    });
+    assert.equal(checked.priceWei, "0");
+    assert.equal(checked.mintOpen, 1);
+    assert.equal(checked.totalSupply, 5);
+    assert.equal(checked.maxSupply, null);
+    await assert.rejects(checkMint({ BSC_RPC_URL: "https://rpc.example" }, {
+      mint_id: "bad", contract_address: "not-an-address", price_selector: "0x12345678"
+    }), /invalid-mint-contract/);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
 test("Risk flags cannot be a green safety badge", () => {
   assert.equal(assess(null, null).status, "insufficient-evidence");
   assert.equal(assess({is_open_source:"1",is_honeypot:"0"},null).status, "insufficient-evidence");
@@ -93,6 +132,54 @@ test("Mocked BSC RPC + D1 end-to-end scan persists candidate, cursor and risk ev
     assert.ok(rows.some(x=>x.sql.includes("INSERT INTO scan_runs") && x.sql.includes("VALUES(?,?,1")));
     assert.equal(sent.filter(x=>String(x.url).includes("honeypot.is")).length, 0,
       "risk checker should only process persisted rows returned by D1 pending query");
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test("Tick writes a mint check for a recorded contract and still records the scan", async () => {
+  const uint = (v) => "0x" + BigInt(v).toString(16).padStart(64, "0");
+  const rows = [];
+  const mintRow = {
+    mint_id: "agentlings", contract_address: "0x" + "a".repeat(40),
+    price_selector: "0x12345678", paused_selector: "0x5c975abb",
+    total_supply_selector: "0x18160ddd", max_supply_selector: null
+  };
+  const db = {
+    prepare(sql) {
+      let params = [];
+      return {
+        bind(...args) { params = args; return this; },
+        async first() { return null; },
+        async all() {
+          return { results: sql.includes("mint_contracts") ? [mintRow] : [] };
+        },
+        async run() { rows.push({ sql, params }); return { success: true }; }
+      };
+    }
+  };
+  const original = globalThis.fetch;
+  globalThis.fetch = async (url, init) => {
+    const msg = JSON.parse(init?.body);
+    let result;
+    if (msg.method === "eth_chainId") result = "0x38";
+    else if (msg.method === "eth_blockNumber") result = "0x3e8";
+    else if (msg.method === "eth_getLogs") result = [];
+    else if (msg.method === "eth_call") {
+      const data = msg.params[0].data;
+      result = data === "0x5c975abb" ? uint(0) : data === "0x18160ddd" ? uint(5) : uint(0);
+    } else throw Error("Unexpected RPC: " + msg.method);
+    return Response.json({ jsonrpc: "2.0", id: 1, result });
+  };
+  try {
+    const result = await tick({ DB: db, BSC_RPC_URL: "https://rpc.example" });
+    assert.equal(result.ok, true);
+    const mintWrite = rows.find((x) => x.sql.includes("INSERT INTO mint_checks"));
+    assert.ok(mintWrite, "expected a mint_checks upsert");
+    assert.equal(mintWrite.params[0], "agentlings");
+    assert.equal(mintWrite.params[2], "0");
+    assert.equal(mintWrite.params[3], 1);
+    assert.ok(rows.some((x) => x.sql.includes("INSERT INTO scan_runs") && x.sql.includes("VALUES(?,?,1")));
   } finally {
     globalThis.fetch = original;
   }

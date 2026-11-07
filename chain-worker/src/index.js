@@ -10,6 +10,11 @@ const CHUNK_BLOCKS = 250;
 const CHUNKS_PER_RUN = 5;
 const TOKEN_PROBES_PER_RUN = 30;
 const RISK_CHECKS_PER_RUN = 4;
+const MINT_CHECKS_PER_RUN = 2;
+// Common read-only selectors. A mint contract is only checked when its own
+// price selector was recorded in mint_contracts with evidence; never guess it.
+const PAUSED_SELECTOR = "0x5c975abb";
+const TOTAL_SUPPLY_SELECTOR = "0x18160ddd";
 const LOOKBACK_ON_BOOT = 40;
 const CONFIRMATIONS = 8;
 
@@ -75,6 +80,48 @@ async function rpc(env, method, params) {
   });
   if (data?.error || data?.result == null) throw new Error("rpc-" + method + "-" + (data?.error?.code || "missing-result"));
   return data.result;
+}
+
+// Strict uint256 reader for mint price / supply calls. Returns a decimal
+// string, or null when the reply is not a single 32-byte word.
+export function decodeUint256(hex) {
+  if (!/^0x[0-9a-fA-F]{64}$/.test(hex || "")) return null;
+  try {
+    return BigInt(hex).toString(10);
+  } catch {
+    return null;
+  }
+}
+
+async function callUint(env, token, data) {
+  if (!/^0x[0-9a-fA-F]{8}$/.test(data || "")) return null;
+  const raw = await rpc(env, "eth_call", [{ to: token, data }, "latest"]).catch(() => null);
+  return decodeUint256(raw);
+}
+
+// Read one recorded mint contract. Price is the only required call; paused /
+// supply selectors are optional and a missing one stays unknown (null).
+// A price read is evidence about cost only, never about contract safety.
+export async function checkMint(env, contract) {
+  const address = String(contract.contract_address || "").toLowerCase();
+  if (!ADDRESS.test(address)) throw new Error("invalid-mint-contract");
+  const priceWei = await callUint(env, address, contract.price_selector);
+  if (priceWei === null) throw new Error("mint-price-unreadable");
+  const pausedSel = contract.paused_selector || PAUSED_SELECTOR;
+  const pausedRaw = await callUint(env, address, pausedSel).catch(() => null);
+  const totalRaw = contract.total_supply_selector
+    ? await callUint(env, address, contract.total_supply_selector).catch(() => null)
+    : null;
+  const maxRaw = contract.max_supply_selector
+    ? await callUint(env, address, contract.max_supply_selector).catch(() => null)
+    : null;
+  const toInt = (v) => (v === null ? null : (Number(v) <= Number.MAX_SAFE_INTEGER ? Number(v) : null));
+  return {
+    mintId: contract.mint_id, address, priceWei,
+    mintOpen: pausedRaw === null ? null : (pausedRaw === "0" ? 1 : 0),
+    totalSupply: toInt(totalRaw), maxSupply: toInt(maxRaw),
+    checkedAt: new Date().toISOString(), error: null
+  };
 }
 
 async function tokenMetadata(env, token) {
@@ -194,6 +241,36 @@ export async function tick(env) {
       await env.DB.prepare("UPDATE chain_leads SET risk_status=?,risk_json=?,risk_checked_at=? WHERE token_address=?")
         .bind(risk.status, JSON.stringify(risk), risk.checkedAt, row.token_address).run();
     }
+    // Mint verification, capped per run and never allowed to fail the scan.
+    // mint_contracts is empty until a contract + price method are recorded
+    // with evidence, so this is a no-op on a fresh database.
+    try {
+      const mintRows = await env.DB.prepare(
+        "SELECT mint_id,contract_address,price_selector,paused_selector,total_supply_selector,max_supply_selector " +
+        "FROM mint_contracts ORDER BY mint_id ASC LIMIT ?"
+      ).bind(MINT_CHECKS_PER_RUN).all();
+      for (const row of mintRows.results || []) {
+        const now = new Date().toISOString();
+        try {
+          const checked = await checkMint(env, row);
+          await env.DB.prepare(
+            "INSERT INTO mint_checks(mint_id,contract_address,price_wei,mint_open,total_supply,max_supply,checked_at,error) " +
+            "VALUES(?,?,?,?,?,?,?,NULL) ON CONFLICT(mint_id) DO UPDATE SET " +
+            "price_wei=excluded.price_wei,mint_open=excluded.mint_open,total_supply=excluded.total_supply," +
+            "max_supply=excluded.max_supply,checked_at=excluded.checked_at,error=NULL"
+          ).bind(checked.mintId, checked.address, checked.priceWei, checked.mintOpen,
+            checked.totalSupply, checked.maxSupply, checked.checkedAt).run();
+        } catch (mintError) {
+          await env.DB.prepare(
+            "INSERT INTO mint_checks(mint_id,contract_address,price_wei,mint_open,total_supply,max_supply,checked_at,error) " +
+            "VALUES(?,?,NULL,NULL,NULL,NULL,?,?) ON CONFLICT(mint_id) DO UPDATE SET checked_at=excluded.checked_at,error=excluded.error"
+          ).bind(String(row.mint_id || ""), String(row.contract_address || ""), now,
+            String(mintError.message || mintError).slice(0, 120)).run();
+        }
+      }
+    } catch {
+      /* mint table absent or unreadable on an old database: scan still counts */
+    }
     await env.DB.prepare(
       "INSERT INTO scan_runs(started_at,finished_at,ok,from_block,to_block,pairs_seen,candidates,error) VALUES(?,?,1,?,?,?,?,NULL)"
     ).bind(started, new Date().toISOString(), Math.max(0, tip - CONFIRMATIONS - scanned), cursor, pairs, matched).run();
@@ -220,6 +297,20 @@ export default {
         return respond({ ok: true, network: "BSC", chainId: 56, configured: !!env.BSC_RPC_URL,
           scope: "PancakeSwap V2 new WBNB/USDT/USDC pairs with Agent keyword signal",
           automatedSafetyAudit: false, lastScan: last || null, candidateCount: count?.n || 0 });
+      }
+      if (url.pathname === "/v1/mint-checks") {
+        const limit = Math.min(50, Math.max(1, Number.parseInt(url.searchParams.get("limit") || "25", 10) || 25));
+        const data = await env.DB.prepare(
+          "SELECT mint_id,contract_address,price_wei,mint_open,total_supply,max_supply,checked_at,error " +
+          "FROM mint_checks ORDER BY checked_at DESC LIMIT ?").bind(limit).all();
+        const checks = (data.results || []).map(p => ({
+          mintId: p.mint_id, address: p.contract_address, priceWei: p.price_wei,
+          mintOpen: p.mint_open === null ? null : p.mint_open === 1,
+          totalSupply: p.total_supply, maxSupply: p.max_supply,
+          checkedAt: p.checked_at, error: p.error
+        }));
+        return respond({ ok: true, chainId: 56, checks,
+          note: "A price/open check is evidence about cost and availability only, never a safety audit." });
       }
       if (url.pathname === "/v1/leads") {
         const limit = Math.min(30, Math.max(1, Number.parseInt(url.searchParams.get("limit") || "12", 10) || 12));
