@@ -1601,8 +1601,8 @@ PROJECTS.push({id:p.id,name:p.name||'未命名项目',zh:p.descriptionZh||'',en:
 } catch(ex) { /* External source outage must not break the existing directory. */ }
 // Add source-backed Mint projects to the main directory. A Mint event is a project
 // record only when it has its own meaningful description and an external source.
-const domainOf=url=>{try{const u=new URL(url);return u.protocol==='https:'?u.hostname.toLowerCase().replace(/^www\\./,''):''}catch(e){return ''}};
-const normName=s=>String(s||'').toLowerCase().replace(/[^a-z0-9\\u4e00-\\u9fa5]+/g,'');
+const domainOf=url=>{try{const u=new URL(url);return u.protocol==='https:'?u.hostname.toLowerCase().replace(/^www\./,''):''}catch(e){return ''}};
+const normName=s=>String(s||'').toLowerCase().replace(/[^a-z0-9\u4e00-\u9fa5]+/g,'');
 const seenIds=new Set(PROJECTS.map(p=>p.id));
 const seenNames=new Set(PROJECTS.map(p=>normName(p.name)).filter(Boolean));
 const seenSites=new Set(PROJECTS.map(p=>domainOf(p.website)).filter(Boolean));
@@ -1611,9 +1611,9 @@ for(const p of (op.opportunities||[])){
  if(!p.descriptionZh||!p.source)continue;
  const id='mint-'+String(p.id||'');
  const nameKey=normName(p.name),site=domainOf(p.source);
- if(seenIds.has(id)||seenNames.has(nameKey)||(site&&!/agentidhub\\.eth\\.limo|boltbook\\.fun/.test(site)&&seenSites.has(site)))continue;
+ if(seenIds.has(id)||seenNames.has(nameKey)||(site&&!/agentidhub\.eth\.limo|boltbook\.fun/.test(site)&&seenSites.has(site)))continue;
  seenIds.add(id);seenNames.add(nameKey);
- if(site&&!/agentidhub\\.eth\\.limo|boltbook\\.fun/.test(site))seenSites.add(site);
+ if(site&&!/agentidhub\.eth\.limo|boltbook\.fun/.test(site))seenSites.add(site);
  const cat=/game|lab/i.test(p.kind||'')?'gaming':/token/i.test(p.kind||'')?'token':'ecosystem';
  PROJECTS.push({id,name:p.name,zh:p.descriptionZh,en:p.descriptionEn||'',cat,chain:'BNB Chain',source:p.source,website:p.source,socialX:'',ca:'—',featured:false,type:'ecosystem',origin:'curated',origins:['mint'],date:p.discoveredAt||'',firstSeen:p.discoveredAt||'',tags:[p.mintType==='free'?'免费首铸':'付费铸造','公开来源'],evidence:p.researchSource||p.source,walletSupport:'source-described'});
 }
@@ -1655,7 +1655,7 @@ try{
 for(const p of PROJECTS){
  if(typeof zhMap[p.id]==='string'&&zhMap[p.id].trim())p.zh=zhMap[p.id].trim();
  else if(p.origin==='github'&&/^GitHub 公开候选项目[：:]/.test(p.zh||'')){
-   const original=String(p.zh).replace(/^GitHub 公开候选项目[：:]\\s*/,'').trim();
+   const original=String(p.zh).replace(/^GitHub 公开候选项目[：:]\s*/,'').trim();
    p.zh=original.length>20?'仓库「'+p.name+'」的公开简介：'+original.slice(0,190):'GitHub 上发现的 '+p.name+' 开源项目，请从原始仓库了解具体功能。';
  }
 }
