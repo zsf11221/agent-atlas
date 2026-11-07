@@ -1336,12 +1336,12 @@ footer {
 
     <div class="node-box">
       <div class="node-row">
-        <span><i class="pulse-dot"></i>BSC Agent 索引节点</span>
-        <b class="mono" id="blockHeight">未接入</b>
+        <span><i class="pulse-dot"></i>项目发现引擎</span>
+        <b class="mono" id="catalogHealth">已配置</b>
       </div>
       <div class="node-row">
-        <span>扫描周期</span>
-        <span class="mono">定期刷新项目资料</span>
+        <span>更新计划</span>
+        <span class="mono">项目 1h · X 每日5次</span>
       </div>
     </div>
   </aside>
@@ -1353,7 +1353,7 @@ footer {
       <a class="mobile-brand" href="#top"><b>A</b> AgentAtlas</a>
 
       <div class="chain-strip">
-        <span>BNB Chain · 项目发现</span><span class="sep">|</span><span>数据源：GitHub · DEX · BNB Chain</span>
+        <span>BNB Chain · 项目发现</span><span class="sep">|</span><span>数据源：X · GitHub · DEX · BNB Chain</span>
       </div>
 
       <div class="topbar-right">
@@ -1577,7 +1577,83 @@ baw wallet agent-id</code>
 <script>
 function safeText(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 function safeUrl(u){try{var z=new URL(u,location.href);return ['http:','https:'].includes(z.protocol)?safeText(z.href):'#'}catch(e){return '#'}}
-async function loadAtlasData(){try{
+// Prefer the single consolidated catalog; keep legacy source loading only as an outage fallback.
+async function loadAtlasData(){
+  try{
+    const [cr,or]=await Promise.all([
+      fetch('data/catalog.json',{cache:'no-store'}),
+      fetch('data/opportunities.json',{cache:'no-store'})
+    ]);
+    if(!cr.ok||!or.ok)throw Error('Catalog HTTP '+cr.status+'/'+or.status);
+    const catalog=await cr.json(),op=await or.json();
+    if(!Array.isArray(catalog.projects)||catalog.projects.length===0)throw Error('Empty catalog');
+    PROJECTS=catalog.projects.map(p=>({
+      id:p.id,name:p.name||'项目名称未知',
+      zh:p.descriptionZh||'',en:p.descriptionEn||p.descriptionZh||'',
+      cat:p.category||'other',chain:p.chain||'BNB Chain',
+      source:p.source||p.website||'',website:p.website||'',socialX:p.socialX||'',
+      ca:p.contractAddress||'—',featured:!!p.featured,
+      type:p.type||'candidate',origins:Array.isArray(p.origins)?p.origins:[],
+      origin:p.origin||'curated',firstSeen:p.firstSeen||'',date:p.lastActivityAt||p.date||'',
+      tags:Array.isArray(p.tags)?p.tags:[],
+      evidence:p.descriptionBasis||'',sources:Array.isArray(p.sources)?p.sources:[],
+      evidenceLevel:p.evidenceLevel||'early-lead',walletSupport:'source-described'
+    }));
+    MINT_ITEMS=(op.opportunities||[])
+      .filter(p=>/BNB|BSC/i.test(p.chain||'')&&!/opBNB/i.test(p.chain||'')&&['free','paid'].includes(p.mintType))
+      .map(p=>({id:p.id,name:p.name,zh:p.descriptionZh||'',en:p.descriptionEn||'',
+        price:p.announcedCost||'费用以来源为准',source:p.source||'',mintType:p.mintType,
+        gate:'来源规则',ca:'—',status:p.currentAvailability||'unknown',
+        sourceKind:p.researchSource?'来源资料':'项目页面',researchSource:p.researchSource||''}));
+    // Promote only explicitly cost-claimed X Mint records with individual project profiles.
+    try{
+      const [mr,hr]=await Promise.all([
+        fetch('data/mint_leads.json',{cache:'no-store'}),
+        fetch('data/x_profiles.json',{cache:'no-store'})
+      ]);
+      if(mr.ok&&hr.ok){
+        const leads=(await mr.json()).leads||[],profiles=(await hr.json()).profiles||[];
+        const profileByDomain=new Map(profiles.map(p=>[p.domain,p]));
+        const sites=new Set(MINT_ITEMS.map(m=>{try{return new URL(m.source).hostname.toLowerCase().replace(/^www\./,'')}catch(e){return ''}}));
+        for(const p of leads){
+          if(!['free','paid'].includes(p.mintType)||!/^https:\/\/x\.com\/i\/web\/status\/\d+$/.test(p.source||''))continue;
+          let domain='';try{domain=new URL(p.website).hostname.toLowerCase().replace(/^www\./,'')}catch(e){}
+          const profile=profileByDomain.get(domain);
+          if(!domain||sites.has(domain)||!profile||!profile.descriptionZh)continue;
+          sites.add(domain);
+          MINT_ITEMS.push({id:p.id,name:profile.name||p.name,
+            zh:profile.descriptionZh,en:profile.descriptionEn||'',source:p.source,
+            price:p.announcedCost||'费用以 X 来源声明为准',mintType:p.mintType,
+            origin:'x',status:'source-claim'});
+        }
+      }
+    }catch(e){/* Optional Mint input is non-critical. */}
+    const xCount=PROJECTS.filter(p=>p.origins.includes('x')).length;
+    const xTab=$('#gateChipGroup [data-gate="x"]');
+    if(xTab)xTab.textContent=xCount?'X 来源 ('+xCount+')':'X 来源 (0)';
+    const cats=[...new Set(PROJECTS.map(p=>p.cat))].sort();
+    const tab=$('#catTabGroup');
+    tab.innerHTML='<button class="filter-tab on" data-cat="all" type="button">'+(state.lang==='zh'?'全部':'All')
+      +'</button><button class="filter-tab" data-cat="featured" type="button">'+(state.lang==='zh'?'精选项目':'Featured')
+      +'</button>'+cats.map(c=>'<button class="filter-tab" data-cat="'+safeText(c)+'" type="button">'+safeText(categoryLabel(c))+'</button>').join('');
+    const kc=$('#kpiProjects'),km=$('#kpiMints'),kl=$('#kpiLatest');
+    if(kc)kc.textContent=PROJECTS.length;
+    if(km)km.textContent=MINT_ITEMS.length;
+    if(kl)kl.textContent=PROJECTS.filter(p=>atlasRecent(p.firstSeen,7)).length;
+    const updated=catalog.updatedAt||'';
+    const lastTime=Date.parse(updated),fresh=Number.isFinite(lastTime)&&Date.now()-lastTime<48*3600000&&Date.now()>=lastTime-3600000;
+    $('#catalogHealth').textContent=fresh?'运行中':'资料待更新';
+    $('#dataNotice').textContent=state.lang==='zh'
+      ?'统一项目目录 '+(updated.slice(0,10)||'日期未知')+' · '+PROJECTS.length+' 个项目档案 · 来源可追溯'
+      :'Consolidated directory '+(updated.slice(0,10)||'unknown')+' · '+PROJECTS.length+' project profiles · Source-linked';
+    renderProjects();renderMintTrench();renderStream();
+  }catch(err){
+    const badge=$('#catalogHealth');if(badge)badge.textContent='备用数据';
+    await loadAtlasLegacyData();
+  }
+}
+
+async function loadAtlasLegacyData(){try{
 const [pr,or,zhr]=await Promise.all([fetch('data/projects.json',{cache:'no-store'}),fetch('data/opportunities.json',{cache:'no-store'}),fetch('data/project_zh.json',{cache:'no-store'}).catch(()=>null)]);
 if(!pr.ok||!or.ok)throw Error('HTTP '+pr.status+'/'+or.status);
 const pj=await pr.json(),op=await or.json();
