@@ -138,7 +138,7 @@ async function storeLead(env, info) {
 }
 
 // Durable monotonic cursor; each completed block is checked before being saved.
-async function tick(env) {
+export async function tick(env) {
   if (!env.DB || !env.BSC_RPC_URL) throw new Error("D1 or BSC_RPC_URL not configured");
   const chain = await rpc(env, "eth_chainId", []);
   if (String(chain).toLowerCase() !== "0x38") throw new Error("wrong-chain-rpc");
