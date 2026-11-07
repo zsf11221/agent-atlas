@@ -61,8 +61,21 @@ jobs:
           git add data/x_projects.json data/x_pipeline_status.json data/x_profiles.json data/mint_leads.json data/mint_pipeline_status.json data/catalog.json data/review_queue.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh X early project leads"
-            git pull --rebase origin main
-            git push origin main
+            published=0
+            for attempt in 1 2 3 4; do
+              if git pull --rebase origin main && git push origin main; then
+                published=1
+                break
+              fi
+              # Never force-push, and never override concurrent data changes.
+              if test -d .git/rebase-merge || test -d .git/rebase-apply; then
+                git rebase --abort || true
+                echo "Conflicting upstream data: leaving the original untouched for next scheduled refresh."
+                exit 1
+              fi
+              sleep "$attempt"
+            done
+            test "$published" -eq 1
           fi
       - name: "Status - API discovery disabled by default"
         if: vars.ENABLE_X_DISCOVERY != 'true'
