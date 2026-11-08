@@ -909,6 +909,19 @@ a.feed-row{text-decoration:none;color:inherit}
   font-size: 13px;
   width: 100%;
 }
+.search-clear {
+  border: 0;
+  background: none;
+  color: var(--ink-muted);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 99px;
+  flex: none;
+}
+.search-clear:hover { color: var(--ink-primary); background: var(--bg-subtle); }
+.search-clear[hidden] { display: none; }
 .sort-select {
   font-family: var(--font-sans);
   font-size: 12.5px;
@@ -1562,6 +1575,7 @@ footer {
               <label class="search-box">
                 <span>⌕</span>
                 <input id="dirSearchInput" type="search" placeholder="搜索项目、.ai 玩法或关键词…">
+                <button id="dirSearchClear" class="search-clear" type="button" aria-label="清除搜索" hidden>✕</button>
               </label>
               <select class="sort-select" id="sortSelect" aria-label="排序方式"><option value="seen">最近收录</option><option value="recent">最近活动</option><option value="name">名称 A–Z</option></select>
             </div>
@@ -2054,13 +2068,47 @@ if(!/^\d{4}-\d{2}-\d{2}$/.test(String(day||'')))return false;
 const age=Date.now()-Date.parse(day+'T00:00:00Z');
 return age>=-86400000&&age<=(num+1)*86400000;
 }
+/* Directory search: live filter + shareable ?q= link. Pure helpers, unit-tested offline. */
+function readSearchQuery(href){
+  try{return new URL(href).searchParams.get('q')||'';}catch(e){return '';}
+}
+function searchUrl(href,q){
+  try{
+    var u=new URL(href);
+    if(q)u.searchParams.set('q',q);else u.searchParams.delete('q');
+    return u.pathname+u.search+u.hash;
+  }catch(e){return href;}
+}
+function projectMatches(p,query){
+  var q=String(query||'').trim().toLowerCase();
+  if(!q)return true;
+  var hay=[p.name,p.zh,p.en,p.ca,p.cat,p.website,p.socialX].concat(p.tags||[]).join(' ').toLowerCase();
+  return q.split(/\s+/).every(function(tok){return tok&&hay.indexOf(tok)!==-1;});
+}
+function relSeenText(day,lang){
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(String(day||'')))return '';
+  var age=Math.floor((Date.now()-Date.parse(day+'T00:00:00Z'))/86400000);
+  if(age<=0)return lang==='zh'?'今天收录':'Added today';
+  if(age===1)return lang==='zh'?'昨天收录':'Added yesterday';
+  return lang==='zh'?age+' 天前收录':'Added '+age+' days ago';
+}
+function syncSearchUrl(){
+  try{history.replaceState(null,'',searchUrl(location.href,state.searchQuery));}catch(e){}
+}
+function applySearchQuery(q){
+  state.searchQuery=q||'';
+  var inp=$('#dirSearchInput');
+  if(inp)inp.value=state.searchQuery;
+  var clr=$('#dirSearchClear');
+  if(clr)clr.hidden=!state.searchQuery;
+  renderProjects();
+}
 function renderProjects(){
-const q=(state.searchQuery||'').trim().toLowerCase();
-let list=PROJECTS.filter(p=>{const cat=state.catFilter==='all'||(state.catFilter==='featured'?p.featured:p.cat===state.catFilter);const gate=state.gateFilter==='all'||p.origin===state.gateFilter||(p.origins||[]).includes(state.gateFilter);return cat&&gate&&(state.periodFilter==='all'||atlasRecent(p.firstSeen,Number(state.periodFilter)))&&(!q||[p.name,p.zh,p.en,p.ca,p.cat,...p.tags].join(' ').toLowerCase().includes(q))});
+let list=PROJECTS.filter(p=>{const cat=state.catFilter==='all'||(state.catFilter==='featured'?p.featured:p.cat===state.catFilter);const gate=state.gateFilter==='all'||p.origin===state.gateFilter||(p.origins||[]).includes(state.gateFilter);return cat&&gate&&(state.periodFilter==='all'||atlasRecent(p.firstSeen,Number(state.periodFilter)))&&projectMatches(p,state.searchQuery)});
 list.sort((a,b)=>state.sortBy==='name'?a.name.localeCompare(b.name):state.sortBy==='recent'?String(b.date).localeCompare(String(a.date)):String(b.firstSeen).localeCompare(String(a.firstSeen)));
 $('#resultCounter').textContent=(state.lang==='zh'?'显示 '+list.length+' 条 · 共 '+PROJECTS.length+' 条 BSC 线索':'Showing '+list.length+' of '+PROJECTS.length+' BSC leads');
 const grid=$('#projectGrid');grid.classList.toggle('list-mode',state.viewMode==='list');
-grid.innerHTML=list.length?list.map(p=>{const f=!!state.favs[p.id];return '<article class="proj-card" data-open="'+safeText(p.id)+'"><div class="pcard-head"><div class="pcard-id"><div class="pcard-avatar">✧</div><div class="pcard-title"><h4>'+safeText(p.name)+'</h4><div class="pcard-ca">'+safeText(categoryLabel(p.cat))+' · '+safeText(p.chain)+'</div></div></div><button type="button" class="star-btn'+(f?' fav':'')+'" data-star="'+safeText(p.id)+'" aria-label="收藏">'+(f?'★':'☆')+'</button></div><p class="pcard-desc">'+safeText(p[state.lang]||p.zh)+'</p><div class="pcard-tags"><span class="ptag">'+safeText(sourceLabel(p))+'</span></div><div class="pcard-foot"><span>'+safeText(p.date||'更新日期未知')+'</span><span>'+(state.lang==='zh'?'查看详情':'Details')+' ↗</span></div></article>'}).join(''):'<p style="padding:24px">'+(state.lang==='zh'?'没有符合条件的项目，请调整筛选。':'No matching projects. Try another filter.')+'</p>';
+grid.innerHTML=list.length?list.map(p=>{const f=!!state.favs[p.id];const seenTxt=relSeenText(p.firstSeen,state.lang);const footLeft=seenTxt||safeText(p.date||(state.lang==='zh'?'更新日期未知':'Date unknown'));return '<article class="proj-card" data-open="'+safeText(p.id)+'"><div class="pcard-head"><div class="pcard-id"><div class="pcard-avatar">✧</div><div class="pcard-title"><h4>'+safeText(p.name)+'</h4><div class="pcard-ca">'+safeText(categoryLabel(p.cat))+' · '+safeText(p.chain)+'</div></div></div><button type="button" class="star-btn'+(f?' fav':'')+'" data-star="'+safeText(p.id)+'" aria-label="收藏">'+(f?'★':'☆')+'</button></div><p class="pcard-desc">'+safeText(p[state.lang]||p.zh)+'</p><div class="pcard-tags"><span class="ptag">'+safeText(sourceLabel(p))+'</span></div><div class="pcard-foot"><span>'+footLeft+'</span><span>'+(state.lang==='zh'?'查看详情':'Details')+' ↗</span></div></article>'}).join(''):'<p style="padding:24px">'+(state.searchQuery?(state.lang==='zh'?'没有找到与“'+safeText(state.searchQuery)+'”匹配的项目，请换个关键词或清除搜索。':'No projects match "'+safeText(state.searchQuery)+'". Try another keyword or clear the search.'):(state.lang==='zh'?'没有符合条件的项目，请调整筛选。':'No matching projects. Try another filter.'))+'</p>';
 }
 /* ================= 详情抽屉与 .ai 验资面板 ================= */
 function findAnyItem(id) {
@@ -2238,7 +2286,19 @@ $('#viewToggle').addEventListener('click', function(e) {
 
 $('#dirSearchInput').addEventListener('input', function(e) {
   state.searchQuery = e.target.value || '';
+  var clr=$('#dirSearchClear'); if(clr) clr.hidden=!state.searchQuery;
+  syncSearchUrl();
   renderProjects();
+});
+
+$('#dirSearchClear').addEventListener('click', function() {
+  applySearchQuery('');
+  syncSearchUrl();
+  var inp=$('#dirSearchInput'); if(inp) inp.focus();
+});
+
+window.addEventListener('popstate', function() {
+  applySearchQuery(readSearchQuery(location.href));
 });
 
 
@@ -2312,6 +2372,16 @@ try { if (localStorage.getItem('atlas-theme') === 'dark') applyTheme(true); } ca
 updateFavBadge();
 renderStream();
 renderMintTrench();
+
+/* Restore a shared ?q= search before the first render. */
+var initialQ=readSearchQuery(location.href);
+if(initialQ){
+  state.searchQuery=initialQ;
+  var searchInput=$('#dirSearchInput');
+  if(searchInput)searchInput.value=initialQ;
+  var searchClear=$('#dirSearchClear');
+  if(searchClear)searchClear.hidden=false;
+}
 
 renderProjects();
 loadAtlasData();
