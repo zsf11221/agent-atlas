@@ -20,16 +20,30 @@ DATA = ROOT / "data"
 PROJECTS_FILE = DATA / "x_projects.json"
 STATUS_FILE = DATA / "x_pipeline_status.json"
 API = "https://api.x.com/2/tweets/search/recent"
-# 2 searches x 10 returned posts per run. The ledger reserves all potential
-# reads BEFORE calls and caps this workflow at 800 per UTC calendar month.
-# $0.005/read is an estimate, not a guarantee or account-wide spending limit.
+# 6 searches x 10 returned posts per run (5 keyword queries + 1 morning-roundup
+# source). The ledger reserves all potential reads BEFORE calls and caps this
+# workflow at 2400 per UTC calendar month — 3x the previous 800 cap.
+# $0.005/read is an estimate, not a guarantee or account-wide spending limit,
+# so the worst case is about $12.00/month (was $4.00). At the full pace of
+# 300 reads/day the cap still lasts ~8 days per month; spreading the same
+# budget across the month would need rotating queries per run, not a cap change.
 MAX_RESULTS_PER_QUERY = 10
-MONTHLY_READ_CAP = 800
-MAX_STORED_LEADS = 160
+MONTHLY_READ_CAP = 2400
+MAX_STORED_LEADS = 480
 QUERY_PAIRS = (
     '(("AI agent" OR agentic OR DeFAI) (BNB OR BSC)) -is:retweet -is:reply',
     '("Binance Agentic Wallet" OR "Agent ID") (agent OR mint OR launch) -is:retweet -is:reply',
+    '((智能体 OR 智能代理 OR 自主代理 OR DeFAI) (BNB OR BSC OR 币安链)) -is:retweet -is:reply',
+    '((mint OR whitelist OR "fair launch") (AI agent OR agentic) (BNB OR BSC)) -is:retweet -is:reply',
+    '((铸造 OR 免费铸造 OR 白名单) (智能体 OR Agent) (BNB OR BSC)) -is:retweet -is:reply',
 )
+# Morning-roundup source: @_mlnbro's daily Binance Agent ID report. A roundup
+# post names several projects at once, so it is parsed by parse_roundup() into
+# one unverified name lead per project instead of one generic post lead.
+# Replies are excluded by the query, so comment-section mentions (e.g. a
+# reader's tip in a reply) still do not enter the pipeline.
+ROUNDUP_QUERY = 'from:_mlnbro -is:retweet -is:reply'
+SEARCH_JOBS = [(q, False) for q in QUERY_PAIRS] + [(ROUNDUP_QUERY, True)]
 BSC = re.compile(r"\b(?:BNB(?:\s+(?:Smart\s+)?Chain)?|BSC|Binance\s+(?:Smart\s+Chain|Agentic\s+Wallet|Agent\s+ID))\b|币安(?:智能)?链|币安(?:钱包|智能体)|BNB链", re.I)
 AGENT = re.compile(r"\b(?:AI\s+agents?|agentic|autonomous\s+agents?|DeFAI|agent\s+ID|agent\s+wallet)\b|智能体|智能代理|自主代理|智能代理", re.I)
 RELEASE = re.compile(r"\b(?:launch|launched|launching|mint|coming soon|build|building|develop|beta|demo|testnet|mainnet|deploy|introduc|announce|released|open source)\b|发布|上线|推出|开发|开放|铸造|测试|公测|预告|启动", re.I)
@@ -131,6 +145,84 @@ def parse_record(post, seen_at):
     }
 
 
+# Words that look like project names in a roundup but are not: chains, stable
+# coins, generic English, weekdays and months. A name that survives this list
+# is still only an unverified mention, never a verified project.
+ROUNDUP_STOP = {
+    "BNB", "BSC", "USDT", "USDC", "BUSD", "FDUSD", "BINANCE", "AGENT", "AGENTS",
+    "CHAIN", "ECOSYSTEM", "MORNING", "REPORT", "DAILY", "EARLY", "UPDATE",
+    "BREAKING", "MINT", "LAUNCH", "FREE", "NEW", "TOP", "THE", "AND", "FOR",
+    "WITH", "FROM", "TODAY", "THIS", "THAT", "JUST", "MORE", "PLUS", "ALSO",
+    "VIA", "PER", "MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN",
+    "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC",
+}
+ROUNDUP_NAME = re.compile(r"[A-Z]{3,}[A-Z0-9]*|[A-Z][a-z]{2,}(?:[A-Z][a-z]+)*")
+ROUNDUP_CONTEXT = re.compile(r"Agent\s*ID|币安|BNB|BSC|智能体", re.I)
+ROUNDUP_HANDLES = re.compile(r"@([A-Za-z0-9_]{1,15})")
+
+
+def parse_roundup(post, seen_at):
+    """Extract project names from one morning-roundup post.
+
+    Returns one unverified lead per distinct name (at most 10). A name here is
+    only evidence that the roundup mentioned it; identity, contract, cost and
+    launch status are all unverified and must be checked in review.
+    """
+    if not isinstance(post, dict):
+        return []
+    pid = str(post.get("id") or "")
+    author = str(post.get("author_id") or "")
+    content = str(post.get("text") or "")
+    if not pid.isdigit() or not author.isdigit() or not content:
+        return []
+    if not ROUNDUP_CONTEXT.search(content):
+        return []
+    if re.search(r"\bopBNB\b", content, re.I):
+        return []
+    created = trim(post.get("created_at"), 40)
+    date = created[:10] if re.fullmatch(r"\d{4}-\d{2}-\d{2}", created[:10]) else ""
+    link = "https://x.com/i/web/status/" + pid
+    handles = sorted(set(ROUNDUP_HANDLES.findall(content)))[:10]
+    names = []
+    for name in ROUNDUP_NAME.findall(content):
+        if name.upper() in ROUNDUP_STOP or name in names:
+            continue
+        names.append(name)
+        if len(names) >= 10:
+            break
+    leads = []
+    for name in names:
+        slug = re.sub(r"[^A-Za-z0-9]+", "-", name).strip("-").lower() or "project"
+        leads.append({
+            "id": "x-roundup-" + pid + "-" + slug,
+            "name": name,
+            "symbol": name,
+            "category": "early",
+            "chain": "BNB Chain (X claim only)",
+            "type": "candidate",
+            "stage": "x-lead-unverified",
+            "source": link,
+            "website": link,
+            "authorId": author,
+            "postId": pid,
+            "descriptionZh": "名字出自 @_mlnbro 早报汇总帖（" + date + "），身份、合约与上线状态尚未核实，需人工复核。"
+                             + (" 同帖提到的账号：" + "、".join("@" + h for h in handles) + "。" if handles else ""),
+            "descriptionEn": "Name mentioned in the @_mlnbro morning roundup. Project identity, contract and launch status are unverified.",
+            "mintSignal": "none",
+            "claimedMintCost": "unknown",
+            "tags": ["X", "Morning roundup", "Unverified"],
+            "evidence": "Project name extracted from morning-roundup post " + link + "; no independently verified project identity",
+            "date": date,
+            "firstSeen": seen_at.date().isoformat(),
+            "lastActivityAt": date,
+            "lastCheckedAt": seen_at.isoformat(),
+            "discoverySource": "x-morning-report",
+            "verification": "roundup-mention-only",
+            "mint": "unknown",
+        })
+    return leads
+
+
 def read_json(path, fallback):
     if not path.exists():
         return fallback
@@ -199,7 +291,7 @@ def live():
     sources = []
     new_leads = {}
     failure = False
-    for q in QUERY_PAIRS:
+    for q, is_roundup in SEARCH_JOBS:
         if reads + MAX_RESULTS_PER_QUERY > MONTHLY_READ_CAP:
             sources.append({"state": "monthly-cap-reached"})
             break
@@ -208,9 +300,13 @@ def live():
         reads += MAX_RESULTS_PER_QUERY
         try:
             for post in api_search(token, q):
-                parsed = parse_record(post, stamp)
-                if parsed:
-                    new_leads[parsed["id"]] = parsed
+                if is_roundup:
+                    for parsed in parse_roundup(post, stamp):
+                        new_leads[parsed["id"]] = parsed
+                else:
+                    parsed = parse_record(post, stamp)
+                    if parsed:
+                        new_leads[parsed["id"]] = parsed
             sources.append({"state": "ok"})
         except urllib.error.HTTPError as exc:
             sources.append({"state": "http-error", "status": exc.code})
@@ -261,7 +357,19 @@ def self_test():
     assert ambiguous["mintSignal"] == "mint" and ambiguous["claimedMintCost"] == "unknown"
     merged, added = upsert([dict(found, firstSeen="2026-11-02")], [found])
     assert added == 0 and len(merged) == 1 and merged[0]["firstSeen"] == "2026-11-02"
-    print("Self-test PASS: X classification, BSC restriction, no fake Agent verification, dedup.")
+    # Morning roundup: names are extracted, generic words are dropped, and a
+    # roundup mention is never presented as a verified project.
+    roundup = {"id": "2119254690617811082", "author_id": "999999",
+               "text": "11月8日 币安 Agent ID 生态早报：JAGENT 破 10 万份（@jagerbnb_）、AGC 要拿税收回购、Delveria 开门两个多小时就被挤爆。",
+               "created_at": "2026-11-08T02:24:00Z", "entities": {"urls": []}}
+    names = [p["name"] for p in parse_roundup(roundup, stamp)]
+    assert names == ["JAGENT", "AGC", "Delveria"], names
+    assert parse_roundup(roundup, stamp)[0]["discoverySource"] == "x-morning-report"
+    assert parse_roundup(roundup, stamp)[0]["verification"] == "roundup-mention-only"
+    assert parse_roundup({**roundup, "text": "今天天气不错，适合出门走走。"}, stamp) == []
+    assert parse_roundup({**roundup, "text": "11月8日 opBNB 生态早报：JAGENT 上线。"}, stamp) == []
+    assert len(SEARCH_JOBS) == 6 and MONTHLY_READ_CAP == 2400
+    print("Self-test PASS: X classification, BSC restriction, no fake Agent verification, dedup, morning-roundup extraction.")
     return 0
 
 
