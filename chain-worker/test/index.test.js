@@ -211,6 +211,8 @@ test("Tick writes a mint check for a recorded contract and still records the sca
 test("Manual review flags attach to flagged leads only", async () => {
   const flaggedA = "0x0662311fab76d4871628434d14cd8573a7517777";
   const flaggedB = "0x7dc663a352e83df5fb96b14ddfb0201a80d17777";
+  const flaggedC = "0x16af568870879daeccf5ba84b2e053dffc797777";
+  const flaggedD = "0x5a37db4e6ec3730566443009d9965b3f9b267777";
   const clean = "0x" + "5".repeat(40);
   const row = (address) => ({
     token_address: address, token_name: "WORKBUDDY", symbol: "WORKBUDDY",
@@ -218,7 +220,7 @@ test("Manual review flags attach to flagged leads only", async () => {
     tx_hash: "0x" + "f".repeat(64), first_seen: "2026-11-08T08:15:18.269Z",
     risk_status: "insufficient-evidence", risk_json: null, risk_checked_at: "2026-11-08T08:15:19.335Z"
   });
-  const rows = [row(flaggedA), row(flaggedB), row(clean)];
+  const rows = [row(flaggedA), row(flaggedB), row(flaggedC), row(flaggedD), row(clean)];
   const db = {
     prepare() {
       return {
@@ -235,7 +237,9 @@ test("Manual review flags attach to flagged leads only", async () => {
   assert.equal(data.ok, true);
   assert.deepEqual(data.leads[0].manualFlags, ["同名复制", "无流动性", "筹码集中"]);
   assert.deepEqual(data.leads[1].manualFlags, ["同名复制", "无流动性", "筹码集中"]);
-  assert.equal(data.leads[2].manualFlags, undefined);
+  assert.deepEqual(data.leads[2].manualFlags, ["同名复制", "无流动性", "筹码集中"]);
+  assert.deepEqual(data.leads[3].manualFlags, ["同名复制", "无流动性", "筹码集中"]);
+  assert.equal(data.leads[4].manualFlags, undefined);
   // Case-insensitive lookup: an uppercase address must still match.
   assert.deepEqual(manualFlagsFor(flaggedA.toUpperCase()), ["同名复制", "无流动性", "筹码集中"]);
   assert.equal(manualFlagsFor(clean), null);

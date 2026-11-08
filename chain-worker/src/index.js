@@ -39,14 +39,17 @@ const CONFIRMATIONS = 8;
 // Manual review flags. A flag is an editorial judgement, never an automated
 // risk signal: it is only ever added by hand after on-chain evidence was
 // checked, and it never claims a token is safe or a scam on its own.
-// WORKBUDDY pair (2026-11-08): two FlapTaxTokenV3 minimal-proxy clones of
-// the same implementation; one wallet (0xe2cE6ab80874Fa9Fa2aAE65D277Dd6B8e65C9De0)
-// holds ~100% of both supplies; both pools have 0 reserves / 0 LP, so the
-// tokens are not tradable in the discovered pairs; no website, docs or
-// product evidence. BscScan shows Reputation UNKNOWN for the second one.
+// WORKBUDDY pair (2026-11-08 16:15) and Agentic Aid pair (2026-11-08 20:45):
+// four FlapTaxTokenV3 minimal-proxy clones of the same implementation; one
+// wallet (0xe2cE6ab80874Fa9Fa2aAE65D277Dd6B8e65C9De0) holds ~100% of all four
+// supplies; every pool has 0 reserves / 0 LP, so none of the tokens is
+// tradable in its discovered pair; no website, docs or product evidence.
+// BscScan shows Reputation UNKNOWN for the second WORKBUDDY token.
 const MANUAL_FLAGS = {
   "0x0662311fab76d4871628434d14cd8573a7517777": ["同名复制", "无流动性", "筹码集中"],
-  "0x7dc663a352e83df5fb96b14ddfb0201a80d17777": ["同名复制", "无流动性", "筹码集中"]
+  "0x7dc663a352e83df5fb96b14ddfb0201a80d17777": ["同名复制", "无流动性", "筹码集中"],
+  "0x16af568870879daeccf5ba84b2e053dffc797777": ["同名复制", "无流动性", "筹码集中"],
+  "0x5a37db4e6ec3730566443009d9965b3f9b267777": ["同名复制", "无流动性", "筹码集中"]
 };
 export function manualFlagsFor(address) {
   return MANUAL_FLAGS[String(address || "").toLowerCase()] || null;
