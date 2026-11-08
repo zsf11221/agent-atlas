@@ -2093,21 +2093,18 @@ function relSeenText(day,lang){
   return lang==='zh'?age+' 天前收录':'Added '+age+' days ago';
 }
 function syncSearchUrl(){
-  try{history.replaceState(null,'',searchUrl(location.href,state.searchQuery));}catch(e){}
+  /* First keystroke of a search pushes a new entry, so the pre-search page
+     stays in history; later keystrokes only rewrite that entry. A plain
+     replaceState on every keystroke would overwrite the landing entry and
+     then need a duplicate push for the same URL (that was the old bug:
+     every search cost two Back presses and the empty state was lost). */
+  try{
+    var url=searchUrl(location.href,state.searchQuery);
+    if(entryIsOurs){history.replaceState(null,'',url);}
+    else{history.pushState(null,'',url);entryIsOurs=true;}
+  }catch(e){}
 }
-/* Push a history entry once typing pauses, so Back steps through searches
-   instead of leaving the site. replaceState keeps the URL bar live while
-   typing; pushState only fires after a pause, and only for a new query. */
-var lastPushedQuery=null;
-function pushSearchUrl(){
-  var q=state.searchQuery||'';
-  if(q===lastPushedQuery)return;
-  try{history.pushState(null,'',searchUrl(location.href,q));lastPushedQuery=q;}catch(e){}
-}
-function scheduleSearchPush(){
-  clearTimeout(window.__searchPushTimer);
-  window.__searchPushTimer=setTimeout(pushSearchUrl,700);
-}
+var entryIsOurs=false; // current history entry was created by this page's search
 function applySearchQuery(q){
   state.searchQuery=q||'';
   var inp=$('#dirSearchInput');
@@ -2298,23 +2295,24 @@ $('#viewToggle').addEventListener('click', function(e) {
 });
 
 $('#dirSearchInput').addEventListener('input', function(e) {
-  state.searchQuery = e.target.value || '';
+  var v=e.target.value||'';
+  if(!v&&state.searchQuery)entryIsOurs=false; // cleared: next URL write must push, preserving the old search
+  state.searchQuery = v;
   var clr=$('#dirSearchClear'); if(clr) clr.hidden=!state.searchQuery;
   syncSearchUrl();
-  scheduleSearchPush();
   renderProjects();
 });
 
 $('#dirSearchClear').addEventListener('click', function() {
-  clearTimeout(window.__searchPushTimer);
+  entryIsOurs=false; // force a push for the empty state, preserving the old search
   applySearchQuery('');
-  pushSearchUrl();
+  syncSearchUrl();
   var inp=$('#dirSearchInput'); if(inp) inp.focus();
 });
 
 window.addEventListener('popstate', function() {
   applySearchQuery(readSearchQuery(location.href));
-  lastPushedQuery=state.searchQuery;
+  entryIsOurs=false; // restored entry may not be ours; next input pushes and preserves it
 });
 
 
@@ -2393,7 +2391,6 @@ renderMintTrench();
 var initialQ=readSearchQuery(location.href);
 if(initialQ){
   state.searchQuery=initialQ;
-  lastPushedQuery=initialQ;
   var searchInput=$('#dirSearchInput');
   if(searchInput)searchInput.value=initialQ;
   var searchClear=$('#dirSearchClear');
