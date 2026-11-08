@@ -1316,7 +1316,8 @@ footer {
 .chain-leads-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .chain-lead{background:var(--bg-card);border:1px solid var(--border-line);border-radius:var(--radius-md);padding:15px 16px;min-width:0;box-shadow:var(--shadow-sm)}
 .chain-lead-name{font-size:15px;line-height:1.4;overflow-wrap:anywhere;color:var(--ink-primary);margin-bottom:6px}
-.chain-lead-label{font-size:10.5px;color:var(--ink-muted);margin:4px 0 9px}
+.chain-lead-label{font-size:10.5px;color:var(--ink-muted);margin:4px 0 2px}
+.chain-lead-addr{font-family:var(--font-mono);font-size:11px;color:var(--ink-muted);margin:0 0 9px}
 .chain-lead-risk{display:inline-block;border-radius:99px;padding:4px 9px;font-size:11px;background:var(--gold-bg);color:var(--amber);border:1px solid var(--gold-border)}
 .chain-lead-risk.high{background:rgba(174,56,43,.10);color:#b34a39;border-color:rgba(174,56,43,.28)}
 .chain-lead-info{font-size:11.5px;line-height:1.6;color:var(--ink-secondary);margin-top:9px;overflow-wrap:anywhere}
@@ -2404,6 +2405,7 @@ async function loadChainCandidates(){
     const seen=Number.isFinite(stamp)?new Date(stamp).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Shanghai'}):'时间未知';
     return '<article class="chain-lead"><h4 class="chain-lead-name">'+safeText(p.name||p.symbol||'未命名代币')+'</h4>'
       +'<p class="chain-lead-label">BSC · Agent 关键词候选 · '+safeText(p.symbol||'')+'</p>'
+      +'<p class="chain-lead-addr">合约 '+safeText(address.slice(0,6))+'…'+safeText(address.slice(-4))+'</p>'
       +'<span class="chain-lead-risk'+high+'">'+statusText+'</span>'
       +flagLine
       +'<p class="chain-lead-info">'+label+'</p><p class="chain-lead-info">发现时间（北京） '+safeText(seen)+'</p>'
