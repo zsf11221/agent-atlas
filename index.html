@@ -2095,6 +2095,19 @@ function relSeenText(day,lang){
 function syncSearchUrl(){
   try{history.replaceState(null,'',searchUrl(location.href,state.searchQuery));}catch(e){}
 }
+/* Push a history entry once typing pauses, so Back steps through searches
+   instead of leaving the site. replaceState keeps the URL bar live while
+   typing; pushState only fires after a pause, and only for a new query. */
+var lastPushedQuery=null;
+function pushSearchUrl(){
+  var q=state.searchQuery||'';
+  if(q===lastPushedQuery)return;
+  try{history.pushState(null,'',searchUrl(location.href,q));lastPushedQuery=q;}catch(e){}
+}
+function scheduleSearchPush(){
+  clearTimeout(window.__searchPushTimer);
+  window.__searchPushTimer=setTimeout(pushSearchUrl,700);
+}
 function applySearchQuery(q){
   state.searchQuery=q||'';
   var inp=$('#dirSearchInput');
@@ -2288,17 +2301,20 @@ $('#dirSearchInput').addEventListener('input', function(e) {
   state.searchQuery = e.target.value || '';
   var clr=$('#dirSearchClear'); if(clr) clr.hidden=!state.searchQuery;
   syncSearchUrl();
+  scheduleSearchPush();
   renderProjects();
 });
 
 $('#dirSearchClear').addEventListener('click', function() {
+  clearTimeout(window.__searchPushTimer);
   applySearchQuery('');
-  syncSearchUrl();
+  pushSearchUrl();
   var inp=$('#dirSearchInput'); if(inp) inp.focus();
 });
 
 window.addEventListener('popstate', function() {
   applySearchQuery(readSearchQuery(location.href));
+  lastPushedQuery=state.searchQuery;
 });
 
 
@@ -2377,6 +2393,7 @@ renderMintTrench();
 var initialQ=readSearchQuery(location.href);
 if(initialQ){
   state.searchQuery=initialQ;
+  lastPushedQuery=initialQ;
   var searchInput=$('#dirSearchInput');
   if(searchInput)searchInput.value=initialQ;
   var searchClear=$('#dirSearchClear');
