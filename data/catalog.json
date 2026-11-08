@@ -1,6 +1,48 @@
 {
-  "updatedAt": "2026-11-08T13:27:37.640962+00:00",
+  "updatedAt": "2026-11-08T18:50:48.564843+00:00",
   "projects": [
+    {
+      "id": "x-post-2119476281507234263",
+      "name": "PanduAGENT — 2,222 Street Animals on BNB Chain",
+      "descriptionZh": "官网介绍「First mint FREE for Agent ID holders; paid mints open to everyone, 0.00126 / 0.00316 / 0.0041 / 0.005 BNB, on BNB Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119476281507234263",
+      "website": "https://panduagent.vercel.app/",
+      "socialX": "https://x.com/i/web/status/2119476281507234263",
+      "contractAddress": "",
+      "firstSeen": "2026-11-08",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119476281507234263"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119476281507234263"
+        },
+        {
+          "source": "evidence",
+          "url": "https://panduagent.vercel.app/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "x-post-2119331513229574355",
       "name": "orbitz.pages.dev",
@@ -86,6 +128,78 @@
       "featured": false
     },
     {
+      "id": "x-post-2119476595253739842",
+      "name": "Neiro. · 行情与铸造",
+      "descriptionZh": "官网介绍「BNB Smart Chain 上的社区 Meme 项目。2% 交易税，40% 持币分红，LP 永久烧死。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119476595253739842",
+      "website": "https://neiroagent.fun",
+      "socialX": "https://x.com/i/web/status/2119476595253739842",
+      "contractAddress": "",
+      "firstSeen": "2026-11-08",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119476595253739842",
+        "x-post-2119478811825955122",
+        "x-post-2119479105443991919",
+        "x-post-2119479621125361687",
+        "x-post-2119479622094246017",
+        "x-post-2119479850151158236",
+        "x-post-2119481358011556316"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119476595253739842"
+        },
+        {
+          "source": "evidence",
+          "url": "https://neiroagent.fun/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119478811825955122"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119479105443991919"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119479621125361687"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119479622094246017"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119479850151158236"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119481358011556316"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1448492457",
       "name": "holder-roots",
       "descriptionZh": "仓库「holder-roots」公开介绍：MurkFun holder set: a public Merkle tree of SPACE ID Agent ID holders on BSC. Verify it, audit it, challenge it.",
@@ -120,6 +234,129 @@
         }
       ],
       "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1450441139",
+      "name": "bsc-agent-radar",
+      "descriptionZh": "仓库「bsc-agent-radar」公开介绍：BSC Agent 项目早期发现聚合站：只做 BNB Smart Chain（56），有币/无币都收录",
+      "descriptionEn": "Public GitHub discovery candidate: BSC Agent 项目早期发现聚合站：只做 BNB Smart Chain（56），有币/无币都收录",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/zsf11221/bsc-agent-radar",
+      "website": "https://github.com/zsf11221/bsc-agent-radar",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-08",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1450441139"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/zsf11221/bsc-agent-radar"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x938772c76072608b0c5c075cdc2e82c98b97beef",
+      "name": "BSC Agent token 0x938772…",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「BSC Agent token 0x938772…」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x938772c76072608b0c5c075cdc2e82c98b97beef",
+      "website": "https://beef.family/",
+      "socialX": "https://x.com/beefdotfamily",
+      "contractAddress": "0x938772c76072608b0c5c075cdc2e82c98b97beef",
+      "firstSeen": "2026-11-08",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x938772c76072608b0c5c075cdc2e82c98b97beef"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x938772c76072608b0c5c075cdc2e82c98b97beef"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119461048113856897",
+      "name": "Agent 身份 AID — 为每个 Agent 铸造一枚链上身份",
+      "descriptionZh": "官网介绍「固定价公售 0.003 BNB / 份 · 每份 3,000,000 AID · 底池每 30 分钟燃烧一格 · 交易税按持仓派分红。全部数据链上直读。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119461048113856897",
+      "website": "https://aid.skin/?ref=0x6A1776Ba76a5899bEA00bfe5c2B850C41702995c",
+      "socialX": "https://x.com/i/web/status/2119461048113856897",
+      "contractAddress": "",
+      "firstSeen": "2026-11-08",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119461048113856897",
+        "x-post-2119465421535613393"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119461048113856897"
+        },
+        {
+          "source": "evidence",
+          "url": "https://aid.skin/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119465421535613393"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
       "mintTypes": [],
       "featured": false
     },
@@ -3160,8 +3397,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-04",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4216,7 +4453,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0x0fc5a0f0167bc4003066ae60289c40b93f935b9a"
+          "url": "https://dexscreener.com/bsc/0xbb0a01fd88abf74a8f80fd26c03062bbe781446c"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -6799,8 +7036,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7141,8 +7378,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8659,8 +8896,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9598,13 +9835,13 @@
     }
   ],
   "inputCounts": {
-    "projects": 182,
-    "external": 30,
-    "x": 98,
+    "projects": 183,
+    "external": 31,
+    "x": 118,
     "mint": 25
   },
-  "candidateRecords": 266,
-  "mergedGroups": 248,
-  "reviewCount": 68,
+  "candidateRecords": 278,
+  "mergedGroups": 253,
+  "reviewCount": 78,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
