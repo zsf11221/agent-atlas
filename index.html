@@ -565,6 +565,8 @@ header.topbar {
   transition: background 0.15s;
 }
 .feed-row:hover { background: rgba(255, 255, 255, 0.07); }
+a.feed-row{text-decoration:none;color:inherit}
+.feed-tag.x{background:rgba(46,125,91,.25);color:#8fceab;border:1px solid rgba(46,125,91,.4)}
 .feed-row.type-mint { border-left-color: #44C486; }
 .feed-row.type-id { border-left-color: #E8C974; }
 .feed-row.type-whale { border-left-color: #57B8AF; }
@@ -1257,13 +1259,13 @@ footer {
 .bsc-status-cell{min-width:0;padding:6px 12px;border-right:1px solid rgba(236,231,217,.10)}
 .bsc-status-cell:last-child{border-right:0}
 .bsc-status-label{display:block;font-size:11px;letter-spacing:.035em;color:#93aa99;margin-bottom:7px}
-.bsc-status-value{display:block;color:#f2ebd8;font-size:clamp(15px,1.5vw,21px);line-height:1.25;overflow-wrap:anywhere}
+.bsc-status-value{display:block;color:#f2ebd8;font-size:clamp(15px,1.5vw,21px);line-height:1.25;white-space:nowrap;font-variant-numeric:tabular-nums;overflow-wrap:normal}
 .bsc-status-value.bsc-time{font-size:13px;line-height:1.5}
 .bsc-status-cell small{display:block;color:#8ea79a;font-size:10px;margin-top:2px}
 .bsc-status-foot{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;padding:0 25px 14px;font-family:var(--font-mono);font-size:10.5px;color:#9cb1a2;border-bottom:1px solid rgba(236,231,217,.08)}
 .bsc-status-foot a{color:#e8c974;text-decoration:underline;text-underline-offset:3px}
 .bsc-feed-label{padding:12px 24px 0;color:#a1ae9f;font-size:11px;letter-spacing:.04em}
-@media(max-width:480px){.bsc-status{grid-template-columns:1fr 1fr}.bsc-status-cell:nth-child(2){border-right:0}.bsc-status-cell:last-child{grid-column:1/-1;border-right:0;border-top:1px solid rgba(236,231,217,.1);padding-top:12px}.bsc-status-foot{padding-inline:20px}.bsc-feed-label{padding-left:20px}}
+@media(max-width:480px){.bsc-status{grid-template-columns:1fr 1fr}.bsc-status-cell:nth-child(2){border-right:0}.bsc-status-cell:last-child{grid-column:1/-1;border-right:0;border-top:1px solid rgba(236,231,217,.1);padding-top:12px}.bsc-status-value{font-size:16px}.bsc-status-foot{padding-inline:20px}.bsc-feed-label{padding-left:20px}}
 @media(max-width:820px){#periodChipGroup{width:100%}}\n
 /* Combined Mint directory; cards share project directory's three-column rhythm. */
 .mint-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 14px}
@@ -1564,7 +1566,7 @@ footer {
             <div>
               <div class="sec-kicker">ONCHAIN RADAR · BSC MAINNET</div>
               <h3 class="sec-title" style="font-size:21px">链上早期代币线索</h3>
-              <p class="sec-desc">监测 PancakeSwap V2 新交易池。命中 Agent 关键词不代表是 AI Agent 产品，风险检测也不构成安全保证。</p>
+              <p class="sec-desc">监测 PancakeSwap V2/V3 与 Biswap 新交易池。命中 Agent 关键词不代表是 AI Agent 产品，风险检测也不构成安全保证。</p>
             </div>
             <span class="chain-scanner-status" id="chainScannerStatus">正在核对扫描状态</span>
           </div>
@@ -1812,6 +1814,15 @@ try{
      firstSeen:xp.firstSeen||'',date:xp.date||'',tags:['X 来源','项目介绍'],
      evidence:profile.source||xp.source||'',walletSupport:'source-described'});
   }
+  // Bare X posts (no website profile) never enter the directory, but today's
+  // ones are shown as a clearly-labelled flash list in the feed, so a day
+  // with only bare leads does not look like a dead day.
+  const todayStr=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'});
+  X_TODAY=(xdata.projects||[]).filter(xp=>/^x-post-[0-9]+$/.test(xp.id||'')
+    &&/BNB Chain|BSC/i.test(xp.chain||'')&&!/opBNB/i.test(xp.chain||'')
+    &&String(xp.firstSeen||'').slice(0,10)===todayStr
+    &&!profiles[domainOf(xp.website)])
+    .slice(0,4).map(xp=>({id:xp.id,name:xp.name||'X 线索',source:xp.source||'',date:todayStr}));
  }
 }catch(e){/* Missing external data must not stop the core directory. */}
 // Surface only price-evidenced X Mint records; never show cost-unknown posts in free/paid.
@@ -1860,6 +1871,7 @@ renderProjects();renderMintTrench();renderStream();
 /* Project and mint data populated from local JSON */
 var MINT_ITEMS = [];
 var PROJECTS = [];
+var X_TODAY = [];
 
 /* ================= 双语字典（保留你 v6 的中英切换体验） ================= */
 var I18N = {
@@ -1931,9 +1943,10 @@ function copyText(txt,label){
 /* ================= 渲染 1：实时扫链瀑布流 ================= */
 function renderStream(){
 const n=$('#liveStreamFeed');if(!n)return;
+const xRows=(typeof X_TODAY!=='undefined'?X_TODAY:[]).map(x=>'<a class="feed-row feed-x" href="'+safeText(x.source||'#')+'" target="_blank" rel="noopener noreferrer"><span class="feed-tag x">X 快讯</span><span class="feed-main">'+safeText(x.name)+'</span><span class="feed-time">'+safeText(x.date)+'</span></a>').join('');
 const items=PROJECTS.filter(p=>/^\d{4}-\d{2}-\d{2}$/.test(String(p.firstSeen||''))).slice().sort((a,b)=>String(b.firstSeen).localeCompare(String(a.firstSeen))).slice(0,7);
-n.innerHTML=items.length?items.map(p=>'<div class="feed-row" data-open="'+safeText(p.id)+'"><span class="feed-tag id">收录</span><span class="feed-main">'+safeText(p.name)+'</span><span class="feed-time">'+safeText(p.firstSeen)+'</span></div>').join(''):'<div style="padding:20px;color:#91aa98">暂无带首次收录日期的项目线索。</div>';
-$('#streamStatusText').textContent='最近收录 · 非链上事件；收录时间不代表项目创建';
+n.innerHTML=xRows+(items.length?items.map(p=>'<div class="feed-row" data-open="'+safeText(p.id)+'"><span class="feed-tag id">收录</span><span class="feed-main">'+safeText(p.name)+'</span><span class="feed-time">'+safeText(p.firstSeen)+'</span></div>').join(''):'<div style="padding:20px;color:#91aa98">暂无带首次收录日期的项目线索。</div>');
+$('#streamStatusText').textContent=xRows?'今日 X 快讯 · 未核实，仅链接原帖；收录时间不代表项目创建':'最近收录 · 非链上事件；收录时间不代表项目创建';
 }
 
 /* ================= 渲染 2：.ai 铸造战壕 ================= */
