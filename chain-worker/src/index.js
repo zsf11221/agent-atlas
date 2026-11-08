@@ -200,6 +200,12 @@ export async function tick(env) {
   const item = await env.DB.prepare("SELECT value FROM sync_state WHERE key = 'pancake_v2_paircreated'").first();
   let cursor = item ? Number(item.value) : Math.max(0, safeHead - LOOKBACK_ON_BOOT);
   if (!Number.isSafeInteger(cursor) || cursor > safeHead) throw new Error("invalid-cursor");
+  // Chainstack Developer treats any range more than ~127 blocks behind the
+  // tip as an archive request and rejects it, so a stale cursor can never
+  // catch up one failing chunk at a time. Fast-forward to the boot window
+  // instead of stalling forever; missed pairs stay missed, which the scan
+  // record makes visible. (2026-11-08: cursor was ~670 blocks stale.)
+  if (safeHead - cursor > 120) cursor = Math.max(0, safeHead - LOOKBACK_ON_BOOT);
   let scanned = 0, pairs = 0, matched = 0, probes = 0;
   const started = new Date().toISOString();
   try {
