@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T08:27:24.760865+00:00",
+  "updatedAt": "2026-11-08T17:28:53.829440+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -60,6 +60,16 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "aid.skin",
+      "name": "Agent 身份 AID — 为每个 Agent 铸造一枚链上身份",
+      "descriptionZh": "官网介绍「固定价公售 0.003 BNB / 份 · 每份 3,000,000 AID · 底池每 30 分钟燃烧一格 · 交易税按持仓派分红。全部数据链上直读。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "固定价公售 0.003 BNB / 份 · 每份 3,000,000 AID · 底池每 30 分钟燃烧一格 · 交易税按持仓派分红。全部数据链上直读。",
+      "source": "https://aid.skin/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-08T17:28:53.829440+00:00",
+      "firstSeen": "2026-11-08"
     },
     {
       "domain": "anthrobit.fun",
@@ -192,6 +202,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "neiroagent.fun",
+      "name": "Neiro. · 行情与铸造",
+      "descriptionZh": "官网介绍「BNB Smart Chain 上的社区 Meme 项目。2% 交易税，40% 持币分红，LP 永久烧死。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "BNB Smart Chain 上的社区 Meme 项目。2% 交易税，40% 持币分红，LP 永久烧死。",
+      "source": "https://neiroagent.fun/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-08T17:28:53.829440+00:00",
+      "firstSeen": "2026-11-08"
+    },
+    {
       "domain": "oinkhash.fun",
       "name": "OinkHash — truffle-hunting pigs",
       "descriptionZh": "官网介绍「A virtual truffle-mining game on BNB Smart Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -239,6 +259,16 @@
       "source": "https://pacture.pvpmint.com/",
       "sourceKind": "website-metadata",
       "checkedAt": "2026-11-08T08:27:24.760865+00:00",
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "domain": "panduagent.vercel.app",
+      "name": "PanduAGENT — 2,222 Street Animals on BNB Chain",
+      "descriptionZh": "官网介绍「First mint FREE for Agent ID holders; paid mints open to everyone, 0.00126 / 0.00316 / 0.0041 / 0.005 BNB, on BNB Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "First mint FREE for Agent ID holders; paid mints open to everyone, 0.00126 / 0.00316 / 0.0041 / 0.005 BNB, on BNB Chain.",
+      "source": "https://panduagent.vercel.app/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-08T17:28:53.829440+00:00",
       "firstSeen": "2026-11-08"
     },
     {

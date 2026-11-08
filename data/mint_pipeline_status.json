@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-08T08:27:29.291315+00:00",
+  "checkedAt": "2026-11-08T17:29:00.529041+00:00",
   "state": "ok",
-  "xRecords": 98,
-  "matchingXPostsWithWebsite": 49,
-  "uniqueLeadsBeforeCap": 32,
+  "xRecords": 118,
+  "matchingXPostsWithWebsite": 60,
+  "uniqueLeadsBeforeCap": 36,
   "dedupedCuratedDomains": 10,
-  "displayedLeads": 32,
-  "freeClaims": 5,
+  "displayedLeads": 36,
+  "freeClaims": 7,
   "paidClaims": 2,
-  "costUnknown": 25,
+  "costUnknown": 27,
   "note": "No network/API requests. Reads existing X and curated records only."
 }
