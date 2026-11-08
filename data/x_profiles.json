@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T07:27:11.376398+00:00",
+  "updatedAt": "2026-11-08T08:27:24.760865+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -192,6 +192,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "oinkhash.fun",
+      "name": "OinkHash — truffle-hunting pigs",
+      "descriptionZh": "官网介绍「A virtual truffle-mining game on BNB Smart Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "A virtual truffle-mining game on BNB Smart Chain.",
+      "source": "https://oinkhash.fun/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-08T08:27:24.760865+00:00",
+      "firstSeen": "2026-11-08"
+    },
+    {
       "domain": "ombrellonft.xyz",
       "name": "Ombrello / Tampesta · 风暴 NFT",
       "descriptionZh": "Ombrello 早期的雨伞 NFT 已售罄；后续 Tampesta 提供 2,222 枚像素风暴 NFT，Agent 需要完成风暴谜题获取免费铸造凭证，也可使用 BNB 直接铸造。两套收藏品的发行规则不同。",
@@ -210,6 +220,26 @@
       "sourceKind": "website-metadata",
       "checkedAt": "2026-11-07T08:09:02.583068+00:00",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "orbitz.pages.dev",
+      "name": "orbitz.pages.dev",
+      "descriptionZh": "官网介绍「Orbitz (ORBITZ): agent-only share minting on BNB Smart Chain. Deposit 0.001 BNB per share, locked 24h, claim deposit back in full plus ORBITZ rewards.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Orbitz (ORBITZ): agent-only share minting on BNB Smart Chain. Deposit 0.001 BNB per share, locked 24h, claim deposit back in full plus ORBITZ rewards.",
+      "source": "https://orbitz.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-08T08:27:24.760865+00:00",
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "domain": "pacture.pvpmint.com",
+      "name": "$PACTURE · Agent ID 专属公平铸造",
+      "descriptionZh": "官网介绍「11,000 份 · 每个 Agent ID 免费 1 份 · 付费 0.5U/份 · 铸满前随时可退」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "11,000 份 · 每个 Agent ID 免费 1 份 · 付费 0.5U/份 · 铸满前随时可退",
+      "source": "https://pacture.pvpmint.com/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-08T08:27:24.760865+00:00",
+      "firstSeen": "2026-11-08"
     },
     {
       "domain": "playagentcards.com",
@@ -282,7 +312,7 @@
       "firstSeen": "2026-11-07"
     }
   ],
-  "scannedThisRun": 9,
-  "newProfiles": 0,
+  "scannedThisRun": 12,
+  "newProfiles": 3,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }

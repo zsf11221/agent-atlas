@@ -1,9 +1,9 @@
 {
   "monthUTC": "2026-11",
-  "reservedPostReads": 280,
-  "maxMonthlyPostReads": 800,
-  "worstCaseEstimatedUSD": 1.4,
-  "checkedAt": "2026-11-08T01:00:02.653902+00:00",
+  "reservedPostReads": 340,
+  "maxMonthlyPostReads": 2400,
+  "worstCaseEstimatedUSD": 1.7,
+  "checkedAt": "2026-11-08T08:27:23.565535+00:00",
   "state": "ok",
   "sources": [
     {
@@ -11,9 +11,21 @@
     },
     {
       "state": "ok"
+    },
+    {
+      "state": "ok"
+    },
+    {
+      "state": "ok"
+    },
+    {
+      "state": "ok"
+    },
+    {
+      "state": "ok"
     }
   ],
-  "newLeads": 8,
-  "total": 72,
+  "newLeads": 26,
+  "total": 98,
   "note": "This ledger is only for AgentAtlas X searches, not an X account billing cap. Rates may change; check X Console. Results are unverified leads."
 }
