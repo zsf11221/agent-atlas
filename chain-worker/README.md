@@ -8,12 +8,13 @@ This is an independent read-only Cloudflare Worker + D1 database supporting the 
 - Every five minutes, scan PancakeSwap V2 factory PairCreated logs (factory 0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73). This is NOT every BSC contract, every launchpad, or every new token.
 - Consider only pools paired with WBNB/USDT/USDC. Inspect token name/symbol and store Agent-related keyword candidates. Keyword matches do not establish Agent product legitimacy or that a pool has liquidity.
 - For at most four pending candidate tokens per run, query GoPlus security and Honeypot.is as best-effort external checks. Flag suspicious authorities, honeypot indicators and fees. Missing fields or simulation failures mean insufficient evidence, NEVER a green safety badge or audit.
-- Cursor is durable in D1 and moves only after successful block window processing; the first scan starts near the current head. Scan limits: at most 5 groups of 250 blocks, up to 30 token metadata probes, up to 4 risk checks. Provider API usage and limits are your responsibility.
+- Cursor is durable in D1 and moves only after successful block window processing; the first scan starts near the current head. Scan limits: at most 5 groups of 100 blocks, up to 30 token metadata probes, up to 4 risk checks. Provider API usage and limits are your responsibility.
+- RPC provider (2026-11-08): Chainstack Developer, free, no card required, 3M RU/month, `eth_getLogs` capped at 100 blocks per call — that is why chunks are 100. Ankr was the earlier recommendation, but a new Ankr account now shows 0 credits and asks for a $10 Premium pay-as-you-go top-up before issuing a usable endpoint, so do not use Ankr unless you already have a funded account.
 - The Worker has only read-only public endpoints. It never asks users to sign transactions or exposes a write endpoint.
 
 ## Windows PowerShell — one-time setup
 
-Prerequisites: a Cloudflare account, Node.js, and a BSC mainnet RPC endpoint supporting eth_getLogs. Public BSC dataseeds may not provide historical logs. Use an endpoint from a provider such as Alchemy with spending limits configured. Never send RPC keys in public messages or GitHub commits.
+Prerequisites: a Cloudflare account, Node.js, and a BSC mainnet RPC endpoint supporting eth_getLogs. Public BSC dataseeds may not provide historical logs. Use a Chainstack Developer endpoint (free, no card, `eth_getLogs` capped at 100 blocks — matches the Worker's chunk size). Never send RPC keys in public messages or GitHub commits.
 
 Open PowerShell inside the repository folder.
 

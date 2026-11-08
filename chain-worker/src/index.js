@@ -6,7 +6,12 @@ const WBNB = "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c";
 const QUOTES = new Set([WBNB, "0x55d398326f99059ff775485246999027b3197955", "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"]);
 const TOKEN_RE = /\b(agent(?:ic|s)?|ai|a\.i|bot|autonomous|mcp|agentid|agent-id)\b/i;
 const ADDRESS = /^0x[a-fA-F0-9]{40}$/;
-const CHUNK_BLOCKS = 250;
+// 100 blocks: Chainstack Developer (free, no card) caps eth_getLogs at 100
+// blocks per call. 5 chunks x 100 = 500 blocks per 5-minute run, just above
+// the ~400 blocks BSC produces in the same window, so the cursor keeps up
+// and recovers slowly after a missed run. Do not raise this above the
+// provider cap or every scan fails.
+const CHUNK_BLOCKS = 100;
 const CHUNKS_PER_RUN = 5;
 const TOKEN_PROBES_PER_RUN = 30;
 const RISK_CHECKS_PER_RUN = 4;
