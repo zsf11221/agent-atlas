@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import worker, { parsePair, parsePool, decodeString, decodeUint256, assess, checkMint, tick } from "../src/index.js";
+import worker, { parsePair, parsePool, decodeString, decodeUint256, assess, checkMint, tick, manualFlagsFor } from "../src/index.js";
 
 const topic = "0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9";
 const token0 = "0x" + "1".repeat(40);
@@ -206,4 +206,37 @@ test("Tick writes a mint check for a recorded contract and still records the sca
   } finally {
     globalThis.fetch = original;
   }
+});
+
+test("Manual review flags attach to flagged leads only", async () => {
+  const flaggedA = "0x0662311fab76d4871628434d14cd8573a7517777";
+  const flaggedB = "0x7dc663a352e83df5fb96b14ddfb0201a80d17777";
+  const clean = "0x" + "5".repeat(40);
+  const row = (address) => ({
+    token_address: address, token_name: "WORKBUDDY", symbol: "WORKBUDDY",
+    pair_address: "0x" + "3".repeat(40), first_block: 132358837,
+    tx_hash: "0x" + "f".repeat(64), first_seen: "2026-11-08T08:15:18.269Z",
+    risk_status: "insufficient-evidence", risk_json: null, risk_checked_at: "2026-11-08T08:15:19.335Z"
+  });
+  const rows = [row(flaggedA), row(flaggedB), row(clean)];
+  const db = {
+    prepare() {
+      return {
+        bind() { return this; },
+        async first() { return null; },
+        async all() { return { results: rows }; },
+        async run() { return { success: true }; }
+      };
+    }
+  };
+  const res = await worker.fetch(new Request("https://chain.example/v1/leads"), { DB: db });
+  assert.equal(res.status, 200);
+  const data = await res.json();
+  assert.equal(data.ok, true);
+  assert.deepEqual(data.leads[0].manualFlags, ["同名复制", "无流动性", "筹码集中"]);
+  assert.deepEqual(data.leads[1].manualFlags, ["同名复制", "无流动性", "筹码集中"]);
+  assert.equal(data.leads[2].manualFlags, undefined);
+  // Case-insensitive lookup: an uppercase address must still match.
+  assert.deepEqual(manualFlagsFor(flaggedA.toUpperCase()), ["同名复制", "无流动性", "筹码集中"]);
+  assert.equal(manualFlagsFor(clean), null);
 });

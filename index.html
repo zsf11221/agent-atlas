@@ -1320,6 +1320,7 @@ footer {
 .chain-lead-risk{display:inline-block;border-radius:99px;padding:4px 9px;font-size:11px;background:var(--gold-bg);color:var(--amber);border:1px solid var(--gold-border)}
 .chain-lead-risk.high{background:rgba(174,56,43,.10);color:#b34a39;border-color:rgba(174,56,43,.28)}
 .chain-lead-info{font-size:11.5px;line-height:1.6;color:var(--ink-secondary);margin-top:9px;overflow-wrap:anywhere}
+.chain-lead-flag{font-size:11.5px;line-height:1.6;color:#8f2f23;background:rgba(174,56,43,.07);border:1px solid rgba(174,56,43,.22);border-radius:8px;padding:6px 9px;margin-top:9px;overflow-wrap:anywhere}
 .chain-lead-link{display:inline-block;font-weight:600;font-size:12px;color:var(--gold);margin-top:10px;text-decoration:none}
 .chain-lead-link:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .chain-scanner-foot{font-size:11.5px;line-height:1.6;margin-top:14px;color:var(--ink-muted)}
@@ -2372,14 +2373,17 @@ async function loadChainCandidates(){
     if(!/^0x[0-9a-f]{40}$/.test(address))return '';
     const risk=String(p.riskStatus||'');
     const flags=Array.isArray(p.risk?.flags)?p.risk.flags:[];
-    const statusText=risk==='risk-detected'?'发现高风险信号':risk==='caution'?'发现需注意的权限':'风险资料不足';
-    const high=risk==='risk-detected'?' high':'';
+    const manual=Array.isArray(p.manualFlags)?p.manualFlags.filter(x=>typeof x==='string'&&x):[];
+    const statusText=manual.length?'人工标注':risk==='risk-detected'?'发现高风险信号':risk==='caution'?'发现需注意的权限':'风险资料不足';
+    const high=(risk==='risk-detected'||manual.length)?' high':'';
     const label=flags.length?'检测标记：'+flags.slice(0,3).map(f=>safeText(f.code)).join('、'):'未发现可作出安全结论的充分检测数据';
+    const flagLine=manual.length?'<p class="chain-lead-flag">人工标注：'+manual.map(f=>safeText(f)).join(' · ')+'</p>':'';
     const stamp=Date.parse(p.firstSeen||'');
     const seen=Number.isFinite(stamp)?new Date(stamp).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Shanghai'}):'时间未知';
     return '<article class="chain-lead"><h4 class="chain-lead-name">'+safeText(p.name||p.symbol||'未命名代币')+'</h4>'
       +'<p class="chain-lead-label">BSC · Agent 关键词候选 · '+safeText(p.symbol||'')+'</p>'
       +'<span class="chain-lead-risk'+high+'">'+statusText+'</span>'
+      +flagLine
       +'<p class="chain-lead-info">'+label+'</p><p class="chain-lead-info">发现时间（北京） '+safeText(seen)+'</p>'
       +'<a class="chain-lead-link" href="https://bscscan.com/token/'+address+'" rel="noopener noreferrer" target="_blank">查看链上合约 ↗</a></article>';
   }).join(''):'<p class="chain-scanner-foot">扫描正在运行，目前尚无符合关键词条件的 BSC 新交易池。</p>';

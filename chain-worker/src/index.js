@@ -36,6 +36,22 @@ const TOTAL_SUPPLY_SELECTOR = "0x18160ddd";
 const LOOKBACK_ON_BOOT = 40;
 const CONFIRMATIONS = 8;
 
+// Manual review flags. A flag is an editorial judgement, never an automated
+// risk signal: it is only ever added by hand after on-chain evidence was
+// checked, and it never claims a token is safe or a scam on its own.
+// WORKBUDDY pair (2026-11-08): two FlapTaxTokenV3 minimal-proxy clones of
+// the same implementation; one wallet (0xe2cE6ab80874Fa9Fa2aAE65D277Dd6B8e65C9De0)
+// holds ~100% of both supplies; both pools have 0 reserves / 0 LP, so the
+// tokens are not tradable in the discovered pairs; no website, docs or
+// product evidence. BscScan shows Reputation UNKNOWN for the second one.
+const MANUAL_FLAGS = {
+  "0x0662311fab76d4871628434d14cd8573a7517777": ["同名复制", "无流动性", "筹码集中"],
+  "0x7dc663a352e83df5fb96b14ddfb0201a80d17777": ["同名复制", "无流动性", "筹码集中"]
+};
+export function manualFlagsFor(address) {
+  return MANUAL_FLAGS[String(address || "").toLowerCase()] || null;
+}
+
 const responseHeaders = {
   "content-type": "application/json; charset=utf-8",
   "cache-control": "public, max-age=25",
@@ -369,12 +385,16 @@ export default {
         const data = await env.DB.prepare(
           "SELECT token_address,token_name,symbol,pair_address,first_block,tx_hash,first_seen,risk_status,risk_json,risk_checked_at " +
           "FROM chain_leads ORDER BY first_seen DESC LIMIT ?").bind(limit).all();
-        const leads = (data.results || []).map(p => ({
-          address: p.token_address, name: p.token_name, symbol: p.symbol, pair: p.pair_address,
-          firstBlock: p.first_block, txHash: p.tx_hash, firstSeen: p.first_seen,
-          classification: "agent-keyword-lead", riskStatus: p.risk_status,
-          risk: p.risk_json ? JSON.parse(p.risk_json) : null, riskCheckedAt: p.risk_checked_at
-        }));
+        const leads = (data.results || []).map(p => {
+          const manualFlags = manualFlagsFor(p.token_address);
+          return {
+            address: p.token_address, name: p.token_name, symbol: p.symbol, pair: p.pair_address,
+            firstBlock: p.first_block, txHash: p.tx_hash, firstSeen: p.first_seen,
+            classification: "agent-keyword-lead", riskStatus: p.risk_status,
+            risk: p.risk_json ? JSON.parse(p.risk_json) : null, riskCheckedAt: p.risk_checked_at,
+            ...(manualFlags ? { manualFlags } : {})
+          };
+        });
         return respond({ ok: true, chainId: 56, leads, note: "Keyword match alone does not verify an Agent product or token safety." });
       }
       return respond({ ok: false, error: "not-found" }, 404);
