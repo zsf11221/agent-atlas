@@ -1,6 +1,170 @@
 {
-  "updatedAt": "2026-11-08T06:04:35.683568+00:00",
+  "updatedAt": "2026-11-08T13:27:37.640962+00:00",
   "projects": [
+    {
+      "id": "x-post-2119331513229574355",
+      "name": "orbitz.pages.dev",
+      "descriptionZh": "官网介绍「Orbitz (ORBITZ): agent-only share minting on BNB Smart Chain. Deposit 0.001 BNB per share, locked 24h, claim deposit back in full plus ORBITZ rewards.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119331513229574355",
+      "website": "https://orbitz.pages.dev",
+      "socialX": "https://x.com/i/web/status/2119331513229574355",
+      "contractAddress": "",
+      "firstSeen": "2026-11-08",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119331513229574355"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119331513229574355"
+        },
+        {
+          "source": "evidence",
+          "url": "https://orbitz.pages.dev/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119326012190408720",
+      "name": "OinkHash — truffle-hunting pigs",
+      "descriptionZh": "官网介绍「A virtual truffle-mining game on BNB Smart Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119326012190408720",
+      "website": "https://oinkhash.fun",
+      "socialX": "https://x.com/i/web/status/2119326012190408720",
+      "contractAddress": "",
+      "firstSeen": "2026-11-08",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119326012190408720"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119326012190408720"
+        },
+        {
+          "source": "evidence",
+          "url": "https://oinkhash.fun/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1448492457",
+      "name": "holder-roots",
+      "descriptionZh": "仓库「holder-roots」公开介绍：MurkFun holder set: a public Merkle tree of SPACE ID Agent ID holders on BSC. Verify it, audit it, challenge it.",
+      "descriptionEn": "Public GitHub discovery candidate: MurkFun holder set: a public Merkle tree of SPACE ID Agent ID holders on BSC. Verify it, audit it, challenge it.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/murkfun/holder-roots",
+      "website": "https://github.com/murkfun/holder-roots",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-08",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1448492457"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/murkfun/holder-roots"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119325203855774016",
+      "name": "$PACTURE · Agent ID 专属公平铸造",
+      "descriptionZh": "官网介绍「11,000 份 · 每个 Agent ID 免费 1 份 · 付费 0.5U/份 · 铸满前随时可退」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119325203855774016",
+      "website": "https://pacture.pvpmint.com",
+      "socialX": "https://x.com/i/web/status/2119325203855774016",
+      "contractAddress": "",
+      "firstSeen": "2026-11-08",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119325203855774016"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119325203855774016"
+        },
+        {
+          "source": "evidence",
+          "url": "https://pacture.pvpmint.com/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "x-post-2119114802165600498",
       "name": "TOAST — agent mint on BNB Chain",
@@ -2040,8 +2204,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-05",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3752,8 +3916,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-04",
-      "date": "2026-11-04",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4052,7 +4216,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0xbb0a01fd88abf74a8f80fd26c03062bbe781446c"
+          "url": "https://dexscreener.com/bsc/0x0fc5a0f0167bc4003066ae60289c40b93f935b9a"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -4697,8 +4861,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4773,8 +4937,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6445,8 +6609,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6673,8 +6837,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7585,8 +7749,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9434,13 +9598,13 @@
     }
   ],
   "inputCounts": {
-    "projects": 181,
+    "projects": 182,
     "external": 30,
-    "x": 72,
+    "x": 98,
     "mint": 25
   },
-  "candidateRecords": 262,
-  "mergedGroups": 244,
-  "reviewCount": 45,
+  "candidateRecords": 266,
+  "mergedGroups": 248,
+  "reviewCount": 68,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

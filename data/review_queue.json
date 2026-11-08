@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T06:04:35.683568+00:00",
+  "updatedAt": "2026-11-08T13:27:37.640962+00:00",
   "items": [
     {
       "id": "x-post-2119233105911226644",
@@ -48,6 +48,144 @@
       "name": "X 早期项目线索 · 554304",
       "reason": "x-post-without-specific-product-evidence",
       "source": "https://x.com/i/web/status/2119229402139554304"
+    },
+    {
+      "id": "x-post-2119341901446848921",
+      "name": "X 早期项目线索 · 848921",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119341901446848921"
+    },
+    {
+      "id": "x-post-2119330481590472988",
+      "name": "X 早期项目线索 · 472988",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119330481590472988"
+    },
+    {
+      "id": "x-post-2119328552311017600",
+      "name": "X 早期项目线索 · 017600",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119328552311017600"
+    },
+    {
+      "id": "x-post-2119344402833563820",
+      "name": "X 早期项目线索 · 563820",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119344402833563820"
+    },
+    {
+      "id": "x-post-2119335124408156594",
+      "name": "X 早期项目线索 · 156594",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119335124408156594"
+    },
+    {
+      "id": "x-post-2119302256554312175",
+      "name": "txum.fun",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119302256554312175"
+    },
+    {
+      "id": "x-post-2119321183355379973",
+      "name": "sylar.aiagc.launch0.date",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119321183355379973"
+    },
+    {
+      "id": "x-post-2119299577736032330",
+      "name": "X 早期项目线索 · 032330",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119299577736032330"
+    },
+    {
+      "id": "x-post-2119298483702350273",
+      "name": "agc.launch0.date",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119298483702350273"
+    },
+    {
+      "id": "x-post-2119297383393878148",
+      "name": "agc.launch0.date",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119297383393878148"
+    },
+    {
+      "id": "x-roundup-2119299577736032330-bots",
+      "name": "Bots",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119299577736032330"
+    },
+    {
+      "id": "x-roundup-2119299577736032330-wux",
+      "name": "WUX",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119299577736032330"
+    },
+    {
+      "id": "x-roundup-2119276731605364764-app",
+      "name": "App",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119276731605364764"
+    },
+    {
+      "id": "x-roundup-2119267799038415023-jagent",
+      "name": "JAGENT",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119267799038415023"
+    },
+    {
+      "id": "x-roundup-2119267799038415023-pancakeswap",
+      "name": "PancakeSwap",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119267799038415023"
+    },
+    {
+      "id": "x-roundup-2119254690617811082-jagent",
+      "name": "JAGENT",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119254690617811082"
+    },
+    {
+      "id": "x-roundup-2119254690617811082-agc",
+      "name": "AGC",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119254690617811082"
+    },
+    {
+      "id": "x-roundup-2119254690617811082-delveria",
+      "name": "Delveria",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119254690617811082"
+    },
+    {
+      "id": "x-roundup-2119254690617811082-dwxtk",
+      "name": "Dwxtk",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119254690617811082"
+    },
+    {
+      "id": "x-roundup-2119245180423602682-solv",
+      "name": "Solv",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119245180423602682"
+    },
+    {
+      "id": "x-roundup-2119245180423602682-solvprotocol",
+      "name": "SolvProtocol",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119245180423602682"
+    },
+    {
+      "id": "x-roundup-2119245180423602682-lse",
+      "name": "Lse",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119245180423602682"
+    },
+    {
+      "id": "x-roundup-2119245180423602682-qpzukp",
+      "name": "QPZUKP",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119245180423602682"
     },
     {
       "id": "x-post-2118875145792270638",
