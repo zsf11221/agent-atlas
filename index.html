@@ -1741,6 +1741,28 @@ async function loadAtlasData(){
     $('#dataNotice').textContent=state.lang==='zh'
       ?'统一项目目录 '+(updated.slice(0,10)||'日期未知')+' · '+PROJECTS.length+' 个项目档案 · 来源可追溯'
       :'Consolidated directory '+(updated.slice(0,10)||'unknown')+' · '+PROJECTS.length+' project profiles · Source-linked';
+    // Today's bare X leads (no website profile) surface as flash rows in the
+    // feed. This must run on the primary path too: the same computation used
+    // to live only in the legacy fallback, so the feed showed nothing new
+    // on days when the directory had no new entries.
+    try{
+      const [xr2,hr2]=await Promise.all([
+        fetch('data/x_projects.json',{cache:'no-store'}),
+        fetch('data/x_profiles.json',{cache:'no-store'}).catch(()=>null)
+      ]);
+      if(xr2.ok){
+        const xdata2=await xr2.json();
+        let profiles2={};
+        if(hr2&&hr2.ok){try{for(const p of (await hr2.json()).profiles||[]){if(p.domain&&p.descriptionZh)profiles2[p.domain]=p;}}catch(e){}}
+        const domainOf2=url=>{try{const u=new URL(url);return u.protocol==='https:'?u.hostname.toLowerCase().replace(/^www\./,''):'';}catch(e){return '';}};
+        const todayStr2=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'});
+        X_TODAY=(xdata2.projects||[]).filter(xp=>/^x-post-[0-9]+$/.test(xp.id||'')
+          &&/BNB Chain|BSC/i.test(xp.chain||'')&&!/opBNB/i.test(xp.chain||'')
+          &&String(xp.firstSeen||'').slice(0,10)===todayStr2
+          &&!profiles2[domainOf2(xp.website)])
+          .slice(0,4).map(xp=>({id:xp.id,name:xp.name||'X 线索',source:xp.source||'',date:todayStr2}));
+      }
+    }catch(e){/* X flash rows are optional; the directory still renders. */}
     renderProjects();renderMintTrench();renderStream();
   }catch(err){
     const badge=$('#catalogHealth');if(badge)badge.textContent='备用数据';
