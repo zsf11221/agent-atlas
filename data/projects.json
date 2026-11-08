@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T18:50:42.956637+00:00",
+  "updatedAt": "2026-11-08T22:54:13.045127+00:00",
   "methodology": "Curated ecosystem sources plus public GitHub discovery. GitHub candidates are NOT independently verified; no automatic contract, mint or social audit.",
   "projects": [
     {
@@ -845,6 +845,33 @@
       "githubStars": 0
     },
     {
+      "id": "github-1249312853",
+      "name": "vike-data-cli",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/vike-io/vike-data-cli",
+      "website": "https://github.com/vike-io/vike-data-cli",
+      "descriptionZh": "GitHub 公开候选项目：CLI and MCP agent skills for the free Vike Data API: Polymarket full-L2 order-book archive (Parquet, CC BY 4.0), Hyperliquid positions, fills and cohort data, labelled Ethereum/BNB wallets.",
+      "descriptionEn": "Public GitHub discovery candidate: CLI and MCP agent skills for the free Vike Data API: Polymarket full-L2 order-book archive (Parquet, CC BY 4.0), Hyperliquid positions, fills and cohort data, labelled Ethereum/BNB wallets.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "2026-05-25",
+      "firstSeen": "2026-11-02",
+      "lastCheckedAt": "2026-11-06T00:18:24.967174+00:00",
+      "lastActivityAt": "2026-11-08",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 1
+    },
+    {
       "id": "github-1408033896",
       "name": "KEEL",
       "symbol": "GH",
@@ -1518,33 +1545,6 @@
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
       "githubStars": 0
-    },
-    {
-      "id": "github-1249312853",
-      "name": "vike-data-cli",
-      "symbol": "GH",
-      "category": "developer",
-      "chain": "BNB Chain (unverified)",
-      "type": "candidate",
-      "stage": "unverified",
-      "source": "https://github.com/vike-io/vike-data-cli",
-      "website": "https://github.com/vike-io/vike-data-cli",
-      "descriptionZh": "GitHub 公开候选项目：CLI and MCP agent skills for the free Vike Data API: Polymarket full-L2 order-book archive (Parquet, CC BY 4.0), Hyperliquid positions, fills and cohort data, labelled Ethereum/BNB wallets.",
-      "descriptionEn": "Public GitHub discovery candidate: CLI and MCP agent skills for the free Vike Data API: Polymarket full-L2 order-book archive (Parquet, CC BY 4.0), Hyperliquid positions, fills and cohort data, labelled Ethereum/BNB wallets.",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "mint": "unknown",
-      "evidence": "GitHub public repository metadata; independent verification pending",
-      "date": "2026-05-25",
-      "firstSeen": "2026-11-02",
-      "lastCheckedAt": "2026-11-06T00:18:24.967174+00:00",
-      "lastActivityAt": "2026-11-05",
-      "discoverySource": "github-search",
-      "verification": "repository-exists-only",
-      "githubStars": 1
     },
     {
       "id": "github-1259701758",
