@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T15:37:41.542173+08:00",
+  "timezone": "Asia/Shanghai",
+  "summaryZh": "目录无新增；X 新线索 8 条；Mint 线索 26 条（免费 5、付费 1）；链上最近一轮扫描 3 个新对、0 个候选。",
+  "catalog": {
+    "total": 244,
+    "newTodayCount": 0,
+    "newToday": [],
+    "newLast7DaysCount": 199
+  },
+  "x": {
+    "newTodayCount": 8,
+    "bySource": {
+      "x-recent-search": 8
+    },
+    "newToday": [
+      {
+        "name": "X 早期项目线索 · 071240",
+        "source": "https://x.com/i/web/status/2119231277786071240"
+      },
+      {
+        "name": "X 早期项目线索 · 226644",
+        "source": "https://x.com/i/web/status/2119233105911226644"
+      },
+      {
+        "name": "X 早期项目线索 · 244924",
+        "source": "https://x.com/i/web/status/2119232170619244924"
+      },
+      {
+        "name": "X 早期项目线索 · 337262",
+        "source": "https://x.com/i/web/status/2119232620307337262"
+      },
+      {
+        "name": "X 早期项目线索 · 534887",
+        "source": "https://x.com/i/web/status/2119231642279534887"
+      },
+      {
+        "name": "X 早期项目线索 · 554304",
+        "source": "https://x.com/i/web/status/2119229402139554304"
+      },
+      {
+        "name": "X 早期项目线索 · 601601",
+        "source": "https://x.com/i/web/status/2119230644865601601"
+      },
+      {
+        "name": "X 早期项目线索 · 838578",
+        "source": "https://x.com/i/web/status/2119230086993838578"
+      }
+    ],
+    "reservedReadsThisMonth": 280,
+    "monthlyCap": 800,
+    "state": "ok"
+  },
+  "mint": {
+    "total": 26,
+    "freeClaims": 5,
+    "paidClaims": 1,
+    "costUnknown": 20,
+    "newTodayCount": 0,
+    "newToday": [],
+    "verifiedChecks": [],
+    "verifiedNote": "已登记核验的 Mint 合约 0 个，铸造量只写链上核验数；未登记的只写来源声称，不写进已铸数量。"
+  },
+  "chain": {
+    "available": true,
+    "lastScan": {
+      "id": 12,
+      "started_at": "2026-11-08T07:35:17.552Z",
+      "finished_at": "2026-11-08T07:35:18.504Z",
+      "ok": 1,
+      "from_block": 132353501,
+      "to_block": 132353541,
+      "pairs_seen": 3,
+      "candidates": 0,
+      "error": null
+    },
+    "candidateCount": 0,
+    "leadsToday": [],
+    "note": "数据来自链上扫描 Worker（只读）。当日新对总数未单独统计，只列最近一轮扫描与今日候选。"
+  },
+  "notes": [
+    "首次收录日期不代表项目创建日期；X 线索未经核实，不等于项目发布或安全背书。",
+    "Mint 免费/付费是来源声称，未经链上核验前不作为费用结论。"
+  ]
+}

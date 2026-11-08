@@ -1,0 +1,15 @@
+{
+  "updatedAt": "2026-11-08T15:37:41.542173+08:00",
+  "reports": [
+    {
+      "date": "2026-11-08",
+      "generatedAt": "2026-11-08T15:37:41.542173+08:00",
+      "summaryZh": "目录无新增；X 新线索 8 条；Mint 线索 26 条（免费 5、付费 1）；链上最近一轮扫描 3 个新对、0 个候选。",
+      "newCatalog": 0,
+      "newX": 8,
+      "mintFree": 5,
+      "mintPaid": 1,
+      "chainCandidates": 0
+    }
+  ]
+}

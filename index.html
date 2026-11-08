@@ -568,6 +568,20 @@ header.topbar {
 .feed-row.type-mint { border-left-color: #44C486; }
 .feed-row.type-id { border-left-color: #E8C974; }
 .feed-row.type-whale { border-left-color: #57B8AF; }
+.daily-card{background:var(--bg-card);border:1px solid var(--bg-subtle);border-radius:18px;padding:20px 22px}
+.daily-summary{font-size:17px;font-weight:600;line-height:1.6;margin:0 0 14px}
+.daily-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:14px}
+@media(max-width:900px){.daily-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.daily-stat{background:var(--bg-subtle);border-radius:12px;padding:12px 14px}
+.daily-stat b{display:block;font-size:22px;line-height:1.2}
+.daily-stat span{font-size:12px;color:var(--ink-muted)}
+.daily-list{margin:0 0 8px;padding:0;list-style:none;font-size:13px;line-height:1.9}
+.daily-list li{border-top:1px dashed var(--bg-subtle);padding:6px 0}
+.daily-list li:first-child{border-top:0}
+.daily-list a{color:inherit}
+.daily-archive{font-size:12px;color:var(--ink-muted);border-top:1px solid var(--bg-subtle);padding-top:10px;line-height:2.1}
+.daily-archive button{background:none;border:0;color:#2E7D5B;cursor:pointer;font:inherit;padding:0 8px 0 0;text-decoration:underline}
+.daily-archive button[aria-current="true"]{color:var(--ink-muted);text-decoration:none;cursor:default}
 .feed-tag {
   font-size: 10.5px;
   padding: 1px 6px;
@@ -1459,6 +1473,24 @@ footer {
         </div>
       </section>
 
+      <!-- ================= 每日日报（Daily Brief） ================= -->
+      <section id="dailyBrief">
+        <div class="sec-header">
+          <div>
+            <div class="sec-kicker">DAILY BRIEF · 每日日报</div>
+            <h2 class="sec-title">每日日报</h2>
+            <p class="sec-desc">每天北京时间 22:00 自动生成：当日新收录、X 新线索、Mint 线索与链上扫描。没有新增的日子也会如实写“无新增”，不凑数、不编数字。</p>
+          </div>
+          <span class="mono" style="font-size:12px;color:var(--ink-muted)" id="dailyBriefTime">正在加载…</span>
+        </div>
+        <div class="daily-card" id="dailyBriefCard">
+          <p class="daily-summary" id="dailyBriefSummary">正在加载今日日报…</p>
+          <div class="daily-grid" id="dailyBriefGrid"></div>
+          <div id="dailyBriefLists"></div>
+          <div class="daily-archive" id="dailyBriefArchive"></div>
+        </div>
+      </section>
+
       <!-- ================= 模块 1：.ai 专属铸造战壕（Mint Trench） ================= -->
       <section id="trench">
         <div class="sec-header">
@@ -2240,6 +2272,67 @@ renderMintTrench();
 
 renderProjects();
 loadAtlasData();
+
+/* Daily brief: latest auto-generated report (22:00 Beijing) + archive. */
+async function loadDailyBrief(date){
+ const card=$('#dailyBriefCard'),summary=$('#dailyBriefSummary'),grid=$('#dailyBriefGrid'),
+   lists=$('#dailyBriefLists'),archive=$('#dailyBriefArchive'),timeEl=$('#dailyBriefTime');
+ if(!card||!summary)return;
+ const showError=(msg)=>{summary.textContent=msg;if(grid)grid.innerHTML='';if(lists)lists.innerHTML='';};
+ try{
+  const idxRes=await fetch('data/daily/index.json',{cache:'no-store'});
+  if(!idxRes.ok)throw Error('no daily index');
+  const idx=await idxRes.json();
+  const reports=Array.isArray(idx.reports)?idx.reports:[];
+  if(!reports.length)throw Error('empty');
+  const pick=date||reports[0].date;
+  const res=await fetch('data/daily/'+pick+'.json',{cache:'no-store'});
+  if(!res.ok)throw Error('no report');
+  const r=await res.json();
+  summary.textContent=r.summaryZh||'';
+  if(timeEl){
+   const stamp=Date.parse(r.generatedAt||'');
+   timeEl.textContent='生成时间 '+ (Number.isFinite(stamp)
+     ? new Date(stamp).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Shanghai'})
+     : (r.date||''));
+  }
+  const last=r.chain&&r.chain.lastScan?r.chain.lastScan:null;
+  const chainText=r.chain&&r.chain.available===false?'接口暂不可达'
+    :last?('最近一轮 '+String(last.pairs_seen||0)+' 新对 · '+String(last.candidates||0)+' 候选'):'暂无扫描记录';
+  if(grid)grid.innerHTML=
+    '<div class="daily-stat"><b>'+Number(r.catalog.newTodayCount||0)+'</b><span>目录今日新增（总数 '+Number(r.catalog.total||0)+'）</span></div>'
+   +'<div class="daily-stat"><b>'+Number(r.x.newTodayCount||0)+'</b><span>X 今日新线索</span></div>'
+   +'<div class="daily-stat"><b>'+Number(r.mint.freeClaims||0)+' / '+Number(r.mint.paidClaims||0)+'</b><span>Mint 线索：免费 / 付费（来源声称）</span></div>'
+   +'<div class="daily-stat"><b>'+(last?Number(last.candidates||0):'—')+'</b><span>链上候选 · '+safeText(chainText)+'</span></div>';
+  const link=(it)=>it.source?'<a href="'+safeText(it.source)+'" target="_blank" rel="noopener noreferrer">'+safeText(it.name||'未命名')+' ↗</a>':safeText(it.name||'未命名');
+  const section=(title,items,emptyText)=>{
+   if(!items||!items.length)return '<p class="daily-list" style="color:var(--ink-muted)">'+safeText(title+'：'+emptyText)+'</p>';
+   return '<p style="font-weight:600;margin:10px 0 2px">'+safeText(title)+'</p><ul class="daily-list">'
+     +items.slice(0,6).map(it=>'<li>'+link(it)+'</li>').join('')+'</ul>';
+  };
+  let html='';
+  html+=section('目录今日新增',(r.catalog.newToday||[]),'无新增');
+  html+=section('X 今日新线索',(r.x.newToday||[]),'无新线索');
+  const checks=(r.mint.verifiedChecks||[]);
+  html+=checks.length
+    ?'<p style="font-weight:600;margin:10px 0 2px">Mint 已铸（链上核验）</p><ul class="daily-list">'
+     +checks.slice(0,6).map(c=>'<li>'+safeText(c.mintId||'')
+     +'：已铸 '+safeText(String(c.totalSupply==null?'未知':c.totalSupply))
+     +(c.maxSupply==null?'':' / '+safeText(String(c.maxSupply)))
+     +(c.mintOpen===1?' · 开放中':c.mintOpen===0?' · 已关闭':'')+'</li>').join('')+'</ul>'
+    :'<p class="daily-list" style="color:var(--ink-muted)">Mint 已铸（链上核验）：暂无已登记核验合约，只写来源声称。</p>';
+  const chainLeads=(r.chain&&r.chain.leadsToday)||[];
+  if(chainLeads.length)html+=section('链上今日候选',chainLeads,'');
+  if(lists)lists.innerHTML=html;
+  if(archive)archive.innerHTML='往期日报：'+reports.slice(0,14).map(rep=>
+    '<button type="button" data-daily-date="'+safeText(rep.date)+'"'+(rep.date===pick?' aria-current="true"':'')+'>'+safeText(rep.date)+'</button>').join('')
+    +'<span>（每天 22:00 北京时间自动生成）</span>';
+  if(archive)archive.querySelectorAll('button[data-daily-date]').forEach(btn=>{
+   btn.addEventListener('click',()=>{if(btn.getAttribute('aria-current')!=='true')loadDailyBrief(btn.getAttribute('data-daily-date'));});
+  });
+ }catch(err){showError('日报暂未生成。每天 22:00 北京时间自动生成，生成后这里会显示。');}
+}
+loadDailyBrief();
 
 /* Optional Worker+D1 feed. It remains hidden until a real successful onchain scan exists. */
 async function loadChainCandidates(){

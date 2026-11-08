@@ -80,6 +80,10 @@ python -m http.server 8000
 4. 读取结果只保存帖文 ID、来源链接、作者 ID 和自行撰写的中文线索摘要；不会公开复制原帖正文。筛选须有 BSC + Agent + 发布/开发的文本信号；不认为匹配关键词就证明项目存在或安全。
 5. 任何 HTTP 401/402/403/429 等访问异常会在 `data/x_pipeline_status.json` 标记，不会制造或删除旧记录。没有可用 X API 额度时保持停用，不能声称实时 X 发现已启用。
 
+## 每日日报（每天 22:00 北京时间自动生成）
+
+工作流 `.github/workflows/daily_report.yml` 每天 14:00 UTC（北京时间 22:00）运行 `scripts/daily_report.py`，汇总当日数据写 `data/daily/YYYY-MM-DD.json` 并更新 `data/daily/index.json`；首页“每日日报”板块读取这两个静态文件展示最新一期与往期。内容只写可核实的部分：目录当日新增、X 当日新线索、Mint 线索（免费/付费为来源声称）、链上最近一轮扫描与今日候选、已登记核验 Mint 合约的链上已铸量。没有新增的日子如实写“无新增”。Mint 已铸量目前为空，因为 D1 的 `mint_contracts` 里还没有登记合约——登记后 Worker 的 `/v1/mint-checks` 才有数。本地生成：`python scripts/daily_report.py`；自测：`python scripts/daily_report.py --self-test`。
+
 ## 统一项目目录与保守去重
 
 - 主页面从 `data/catalog.json` 读取统一项目档案，同一站点的多个来源不会重复展示；点击详情可查看关联来源。
