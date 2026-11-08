@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T23:40:44.015381+00:00",
+  "updatedAt": "2026-11-08T06:04:35.683568+00:00",
   "projects": [
     {
       "id": "x-post-2119114802165600498",
@@ -1539,8 +1539,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-06",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4111,8 +4111,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4279,8 +4279,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4963,8 +4963,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5039,8 +5039,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5343,8 +5343,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5381,8 +5381,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6787,8 +6787,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8837,8 +8837,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-08",
+      "date": "2026-11-08",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9436,11 +9436,11 @@
   "inputCounts": {
     "projects": 181,
     "external": 30,
-    "x": 64,
+    "x": 72,
     "mint": 25
   },
   "candidateRecords": 262,
   "mergedGroups": 244,
-  "reviewCount": 37,
+  "reviewCount": 45,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
