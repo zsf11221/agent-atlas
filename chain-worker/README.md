@@ -5,10 +5,10 @@ This is an independent read-only Cloudflare Worker + D1 database supporting the 
 ## Scope and safety
 
 - BNB Smart Chain mainnet, Chain ID 56 only.
-- Every five minutes, scan PancakeSwap V2 factory PairCreated logs (factory 0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73). This is NOT every BSC contract, every launchpad, or every new token.
+- Every five minutes, scan new-pair events on three factories: PancakeSwap V2 PairCreated (0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73), Biswap V2 PairCreated (0x858E3312ed3A876947EA49d572A7C42DE08af7EE), and PancakeSwap V3 PoolCreated (0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865; V3 pools can share a token pair across fee tiers, so the pool address is stored). Factory addresses and the V3 PoolCreated topic were verified on-chain 2026-11-08 (V3 `getPool` returns real pools; Biswap `getPair` returns a real pair). This is NOT every BSC contract, every launchpad, or every new token.
 - Consider only pools paired with WBNB/USDT/USDC. Inspect token name/symbol and store Agent-related keyword candidates. Keyword matches do not establish Agent product legitimacy or that a pool has liquidity.
 - For at most four pending candidate tokens per run, query GoPlus security and Honeypot.is as best-effort external checks. Flag suspicious authorities, honeypot indicators and fees. Missing fields or simulation failures mean insufficient evidence, NEVER a green safety badge or audit.
-- Cursor is durable in D1 and moves only after successful block window processing; the first scan starts near the current head. Scan limits: at most 5 groups of 100 blocks, up to 30 token metadata probes, up to 4 risk checks. Provider API usage and limits are your responsibility.
+- Cursor is durable in D1 and moves only after successful block window processing; the first scan starts near the current head. Scan limits: at most 5 groups of 100 blocks across 3 factories (up to 15 log queries per run), up to 30 token metadata probes, up to 4 risk checks. Provider API usage and limits are your responsibility.
 - RPC provider (2026-11-08): Chainstack Developer, free, no card required, 3M RU/month, `eth_getLogs` capped at 100 blocks per call — that is why chunks are 100. Ankr was the earlier recommendation, but a new Ankr account now shows 0 credits and asks for a $10 Premium pay-as-you-go top-up before issuing a usable endpoint, so do not use Ankr unless you already have a funded account.
 - The Worker has only read-only public endpoints. It never asks users to sign transactions or exposes a write endpoint.
 

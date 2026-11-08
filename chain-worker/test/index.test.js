@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import worker, { parsePair, decodeString, decodeUint256, assess, checkMint, tick } from "../src/index.js";
+import worker, { parsePair, parsePool, decodeString, decodeUint256, assess, checkMint, tick } from "../src/index.js";
 
 const topic = "0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9";
 const token0 = "0x" + "1".repeat(40);
@@ -18,6 +18,20 @@ test("PairCreated extracts indexed addresses and pair data correctly", () => {
   assert.deepEqual(parsePair(event), { token0, token1, pair, block:100000, txHash:event.transactionHash });
   assert.equal(parsePair({ ...event, topics: [topic] }), null);
   assert.equal(parsePair({ ...event, data: "0x" }), null);
+});
+test("PoolCreated (V3) extracts tokens and pool from the fourth topic and data", () => {
+  const poolTopic = "0x783cca1c0412dd0d695e784568c96da2e9c22ff989357a2e8b1d9b2b4e6b7118";
+  const fee = "0x" + "0".repeat(24) + "00000000000000000000000000000bb8"; // 3000 fee tier
+  const tickSpacing = "0x" + "0".repeat(63) + "1";
+  const poolEvent = {
+    topics: [poolTopic, pad(token0), pad(token1), fee],
+    data: tickSpacing + "0".repeat(24) + pair.slice(2),
+    blockNumber: "0x186a0",
+    transactionHash: "0x" + "e".repeat(64)
+  };
+  assert.deepEqual(parsePool(poolEvent), { token0, token1, pair, block: 100000, txHash: poolEvent.transactionHash });
+  assert.equal(parsePool({ ...poolEvent, topics: poolEvent.topics.slice(0, 3) }), null);
+  assert.equal(parsePool({ ...poolEvent, data: "0x" }), null);
 });
 test("ABI string and bytes32 reader", () => {
   const word = (v) => BigInt(v).toString(16).padStart(64,"0");
@@ -117,7 +131,11 @@ test("Mocked BSC RPC + D1 end-to-end scan persists candidate, cursor and risk ev
     let result;
     if (method === "eth_chainId") result="0x38";
     else if (method === "eth_blockNumber") result="0x3e8";
-    else if (method === "eth_getLogs") result=logs;
+    else if (method === "eth_getLogs") {
+      // Only the PancakeSwap V2 factory emits the mocked pair; the other two
+      // factories must still be queried (multi-source scan).
+      result = msg.params[0].address === "0xca143ce32fe78f1f7019d7d551a6402fc5350c73" ? logs : [];
+    }
     else if (method === "eth_call") result=abi(msg.params[0].data === "0x06fdde03"?"Agent Helper":"AGENT");
     else throw Error("Unexpected RPC: "+method);
     return Response.json({jsonrpc:"2.0",id:1,result});
@@ -127,6 +145,11 @@ test("Mocked BSC RPC + D1 end-to-end scan persists candidate, cursor and risk ev
     assert.equal(result.ok, true);
     assert.equal(result.matched, 1);
     assert.equal(result.cursor, 992);
+    const logCalls = sent.filter(x => { try { return JSON.parse(x.body).method === "eth_getLogs"; } catch { return false; } });
+    const queried = new Set(logCalls.map(x => JSON.parse(x.body).params[0].address.toLowerCase()));
+    assert.ok(queried.has("0xca143ce32fe78f1f7019d7d551a6402fc5350c73"), "V2 factory queried");
+    assert.ok(queried.has("0x858e3312ed3a876947ea49d572a7c42de08af7ee"), "Biswap factory queried");
+    assert.ok(queried.has("0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865"), "V3 factory queried");
     assert.ok(rows.some(x=>x.sql.includes("INSERT INTO chain_leads") && x.params[0] === token1));
     assert.ok(rows.some(x=>x.sql.includes("INSERT INTO sync_state") && x.params[0] === "992"));
     assert.ok(rows.some(x=>x.sql.includes("INSERT INTO scan_runs") && x.sql.includes("VALUES(?,?,1")));

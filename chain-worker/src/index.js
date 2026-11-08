@@ -1,7 +1,20 @@
 // AgentAtlas BSC chain discovery — read-only Cloudflare Worker.
-// Monitors PancakeSwap V2 PairCreated, NOT all BSC contracts or every launchpad.
-const FACTORY = "0xca143ce32fe78f1f7019d7d551a6402fc5350c73";
+// Monitors new-pair events on PancakeSwap V2/V3 and Biswap, NOT all BSC
+// contracts or every launchpad. Factory addresses verified 2026-11-08 from
+// PancakeSwap docs (V3), BscScan BiswapFactory/ApeFactory pages (V2-style).
+// ApeSwap was verified too but is too thin to add (its WBNB/USDT pool was
+// ~$3.6k TVL); one line in V2_SOURCES re-adds it if that changes.
 const PAIR_CREATED = "0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9";
+const POOL_CREATED = "0x783cca1c0412dd0d695e784568c96da2e9c22ff989357a2e8b1d9b2b4e6b7118"; // keccak256("PoolCreated(address,address,uint24,int24,address)"), verified locally 2026-11-08 against the known PairCreated hash
+const V2_SOURCES = [
+  { name: "pancakeswap-v2", factory: "0xca143ce32fe78f1f7019d7d551a6402fc5350c73", topic: PAIR_CREATED },
+  { name: "biswap-v2", factory: "0x858E3312ed3A876947EA49d572A7C42DE08af7EE", topic: PAIR_CREATED },
+];
+const V3_SOURCE = {
+  name: "pancakeswap-v3",
+  factory: "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865",
+  topic: POOL_CREATED,
+};
 const WBNB = "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c";
 const QUOTES = new Set([WBNB, "0x55d398326f99059ff775485246999027b3197955", "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"]);
 const TOKEN_RE = /\b(agent(?:ic|s)?|ai|a\.i|bot|autonomous|mcp|agentid|agent-id)\b/i;
@@ -45,6 +58,23 @@ export function parsePair(log) {
   const block = Number.parseInt(log.blockNumber, 16);
   if (!Number.isSafeInteger(block) || block < 0) return null;
   return { token0, token1, pair, block, txHash: String(log.transactionHash || "") };
+}
+
+// PancakeSwap V3 PoolCreated: 4 topics (token0, token1, fee) and data holds
+// (int24 tickSpacing, address pool). The same token pair can appear at
+// several fee tiers with different pools; the pair stored is the pool.
+export function parsePool(log) {
+  const topics = log?.topics;
+  if (!Array.isArray(topics) || topics.length !== 4 || topics[0]?.toLowerCase() !== POOL_CREATED) return null;
+  const data = String(log.data || "");
+  if (!/^0x[0-9a-f]{128}$/i.test(data)) return null;
+  const token0 = "0x" + String(topics[1] || "").slice(-40).toLowerCase();
+  const token1 = "0x" + String(topics[2] || "").slice(-40).toLowerCase();
+  const pool = "0x" + data.slice(90, 130).toLowerCase();
+  if (![token0, token1, pool].every(x => ADDRESS.test(x))) return null;
+  const block = Number.parseInt(log.blockNumber, 16);
+  if (!Number.isSafeInteger(block) || block < 0) return null;
+  return { token0, token1, pair: pool, block, txHash: String(log.transactionHash || "") };
 }
 
 // EVM ABI dynamic string or bytes32 result; token contracts can use either encoding.
@@ -209,18 +239,29 @@ export async function tick(env) {
   let scanned = 0, pairs = 0, matched = 0, probes = 0;
   const started = new Date().toISOString();
   try {
+    const sources = [
+      ...V2_SOURCES.map(s => ({ ...s, parse: parsePair })),
+      { ...V3_SOURCE, parse: parsePool },
+    ];
     for (let i = 0; i < CHUNKS_PER_RUN && cursor < safeHead; i++) {
       const until = Math.min(cursor + CHUNK_BLOCKS, safeHead);
-      const logs = await rpc(env, "eth_getLogs", [{
-        fromBlock: "0x" + (cursor + 1).toString(16),
-        toBlock: "0x" + until.toString(16),
-        address: FACTORY,
-        topics: [PAIR_CREATED]
-      }]);
-      if (!Array.isArray(logs) || logs.length > 500) throw new Error("unexpected-log-count");
+      // One log query per factory per chunk (up to 15 per run); each is a
+      // 100-block range, inside the Chainstack Developer cap.
+      const chunkLogs = [];
+      for (const source of sources) {
+        const logs = await rpc(env, "eth_getLogs", [{
+          fromBlock: "0x" + (cursor + 1).toString(16),
+          toBlock: "0x" + until.toString(16),
+          address: source.factory,
+          topics: [source.topic]
+        }]);
+        if (!Array.isArray(logs) || logs.length > 500) throw new Error("unexpected-log-count");
+        for (const raw of logs) chunkLogs.push({ raw, parse: source.parse });
+      }
+      chunkLogs.sort((a, b) => (Number.parseInt(a.raw.blockNumber, 16) || 0) - (Number.parseInt(b.raw.blockNumber, 16) || 0));
       let complete = true;
-      for (const raw of logs) {
-        const p = parsePair(raw);
+      for (const { raw, parse } of chunkLogs) {
+        const p = parse(raw);
         if (!p) throw new Error("malformed-pair-event");
         pairs++;
         const quote0 = QUOTES.has(p.token0), quote1 = QUOTES.has(p.token1);
@@ -306,7 +347,7 @@ export default {
         const last = await env.DB.prepare("SELECT * FROM scan_runs ORDER BY id DESC LIMIT 1").first();
         const count = await env.DB.prepare("SELECT COUNT(*) AS n FROM chain_leads").first();
         return respond({ ok: true, network: "BSC", chainId: 56, configured: !!env.BSC_RPC_URL,
-          scope: "PancakeSwap V2 new WBNB/USDT/USDC pairs with Agent keyword signal",
+          scope: "PancakeSwap V2/V3 + Biswap new WBNB/USDT/USDC pairs with Agent keyword signal",
           automatedSafetyAudit: false, lastScan: last || null, candidateCount: count?.n || 0 });
       }
       if (url.pathname === "/v1/mint-checks") {
