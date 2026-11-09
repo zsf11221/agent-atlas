@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T01:21:48.590896+00:00",
+  "updatedAt": "2026-11-09T08:57:20.274708+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -52,6 +52,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "agentmalta.pages.dev",
+      "name": "agentmalta.pages.dev",
+      "descriptionZh": "官网介绍「AGENT MALTA on BNB Chain: a fixed pool of 100,000 shares, 1 share = 1,000,000 MALTA. Agent ID holders only — your first share is FREE, then a flat 0.001 BN」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "AGENT MALTA on BNB Chain: a fixed pool of 100,000 shares, 1 share = 1,000,000 MALTA. Agent ID holders only — your first share is FREE, then a flat 0.001 BNB per share. Invite buyers with your referral link to raise your ",
+      "source": "https://agentmalta.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T08:57:20.274708+00:00",
+      "firstSeen": "2026-11-09"
+    },
+    {
       "domain": "agentpandabnb.xyz",
       "name": "Agent Panda · 熊猫卡牌",
       "descriptionZh": "BSC 上以熊猫卡牌为主题的 Agent ID NFT 系列。公开参与记录描述每个身份可免费铸造两张，另有付费额度以及 NFT 质押和 APANDA 奖励机制；代币流动性与当前铸造状态需分别查看。",
@@ -70,6 +80,16 @@
       "sourceKind": "website-metadata",
       "checkedAt": "2026-11-08T17:28:53.829440+00:00",
       "firstSeen": "2026-11-08"
+    },
+    {
+      "domain": "akitax.pages.dev",
+      "name": "AKITA — A tribute to the SHIB-era Akita — a fresh start on BNB Chain",
+      "descriptionZh": "官网介绍「10,000 genesis shares on BNB Chain. Free for Agent IDs, auto pool at #10,000, LP burned.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "10,000 genesis shares on BNB Chain. Free for Agent IDs, auto pool at #10,000, LP burned.",
+      "source": "https://akitax.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T08:57:20.274708+00:00",
+      "firstSeen": "2026-11-09"
     },
     {
       "domain": "anthrobit.fun",
@@ -222,6 +242,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "mint.marsnexus.fun",
+      "name": "MARS NEXUS | Your Mars Identity",
+      "descriptionZh": "官网介绍「Mint your Mars identity with Binance Agent ID. Three explorer tiers. Discover the Mars city and prepare for your expedition.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Mint your Mars identity with Binance Agent ID. Three explorer tiers. Discover the Mars city and prepare for your expedition.",
+      "source": "https://mint.marsnexus.fun/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T08:57:20.274708+00:00",
+      "firstSeen": "2026-11-09"
+    },
+    {
       "domain": "moonfallnft.xyz",
       "name": "Moonfall · 破碎之月 NFT",
       "descriptionZh": "Moonfall 是 1,001 枚炭笔与粉笔风格的碎裂月亮 NFT，要求使用 Agent ID 钱包。2026 年 11 月 5 日的白名单阶段提供过免费额度，并设有答题获取免费铸造的 Moon Trial；该轮时间窗口已结束。",
@@ -282,6 +312,16 @@
       "firstSeen": "2026-11-08"
     },
     {
+      "domain": "orivia.digital",
+      "name": "orivia.digital",
+      "descriptionZh": "官网介绍「Orivia: BNB 链上 7,777 张生成式华人女性波普艺术肖像。持有 Agent ID 免费一张, 付费通道向所有钱包开放。无代币, 纯艺术。全部作品现已揭晓。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Orivia: BNB 链上 7,777 张生成式华人女性波普艺术肖像。持有 Agent ID 免费一张, 付费通道向所有钱包开放。无代币, 纯艺术。全部作品现已揭晓。",
+      "source": "https://orivia.digital/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T08:57:20.274708+00:00",
+      "firstSeen": "2026-11-09"
+    },
+    {
       "domain": "pacture.pvpmint.com",
       "name": "$PACTURE · Agent ID 专属公平铸造",
       "descriptionZh": "官网介绍「11,000 份 · 每个 Agent ID 免费 1 份 · 付费 0.5U/份 · 铸满前随时可退」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -300,6 +340,16 @@
       "sourceKind": "website-metadata",
       "checkedAt": "2026-11-08T17:28:53.829440+00:00",
       "firstSeen": "2026-11-08"
+    },
+    {
+      "domain": "pepeagent.live",
+      "name": "PEPE AGENT · $PEPE",
+      "descriptionZh": "官网介绍「Agent PEPE 开铸 · 0.003 BNB / 份 · 10,000 份 · 2026-11-09 16:00 北京时间 / Beijing time」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Agent PEPE 开铸 · 0.003 BNB / 份 · 10,000 份 · 2026-11-09 16:00 北京时间 / Beijing time",
+      "source": "https://pepeagent.live/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T08:57:20.274708+00:00",
+      "firstSeen": "2026-11-09"
     },
     {
       "domain": "playagentcards.com",
@@ -383,6 +433,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 4,
+  "newProfiles": 5,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
