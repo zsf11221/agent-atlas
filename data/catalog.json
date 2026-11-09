@@ -1,6 +1,82 @@
 {
-  "updatedAt": "2026-11-09T02:40:59.050933+00:00",
+  "updatedAt": "2026-11-09T11:36:10.912938+00:00",
   "projects": [
+    {
+      "id": "github-1450937103",
+      "name": "veltrix-multi-agent-crypto",
+      "descriptionZh": "仓库「veltrix-multi-agent-crypto」公开介绍：Multi-agent Solana, Base and BSC crypto intelligence and paper trading system",
+      "descriptionEn": "Public GitHub discovery candidate: Multi-agent Solana, Base and BSC crypto intelligence and paper trading system",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Nexora-Apparel/veltrix-multi-agent-crypto",
+      "website": "https://github.com/Nexora-Apparel/veltrix-multi-agent-crypto",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1450937103"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Nexora-Apparel/veltrix-multi-agent-crypto"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x353878622225630a631fcc2c169681968edb7777",
+      "name": "Securing Agentic Finance with Governance and Enablement",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Securing Agentic Finance with Governance and Enablement」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x44e803645fdbd6151ddb84039806ea63a193090b",
+      "website": "https://dexscreener.com/bsc/0x44e803645fdbd6151ddb84039806ea63a193090b",
+      "socialX": "",
+      "contractAddress": "0x353878622225630a631fcc2c169681968edb7777",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-02",
+      "date": "2026-11-02",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x353878622225630a631fcc2c169681968edb7777"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x44e803645fdbd6151ddb84039806ea63a193090b"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "x-post-2119583573292585266",
       "name": "Ptah — Weave ideas into markets.",
@@ -40,6 +116,180 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119701692501700917",
+      "name": "PEPE AGENT · $PEPE",
+      "descriptionZh": "官网介绍「Agent PEPE 开铸 · 0.003 BNB / 份 · 10,000 份 · 2026-11-09 16:00 北京时间 / Beijing time」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119701692501700917",
+      "website": "https://pepeagent.live",
+      "socialX": "https://x.com/i/web/status/2119701692501700917",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119701692501700917"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119701692501700917"
+        },
+        {
+          "source": "evidence",
+          "url": "https://pepeagent.live/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119703520765182143",
+      "name": "orivia.digital",
+      "descriptionZh": "官网介绍「Orivia: BNB 链上 7,777 张生成式华人女性波普艺术肖像。持有 Agent ID 免费一张, 付费通道向所有钱包开放。无代币, 纯艺术。全部作品现已揭晓。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119703520765182143",
+      "website": "https://orivia.digital",
+      "socialX": "https://x.com/i/web/status/2119703520765182143",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119703520765182143",
+        "x-post-2119712647113482264",
+        "x-post-2119714617211633717"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119703520765182143"
+        },
+        {
+          "source": "evidence",
+          "url": "https://orivia.digital/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119712647113482264"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119714617211633717"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119714025483477134",
+      "name": "MARS NEXUS | Your Mars Identity",
+      "descriptionZh": "官网介绍「Mint your Mars identity with Binance Agent ID. Three explorer tiers. Discover the Mars city and prepare for your expedition.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119714025483477134",
+      "website": "https://mint.marsnexus.fun/share/free-mint-en-v2",
+      "socialX": "https://x.com/i/web/status/2119714025483477134",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119714025483477134"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119714025483477134"
+        },
+        {
+          "source": "evidence",
+          "url": "https://mint.marsnexus.fun/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1451049822",
+      "name": "lets-chill-bnb-rag-agent",
+      "descriptionZh": "仓库「lets-chill-bnb-rag-agent」公开介绍：Let's Chill B&B customer service agent with RAG",
+      "descriptionEn": "Public GitHub discovery candidate: Let's Chill B&B customer service agent with RAG",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/f115119122-cell/lets-chill-bnb-rag-agent",
+      "website": "https://github.com/f115119122-cell/lets-chill-bnb-rag-agent",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1451049822"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/f115119122-cell/lets-chill-bnb-rag-agent"
+        }
+      ],
+      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -134,6 +384,44 @@
       "featured": false
     },
     {
+      "id": "dex-bsc-0xb50dc583cc6f83750c36789f52d51e12da664444",
+      "name": "BSC Agent token 0xb50dC5…",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「BSC Agent token 0xb50dC5…」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0xb50dc583cc6f83750c36789f52d51e12da664444",
+      "website": "https://bagent.club/",
+      "socialX": "https://x.com/Bagent_binance",
+      "contractAddress": "0xb50dc583cc6f83750c36789f52d51e12da664444",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0xb50dc583cc6f83750c36789f52d51e12da664444"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0xb50dc583cc6f83750c36789f52d51e12da664444"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "x-post-2119585311059562745",
       "name": "BONK AGENT",
       "descriptionZh": "官网介绍「Agent ID mint · first 1,000 free · opens 2026-11-09 15:00 (UTC+8). Not affiliated with Binance or official BONK.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -211,6 +499,133 @@
         {
           "source": "evidence",
           "url": "https://biniuai.xyz/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1292879773",
+      "name": "altana-sdk",
+      "descriptionZh": "仓库「altana-sdk」公开介绍：Non-custodial agentic wallet with onchain session key delegation. TypeScript SDK, MCP server, and x402 payments for AI agents on BNB Chain, Ethereum, and Base.",
+      "descriptionEn": "Public GitHub discovery candidate: Non-custodial agentic wallet with onchain session key delegation. TypeScript SDK, MCP server, and x402 payments for AI agents on BNB Chain, Ethereum, and Base.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/altananetwork/altana-sdk",
+      "website": "https://github.com/altananetwork/altana-sdk",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1292879773"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/altananetwork/altana-sdk"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119701580157239688",
+      "name": "AKITA — A tribute to the SHIB-era Akita — a fresh start on BNB Chain",
+      "descriptionZh": "官网介绍「10,000 genesis shares on BNB Chain. Free for Agent IDs, auto pool at #10,000, LP burned.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119701580157239688",
+      "website": "https://akitax.pages.dev/?ref=0x9062481E38636Ea8cF8334d8d4777285b2E2D3a4",
+      "socialX": "https://x.com/i/web/status/2119701580157239688",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119701580157239688",
+        "x-post-2119712854265970910"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119701580157239688"
+        },
+        {
+          "source": "evidence",
+          "url": "https://akitax.pages.dev/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119712854265970910"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119714824376525099",
+      "name": "agentmalta.pages.dev",
+      "descriptionZh": "官网介绍「AGENT MALTA on BNB Chain: a fixed pool of 100,000 shares, 1 share = 1,000,000 MALTA. Agent ID holders only — your first share is FREE, then a flat 0.001 BN」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119714824376525099",
+      "website": "https://agentmalta.pages.dev/",
+      "socialX": "https://x.com/i/web/status/2119714824376525099",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119714824376525099"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119714824376525099"
+        },
+        {
+          "source": "evidence",
+          "url": "https://agentmalta.pages.dev/"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -357,8 +772,8 @@
       "socialX": "https://x.com/i/web/status/2119476595253739842",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "X",
         "Early lead",
@@ -375,7 +790,8 @@
         "x-post-2119479621125361687",
         "x-post-2119479622094246017",
         "x-post-2119479850151158236",
-        "x-post-2119481358011556316"
+        "x-post-2119481358011556316",
+        "x-post-2119697120135635345"
       ],
       "sources": [
         {
@@ -409,6 +825,10 @@
         {
           "source": "x",
           "url": "https://x.com/i/web/status/2119481358011556316"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119697120135635345"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -2667,8 +3087,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-05",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3085,8 +3505,8 @@
       "socialX": "https://x.com/i/web/status/2118262328000905271",
       "contractAddress": "",
       "firstSeen": "2026-11-05",
-      "lastActivityAt": "2026-11-05",
-      "date": "2026-11-05",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "X",
         "Early lead",
@@ -3097,7 +3517,8 @@
       ],
       "origin": "x",
       "recordIds": [
-        "x-post-2118262328000905271"
+        "x-post-2118262328000905271",
+        "x-post-2119674778151788645"
       ],
       "sources": [
         {
@@ -3107,6 +3528,10 @@
         {
           "source": "evidence",
           "url": "https://agentic-eggs.xyz/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119674778151788645"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -3623,8 +4048,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-04",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3812,8 +4237,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4455,8 +4880,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4944,8 +5369,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5400,8 +5825,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5894,8 +6319,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7072,8 +7497,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7300,8 +7725,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8212,8 +8637,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9122,8 +9547,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9464,8 +9889,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10061,13 +10486,13 @@
     }
   ],
   "inputCounts": {
-    "projects": 184,
-    "external": 31,
-    "x": 132,
+    "projects": 187,
+    "external": 33,
+    "x": 148,
     "mint": 25
   },
-  "candidateRecords": 287,
-  "mergedGroups": 258,
-  "reviewCount": 84,
+  "candidateRecords": 302,
+  "mergedGroups": 268,
+  "reviewCount": 90,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
