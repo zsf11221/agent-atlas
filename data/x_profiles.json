@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T08:57:20.274708+00:00",
+  "updatedAt": "2026-11-09T21:50:27.560243+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -150,6 +150,16 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "chipmunks-nft.pages.dev",
+      "name": "Chipmunks",
+      "descriptionZh": "官网介绍「6,666 mutant chipmunks on BNB Chain. First 3 free.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "6,666 mutant chipmunks on BNB Chain. First 3 free.",
+      "source": "https://chipmunks-nft.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T21:50:27.560243+00:00",
+      "firstSeen": "2026-11-09"
     },
     {
       "domain": "db.bomb.here.now",
@@ -342,6 +352,16 @@
       "firstSeen": "2026-11-08"
     },
     {
+      "domain": "penguin-posse.pages.dev",
+      "name": "penguin-posse.pages.dev",
+      "descriptionZh": "官网介绍「企鹅帮 Penguin Posse：555 只独一无二的企鹅，正在 BNB Chain 上集结。前 55 只 Agent ID 免费铸造，之后仅 0.001 BNB。持有企鹅即可领取 $WADDLE。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "企鹅帮 Penguin Posse：555 只独一无二的企鹅，正在 BNB Chain 上集结。前 55 只 Agent ID 免费铸造，之后仅 0.001 BNB。持有企鹅即可领取 $WADDLE。",
+      "source": "https://penguin-posse.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T21:50:27.560243+00:00",
+      "firstSeen": "2026-11-09"
+    },
+    {
       "domain": "pepeagent.live",
       "name": "PEPE AGENT · $PEPE",
       "descriptionZh": "官网介绍「Agent PEPE 开铸 · 0.003 BNB / 份 · 10,000 份 · 2026-11-09 16:00 北京时间 / Beijing time」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -433,6 +453,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 5,
+  "newProfiles": 2,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
