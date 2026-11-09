@@ -1,6 +1,44 @@
 {
-  "updatedAt": "2026-11-09T11:36:10.912938+00:00",
+  "updatedAt": "2026-11-09T22:23:43.188438+00:00",
   "projects": [
+    {
+      "id": "github-1451424230",
+      "name": "ZENSAI",
+      "descriptionZh": "仓库「ZENSAI」公开介绍：ZENSAI — 3,333 16-bit pixel bonsai NFTs on BNB Chain. Minted by agents only.",
+      "descriptionEn": "Public GitHub discovery candidate: ZENSAI — 3,333 16-bit pixel bonsai NFTs on BNB Chain. Minted by agents only.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/nugian10/ZENSAI",
+      "website": "https://github.com/nugian10/ZENSAI",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1451424230"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/nugian10/ZENSAI"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1450937103",
       "name": "veltrix-multi-agent-crypto",
@@ -155,6 +193,48 @@
         {
           "source": "evidence",
           "url": "https://pepeagent.live/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119883840298619075",
+      "name": "penguin-posse.pages.dev",
+      "descriptionZh": "官网介绍「企鹅帮 Penguin Posse：555 只独一无二的企鹅，正在 BNB Chain 上集结。前 55 只 Agent ID 免费铸造，之后仅 0.001 BNB。持有企鹅即可领取 $WADDLE。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119883840298619075",
+      "website": "https://penguin-posse.pages.dev",
+      "socialX": "https://x.com/i/web/status/2119883840298619075",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119883840298619075"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119883840298619075"
+        },
+        {
+          "source": "evidence",
+          "url": "https://penguin-posse.pages.dev/"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -332,6 +412,44 @@
       "featured": false
     },
     {
+      "id": "github-1451789076",
+      "name": "HANAMI-BLOOM",
+      "descriptionZh": "仓库「HANAMI-BLOOM」公开介绍：HANAMI BLOOM — 3,333 sakura ukiyo-e NFTs on BNB Chain. Minted by agents only.",
+      "descriptionEn": "Public GitHub discovery candidate: HANAMI BLOOM — 3,333 sakura ukiyo-e NFTs on BNB Chain. Minted by agents only.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/nugian10/HANAMI-BLOOM",
+      "website": "https://github.com/nugian10/HANAMI-BLOOM",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1451789076"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/nugian10/HANAMI-BLOOM"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "x-post-2119557443847905544",
       "name": "Fountain ($FOUNT) · Every mint fills the pool",
       "descriptionZh": "官网介绍「Mint for 0.003 BNB, 80% goes straight to liquidity, LP burned. BNB Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -380,6 +498,86 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119859251611099196",
+      "name": "Chipmunks",
+      "descriptionZh": "官网介绍「6,666 mutant chipmunks on BNB Chain. First 3 free.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119859251611099196",
+      "website": "https://chipmunks-nft.pages.dev",
+      "socialX": "https://x.com/i/web/status/2119859251611099196",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119859251611099196"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119859251611099196"
+        },
+        {
+          "source": "evidence",
+          "url": "https://chipmunks-nft.pages.dev/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1451715820",
+      "name": "bsc-agentic-toolkit",
+      "descriptionZh": "仓库「bsc-agentic-toolkit」公开介绍：Open-source security audit, telemetry, and autonomous execution toolchain for smart contracts on BNB Smart Chain.",
+      "descriptionEn": "Public GitHub discovery candidate: Open-source security audit, telemetry, and autonomous execution toolchain for smart contracts on BNB Smart Chain.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/LoopM1/bsc-agentic-toolkit",
+      "website": "https://github.com/LoopM1/bsc-agentic-toolkit",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1451715820"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/LoopM1/bsc-agentic-toolkit"
+        }
+      ],
+      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -570,7 +768,8 @@
       "origin": "x",
       "recordIds": [
         "x-post-2119701580157239688",
-        "x-post-2119712854265970910"
+        "x-post-2119712854265970910",
+        "x-post-2119905837262991822"
       ],
       "sources": [
         {
@@ -584,6 +783,10 @@
         {
           "source": "x",
           "url": "https://x.com/i/web/status/2119712854265970910"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119905837262991822"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -2300,8 +2503,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-06",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3518,7 +3721,8 @@
       "origin": "x",
       "recordIds": [
         "x-post-2118262328000905271",
-        "x-post-2119674778151788645"
+        "x-post-2119674778151788645",
+        "x-post-2119786616839414197"
       ],
       "sources": [
         {
@@ -3532,6 +3736,10 @@
         {
           "source": "x",
           "url": "https://x.com/i/web/status/2119674778151788645"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119786616839414197"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -3632,8 +3840,8 @@
       "socialX": "https://x.com/i/web/status/2118058190906761493",
       "contractAddress": "",
       "firstSeen": "2026-11-04",
-      "lastActivityAt": "2026-11-06",
-      "date": "2026-11-06",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "X",
         "Early lead",
@@ -3647,7 +3855,8 @@
         "x-post-2118058190906761493",
         "x-post-2118420298496458786",
         "x-post-2118422723676287105",
-        "x-post-2118521493508546814"
+        "x-post-2118521493508546814",
+        "x-post-2119897586064818275"
       ],
       "sources": [
         {
@@ -3669,6 +3878,10 @@
         {
           "source": "x",
           "url": "https://x.com/i/web/status/2118521493508546814"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119897586064818275"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -5749,8 +5962,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10274,8 +10487,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10486,13 +10699,13 @@
     }
   ],
   "inputCounts": {
-    "projects": 187,
+    "projects": 190,
     "external": 33,
-    "x": 148,
+    "x": 169,
     "mint": 25
   },
-  "candidateRecords": 302,
-  "mergedGroups": 268,
-  "reviewCount": 90,
+  "candidateRecords": 310,
+  "mergedGroups": 273,
+  "reviewCount": 106,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
