@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T17:28:53.829440+00:00",
+  "updatedAt": "2026-11-09T01:21:48.590896+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -92,6 +92,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "biniuai.xyz",
+      "name": "biniuai.xyz",
+      "descriptionZh": "官网介绍「币牛：9,999 份公平铸造，前 3,333 份免费，满额自动开盘、LP 销毁，未满 24 小时自动退款。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "币牛：9,999 份公平铸造，前 3,333 份免费，满额自动开盘、LP 销毁，未满 24 小时自动退款。",
+      "source": "https://biniuai.xyz/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T01:21:48.590896+00:00",
+      "firstSeen": "2026-11-09"
+    },
+    {
       "domain": "bncworld.fun",
       "name": "BN World · 链上像素特工",
       "descriptionZh": "BN World 设计了 10,000 枚像素风 Agent NFT，通过币安 Agent ID 设置钱包准入。项目页面写明每钱包前两枚免费，后续每枚按约 1 美元计价；页面此前声明尚未开启铸造。",
@@ -100,6 +110,16 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "bonk.bomb.here.now",
+      "name": "BONK AGENT",
+      "descriptionZh": "官网介绍「Agent ID mint · first 1,000 free · opens 2026-11-09 15:00 (UTC+8). Not affiliated with Binance or official BONK.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Agent ID mint · first 1,000 free · opens 2026-11-09 15:00 (UTC+8). Not affiliated with Binance or official BONK.",
+      "source": "https://bonk.bomb.here.now/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T01:21:48.590896+00:00",
+      "firstSeen": "2026-11-09"
     },
     {
       "domain": "build-100.com",
@@ -150,6 +170,16 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "fountainbnb.xyz",
+      "name": "Fountain ($FOUNT) · Every mint fills the pool",
+      "descriptionZh": "官网介绍「Mint for 0.003 BNB, 80% goes straight to liquidity, LP burned. BNB Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Mint for 0.003 BNB, 80% goes straight to liquidity, LP burned. BNB Chain.",
+      "source": "https://fountainbnb.xyz/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T01:21:48.590896+00:00",
+      "firstSeen": "2026-11-09"
     },
     {
       "domain": "inkkoi.pages.dev",
@@ -282,6 +312,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "ptah.trade",
+      "name": "Ptah — Weave ideas into markets.",
+      "descriptionZh": "官网介绍「Ptah is building an open launchpad on BNB Chain. Explore Genesis, the launch design and an open horizon for AI.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Ptah is building an open launchpad on BNB Chain. Explore Genesis, the launch design and an open horizon for AI.",
+      "source": "https://ptah.trade/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-09T01:21:48.590896+00:00",
+      "firstSeen": "2026-11-09"
+    },
+    {
       "domain": "roboagentic.app",
       "name": "Robo Agentic · 机器人 NFT",
       "descriptionZh": "Robo Agentic 收录 5,000 枚不同稀有度的机器人头像，面向持有 .ai Agent ID 的钱包。官网设置免费配额及四个递增价格的 BNB 付费梯度，铸造前需要确认当前剩余额度。",
@@ -343,6 +383,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 3,
+  "newProfiles": 4,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
