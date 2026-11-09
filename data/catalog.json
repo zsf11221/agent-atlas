@@ -1,6 +1,222 @@
 {
-  "updatedAt": "2026-11-08T22:54:19.179829+00:00",
+  "updatedAt": "2026-11-09T02:40:59.050933+00:00",
   "projects": [
+    {
+      "id": "x-post-2119583573292585266",
+      "name": "Ptah — Weave ideas into markets.",
+      "descriptionZh": "官网介绍「Ptah is building an open launchpad on BNB Chain. Explore Genesis, the launch design and an open horizon for AI.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119583573292585266",
+      "website": "https://ptah.trade/poa",
+      "socialX": "https://x.com/i/web/status/2119583573292585266",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119583573292585266"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119583573292585266"
+        },
+        {
+          "source": "evidence",
+          "url": "https://ptah.trade/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1156377460",
+      "name": "ibiti-epk-core",
+      "descriptionZh": "仓库「ibiti-epk-core」公开介绍：Secure on-chain vaults for AI agents: per-asset limits, agent sessions with budgets, guardians, panic, emergency cold-wallet evacuation and an automatic Watchtower. Live on BSC Testnet with public pro",
+      "descriptionEn": "Public GitHub discovery candidate: Secure on-chain vaults for AI agents: per-asset limits, agent sessions with budgets, guardians, panic, emergency cold-wallet evacuation and an automatic Watchtower. Live on BSC Testnet with public proof; not audited yet.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/VOVAN1980/ibiti-epk-core",
+      "website": "https://github.com/VOVAN1980/ibiti-epk-core",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1156377460"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/VOVAN1980/ibiti-epk-core"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119557443847905544",
+      "name": "Fountain ($FOUNT) · Every mint fills the pool",
+      "descriptionZh": "官网介绍「Mint for 0.003 BNB, 80% goes straight to liquidity, LP burned. BNB Chain.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119557443847905544",
+      "website": "https://fountainbnb.xyz",
+      "socialX": "https://x.com/i/web/status/2119557443847905544",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119557443847905544",
+        "x-post-2119593520252043310",
+        "x-post-2119598097680695673"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119557443847905544"
+        },
+        {
+          "source": "evidence",
+          "url": "https://fountainbnb.xyz/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119593520252043310"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119598097680695673"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119585311059562745",
+      "name": "BONK AGENT",
+      "descriptionZh": "官网介绍「Agent ID mint · first 1,000 free · opens 2026-11-09 15:00 (UTC+8). Not affiliated with Binance or official BONK.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119585311059562745",
+      "website": "https://bonk.bomb.here.now/",
+      "socialX": "https://x.com/i/web/status/2119585311059562745",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119585311059562745"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119585311059562745"
+        },
+        {
+          "source": "evidence",
+          "url": "https://bonk.bomb.here.now/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2119600783612404129",
+      "name": "biniuai.xyz",
+      "descriptionZh": "官网介绍「币牛：9,999 份公平铸造，前 3,333 份免费，满额自动开盘、LP 销毁，未满 24 小时自动退款。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2119600783612404129",
+      "website": "https://biniuai.xyz/#mint",
+      "socialX": "https://x.com/i/web/status/2119600783612404129",
+      "contractAddress": "",
+      "firstSeen": "2026-11-09",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2119600783612404129"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119600783612404129"
+        },
+        {
+          "source": "evidence",
+          "url": "https://biniuai.xyz/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "x-post-2119476281507234263",
       "name": "PanduAGENT — 2,222 Street Animals on BNB Chain",
@@ -251,8 +467,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -386,7 +602,8 @@
       ],
       "origin": "x",
       "recordIds": [
-        "x-post-2119325203855774016"
+        "x-post-2119325203855774016",
+        "x-post-2119571245247365260"
       ],
       "sources": [
         {
@@ -396,6 +613,10 @@
         {
           "source": "evidence",
           "url": "https://pacture.pvpmint.com/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119571245247365260"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -416,8 +637,8 @@
       "socialX": "https://x.com/i/web/status/2119114802165600498",
       "contractAddress": "",
       "firstSeen": "2026-11-07",
-      "lastActivityAt": "2026-11-07",
-      "date": "2026-11-07",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "X",
         "Early lead",
@@ -428,7 +649,8 @@
       ],
       "origin": "x",
       "recordIds": [
-        "x-post-2119114802165600498"
+        "x-post-2119114802165600498",
+        "x-post-2119594421255827811"
       ],
       "sources": [
         {
@@ -438,6 +660,10 @@
         {
           "source": "evidence",
           "url": "https://toastbsc.fun/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2119594421255827811"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -4512,8 +4738,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5364,8 +5590,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5440,8 +5666,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5744,8 +5970,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5782,8 +6008,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7188,8 +7414,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-09",
+      "date": "2026-11-09",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9835,13 +10061,13 @@
     }
   ],
   "inputCounts": {
-    "projects": 183,
+    "projects": 184,
     "external": 31,
-    "x": 118,
+    "x": 132,
     "mint": 25
   },
-  "candidateRecords": 278,
-  "mergedGroups": 253,
-  "reviewCount": 78,
+  "candidateRecords": 287,
+  "mergedGroups": 258,
+  "reviewCount": 84,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
