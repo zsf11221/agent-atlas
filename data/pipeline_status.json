@@ -1,14 +1,14 @@
 {
   "candidateCount": 180,
   "curatedCount": 12,
-  "checkedAt": "2026-11-10T04:38:14.791759+00:00",
+  "checkedAt": "2026-11-10T13:29:29.111194+00:00",
   "state": "ok",
   "source": "GitHub public repository search",
   "queries": 4,
   "queryFailures": [],
   "matchingRepositories": 85,
   "newCandidates": 3,
-  "changedCandidates": 0,
+  "changedCandidates": 1,
   "total": 192,
   "note": "GitHub metadata only; candidate is NOT an official endorsement, security audit, mint eligibility or verified live Agent service."
 }

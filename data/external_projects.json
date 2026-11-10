@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:38:18.770082+00:00",
+  "updatedAt": "2026-11-10T13:29:32.866397+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -12,11 +12,11 @@
     },
     "search-agent": {
       "ok": true,
-      "qualified": 6
+      "qualified": 3
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 7
+      "qualified": 8
     },
     "bnbchain-official": {
       "ok": true,
@@ -196,6 +196,34 @@
       "firstSeen": "2026-11-10",
       "lastCheckedAt": "2026-11-10T04:38:18.770082+00:00",
       "discoverySource": "dexscreener-search-agent",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0x0494556b5a2f8b766038d3066f3cbcd42cb87777",
+      "name": "Agentic Pixel",
+      "symbol": "AGENTPX",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0xf2b43ea849ab8a7559f391d75fb17c1e4eefea2a",
+      "website": "https://dexscreener.com/bsc/0xf2b43ea849ab8a7559f391d75fb17c1e4eefea2a",
+      "socialX": "",
+      "contractAddress": "0x0494556B5a2F8B766038D3066f3CBCd42CB87777",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-11-09",
+      "projectCreatedAt": "2026-11-09",
+      "firstSeen": "2026-11-10",
+      "lastCheckedAt": "2026-11-10T13:29:32.866397+00:00",
+      "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:38:20.466489+00:00",
+  "updatedAt": "2026-11-10T13:29:34.895540+00:00",
   "items": [
     {
       "id": "x-post-2119998466541711615",
@@ -681,15 +681,6 @@
         "github-1440944272"
       ],
       "source": "https://github.com/ggBlaze/bnbagent"
-    },
-    {
-      "name": "bnb-agent-marketplace",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1327302461",
-        "github-1361085663"
-      ],
-      "source": "https://github.com/marioggil/bnb-agent-marketplace"
     },
     {
       "name": "Agentic",
