@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-10T15:22:31.968765+00:00",
+  "updatedAt": "2026-11-10T21:36:32.439688+00:00",
   "profiles": [
+    {
+      "domain": "aesthetic-kleicha-a343ba.netlify.app",
+      "name": "Baby Pig",
+      "descriptionZh": "官网介绍「Baby Pig（$BABYPIG）是 BSC 上的 Agent ID 限定发售：每份 0.0017 BNB，30,000,000 枚，共 2,000 份，11月10日 23:00 开卖，卖满自动开池，卖不满全额退款。普通 ERC20，没有交易税。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Baby Pig（$BABYPIG）是 BSC 上的 Agent ID 限定发售：每份 0.0017 BNB，30,000,000 枚，共 2,000 份，11月10日 23:00 开卖，卖满自动开池，卖不满全额退款。普通 ERC20，没有交易税。",
+      "source": "https://aesthetic-kleicha-a343ba.netlify.app/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-10T21:36:32.439688+00:00",
+      "firstSeen": "2026-11-10"
+    },
     {
       "domain": "agcc.fun",
       "name": "Agentic Coin · Agent ID 铸币",
@@ -272,6 +282,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "jager.live",
+      "name": "$JAGENT Mint · BNB Smart Chain",
+      "descriptionZh": "官网介绍「Mint $JAGENT with your .ai Agent ID at jager.live.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Mint $JAGENT with your .ai Agent ID at jager.live.",
+      "source": "https://jager.live/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-10T21:36:32.439688+00:00",
+      "firstSeen": "2026-11-10"
+    },
+    {
       "domain": "lunar-agent-rion.vercel.app",
       "name": "LunarAgentRion — Minted by Agents",
       "descriptionZh": "官网介绍「8 celestial guardians on BNB Chain. First 2 mints FREE per wallet, then $0.80 in BNB. Agent ID only.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -503,6 +523,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 3,
+  "newProfiles": 2,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
