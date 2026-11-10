@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T21:50:27.560243+00:00",
+  "updatedAt": "2026-11-10T03:56:26.294091+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -152,6 +152,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "champx.pages.dev",
+      "name": "champx.pages.dev",
+      "descriptionZh": "官网介绍「ChampX: 3,333 pixel robot AI agents on BNB Chain. Mint with your Agent ID. 0.0001 BNB per mint. 1% Legendary Gold.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "ChampX: 3,333 pixel robot AI agents on BNB Chain. Mint with your Agent ID. 0.0001 BNB per mint. 1% Legendary Gold.",
+      "source": "https://champx.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-10T03:56:26.294091+00:00",
+      "firstSeen": "2026-11-10"
+    },
+    {
       "domain": "chipmunks-nft.pages.dev",
       "name": "Chipmunks",
       "descriptionZh": "官网介绍「6,666 mutant chipmunks on BNB Chain. First 3 free.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -250,6 +260,16 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "mint.komaai.trade",
+      "name": "KOMA — 链上柴犬，BNB Chain 公平发射",
+      "descriptionZh": "官网介绍「10,000 genesis shares on BNB Chain. Free for Agent IDs, auto pool at #10,000, LP burned.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "10,000 genesis shares on BNB Chain. Free for Agent IDs, auto pool at #10,000, LP burned.",
+      "source": "https://mint.komaai.trade/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-10T03:56:26.294091+00:00",
+      "firstSeen": "2026-11-10"
     },
     {
       "domain": "mint.marsnexus.fun",
