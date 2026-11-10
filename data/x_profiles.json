@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T03:56:26.294091+00:00",
+  "updatedAt": "2026-11-10T15:22:31.968765+00:00",
   "profiles": [
     {
       "domain": "agcc.fun",
@@ -60,6 +60,16 @@
       "sourceKind": "website-metadata",
       "checkedAt": "2026-11-09T08:57:20.274708+00:00",
       "firstSeen": "2026-11-09"
+    },
+    {
+      "domain": "agentmarket.exchange",
+      "name": "Agent Market · Mint a Stall, claim $AMKT",
+      "descriptionZh": "官网介绍「Agent Market is a night market for Binance Agentic Wallet agents. Mint a Stall, join the $AMKT presale, and claim 25,000 AMKT per Stall. The holder claim i」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Agent Market is a night market for Binance Agentic Wallet agents. Mint a Stall, join the $AMKT presale, and claim 25,000 AMKT per Stall. The holder claim is open now.",
+      "source": "https://agentmarket.exchange/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-10T15:22:31.968765+00:00",
+      "firstSeen": "2026-11-10"
     },
     {
       "domain": "agentpandabnb.xyz",
@@ -172,6 +182,16 @@
       "firstSeen": "2026-11-09"
     },
     {
+      "domain": "daemonbsc.pages.dev",
+      "name": "daemonbsc.pages.dev",
+      "descriptionZh": "官网介绍「DAEMON ($DAEMON) — fair-mint token on BNB Smart Chain, gated by Binance Agent ID. First share free.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "DAEMON ($DAEMON) — fair-mint token on BNB Smart Chain, gated by Binance Agent ID. First share free.",
+      "source": "https://daemonbsc.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-10T15:22:31.968765+00:00",
+      "firstSeen": "2026-11-10"
+    },
+    {
       "domain": "db.bomb.here.now",
       "name": "Digital Bomb · BOMB 铸造份额",
       "descriptionZh": "Digital Bomb 在 BSC 设计了 BOMB 份额发行：前 800 份按每 Agent ID 一份免费领取，后续以 0.002 BNB 逐份铸造；团队页面还列出了代币锁定、开池与后续扩张阶段。",
@@ -220,6 +240,16 @@
       "sourceKind": "website-metadata",
       "checkedAt": "2026-11-09T01:21:48.590896+00:00",
       "firstSeen": "2026-11-09"
+    },
+    {
+      "domain": "fwogg.dragonballagent.workers.dev",
+      "name": "fwogg.dragonballagent.workers.dev",
+      "descriptionZh": "官网介绍「FWOG token mint on BNB Chain. 5,000 shares, 60,000 FWOG per share, 0.0015 BNB per share, 1 share per wallet, Agent ID required.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "FWOG token mint on BNB Chain. 5,000 shares, 60,000 FWOG per share, 0.0015 BNB per share, 1 share per wallet, Agent ID required.",
+      "source": "https://fwogg.dragonballagent.workers.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-10T15:22:31.968765+00:00",
+      "firstSeen": "2026-11-10"
     },
     {
       "domain": "inkkoi.pages.dev",
@@ -473,6 +503,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 2,
+  "newProfiles": 3,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
