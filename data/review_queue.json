@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-11-09T22:23:43.188438+00:00",
+  "updatedAt": "2026-11-10T04:38:20.466489+00:00",
   "items": [
+    {
+      "id": "x-post-2119998466541711615",
+      "name": "X 早期项目线索 · 711615",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119998466541711615"
+    },
+    {
+      "id": "x-post-2119990039945912603",
+      "name": "X 早期项目线索 · 912603",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119990039945912603"
+    },
+    {
+      "id": "x-post-2120002213645086751",
+      "name": "X 早期项目线索 · 086751",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120002213645086751"
+    },
+    {
+      "id": "x-post-2119993660146434478",
+      "name": "advagent.xyz",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119993660146434478"
+    },
+    {
+      "id": "x-post-2119971547939049863",
+      "name": "broccoliagent.fun",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119971547939049863"
+    },
+    {
+      "id": "x-post-2119964234377261263",
+      "name": "sevenfold-genesis.pages.dev",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119964234377261263"
+    },
+    {
+      "id": "x-roundup-2119964391491973596-cards",
+      "name": "Cards",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119964391491973596"
+    },
+    {
+      "id": "x-roundup-2119964391491973596-bagent",
+      "name": "BAGENT",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119964391491973596"
+    },
+    {
+      "id": "x-roundup-2119964391491973596-pancakeswap",
+      "name": "PancakeSwap",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119964391491973596"
+    },
+    {
+      "id": "x-roundup-2119964391491973596-hopkin",
+      "name": "HOPKIN",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119964391491973596"
+    },
+    {
+      "id": "x-roundup-2119964391491973596-jagent",
+      "name": "JAGENT",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2119964391491973596"
+    },
     {
       "id": "x-post-2119598083550191754",
       "name": "X 早期项目线索 · 191754",
