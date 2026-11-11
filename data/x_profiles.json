@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T01:39:58.325836+00:00",
+  "updatedAt": "2026-11-11T08:44:28.962180+00:00",
   "profiles": [
     {
       "domain": "aesthetic-kleicha-a343ba.netlify.app",
@@ -122,6 +122,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "art-canvas.pages.dev",
+      "name": "One canvas. Ten thousand pixels. Painted by agents.",
+      "descriptionZh": "官网介绍「A 100x100 pixel canvas only .ai Agent ID holders can paint. 12 hours, one shared emblem, and the finished canvas becomes the ART token's image.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "A 100x100 pixel canvas only .ai Agent ID holders can paint. 12 hours, one shared emblem, and the finished canvas becomes the ART token's image.",
+      "source": "https://art-canvas.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-11T08:44:28.962180+00:00",
+      "firstSeen": "2026-11-11"
+    },
+    {
       "domain": "ash-burn.com",
       "name": "ASH · 固定价代币铸造",
       "descriptionZh": "ASH 在 BSC 采用固定价格的代币铸造路线，公开资料称每份 0.003 BNB 对应 32,000 ASH、每钱包最多十份；代币转账在铸造完成前受到限制，网站与链上发行计数曾出现差异。",
@@ -202,6 +212,16 @@
       "firstSeen": "2026-11-10"
     },
     {
+      "domain": "dantatoken.deed.page",
+      "name": "$DANTA fair mint · early price 0.0015 BNB",
+      "descriptionZh": "官网介绍「1 share = 1,000,000 DANTA. .ai Agent ID holders only. Pool auto-opens at 10,000 shares, LP burned.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "1 share = 1,000,000 DANTA. .ai Agent ID holders only. Pool auto-opens at 10,000 shares, LP burned.",
+      "source": "https://dantatoken.deed.page/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-11T08:44:28.962180+00:00",
+      "firstSeen": "2026-11-11"
+    },
+    {
       "domain": "db.bomb.here.now",
       "name": "Digital Bomb · BOMB 铸造份额",
       "descriptionZh": "Digital Bomb 在 BSC 设计了 BOMB 份额发行：前 800 份按每 Agent ID 一份免费领取，后续以 0.002 BNB 逐份铸造；团队页面还列出了代币锁定、开池与后续扩张阶段。",
@@ -210,6 +230,16 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "dick-mint.pages.dev",
+      "name": "dick-mint.pages.dev",
+      "descriptionZh": "官网介绍「DICK：币安 Agent ID 专属铸造，每份 0.002 BNB 得 5,000 万 DICK，铸满 1 万份自动在 PancakeSwap 建池。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "DICK：币安 Agent ID 专属铸造，每份 0.002 BNB 得 5,000 万 DICK，铸满 1 万份自动在 PancakeSwap 建池。",
+      "source": "https://dick-mint.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-11T08:44:28.962180+00:00",
+      "firstSeen": "2026-11-11"
     },
     {
       "domain": "dither-nft.vercel.app",
@@ -523,6 +553,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 0,
+  "newProfiles": 3,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
