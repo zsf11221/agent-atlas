@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T20:50:13.050514+00:00",
+  "updatedAt": "2026-11-11T01:15:40.801628+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -12,11 +12,11 @@
     },
     "search-agent": {
       "ok": true,
-      "qualified": 5
+      "qualified": 3
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 10
+      "qualified": 11
     },
     "bnbchain-official": {
       "ok": true,
@@ -169,6 +169,34 @@
       "lastCheckedAt": "2026-11-03T14:03:20.411489+00:00",
       "discoverySource": "bnbchain-ecosystem-page",
       "verification": "official-mention-only"
+    },
+    {
+      "id": "dex-bsc-0xd679aa19f8b0228729e05622c48c6084cc057777",
+      "name": "Agentic Inu",
+      "symbol": ".AI",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0x86c46f1f162e4f3ce9b6391b068dc4a089463a7e",
+      "website": "https://dexscreener.com/bsc/0x86c46f1f162e4f3ce9b6391b068dc4a089463a7e",
+      "socialX": "",
+      "contractAddress": "0xD679Aa19f8B0228729e05622C48C6084cC057777",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-10-20",
+      "projectCreatedAt": "2026-10-20",
+      "firstSeen": "2026-11-11",
+      "lastCheckedAt": "2026-11-11T01:15:40.801628+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
     },
     {
       "id": "dex-bsc-0xb51efbbee23982e73e08c3caa513322532a57777",

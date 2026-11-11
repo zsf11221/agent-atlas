@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T20:50:14.898965+00:00",
+  "updatedAt": "2026-11-11T01:15:42.809992+00:00",
   "items": [
     {
       "id": "x-post-2119998466541711615",
@@ -204,6 +204,72 @@
       "name": "Share",
       "reason": "x-post-without-specific-product-evidence",
       "source": "https://x.com/i/web/status/2120017054988464344"
+    },
+    {
+      "id": "x-post-2120260335299141961",
+      "name": "X 早期项目线索 · 141961",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120260335299141961"
+    },
+    {
+      "id": "x-post-2120267473559711922",
+      "name": "jannyh.ai",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120267473559711922"
+    },
+    {
+      "id": "x-post-2120263810154168821",
+      "name": "night-bow.pages.dev",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120263810154168821"
+    },
+    {
+      "id": "x-post-2120255296165826852",
+      "name": "X 早期项目线索 · 826852",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120255296165826852"
+    },
+    {
+      "id": "x-post-2120250533072220554",
+      "name": "X 早期项目线索 · 220554",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120250533072220554"
+    },
+    {
+      "id": "x-post-2120250212325191883",
+      "name": "X 早期项目线索 · 191883",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120250212325191883"
+    },
+    {
+      "id": "x-post-2120250189172850731",
+      "name": "nenehawaiian.vercel.app",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120250189172850731"
+    },
+    {
+      "id": "x-post-2120248955934294266",
+      "name": "X 早期项目线索 · 294266",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120248955934294266"
+    },
+    {
+      "id": "x-post-2120204406859993246",
+      "name": "sagent.live",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120204406859993246"
+    },
+    {
+      "id": "x-post-2120202056187138331",
+      "name": "niubiagent.xyz",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120202056187138331"
+    },
+    {
+      "id": "x-roundup-2120184233427910924-monkey",
+      "name": "Monkey",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120184233427910924"
     },
     {
       "id": "x-post-2119598083550191754",
@@ -841,6 +907,7 @@
         "dex-bsc-0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc",
         "dex-bsc-0xbdfcd595f1d8d2d9b8c7e9754e2636cf29fd7777",
         "dex-bsc-0xc9baeba48051799a3239e4b3e102ab7a2e4e7777",
+        "dex-bsc-0xd679aa19f8b0228729e05622c48c6084cc057777",
         "dex-bsc-0xf7ccc7d9674fb4e1233d8bea613712c910857777"
       ],
       "source": "https://dexscreener.com/bsc/0xfce81ee5f756f55cca91bdfb6a5aaa72860dac33"

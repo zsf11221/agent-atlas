@@ -1,6 +1,120 @@
 {
-  "updatedAt": "2026-11-10T20:50:14.898965+00:00",
+  "updatedAt": "2026-11-11T01:15:42.809992+00:00",
   "projects": [
+    {
+      "id": "github-1453224892",
+      "name": "bnbtailriskquant",
+      "descriptionZh": "仓库「bnbtailriskquant」公开介绍：EVT tail-risk audit seller agent for BSC (BNB Agent Studio) - winner, BNB Builder Sessions Paris 2026",
+      "descriptionEn": "Public GitHub discovery candidate: EVT tail-risk audit seller agent for BSC (BNB Agent Studio) - winner, BNB Builder Sessions Paris 2026",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/wh1t3r0s3-12/bnbtailriskquant",
+      "website": "https://github.com/wh1t3r0s3-12/bnbtailriskquant",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-11",
+      "lastActivityAt": "2026-11-10",
+      "date": "2026-11-10",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1453224892"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/wh1t3r0s3-12/bnbtailriskquant"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1453273982",
+      "name": "binance-agentic-wallet-dashboard",
+      "descriptionZh": "仓库「binance-agentic-wallet-dashboard」公开介绍：面向 BSC 的 Binance Agentic Wallet 自托管看板｜Self-hosted BSC dashboard for multi-wallet portfolio, guarded swaps, transfers, address book and receive QR.",
+      "descriptionEn": "Public GitHub discovery candidate: 面向 BSC 的 Binance Agentic Wallet 自托管看板｜Self-hosted BSC dashboard for multi-wallet portfolio, guarded swaps, transfers, address book and receive QR.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Ssw7777/binance-agentic-wallet-dashboard",
+      "website": "https://github.com/Ssw7777/binance-agentic-wallet-dashboard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-11",
+      "lastActivityAt": "2026-11-10",
+      "date": "2026-11-10",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1453273982"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Ssw7777/binance-agentic-wallet-dashboard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0xd679aa19f8b0228729e05622c48c6084cc057777",
+      "name": "Agentic Inu",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic Inu」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x86c46f1f162e4f3ce9b6391b068dc4a089463a7e",
+      "website": "https://dexscreener.com/bsc/0x86c46f1f162e4f3ce9b6391b068dc4a089463a7e",
+      "socialX": "",
+      "contractAddress": "0xd679aa19f8b0228729e05622c48c6084cc057777",
+      "firstSeen": "2026-11-11",
+      "lastActivityAt": "2026-10-20",
+      "date": "2026-10-20",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0xd679aa19f8b0228729e05622c48c6084cc057777"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x86c46f1f162e4f3ce9b6391b068dc4a089463a7e"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1451973517",
       "name": "Tracker-Agentic-Mint",
@@ -247,8 +361,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "GitHub",
         "Candidate",
@@ -588,6 +702,58 @@
       "featured": false
     },
     {
+      "id": "x-post-2120200671014293832",
+      "name": "Baby Pig",
+      "descriptionZh": "官网介绍「Baby Pig（$BABYPIG）是 BSC 上的 Agent ID 限定发售：每份 0.0017 BNB，30,000,000 枚，共 2,000 份，11月10日 23:00 开卖，卖满自动开池，卖不满全额退款。普通 ERC20，没有交易税。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2120200671014293832",
+      "website": "https://aesthetic-kleicha-a343ba.netlify.app",
+      "socialX": "https://x.com/i/web/status/2120200671014293832",
+      "contractAddress": "",
+      "firstSeen": "2026-11-10",
+      "lastActivityAt": "2026-11-10",
+      "date": "2026-11-10",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2120200671014293832",
+        "x-post-2120216780128071956",
+        "x-post-2120218258636726439"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120200671014293832"
+        },
+        {
+          "source": "evidence",
+          "url": "https://aesthetic-kleicha-a343ba.netlify.app/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120216780128071956"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120218258636726439"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1452183235",
       "name": "agentpepe",
       "descriptionZh": "仓库「agentpepe」公开介绍：AGENTPEPE: meme NFT collection of 6,666 glossy 3D frog agents on BNB Chain. Mint through your Binance agent.",
@@ -765,7 +931,8 @@
       ],
       "origin": "x",
       "recordIds": [
-        "x-post-2120174043877843291"
+        "x-post-2120174043877843291",
+        "x-post-2120249024494333984"
       ],
       "sources": [
         {
@@ -775,6 +942,52 @@
         {
           "source": "evidence",
           "url": "https://agentmarket.exchange/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120249024494333984"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2120267313379160527",
+      "name": "$JAGENT Mint · BNB Smart Chain",
+      "descriptionZh": "官网介绍「Mint $JAGENT with your .ai Agent ID at jager.live.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2120267313379160527",
+      "website": "https://jager.live/?ref=mando.ai",
+      "socialX": "https://x.com/i/web/status/2120267313379160527",
+      "contractAddress": "",
+      "firstSeen": "2026-11-10",
+      "lastActivityAt": "2026-11-10",
+      "date": "2026-11-10",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2120267313379160527"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120267313379160527"
+        },
+        {
+          "source": "evidence",
+          "url": "https://jager.live/"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -1870,8 +2083,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6156,8 +6369,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6856,8 +7069,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7558,44 +7771,6 @@
         {
           "source": "github",
           "url": "https://github.com/successaje/headroom"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1360292929",
-      "name": "hallmark",
-      "descriptionZh": "BNB Chain Agent 信任工具，公开说明涉及持续端点探测、链上证据及可撤销任务密钥。",
-      "descriptionEn": "Public GitHub discovery candidate: he trust layer or agents on mart hain. robe every - agent, publish the evidence on chain, and hire one under a session key you can revoke.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/RaYYeR220/hallmark",
-      "website": "https://github.com/RaYYeR220/hallmark",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1360292929"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/RaYYeR220/hallmark"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -8622,44 +8797,6 @@
         {
           "source": "github",
           "url": "https://github.com/SiddhantOfficial/bnb-yield-proof"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1350358849",
-      "name": "bnb-agent-market",
-      "descriptionZh": "BNB Smart Chain Agent 市场目录，计划按链上声誉帮助用户发现及雇用 Agent。",
-      "descriptionEn": "Public GitHub discovery candidate: he ront door or on-chain agents on mart hain — discover, understand and hire live - agents, ranked by real on-chain reputation.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/RichardReki/bnb-agent-market",
-      "website": "https://github.com/RichardReki/bnb-agent-market",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1350358849"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/RichardReki/bnb-agent-market"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11100,12 +11237,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 36,
-    "x": 208,
+    "external": 37,
+    "x": 224,
     "mint": 25
   },
-  "candidateRecords": 320,
-  "mergedGroups": 283,
-  "reviewCount": 139,
+  "candidateRecords": 326,
+  "mergedGroups": 286,
+  "reviewCount": 150,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
