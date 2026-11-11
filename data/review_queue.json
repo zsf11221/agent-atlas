@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T16:12:38.376314+00:00",
+  "updatedAt": "2026-11-11T22:42:44.044863+00:00",
   "items": [
     {
       "id": "x-post-2120325995576115423",
@@ -168,6 +168,66 @@
       "name": "Qhg",
       "reason": "x-post-without-specific-product-evidence",
       "source": "https://x.com/i/web/status/2120418681301921832"
+    },
+    {
+      "id": "x-post-2120588399392309736",
+      "name": "X 早期项目线索 · 309736",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120588399392309736"
+    },
+    {
+      "id": "x-post-2120587713984250028",
+      "name": "X 早期项目线索 · 250028",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120587713984250028"
+    },
+    {
+      "id": "x-post-2120586376488051056",
+      "name": "X 早期项目线索 · 051056",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120586376488051056"
+    },
+    {
+      "id": "x-post-2120582600926388446",
+      "name": "X 早期项目线索 · 388446",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120582600926388446"
+    },
+    {
+      "id": "x-post-2120569858152886412",
+      "name": "X 早期项目线索 · 886412",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120569858152886412"
+    },
+    {
+      "id": "x-post-2120592890347004391",
+      "name": "soarag.com",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120592890347004391"
+    },
+    {
+      "id": "x-post-2120516762831634665",
+      "name": "geodehash.xyz",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120516762831634665"
+    },
+    {
+      "id": "x-post-2120580807341531403",
+      "name": "aibi-bsc.github.io",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120580807341531403"
+    },
+    {
+      "id": "x-post-2120568693847699571",
+      "name": "forgepass.pro",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120568693847699571"
+    },
+    {
+      "id": "x-post-2120557132873629844",
+      "name": "X 早期项目线索 · 629844",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120557132873629844"
     },
     {
       "id": "x-post-2120296864637719029",
@@ -1103,6 +1163,15 @@
         "dex-bsc-0x7aede49f29bf7bc643853c1136854ea8e4da7777"
       ],
       "source": "https://dexscreener.com/bsc/0x20a2b30b036b6313aff82ffa33bdf8b03b033fe6"
+    },
+    {
+      "name": "Agentic X402",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "dex-bsc-0x9714c0e31ab94bdc4b5bda7cf3570255d22f7777",
+        "dex-bsc-0xab98a9016320800883bd997b18a11858a7b57777"
+      ],
+      "source": "https://dexscreener.com/bsc/0xdfbab63ea0bd99dd4bdccee407bd30fa0f44eb46"
     }
   ],
   "methodology": "Raw candidate evidence retained in its original discovery files. Review before asserting identity or product functionality."

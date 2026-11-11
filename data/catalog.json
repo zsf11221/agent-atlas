@@ -1,6 +1,48 @@
 {
-  "updatedAt": "2026-11-11T16:12:38.376314+00:00",
+  "updatedAt": "2026-11-11T22:42:44.044863+00:00",
   "projects": [
+    {
+      "id": "x-post-2120575937871798338",
+      "name": "Your Degen identity. Mint with no presale.",
+      "descriptionZh": "官网介绍「DEGEN AGENT — Fair Mint $DeGent on BNB Chain. degenagentai.pages.dev」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2120575937871798338",
+      "website": "https://degenagentai.pages.dev",
+      "socialX": "https://x.com/i/web/status/2120575937871798338",
+      "contractAddress": "",
+      "firstSeen": "2026-11-11",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2120575937871798338"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120575937871798338"
+        },
+        {
+          "source": "evidence",
+          "url": "https://degenagentai.pages.dev/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1376431406",
       "name": "ponkexchange",
@@ -500,6 +542,149 @@
         }
       ],
       "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2120556611903406586",
+      "name": "balife.surge.sh",
+      "descriptionZh": "官网介绍「币安人生卡 Binance Life Card：BNB Smart Chain 上的 ERC-721 NFT。总量 10,000，免费池 2,000 张，每 Agent ID 前 5 张免费，付费阶梯 0.001 BNB 起，五档工种随机开。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2120556611903406586",
+      "website": "https://balife.surge.sh/",
+      "socialX": "https://x.com/i/web/status/2120556611903406586",
+      "contractAddress": "",
+      "firstSeen": "2026-11-11",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2120556611903406586",
+        "x-post-2120558900420526484",
+        "x-post-2120559195842134133",
+        "x-post-2120559347034140749",
+        "x-post-2120559988070662381",
+        "x-post-2120562548353405285"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120556611903406586"
+        },
+        {
+          "source": "evidence",
+          "url": "https://balife.surge.sh/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120558900420526484"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120559195842134133"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120559347034140749"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120559988070662381"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120562548353405285"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x9714c0e31ab94bdc4b5bda7cf3570255d22f7777",
+      "name": "Agentic X402",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic X402」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0xdfbab63ea0bd99dd4bdccee407bd30fa0f44eb46",
+      "website": "https://dexscreener.com/bsc/0xdfbab63ea0bd99dd4bdccee407bd30fa0f44eb46",
+      "socialX": "",
+      "contractAddress": "0x9714c0e31ab94bdc4b5bda7cf3570255d22f7777",
+      "firstSeen": "2026-11-11",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x9714c0e31ab94bdc4b5bda7cf3570255d22f7777"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0xdfbab63ea0bd99dd4bdccee407bd30fa0f44eb46"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0xab98a9016320800883bd997b18a11858a7b57777",
+      "name": "Agentic x402",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic x402」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x409c9b7b5f88bb96e1d22b9ae5ee29e22a233e6c",
+      "website": "https://dexscreener.com/bsc/0x409c9b7b5f88bb96e1d22b9ae5ee29e22a233e6c",
+      "socialX": "",
+      "contractAddress": "0xab98a9016320800883bd997b18a11858a7b57777",
+      "firstSeen": "2026-11-11",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0xab98a9016320800883bd997b18a11858a7b57777"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x409c9b7b5f88bb96e1d22b9ae5ee29e22a233e6c"
+        }
+      ],
+      "evidenceLevel": "early-lead",
       "mintTypes": [],
       "featured": false
     },
@@ -1434,8 +1619,8 @@
       "socialX": "https://x.com/i/web/status/2120267313379160527",
       "contractAddress": "",
       "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "X",
         "Early lead",
@@ -1446,7 +1631,8 @@
       ],
       "origin": "x",
       "recordIds": [
-        "x-post-2120267313379160527"
+        "x-post-2120267313379160527",
+        "x-post-2120581909780808043"
       ],
       "sources": [
         {
@@ -1456,6 +1642,10 @@
         {
           "source": "evidence",
           "url": "https://jager.live/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120581909780808043"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -1716,8 +1906,8 @@
       "socialX": "https://x.com/i/web/status/2119703520765182143",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-09",
-      "date": "2026-11-09",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "X",
         "Early lead",
@@ -1730,7 +1920,8 @@
       "recordIds": [
         "x-post-2119703520765182143",
         "x-post-2119712647113482264",
-        "x-post-2119714617211633717"
+        "x-post-2119714617211633717",
+        "x-post-2120455119729004801"
       ],
       "sources": [
         {
@@ -1748,6 +1939,10 @@
         {
           "source": "x",
           "url": "https://x.com/i/web/status/2119714617211633717"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120455119729004801"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -1848,8 +2043,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "GitHub",
         "Candidate",
@@ -2674,8 +2869,8 @@
       "socialX": "https://x.com/i/web/status/2119325203855774016",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "X",
         "Early lead",
@@ -2687,7 +2882,8 @@
       "origin": "x",
       "recordIds": [
         "x-post-2119325203855774016",
-        "x-post-2119571245247365260"
+        "x-post-2119571245247365260",
+        "x-post-2120553149765501038"
       ],
       "sources": [
         {
@@ -2701,6 +2897,10 @@
         {
           "source": "x",
           "url": "https://x.com/i/web/status/2119571245247365260"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120553149765501038"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -5301,8 +5501,8 @@
       "socialX": "https://x.com/i/web/status/2118058190906761493",
       "contractAddress": "",
       "firstSeen": "2026-11-04",
-      "lastActivityAt": "2026-11-09",
-      "date": "2026-11-09",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "X",
         "Early lead",
@@ -5317,7 +5517,8 @@
         "x-post-2118420298496458786",
         "x-post-2118422723676287105",
         "x-post-2118521493508546814",
-        "x-post-2119897586064818275"
+        "x-post-2119897586064818275",
+        "x-post-2120588345684431083"
       ],
       "sources": [
         {
@@ -5343,6 +5544,10 @@
         {
           "source": "x",
           "url": "https://x.com/i/web/status/2119897586064818275"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120588345684431083"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -5722,8 +5927,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-04",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11363,12 +11568,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 37,
-    "x": 256,
+    "external": 39,
+    "x": 277,
     "mint": 25
   },
-  "candidateRecords": 329,
-  "mergedGroups": 289,
-  "reviewCount": 180,
+  "candidateRecords": 342,
+  "mergedGroups": 293,
+  "reviewCount": 191,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

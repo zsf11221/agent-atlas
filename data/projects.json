@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T16:12:31.522019+00:00",
+  "updatedAt": "2026-11-11T22:42:38.701413+00:00",
   "methodology": "Curated ecosystem sources plus public GitHub discovery. GitHub candidates are NOT independently verified; no automatic contract, mint or social audit.",
   "projects": [
     {
@@ -811,11 +811,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "2026-11-11",
       "firstSeen": "2026-11-11",
-      "lastCheckedAt": "2026-11-11T16:12:31.522019+00:00",
+      "lastCheckedAt": "2026-11-11T22:42:38.701413+00:00",
       "lastActivityAt": "2026-11-11",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 203
+      "githubStars": 213
     },
     {
       "id": "github-1453410563",
@@ -946,11 +946,11 @@
       "evidence": "GitHub public repository metadata; independent verification pending",
       "date": "2026-11-10",
       "firstSeen": "2026-11-11",
-      "lastCheckedAt": "2026-11-11T16:12:31.522019+00:00",
+      "lastCheckedAt": "2026-11-11T22:42:38.701413+00:00",
       "lastActivityAt": "2026-11-11",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
-      "githubStars": 3
+      "githubStars": 4
     },
     {
       "id": "github-1026813430",
@@ -1059,6 +1059,60 @@
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
       "githubStars": 66
+    },
+    {
+      "id": "github-1445926880",
+      "name": "agent-trade-console",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/fh199601-oss/agent-trade-console",
+      "website": "https://github.com/fh199601-oss/agent-trade-console",
+      "descriptionZh": "GitHub 公开候选项目：本地 BNB Chain Mint 与交易看板，支持 Grok/Codex 共用 CLI；默认模拟，使用自己的 Binance Agentic Wallet。",
+      "descriptionEn": "Public GitHub discovery candidate: 本地 BNB Chain Mint 与交易看板，支持 Grok/Codex 共用 CLI；默认模拟，使用自己的 Binance Agentic Wallet。",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "lastCheckedAt": "2026-11-11T16:12:31.522019+00:00",
+      "lastActivityAt": "2026-11-11",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 3
+    },
+    {
+      "id": "github-1156377460",
+      "name": "ibiti-epk-core",
+      "symbol": "GH",
+      "category": "developer",
+      "chain": "BNB Chain (unverified)",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://github.com/VOVAN1980/ibiti-epk-core",
+      "website": "https://github.com/VOVAN1980/ibiti-epk-core",
+      "descriptionZh": "GitHub 公开候选项目：Secure on-chain vaults for AI agents: per-asset limits, agent sessions with budgets, guardians, panic, emergency cold-wallet evacuation and an automatic Watchtower. Live on BSC Testnet with public proof; not audited yet.",
+      "descriptionEn": "Public GitHub discovery candidate: Secure on-chain vaults for AI agents: per-asset limits, agent sessions with budgets, guardians, panic, emergency cold-wallet evacuation and an automatic Watchtower. Live on BSC Testnet with public proof; not audited yet.",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "GitHub public repository metadata; independent verification pending",
+      "date": "2026-02-12",
+      "firstSeen": "2026-11-09",
+      "lastCheckedAt": "2026-11-09T02:40:53.105528+00:00",
+      "lastActivityAt": "2026-11-11",
+      "discoverySource": "github-search",
+      "verification": "repository-exists-only",
+      "githubStars": 0
     },
     {
       "id": "github-1168596912",
@@ -1196,33 +1250,6 @@
       "githubStars": 25
     },
     {
-      "id": "github-1445926880",
-      "name": "agent-trade-console",
-      "symbol": "GH",
-      "category": "developer",
-      "chain": "BNB Chain (unverified)",
-      "type": "candidate",
-      "stage": "unverified",
-      "source": "https://github.com/fh199601-oss/agent-trade-console",
-      "website": "https://github.com/fh199601-oss/agent-trade-console",
-      "descriptionZh": "GitHub 公开候选项目：本地 BNB Chain Mint 与交易看板，支持 Grok/Codex 共用 CLI；默认模拟，使用自己的 Binance Agentic Wallet。",
-      "descriptionEn": "Public GitHub discovery candidate: 本地 BNB Chain Mint 与交易看板，支持 Grok/Codex 共用 CLI；默认模拟，使用自己的 Binance Agentic Wallet。",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "mint": "unknown",
-      "evidence": "GitHub public repository metadata; independent verification pending",
-      "date": "2026-11-04",
-      "firstSeen": "2026-11-04",
-      "lastCheckedAt": "2026-11-11T16:12:31.522019+00:00",
-      "lastActivityAt": "2026-11-10",
-      "discoverySource": "github-search",
-      "verification": "repository-exists-only",
-      "githubStars": 3
-    },
-    {
       "id": "github-1435631008",
       "name": "TIGER-POWER-Terminal",
       "symbol": "GH",
@@ -1325,33 +1352,6 @@
       "date": "2026-11-10",
       "firstSeen": "2026-11-10",
       "lastCheckedAt": "2026-11-10T13:29:29.111194+00:00",
-      "lastActivityAt": "2026-11-10",
-      "discoverySource": "github-search",
-      "verification": "repository-exists-only",
-      "githubStars": 0
-    },
-    {
-      "id": "github-1156377460",
-      "name": "ibiti-epk-core",
-      "symbol": "GH",
-      "category": "developer",
-      "chain": "BNB Chain (unverified)",
-      "type": "candidate",
-      "stage": "unverified",
-      "source": "https://github.com/VOVAN1980/ibiti-epk-core",
-      "website": "https://github.com/VOVAN1980/ibiti-epk-core",
-      "descriptionZh": "GitHub 公开候选项目：Secure on-chain vaults for AI agents: per-asset limits, agent sessions with budgets, guardians, panic, emergency cold-wallet evacuation and an automatic Watchtower. Live on BSC Testnet with public proof; not audited yet.",
-      "descriptionEn": "Public GitHub discovery candidate: Secure on-chain vaults for AI agents: per-asset limits, agent sessions with budgets, guardians, panic, emergency cold-wallet evacuation and an automatic Watchtower. Live on BSC Testnet with public proof; not audited yet.",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "mint": "unknown",
-      "evidence": "GitHub public repository metadata; independent verification pending",
-      "date": "2026-02-12",
-      "firstSeen": "2026-11-09",
-      "lastCheckedAt": "2026-11-09T02:40:53.105528+00:00",
       "lastActivityAt": "2026-11-10",
       "discoverySource": "github-search",
       "verification": "repository-exists-only",
