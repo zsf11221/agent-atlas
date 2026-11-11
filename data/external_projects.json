@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T01:15:40.801628+00:00",
+  "updatedAt": "2026-11-11T07:48:05.348125+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -12,18 +12,18 @@
     },
     "search-agent": {
       "ok": true,
-      "qualified": 3
+      "qualified": 5
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 11
+      "qualified": 10
     },
     "bnbchain-official": {
       "ok": true,
       "qualified": 6
     }
   },
-  "newCount": 1,
+  "newCount": 0,
   "changedCount": 0,
   "projects": [
     {
