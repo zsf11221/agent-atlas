@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T07:48:07.376008+00:00",
+  "updatedAt": "2026-11-11T16:12:38.376314+00:00",
   "items": [
     {
       "id": "x-post-2120325995576115423",
@@ -90,6 +90,84 @@
       "name": "Rydy",
       "reason": "x-post-without-specific-product-evidence",
       "source": "https://x.com/i/web/status/2120324841538773251"
+    },
+    {
+      "id": "x-post-2120437350971113503",
+      "name": "dogezilla.meme",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120437350971113503"
+    },
+    {
+      "id": "x-post-2120435840715501586",
+      "name": "X 早期项目线索 · 501586",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120435840715501586"
+    },
+    {
+      "id": "x-post-2120435786609045689",
+      "name": "ovrekfoundry.com",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120435786609045689"
+    },
+    {
+      "id": "x-post-2120435590915301378",
+      "name": "X 早期项目线索 · 301378",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120435590915301378"
+    },
+    {
+      "id": "x-post-2120432170980495574",
+      "name": "echobsc.fun",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120432170980495574"
+    },
+    {
+      "id": "x-post-2120432136025239822",
+      "name": "echobsc.fun",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120432136025239822"
+    },
+    {
+      "id": "x-post-2120435887733637526",
+      "name": "aibi-bsc.github.io",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120435887733637526"
+    },
+    {
+      "id": "x-post-2120411444508315900",
+      "name": "X 早期项目线索 · 315900",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120411444508315900"
+    },
+    {
+      "id": "x-post-2120429781410099246",
+      "name": "X 早期项目线索 · 099246",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120429781410099246"
+    },
+    {
+      "id": "x-roundup-2120418681301921832-app",
+      "name": "App",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120418681301921832"
+    },
+    {
+      "id": "x-roundup-2120418681301921832-utc",
+      "name": "Utc",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120418681301921832"
+    },
+    {
+      "id": "x-roundup-2120418681301921832-corla",
+      "name": "Corla",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120418681301921832"
+    },
+    {
+      "id": "x-roundup-2120418681301921832-qhg",
+      "name": "Qhg",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120418681301921832"
     },
     {
       "id": "x-post-2120296864637719029",
@@ -972,6 +1050,15 @@
       "name": "fanbei.fun",
       "reason": "x-post-without-specific-product-evidence",
       "source": "https://x.com/i/web/status/2118057691931345248"
+    },
+    {
+      "name": "BNBAgent SDK",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "bnb-agent-sdk",
+        "github-1150379199"
+      ],
+      "source": "https://www.bnbchain.org/en/solutions/ai-agent"
     },
     {
       "name": "bnbagent",
