@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T08:44:28.962180+00:00",
+  "updatedAt": "2026-11-11T19:08:33.020186+00:00",
   "profiles": [
     {
       "domain": "aesthetic-kleicha-a343ba.netlify.app",
@@ -142,6 +142,16 @@
       "firstSeen": "2026-11-07"
     },
     {
+      "domain": "balife.surge.sh",
+      "name": "balife.surge.sh",
+      "descriptionZh": "官网介绍「币安人生卡 Binance Life Card：BNB Smart Chain 上的 ERC-721 NFT。总量 10,000，免费池 2,000 张，每 Agent ID 前 5 张免费，付费阶梯 0.001 BNB 起，五档工种随机开。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "币安人生卡 Binance Life Card：BNB Smart Chain 上的 ERC-721 NFT。总量 10,000，免费池 2,000 张，每 Agent ID 前 5 张免费，付费阶梯 0.001 BNB 起，五档工种随机开。",
+      "source": "https://balife.surge.sh/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-11T19:08:33.020186+00:00",
+      "firstSeen": "2026-11-11"
+    },
+    {
       "domain": "biniuai.xyz",
       "name": "biniuai.xyz",
       "descriptionZh": "官网介绍「币牛：9,999 份公平铸造，前 3,333 份免费，满额自动开盘、LP 销毁，未满 24 小时自动退款。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -230,6 +240,16 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "degenagentai.pages.dev",
+      "name": "Your Degen identity. Mint with no presale.",
+      "descriptionZh": "官网介绍「DEGEN AGENT — Fair Mint $DeGent on BNB Chain. degenagentai.pages.dev」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "DEGEN AGENT — Fair Mint $DeGent on BNB Chain. degenagentai.pages.dev",
+      "source": "https://degenagentai.pages.dev/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-11T19:08:33.020186+00:00",
+      "firstSeen": "2026-11-11"
     },
     {
       "domain": "dick-mint.pages.dev",
@@ -553,6 +573,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 3,
+  "newProfiles": 2,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
