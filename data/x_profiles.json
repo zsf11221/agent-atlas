@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T21:36:32.439688+00:00",
+  "updatedAt": "2026-11-11T01:39:58.325836+00:00",
   "profiles": [
     {
       "domain": "aesthetic-kleicha-a343ba.netlify.app",
@@ -523,6 +523,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 2,
+  "newProfiles": 0,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
