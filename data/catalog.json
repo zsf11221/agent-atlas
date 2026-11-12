@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-11-11T22:42:44.044863+00:00",
+  "updatedAt": "2026-11-12T03:50:06.328225+00:00",
   "projects": [
+    {
+      "id": "x-post-2120694376431288695",
+      "name": "danta pixel · 10,000 pixel egg tarts",
+      "descriptionZh": "官网介绍「Fully on-chain pixel egg tarts on BNB Chain · .ai Agent ID holders only · 0.0013525 BNB (~$1) per mint, up to 5 per wallet.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2120694376431288695",
+      "website": "https://dantapixel.deed.page/",
+      "socialX": "https://x.com/i/web/status/2120694376431288695",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2120694376431288695"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120694376431288695"
+        },
+        {
+          "source": "evidence",
+          "url": "https://dantapixel.deed.page/"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x3215ab151918e1755bf13fe8f7d9162091011223",
+      "name": "AI Agent",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「AI Agent」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x1536b6e3db39f3390a323a6b5332faf7bfa641e0",
+      "website": "https://dexscreener.com/bsc/0x1536b6e3db39f3390a323a6b5332faf7bfa641e0",
+      "socialX": "",
+      "contractAddress": "0x3215ab151918e1755bf13fe8f7d9162091011223",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x3215ab151918e1755bf13fe8f7d9162091011223"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x1536b6e3db39f3390a323a6b5332faf7bfa641e0"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "x-post-2120575937871798338",
       "name": "Your Degen identity. Mint with no presale.",
@@ -1619,8 +1699,8 @@
       "socialX": "https://x.com/i/web/status/2120267313379160527",
       "contractAddress": "",
       "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "X",
         "Early lead",
@@ -1632,7 +1712,9 @@
       "origin": "x",
       "recordIds": [
         "x-post-2120267313379160527",
-        "x-post-2120581909780808043"
+        "x-post-2120581909780808043",
+        "x-post-2120697849755345108",
+        "x-post-2120703770686599260"
       ],
       "sources": [
         {
@@ -1646,6 +1728,14 @@
         {
           "source": "x",
           "url": "https://x.com/i/web/status/2120581909780808043"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120697849755345108"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120703770686599260"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -1704,8 +1794,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -2746,8 +2836,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4450,8 +4540,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-06",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6267,8 +6357,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7742,8 +7832,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7818,8 +7908,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8122,8 +8212,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9224,8 +9314,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9300,8 +9390,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-11",
+      "date": "2026-11-11",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11568,12 +11658,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 39,
-    "x": 277,
+    "external": 40,
+    "x": 300,
     "mint": 25
   },
-  "candidateRecords": 342,
-  "mergedGroups": 293,
-  "reviewCount": 191,
+  "candidateRecords": 346,
+  "mergedGroups": 295,
+  "reviewCount": 211,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

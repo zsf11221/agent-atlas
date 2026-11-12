@@ -1,6 +1,126 @@
 {
-  "updatedAt": "2026-11-11T22:42:44.044863+00:00",
+  "updatedAt": "2026-11-12T03:50:06.328225+00:00",
   "items": [
+    {
+      "id": "x-post-2120707356959060395",
+      "name": "elybirds.fun",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120707356959060395"
+    },
+    {
+      "id": "x-post-2120699844826366017",
+      "name": "aicardapp.xyz",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120699844826366017"
+    },
+    {
+      "id": "x-post-2120705983009939618",
+      "name": "X 早期项目线索 · 939618",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120705983009939618"
+    },
+    {
+      "id": "x-post-2120703778668388502",
+      "name": "aura-spirits.pages.dev",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120703778668388502"
+    },
+    {
+      "id": "x-post-2120702297139519628",
+      "name": "boltbook.fun",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120702297139519628"
+    },
+    {
+      "id": "x-post-2120684555459870737",
+      "name": "X 早期项目线索 · 870737",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120684555459870737"
+    },
+    {
+      "id": "x-post-2120699720368865745",
+      "name": "geodehash.xyz",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120699720368865745"
+    },
+    {
+      "id": "x-post-2120695416316707208",
+      "name": "luckycatch-bsc.github.io",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120695416316707208"
+    },
+    {
+      "id": "x-post-2120694091096740325",
+      "name": "luckycatch-bsc.github.io",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120694091096740325"
+    },
+    {
+      "id": "x-post-2120680531549417973",
+      "name": "luckycatch-bsc.github.io",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680531549417973"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-four",
+      "name": "Four",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-gang",
+      "name": "GANG",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-jager",
+      "name": "JAGER",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-binancewallet",
+      "name": "BinanceWallet",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-bnbchain",
+      "name": "BNBCHAIN",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-flap",
+      "name": "Flap",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-corla",
+      "name": "Corla",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-agentic",
+      "name": "Agentic",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-hub",
+      "name": "Hub",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
+    {
+      "id": "x-roundup-2120680234500649072-discover",
+      "name": "Discover",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2120680234500649072"
+    },
     {
       "id": "x-post-2120325995576115423",
       "name": "X 早期项目线索 · 115423",
@@ -1143,6 +1263,16 @@
       "source": "https://dexscreener.com/bsc/0x248aeba76efcbd68da157629e6cc8bdc5037ffff:4meme"
     },
     {
+      "name": "AI Agent",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "dex-bsc-0x3215ab151918e1755bf13fe8f7d9162091011223",
+        "dex-bsc-0x575766af0e9c3e96a8c3f262912de47eddd59c68",
+        "dex-bsc-0x7aede49f29bf7bc643853c1136854ea8e4da7777"
+      ],
+      "source": "https://dexscreener.com/bsc/0x1536b6e3db39f3390a323a6b5332faf7bfa641e0"
+    },
+    {
       "name": "Agentic Inu",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1154,15 +1284,6 @@
         "dex-bsc-0xf7ccc7d9674fb4e1233d8bea613712c910857777"
       ],
       "source": "https://dexscreener.com/bsc/0xfce81ee5f756f55cca91bdfb6a5aaa72860dac33"
-    },
-    {
-      "name": "AI Agent",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "dex-bsc-0x575766af0e9c3e96a8c3f262912de47eddd59c68",
-        "dex-bsc-0x7aede49f29bf7bc643853c1136854ea8e4da7777"
-      ],
-      "source": "https://dexscreener.com/bsc/0x20a2b30b036b6313aff82ffa33bdf8b03b033fe6"
     },
     {
       "name": "Agentic X402",
