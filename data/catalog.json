@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T12:44:53.216202+00:00",
+  "updatedAt": "2026-11-12T20:50:33.400142+00:00",
   "projects": [
     {
       "id": "github-1164456137",
@@ -78,6 +78,82 @@
       "featured": false
     },
     {
+      "id": "github-1455681265",
+      "name": "outy-max.github.io",
+      "descriptionZh": "仓库「outy-max.github.io」公开介绍：OUTY — Agent ID NFT on BNB Chain (Phase 1 NFT mint, Phase 2 token by snapshot)",
+      "descriptionEn": "Public GitHub discovery candidate: OUTY — Agent ID NFT on BNB Chain (Phase 1 NFT mint, Phase 2 token by snapshot)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/OUTY-max/outy-max.github.io",
+      "website": "https://github.com/OUTY-max/outy-max.github.io",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455681265"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/OUTY-max/outy-max.github.io"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1455532830",
+      "name": "outy-contracts",
+      "descriptionZh": "仓库「outy-contracts」公开介绍：OUTY — Agent ID token sale + NFT pack + non-custodial market on BNB Chain",
+      "descriptionEn": "Public GitHub discovery candidate: OUTY — Agent ID token sale + NFT pack + non-custodial market on BNB Chain",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/OUTY-max/outy-contracts",
+      "website": "https://github.com/OUTY-max/outy-contracts",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455532830"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/OUTY-max/outy-contracts"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1455114599",
       "name": "neon-fox-agents",
       "descriptionZh": "仓库「neon-fox-agents」公开介绍：Neon Fox Agents — 3,333 Agent ID NFTs on BSC. First 1,000 free, rest 0.00007 BNB.",
@@ -109,6 +185,44 @@
         {
           "source": "github",
           "url": "https://github.com/Ernestopapa/neon-fox-agents"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1455389946",
+      "name": "fastmint-agentic-wallet",
+      "descriptionZh": "仓库「fastmint-agentic-wallet」公开介绍：First-come-first-served free-mint race toolkit for BNB Chain: eager previews, multi-RPC, two parallel layers. Claims free agent-ID mints at the open second.",
+      "descriptionEn": "Public GitHub discovery candidate: First-come-first-served free-mint race toolkit for BNB Chain: eager previews, multi-RPC, two parallel layers. Claims free agent-ID mints at the open second.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/faisalridhomp/fastmint-agentic-wallet",
+      "website": "https://github.com/faisalridhomp/fastmint-agentic-wallet",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455389946"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/faisalridhomp/fastmint-agentic-wallet"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -230,6 +344,44 @@
         }
       ],
       "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1455313867",
+      "name": "agenticscore-contract",
+      "descriptionZh": "仓库「agenticscore-contract」公开介绍：AgenticScore soulbound NFT contract for BNB Smart Chain: 3,000 cap, one per wallet, EIP-712 voucher mints, starting score in the Minted event. Not audited.",
+      "descriptionEn": "Public GitHub discovery candidate: AgenticScore soulbound NFT contract for BNB Smart Chain: 3,000 cap, one per wallet, EIP-712 voucher mints, starting score in the Minted event. Not audited.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/agenticscore/agenticscore-contract",
+      "website": "https://github.com/agenticscore/agenticscore-contract",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455313867"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/agenticscore/agenticscore-contract"
+        }
+      ],
+      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -7718,8 +7870,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7888,44 +8040,6 @@
         {
           "source": "github",
           "url": "https://github.com/bzd6661/TIGER-POWER-Terminal"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1428865113",
-      "name": "stamp",
-      "descriptionZh": "BNB Chain 上的 Agent 身份凭证与生命周期注册系统线索，原始项目说明不完整。",
-      "descriptionEn": "Public GitHub discovery candidate: - agent passports on hain. i ecycle registry live on mainnet, built on - .",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/stamp728/stamp",
-      "website": "https://github.com/stamp728/stamp",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1428865113"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/stamp728/stamp"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -8427,44 +8541,6 @@
       "featured": false
     },
     {
-      "id": "github-1408046723",
-      "name": "litr",
-      "descriptionZh": "面向 BNB Chain 代币化股票的多 Agent 交易与研究项目，说明涉及信号买卖、链上评分与交易预演。",
-      "descriptionEn": "Public GitHub discovery candidate: agents that trade tokenized stocks on hain and pay each other or being right. nalysts sell signals over inance b , the trader rates them on-chain with - , dry-runs every swap and trades b tocks live on mainnet.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/mrnetwork0001/Elitr",
-      "website": "https://github.com/mrnetwork0001/Elitr",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1408046723"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/mrnetwork0001/Elitr"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1352254215",
       "name": "kawal",
       "descriptionZh": "BSC Agent 功能测量工具，计划通过调用公开服务端点收集响应证据，并记录到链上声誉系统；说明部分缺字。",
@@ -8693,44 +8769,6 @@
       "featured": false
     },
     {
-      "id": "github-1391342652",
-      "name": "GMFAMILY",
-      "descriptionZh": "BNB Chain Agent 网络项目线索，描述涉及链上身份和市场情报，但原始仓库名称及说明不完整。",
-      "descriptionEn": "Public GitHub discovery candidate: ndependent hain agent network with - identities and market intelligence",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/NachoLLMJS/GMFAMILY",
-      "website": "https://github.com/NachoLLMJS/GMFAMILY",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1391342652"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/NachoLLMJS/GMFAMILY"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1440570803",
       "name": "genesis1999",
       "descriptionZh": "BNB Chain 上的折纸主题 NFT 项目，声称支持 Agent 参与铸造，条件待核验。",
@@ -8838,44 +8876,6 @@
         {
           "source": "github",
           "url": "https://github.com/0xquqi/EZbot-agentic-wallet"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1157088211",
-      "name": "eragent- e i",
-      "descriptionZh": "DeFi Agent 管理器，计划集成多个 Agent 开发框架及链上身份能力；原始说明存在缺字。",
-      "descriptionEn": "Public GitHub discovery candidate: e i gent anager ntegration with liza + - + + pen law/ anobot + ankr + / asenames — built or mart hain ( ), with ase support.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/abraham-yusuf/Veragent-DeFi",
-      "website": "https://github.com/abraham-yusuf/Veragent-DeFi",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1157088211"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/abraham-yusuf/Veragent-DeFi"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11659,11 +11659,11 @@
   "inputCounts": {
     "projects": 192,
     "external": 40,
-    "x": 300,
+    "x": 309,
     "mint": 25
   },
   "candidateRecords": 346,
   "mergedGroups": 295,
-  "reviewCount": 211,
+  "reviewCount": 220,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
