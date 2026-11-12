@@ -1,6 +1,158 @@
 {
-  "updatedAt": "2026-11-12T03:50:06.328225+00:00",
+  "updatedAt": "2026-11-12T12:44:53.216202+00:00",
   "projects": [
+    {
+      "id": "github-1164456137",
+      "name": "venus-agent-skills",
+      "descriptionZh": "仓库「venus-agent-skills」公开介绍：Venus Protocol operations toolkit on BNB Chain, with market analytics, wallet health monitoring, and safe transaction scripts for deposit, withdraw, borrow, repay, and collateral management.",
+      "descriptionEn": "Public GitHub discovery candidate: Venus Protocol operations toolkit on BNB Chain, with market analytics, wallet health monitoring, and safe transaction scripts for deposit, withdraw, borrow, repay, and collateral management.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/VenusProtocol/venus-agent-skills",
+      "website": "https://github.com/VenusProtocol/venus-agent-skills",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1164456137"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/VenusProtocol/venus-agent-skills"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1455114137",
+      "name": "seven-sigma",
+      "descriptionZh": "仓库「seven-sigma」公开介绍：SEVEN SIGMA — 777 Agent ID NFT nodes on BSC. 150 free, 627 paid at $0.30.",
+      "descriptionEn": "Public GitHub discovery candidate: SEVEN SIGMA — 777 Agent ID NFT nodes on BSC. 150 free, 627 paid at $0.30.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Ernestopapa/seven-sigma",
+      "website": "https://github.com/Ernestopapa/seven-sigma",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455114137"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Ernestopapa/seven-sigma"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1455114599",
+      "name": "neon-fox-agents",
+      "descriptionZh": "仓库「neon-fox-agents」公开介绍：Neon Fox Agents — 3,333 Agent ID NFTs on BSC. First 1,000 free, rest 0.00007 BNB.",
+      "descriptionEn": "Public GitHub discovery candidate: Neon Fox Agents — 3,333 Agent ID NFTs on BSC. First 1,000 free, rest 0.00007 BNB.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Ernestopapa/neon-fox-agents",
+      "website": "https://github.com/Ernestopapa/neon-fox-agents",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455114599"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Ernestopapa/neon-fox-agents"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1455097112",
+      "name": "Ernestopapa",
+      "descriptionZh": "仓库「Ernestopapa」公开介绍：Profile README for @Ernestopapa — Solidity / BSC dev, Binance Agent ID NFTs + AI-agent games",
+      "descriptionEn": "Public GitHub discovery candidate: Profile README for @Ernestopapa — Solidity / BSC dev, Binance Agent ID NFTs + AI-agent games",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Ernestopapa/Ernestopapa",
+      "website": "https://github.com/Ernestopapa/Ernestopapa",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455097112"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Ernestopapa/Ernestopapa"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "x-post-2120694376431288695",
       "name": "danta pixel · 10,000 pixel egg tarts",
@@ -601,8 +753,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-11",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -1334,8 +1486,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6017,8 +6169,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-04",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7073,7 +7225,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0xbb0a01fd88abf74a8f80fd26c03062bbe781446c"
+          "url": "https://dexscreener.com/bsc/0x0fc5a0f0167bc4003066ae60289c40b93f935b9a"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -7132,8 +7284,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7338,8 +7490,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-09",
-      "date": "2026-11-09",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7743,44 +7895,6 @@
       "featured": false
     },
     {
-      "id": "github-1382640005",
-      "name": "STONKMUSE",
-      "descriptionZh": "面向 BNB Chain 的 AI Agent 身份及钱包基础设施线索，原始仓库缺少完整名称和可核验说明。",
-      "descriptionEn": "Public GitHub discovery candidate: -owned agents with - wallets and - identity on mart hain.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/NachoLLMJS/STONKMUSE",
-      "website": "https://github.com/NachoLLMJS/STONKMUSE",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1382640005"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/NachoLLMJS/STONKMUSE"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1428865113",
       "name": "stamp",
       "descriptionZh": "BNB Chain 上的 Agent 身份凭证与生命周期注册系统线索，原始项目说明不完整。",
@@ -8174,8 +8288,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9010,8 +9124,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9200,8 +9314,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9390,8 +9504,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9522,120 +9636,6 @@
         {
           "source": "github",
           "url": "https://github.com/Dave-BBB/agentic-inventory-restaurants"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1381916762",
-      "name": "agentic-chain",
-      "descriptionZh": "面向 BNB Smart Chain Agent 的协议与基础设施概念，声称使用链上身份并提供系统合约和工具；待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: gentic hain ( ) a chain or agents, built on mart hain. ntry needs an - identity. enesis carries three system contracts and three neutral tools ( ulticall , a deployer, rapped ) every token, pool",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/BnbAgenticChain/agentic-chain",
-      "website": "https://github.com/BnbAgenticChain/agentic-chain",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1381916762"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/BnbAgenticChain/agentic-chain"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1391015612",
-      "name": "agentescrow",
-      "descriptionZh": "BNB Chain 自主 Agent 商业交易的信任与验证协议，原始说明不完整，具体工作流程待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: rust & eri ication ayer or utonomous ommerce built on - + - ( hain)",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/asatriana/agentescrow",
-      "website": "https://github.com/asatriana/agentescrow",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1391015612"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/asatriana/agentescrow"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1333546564",
-      "name": "agentcensus",
-      "descriptionZh": "BNB Chain Agent 服务目录及测量系统，声称对已登记的 Agent 持续探测并将性能证据记录上链。",
-      "descriptionEn": "Public GitHub discovery candidate: he honest inde o hain's agent economy - every - agent on , probed continuously, with per ormance claims veri iable on-chain via - .",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/mcfarhat/agentcensus",
-      "website": "https://github.com/mcfarhat/agentcensus",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1333546564"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/mcfarhat/agentcensus"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -10718,8 +10718,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "GitHub",
         "Candidate",
