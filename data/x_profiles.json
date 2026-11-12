@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T15:43:05.334903+00:00",
+  "updatedAt": "2026-11-12T21:59:53.715920+00:00",
   "profiles": [
     {
       "domain": "aesthetic-kleicha-a343ba.netlify.app",
@@ -20,6 +20,16 @@
       "sourceKind": "editorial-source-review",
       "checkedAt": "2026-11-07T04:52:08.392203+00:00",
       "firstSeen": "2026-11-07"
+    },
+    {
+      "domain": "agent402.surge.sh",
+      "name": "agent402.surge.sh",
+      "descriptionZh": "官网介绍「402 代理卡 Agent402 Cards：BNB Smart Chain 上的 ERC-721 NFT。总量 5,000，免费池 2,000 张，每 Agent ID 前 5 张免费，付费阶梯 0.001 BNB 起，12 款 ASCII 机器人随机开，稀有档链上可查。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "402 代理卡 Agent402 Cards：BNB Smart Chain 上的 ERC-721 NFT。总量 5,000，免费池 2,000 张，每 Agent ID 前 5 张免费，付费阶梯 0.001 BNB 起，12 款 ASCII 机器人随机开，稀有档链上可查。",
+      "source": "https://agent402.surge.sh/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-12T21:59:53.715920+00:00",
+      "firstSeen": "2026-11-12"
     },
     {
       "domain": "agentbnbai.com",
@@ -583,6 +593,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 0,
+  "newProfiles": 1,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
