@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T19:08:33.020186+00:00",
+  "updatedAt": "2026-11-12T02:39:46.870565+00:00",
   "profiles": [
     {
       "domain": "aesthetic-kleicha-a343ba.netlify.app",
@@ -220,6 +220,16 @@
       "sourceKind": "website-metadata",
       "checkedAt": "2026-11-10T15:22:31.968765+00:00",
       "firstSeen": "2026-11-10"
+    },
+    {
+      "domain": "dantapixel.deed.page",
+      "name": "danta pixel · 10,000 pixel egg tarts",
+      "descriptionZh": "官网介绍「Fully on-chain pixel egg tarts on BNB Chain · .ai Agent ID holders only · 0.0013525 BNB (~$1) per mint, up to 5 per wallet.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Fully on-chain pixel egg tarts on BNB Chain · .ai Agent ID holders only · 0.0013525 BNB (~$1) per mint, up to 5 per wallet.",
+      "source": "https://dantapixel.deed.page/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-12T02:39:46.870565+00:00",
+      "firstSeen": "2026-11-12"
     },
     {
       "domain": "dantatoken.deed.page",
@@ -573,6 +583,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 2,
+  "newProfiles": 1,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
