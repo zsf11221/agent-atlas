@@ -1,9 +1,9 @@
 {
   "monthUTC": "2026-11",
-  "reservedPostReads": 1240,
+  "reservedPostReads": 1300,
   "maxMonthlyPostReads": 2400,
-  "worstCaseEstimatedUSD": 6.2,
-  "checkedAt": "2026-11-13T15:02:08.280734+00:00",
+  "worstCaseEstimatedUSD": 6.5,
+  "checkedAt": "2026-11-13T21:46:05.018175+00:00",
   "state": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
       "state": "ok"
     }
   ],
-  "newLeads": 25,
-  "total": 360,
+  "newLeads": 17,
+  "total": 377,
   "note": "This ledger is only for AgentAtlas X searches, not an X account billing cap. Rates may change; check X Console. Results are unverified leads."
 }

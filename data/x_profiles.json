@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T15:02:09.439155+00:00",
+  "updatedAt": "2026-11-13T21:46:06.441579+00:00",
   "profiles": [
     {
       "domain": "aesthetic-kleicha-a343ba.netlify.app",
@@ -120,6 +120,16 @@
       "sourceKind": "website-metadata",
       "checkedAt": "2026-11-09T08:57:20.274708+00:00",
       "firstSeen": "2026-11-09"
+    },
+    {
+      "domain": "angeleye.surge.sh",
+      "name": "angeleye.surge.sh",
+      "descriptionZh": "官网介绍「天使眼 NFT Angel Eye：BNB Smart Chain 上的 ERC-721 NFT，全链上随机点立体图。总量 5,555，免费池 2,222 张，每 Agent ID 前 1 张免费，付费阶梯 0.001 BNB 起，12 款立体图随机开，稀有档链上可查。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "天使眼 NFT Angel Eye：BNB Smart Chain 上的 ERC-721 NFT，全链上随机点立体图。总量 5,555，免费池 2,222 张，每 Agent ID 前 1 张免费，付费阶梯 0.001 BNB 起，12 款立体图随机开，稀有档链上可查。",
+      "source": "https://angeleye.surge.sh/",
+      "sourceKind": "website-metadata",
+      "checkedAt": "2026-11-13T21:46:06.441579+00:00",
+      "firstSeen": "2026-11-13"
     },
     {
       "domain": "anthrobit.fun",
@@ -593,6 +603,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 0,
+  "newProfiles": 1,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
