@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T09:34:01.349103+00:00",
+  "updatedAt": "2026-11-13T17:45:48.507144+00:00",
   "projects": [
     {
       "id": "github-1456181844",
@@ -112,6 +112,44 @@
         }
       ],
       "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x433b36cdc355a1e5040db30e4eb56c6b16a37777",
+      "name": "Nemotron Agentic AI",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Nemotron Agentic AI」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x7c9eff6f0ca4b8cd38130eb4af9a3d676569e907",
+      "website": "https://dexscreener.com/bsc/0x7c9eff6f0ca4b8cd38130eb4af9a3d676569e907",
+      "socialX": "",
+      "contractAddress": "0x433b36cdc355a1e5040db30e4eb56c6b16a37777",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-10-16",
+      "date": "2026-10-16",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x433b36cdc355a1e5040db30e4eb56c6b16a37777"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x7c9eff6f0ca4b8cd38130eb4af9a3d676569e907"
+        }
+      ],
+      "evidenceLevel": "early-lead",
       "mintTypes": [],
       "featured": false
     },
@@ -264,6 +302,44 @@
         }
       ],
       "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x0a2296c92d30a9b4116c30f2337e163b8c407777",
+      "name": "Agentic X402",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic X402」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0xd43a8aaa214684dd71a6af07d5818de085e76397",
+      "website": "https://dexscreener.com/bsc/0xd43a8aaa214684dd71a6af07d5818de085e76397",
+      "socialX": "",
+      "contractAddress": "0x0a2296c92d30a9b4116c30f2337e163b8c407777",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x0a2296c92d30a9b4116c30f2337e163b8c407777"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0xd43a8aaa214684dd71a6af07d5818de085e76397"
+        }
+      ],
+      "evidenceLevel": "early-lead",
       "mintTypes": [],
       "featured": false
     },
@@ -750,7 +826,8 @@
       "origin": "x",
       "recordIds": [
         "x-post-2120694376431288695",
-        "x-post-2121054652599046615"
+        "x-post-2121054652599046615",
+        "x-post-2121236116762513747"
       ],
       "sources": [
         {
@@ -764,6 +841,10 @@
         {
           "source": "x",
           "url": "https://x.com/i/web/status/2121054652599046615"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2121236116762513747"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -1148,8 +1229,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-11",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -1679,8 +1760,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-09",
-      "date": "2026-11-09",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -2317,8 +2398,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3280,8 +3361,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-09",
-      "date": "2026-11-09",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6834,8 +6915,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-04",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7023,8 +7104,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-09",
-      "date": "2026-11-09",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7890,7 +7971,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0x0fc5a0f0167bc4003066ae60289c40b93f935b9a"
+          "url": "https://dexscreener.com/bsc/0xbb0a01fd88abf74a8f80fd26c03062bbe781446c"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -8117,8 +8198,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-08",
-      "date": "2026-11-08",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8155,8 +8236,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8978,44 +9059,6 @@
       "featured": false
     },
     {
-      "id": "github-1347406606",
-      "name": "lpha-marketplace",
-      "descriptionZh": "仓库「lpha-marketplace」公开介绍：osted rad i/ e i gent arketplace on hain",
-      "descriptionEn": "Public GitHub discovery candidate: osted rad i/ e i gent arketplace on hain",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/4lphaAI/4lpha-marketplace",
-      "website": "https://github.com/4lphaAI/4lpha-marketplace",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1347406606"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/4lphaAI/4lpha-marketplace"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1386001710",
       "name": "infraarchagent",
       "descriptionZh": "基于多 Agent 的自然语言基础设施设计研究项目，BSC 关联证据不足，等待进一步核验。",
@@ -9105,8 +9148,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-10-29",
-      "date": "2026-10-29",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9523,8 +9566,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9713,8 +9756,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10114,6 +10157,44 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1347406606",
+      "name": "4lpha-marketplace",
+      "descriptionZh": "仓库「4lpha-marketplace」公开介绍：Hosted TradFi/Defi Agent Marketplace on BNB Chain",
+      "descriptionEn": "Public GitHub discovery candidate: Hosted TradFi/Defi Agent Marketplace on BNB Chain",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/4lphaAI/4lpha-marketplace",
+      "website": "https://github.com/4lphaAI/4lpha-marketplace",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-01",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1347406606"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/4lphaAI/4lpha-marketplace"
+        }
+      ],
+      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -11867,12 +11948,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 44,
-    "x": 335,
+    "external": 46,
+    "x": 360,
     "mint": 25
   },
-  "candidateRecords": 354,
-  "mergedGroups": 300,
-  "reviewCount": 242,
+  "candidateRecords": 357,
+  "mergedGroups": 302,
+  "reviewCount": 266,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
