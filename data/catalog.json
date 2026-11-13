@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T17:45:48.507144+00:00",
+  "updatedAt": "2026-11-13T23:36:10.499293+00:00",
   "projects": [
     {
       "id": "github-1456181844",
@@ -71,6 +71,44 @@
         {
           "source": "github",
           "url": "https://github.com/KembangPasir-dot/payphantom"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1456882039",
+      "name": "pag-arbitration",
+      "descriptionZh": "仓库「pag-arbitration」公开介绍：Simulation study: PAG-inspired discrete mode switching vs continuous blending for a foraging agent under predator threat (BSc dissertation)",
+      "descriptionEn": "Public GitHub discovery candidate: Simulation study: PAG-inspired discrete mode switching vs continuous blending for a foraging agent under predator threat (BSc dissertation)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/TomParkin1/pag-arbitration",
+      "website": "https://github.com/TomParkin1/pag-arbitration",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1456882039"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/TomParkin1/pag-arbitration"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -268,6 +306,44 @@
       "featured": false
     },
     {
+      "id": "github-1457005281",
+      "name": "bsc-ai-radar",
+      "descriptionZh": "仓库「bsc-ai-radar」公开介绍：BSC AI Radar — AI-generated radar of BSC AI-agent projects, powered by FLOP testnet inference. Free for first users. Built in public.",
+      "descriptionEn": "Public GitHub discovery candidate: BSC AI Radar — AI-generated radar of BSC AI-agent projects, powered by FLOP testnet inference. Free for first users. Built in public.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Svetlana6543-web/bsc-ai-radar",
+      "website": "https://github.com/Svetlana6543-web/bsc-ai-radar",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1457005281"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Svetlana6543-web/bsc-ai-radar"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1455918173",
       "name": "BNB-SKILLS",
       "descriptionZh": "仓库「BNB-SKILLS」公开介绍：61 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
@@ -302,6 +378,53 @@
         }
       ],
       "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "x-post-2121331675628286179",
+      "name": "angeleye.surge.sh",
+      "descriptionZh": "官网介绍「天使眼 NFT Angel Eye：BNB Smart Chain 上的 ERC-721 NFT，全链上随机点立体图。总量 5,555，免费池 2,222 张，每 Agent ID 前 1 张免费，付费阶梯 0.001 BNB 起，12 款立体图随机开，稀有档链上可查。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2121331675628286179",
+      "website": "https://angeleye.surge.sh/",
+      "socialX": "https://x.com/i/web/status/2121331675628286179",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2121331675628286179",
+        "x-post-2121331766145515767"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2121331675628286179"
+        },
+        {
+          "source": "evidence",
+          "url": "https://angeleye.surge.sh/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2121331766145515767"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
       "mintTypes": [],
       "featured": false
     },
@@ -8717,44 +8840,6 @@
       "featured": false
     },
     {
-      "id": "github-1440540319",
-      "name": "orebot-token",
-      "descriptionZh": "仓库「orebot-token」公开介绍：— agent-native token on hain (landing dashboard)",
-      "descriptionEn": "Public GitHub discovery candidate: — agent-native token on hain (landing dashboard)",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/luweibot/orebot-token",
-      "website": "https://github.com/luweibot/orebot-token",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1440540319"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/luweibot/orebot-token"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1441951031",
       "name": "oagent-units",
       "descriptionZh": "仓库「oagent-units」公开介绍：nits — o -mint collection on hain. ontract source, agent mint prompt, and server.",
@@ -10195,44 +10280,6 @@
         }
       ],
       "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1437411456",
-      "name": "- ashboard",
-      "descriptionZh": "面向 Binance Agentic Wallet 会话和链上活动的可视化面板，原始仓库说明不完整。",
-      "descriptionEn": "Public GitHub discovery candidate: eb dashboard or inance gentic allet ( ) sessions and on-chain activity on mart hain.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/c1gs4/BAW-Dashboard",
-      "website": "https://github.com/c1gs4/BAW-Dashboard",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1437411456"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/c1gs4/BAW-Dashboard"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
       "mintTypes": [],
       "featured": false
     },
@@ -11949,11 +11996,11 @@
   "inputCounts": {
     "projects": 192,
     "external": 46,
-    "x": 360,
+    "x": 377,
     "mint": 25
   },
-  "candidateRecords": 357,
-  "mergedGroups": 302,
-  "reviewCount": 266,
+  "candidateRecords": 359,
+  "mergedGroups": 303,
+  "reviewCount": 281,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
