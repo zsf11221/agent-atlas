@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T01:50:39.434035+00:00",
+  "updatedAt": "2026-11-13T09:33:59.568144+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -12,18 +12,18 @@
     },
     "search-agent": {
       "ok": true,
-      "qualified": 3
+      "qualified": 4
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 5
+      "qualified": 10
     },
     "bnbchain-official": {
       "ok": true,
       "qualified": 6
     }
   },
-  "newCount": 0,
+  "newCount": 4,
   "changedCount": 0,
   "projects": [
     {
@@ -169,6 +169,118 @@
       "lastCheckedAt": "2026-11-03T14:03:20.411489+00:00",
       "discoverySource": "bnbchain-ecosystem-page",
       "verification": "official-mention-only"
+    },
+    {
+      "id": "dex-bsc-0xae71fd8bacc2f17c43a01c3f4aff6deebc194444",
+      "name": "agentic money",
+      "symbol": "agentic money",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0x5ba8e0a79b44199700e19b8e228ed09390f81a51",
+      "website": "https://investopedia.dev",
+      "socialX": "https://x.com/cz_binance/status/2049279102876827747",
+      "contractAddress": "0xaE71fd8baCc2f17C43a01C3F4aFF6dEEbc194444",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-04-29",
+      "projectCreatedAt": "2026-04-29",
+      "firstSeen": "2026-11-13",
+      "lastCheckedAt": "2026-11-13T09:33:59.568144+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0xf334039c3b0abde100887d17a476952d3e992eb0",
+      "name": "Agentic X402",
+      "symbol": "AGX",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0xe0df3bd6051e5eb019731f4fcc7c7a402dde253e",
+      "website": "https://dexscreener.com/bsc/0xe0df3bd6051e5eb019731f4fcc7c7a402dde253e",
+      "socialX": "",
+      "contractAddress": "0xF334039c3B0aBDe100887D17a476952D3E992Eb0",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-11-13",
+      "projectCreatedAt": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "lastCheckedAt": "2026-11-13T09:33:59.568144+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0x8f78cdcb7de06e5399b84fde342f969edc778888",
+      "name": "Agentic Starter",
+      "symbol": "AGNT",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0xa34e141c4dde39e0b36fc576593c3df2982de744",
+      "website": "https://dexscreener.com/bsc/0xa34e141c4dde39e0b36fc576593c3df2982de744",
+      "socialX": "",
+      "contractAddress": "0x8f78cdCb7DE06E5399B84fdE342f969EDc778888",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-11-13",
+      "projectCreatedAt": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "lastCheckedAt": "2026-11-13T09:33:59.568144+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0x4f699ae74ad049781c5105716ed3ced84eac7777",
+      "name": "Agentic Ai Foundation",
+      "symbol": "AAIF",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0x1bdafab99e7b0d01e582bdab0421b55fcefb4f20",
+      "website": "https://dexscreener.com/bsc/0x1bdafab99e7b0d01e582bdab0421b55fcefb4f20",
+      "socialX": "",
+      "contractAddress": "0x4f699Ae74Ad049781c5105716ed3cEd84eAC7777",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-11-13",
+      "projectCreatedAt": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "lastCheckedAt": "2026-11-13T09:33:59.568144+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
     },
     {
       "id": "dex-bsc-0x3215ab151918e1755bf13fe8f7d9162091011223",

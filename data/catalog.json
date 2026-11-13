@@ -1,6 +1,158 @@
 {
-  "updatedAt": "2026-11-13T01:50:40.995157+00:00",
+  "updatedAt": "2026-11-13T09:34:01.349103+00:00",
   "projects": [
+    {
+      "id": "github-1456181844",
+      "name": "supaboard",
+      "descriptionZh": "仓库「supaboard」公开介绍：SUPABOARD · Forecast Arena for agents on BNB Chain",
+      "descriptionEn": "Public GitHub discovery candidate: SUPABOARD · Forecast Arena for agents on BNB Chain",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/yusufsafary/supaboard",
+      "website": "https://github.com/yusufsafary/supaboard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1456181844"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/yusufsafary/supaboard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1456196402",
+      "name": "payphantom",
+      "descriptionZh": "仓库「payphantom」公开介绍：PayPhantom — Kiroween 2026 (Frankenstein): AI chat agent that creates PayPal invoices and mints an on-chain NFT receipt on BNB Chain per paid invoice.",
+      "descriptionEn": "Public GitHub discovery candidate: PayPhantom — Kiroween 2026 (Frankenstein): AI chat agent that creates PayPal invoices and mints an on-chain NFT receipt on BNB Chain per paid invoice.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/KembangPasir-dot/payphantom",
+      "website": "https://github.com/KembangPasir-dot/payphantom",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1456196402"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/KembangPasir-dot/payphantom"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1456121016",
+      "name": "nullpit.xyz",
+      "descriptionZh": "仓库「nullpit.xyz」公开介绍：NULL PIT — Agent ID exclusive token launch on BSC (static)",
+      "descriptionEn": "Public GitHub discovery candidate: NULL PIT — Agent ID exclusive token launch on BSC (static)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/percallio/nullpit.xyz",
+      "website": "https://github.com/percallio/nullpit.xyz",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1456121016"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/percallio/nullpit.xyz"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1456041578",
+      "name": "nadia-pairing",
+      "descriptionZh": "仓库「nadia-pairing」公开介绍：WalletConnect pairing page for Nadia Agent — connect your EVM wallet (Ethereum & BNB Chain) to the Muse agent via WalletConnect.",
+      "descriptionEn": "Public GitHub discovery candidate: WalletConnect pairing page for Nadia Agent — connect your EVM wallet (Ethereum & BNB Chain) to the Muse agent via WalletConnect.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/kingoftheland/nadia-pairing",
+      "website": "https://github.com/kingoftheland/nadia-pairing",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1456041578"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/kingoftheland/nadia-pairing"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1455914619",
       "name": "bsc-portfolio",
@@ -53,8 +205,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-13",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -74,6 +226,196 @@
         }
       ],
       "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1455918173",
+      "name": "BNB-SKILLS",
+      "descriptionZh": "仓库「BNB-SKILLS」公开介绍：61 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
+      "descriptionEn": "Public GitHub discovery candidate: 61 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/BROKE-N-BORED/BNB-SKILLS",
+      "website": "https://github.com/BROKE-N-BORED/BNB-SKILLS",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455918173"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/BROKE-N-BORED/BNB-SKILLS"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0xf334039c3b0abde100887d17a476952d3e992eb0",
+      "name": "Agentic X402",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic X402」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0xe0df3bd6051e5eb019731f4fcc7c7a402dde253e",
+      "website": "https://dexscreener.com/bsc/0xe0df3bd6051e5eb019731f4fcc7c7a402dde253e",
+      "socialX": "",
+      "contractAddress": "0xf334039c3b0abde100887d17a476952d3e992eb0",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0xf334039c3b0abde100887d17a476952d3e992eb0"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0xe0df3bd6051e5eb019731f4fcc7c7a402dde253e"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x8f78cdcb7de06e5399b84fde342f969edc778888",
+      "name": "Agentic Starter",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic Starter」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0xa34e141c4dde39e0b36fc576593c3df2982de744",
+      "website": "https://dexscreener.com/bsc/0xa34e141c4dde39e0b36fc576593c3df2982de744",
+      "socialX": "",
+      "contractAddress": "0x8f78cdcb7de06e5399b84fde342f969edc778888",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x8f78cdcb7de06e5399b84fde342f969edc778888"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0xa34e141c4dde39e0b36fc576593c3df2982de744"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0xae71fd8bacc2f17c43a01c3f4aff6deebc194444",
+      "name": "agentic money",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「agentic money」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x5ba8e0a79b44199700e19b8e228ed09390f81a51",
+      "website": "https://investopedia.dev",
+      "socialX": "https://x.com/cz_binance/status/2049279102876827747",
+      "contractAddress": "0xae71fd8bacc2f17c43a01c3f4aff6deebc194444",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-04-29",
+      "date": "2026-04-29",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0xae71fd8bacc2f17c43a01c3f4aff6deebc194444"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x5ba8e0a79b44199700e19b8e228ed09390f81a51"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x4f699ae74ad049781c5105716ed3ced84eac7777",
+      "name": "Agentic Ai Foundation",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic Ai Foundation」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x1bdafab99e7b0d01e582bdab0421b55fcefb4f20",
+      "website": "https://dexscreener.com/bsc/0x1bdafab99e7b0d01e582bdab0421b55fcefb4f20",
+      "socialX": "",
+      "contractAddress": "0x4f699ae74ad049781c5105716ed3ced84eac7777",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x4f699ae74ad049781c5105716ed3ced84eac7777"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x1bdafab99e7b0d01e582bdab0421b55fcefb4f20"
+        }
+      ],
+      "evidenceLevel": "early-lead",
       "mintTypes": [],
       "featured": false
     },
@@ -319,8 +661,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-12",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -395,8 +737,8 @@
       "socialX": "https://x.com/i/web/status/2120694376431288695",
       "contractAddress": "",
       "firstSeen": "2026-11-12",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "X",
         "Early lead",
@@ -407,7 +749,8 @@
       ],
       "origin": "x",
       "recordIds": [
-        "x-post-2120694376431288695"
+        "x-post-2120694376431288695",
+        "x-post-2121054652599046615"
       ],
       "sources": [
         {
@@ -417,6 +760,10 @@
         {
           "source": "evidence",
           "url": "https://dantapixel.deed.page/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2121054652599046615"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -3306,8 +3653,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6827,8 +7174,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7602,8 +7949,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8112,8 +8459,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8150,8 +8497,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-05",
-      "date": "2026-11-05",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8251,44 +8598,6 @@
       "featured": false
     },
     {
-      "id": "github-1441100916",
-      "name": "pre light",
-      "descriptionZh": "仓库「pre light」公开介绍：igned, sa ety-scored eed o hain mints or inance gent wallets ( , demo data)",
-      "descriptionEn": "Public GitHub discovery candidate: igned, sa ety-scored eed o hain mints or inance gent wallets ( , demo data)",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/ensp1re/preflight",
-      "website": "https://github.com/ensp1re/preflight",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1441100916"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/ensp1re/preflight"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1432947986",
       "name": "pengupunk",
       "descriptionZh": "面向 BNB Chain Agent 用户的企鹅主题数字藏品，项目介绍提到共 2,222 个作品，并使用区块哈希确定特征。",
@@ -8302,8 +8611,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8606,8 +8915,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9049,82 +9358,6 @@
       "featured": false
     },
     {
-      "id": "github-1440760350",
-      "name": "dropminters",
-      "descriptionZh": "面向 Binance Agent 钱包的免费 Mint 项目线索，原始信息不完整，需核验开放情况。",
-      "descriptionEn": "Public GitHub discovery candidate: rop iners — o ree mint or inance gent wallets on hain",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/dropminters/dropminters",
-      "website": "https://github.com/dropminters/dropminters",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1440760350"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/dropminters/dropminters"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1361556271",
-      "name": "dojo",
-      "descriptionZh": "面向 BNB Chain Agent 的功能与证据评分目录，尝试通过接口检测和链上记录验证功能。",
-      "descriptionEn": "Public GitHub discovery candidate: ire - agents on hain by graded evidence, not claims registry reads, endpoint probes, on-chain reputation and replay-graded receipts.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Leihyn/dojo",
-      "website": "https://github.com/Leihyn/dojo",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1361556271"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Leihyn/dojo"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1437766469",
       "name": "District9",
       "descriptionZh": "面向 BSC 多个发射平台的本地交易终端，计划配合 Binance Agentic Wallet 使用。",
@@ -9194,44 +9427,6 @@
         {
           "source": "github",
           "url": "https://github.com/zkasuran/cmc-leverage-divergence"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1378244194",
-      "name": "chainaware-ai",
-      "descriptionZh": "区块链情报和风险分析平台，项目自述提供钱包、代币、合约和 Agent 的风险信号；原始仓库资料有缺字，细节待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: hain ware.ai is an -powered blockchain intelligence plat orm, operated by ecentral ech Ü ( stonia) with algorithms rom the mart redit.io team, that scores wallets, tokens, smart contracts and - agents or raud, r",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/api-evangelist/chainaware-ai",
-      "website": "https://github.com/api-evangelist/chainaware-ai",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1378244194"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/api-evangelist/chainaware-ai"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -9366,8 +9561,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9422,44 +9617,6 @@
         {
           "source": "github",
           "url": "https://github.com/luckylhb90/bnbloc"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1440944272",
-      "name": "bnbagent",
-      "descriptionZh": "BNB Chain 自主交易 Agent，项目声明支持自主执行及用户一键停止，实际权限模型待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: gent — air mint site + contracts",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Weioiiaoiia/bnbagent",
-      "website": "https://github.com/Weioiiaoiia/bnbagent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1440944272"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Weioiiaoiia/bnbagent"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -9860,8 +10017,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10770,8 +10927,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11710,12 +11867,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 40,
-    "x": 322,
+    "external": 44,
+    "x": 335,
     "mint": 25
   },
-  "candidateRecords": 349,
-  "mergedGroups": 296,
-  "reviewCount": 230,
+  "candidateRecords": 354,
+  "mergedGroups": 300,
+  "reviewCount": 242,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

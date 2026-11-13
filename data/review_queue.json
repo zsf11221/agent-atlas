@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-11-13T01:50:40.995157+00:00",
+  "updatedAt": "2026-11-13T09:34:01.349103+00:00",
   "items": [
+    {
+      "id": "x-post-2121054927644660099",
+      "name": "pixelboyz.shop",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121054927644660099"
+    },
+    {
+      "id": "x-post-2121064054420848717",
+      "name": "X 早期项目线索 · 848717",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121064054420848717"
+    },
+    {
+      "id": "x-post-2121064052663439810",
+      "name": "X 早期项目线索 · 439810",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121064052663439810"
+    },
+    {
+      "id": "x-post-2121055676248301849",
+      "name": "tycooncity.live",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121055676248301849"
+    },
+    {
+      "id": "x-post-2121053543046221951",
+      "name": "X 早期项目线索 · 221951",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121053543046221951"
+    },
+    {
+      "id": "x-post-2121048622494371911",
+      "name": "X 早期项目线索 · 371911",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121048622494371911"
+    },
+    {
+      "id": "x-post-2121030281478160622",
+      "name": "X 早期项目线索 · 160622",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121030281478160622"
+    },
+    {
+      "id": "x-roundup-2121054857042010114-bagent",
+      "name": "BAGENT",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121054857042010114"
+    },
+    {
+      "id": "x-roundup-2121054857042010114-jagent",
+      "name": "JAGENT",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121054857042010114"
+    },
+    {
+      "id": "x-roundup-2121054857042010114-agentic",
+      "name": "Agentic",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121054857042010114"
+    },
+    {
+      "id": "x-roundup-2121054857042010114-mining",
+      "name": "Mining",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121054857042010114"
+    },
+    {
+      "id": "x-roundup-2121054857042010114-binancewallet",
+      "name": "BinanceWallet",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121054857042010114"
+    },
     {
       "id": "x-post-2120707356959060395",
       "name": "elybirds.fun",
@@ -1355,15 +1427,6 @@
       "source": "https://www.bnbchain.org/en/solutions/ai-agent"
     },
     {
-      "name": "bnbagent",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1260426791",
-        "github-1440944272"
-      ],
-      "source": "https://github.com/ggBlaze/bnbagent"
-    },
-    {
       "name": "Agentic",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1404,9 +1467,19 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "dex-bsc-0x9714c0e31ab94bdc4b5bda7cf3570255d22f7777",
-        "dex-bsc-0xab98a9016320800883bd997b18a11858a7b57777"
+        "dex-bsc-0xab98a9016320800883bd997b18a11858a7b57777",
+        "dex-bsc-0xf334039c3b0abde100887d17a476952d3e992eb0"
       ],
       "source": "https://dexscreener.com/bsc/0xdfbab63ea0bd99dd4bdccee407bd30fa0f44eb46"
+    },
+    {
+      "name": "agentic money",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "dex-bsc-0x9a19d1ed05b04b61e8c35b7e5cb79ce94daa4444",
+        "dex-bsc-0xae71fd8bacc2f17c43a01c3f4aff6deebc194444"
+      ],
+      "source": "https://dexscreener.com/bsc/0x605eeaf01bd74133f982793f09fa557fe4c3b226"
     }
   ],
   "methodology": "Raw candidate evidence retained in its original discovery files. Review before asserting identity or product functionality."
