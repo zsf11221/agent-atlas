@@ -1,6 +1,120 @@
 {
-  "updatedAt": "2026-11-12T20:50:33.400142+00:00",
+  "updatedAt": "2026-11-13T01:50:40.995157+00:00",
   "projects": [
+    {
+      "id": "github-1455914619",
+      "name": "bsc-portfolio",
+      "descriptionZh": "仓库「bsc-portfolio」公开介绍：Check BNB and token balances for a BSC wallet, with a watchlist of agent-token holdings.",
+      "descriptionEn": "Public GitHub discovery candidate: Check BNB and token balances for a BSC wallet, with a watchlist of agent-token holdings.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/faisalridhomp/bsc-portfolio",
+      "website": "https://github.com/faisalridhomp/bsc-portfolio",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455914619"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/faisalridhomp/bsc-portfolio"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1455910453",
+      "name": "bsc-mint-scanner",
+      "descriptionZh": "仓库「bsc-mint-scanner」公开介绍：Scans new BSC blocks for free-mint and claim calls (mint/claim/freeMint/join on value-0 txs). Notify-only watcher for Agent ID mints.",
+      "descriptionEn": "Public GitHub discovery candidate: Scans new BSC blocks for free-mint and claim calls (mint/claim/freeMint/join on value-0 txs). Notify-only watcher for Agent ID mints.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/faisalridhomp/bsc-mint-scanner",
+      "website": "https://github.com/faisalridhomp/bsc-mint-scanner",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455910453"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/faisalridhomp/bsc-mint-scanner"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1455912455",
+      "name": "agent-id-toolkit",
+      "descriptionZh": "仓库「agent-id-toolkit」公开介绍：Tools for SPACE ID Agent IDs on BNB Chain: agentId bytes32, registry lookups, tokenId and owner checks.",
+      "descriptionEn": "Public GitHub discovery candidate: Tools for SPACE ID Agent IDs on BNB Chain: agentId bytes32, registry lookups, tokenId and owner checks.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/faisalridhomp/agent-id-toolkit",
+      "website": "https://github.com/faisalridhomp/agent-id-toolkit",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-13",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1455912455"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/faisalridhomp/agent-id-toolkit"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1164456137",
       "name": "venus-agent-skills",
@@ -386,6 +500,53 @@
       "featured": false
     },
     {
+      "id": "x-post-2120917879759810715",
+      "name": "agent402.surge.sh",
+      "descriptionZh": "官网介绍「402 代理卡 Agent402 Cards：BNB Smart Chain 上的 ERC-721 NFT。总量 5,000，免费池 2,000 张，每 Agent ID 前 5 张免费，付费阶梯 0.001 BNB 起，12 款 ASCII 机器人随机开，稀有档链上可查。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "descriptionBasis": "website-metadata",
+      "category": "early",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://x.com/i/web/status/2120917879759810715",
+      "website": "https://agent402.surge.sh/",
+      "socialX": "https://x.com/i/web/status/2120917879759810715",
+      "contractAddress": "",
+      "firstSeen": "2026-11-12",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "origins": [
+        "x"
+      ],
+      "origin": "x",
+      "recordIds": [
+        "x-post-2120917879759810715",
+        "x-post-2120918151080939943"
+      ],
+      "sources": [
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120917879759810715"
+        },
+        {
+          "source": "evidence",
+          "url": "https://agent402.surge.sh/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120918151080939943"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "x-post-2120575937871798338",
       "name": "Your Degen identity. Mint with no presale.",
       "descriptionZh": "官网介绍「DEGEN AGENT — Fair Mint $DeGent on BNB Chain. degenagentai.pages.dev」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -399,8 +560,8 @@
       "socialX": "https://x.com/i/web/status/2120575937871798338",
       "contractAddress": "",
       "firstSeen": "2026-11-11",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-12",
+      "date": "2026-11-12",
       "tags": [
         "X",
         "Early lead",
@@ -411,7 +572,8 @@
       ],
       "origin": "x",
       "recordIds": [
-        "x-post-2120575937871798338"
+        "x-post-2120575937871798338",
+        "x-post-2120917099400908999"
       ],
       "sources": [
         {
@@ -421,6 +583,10 @@
         {
           "source": "evidence",
           "url": "https://degenagentai.pages.dev/"
+        },
+        {
+          "source": "x",
+          "url": "https://x.com/i/web/status/2120917099400908999"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -479,8 +645,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-11",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -2098,8 +2264,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4844,8 +5010,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-06",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8060,8 +8226,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8402,8 +8568,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8541,44 +8707,6 @@
       "featured": false
     },
     {
-      "id": "github-1352254215",
-      "name": "kawal",
-      "descriptionZh": "BSC Agent 功能测量工具，计划通过调用公开服务端点收集响应证据，并记录到链上声誉系统；说明部分缺字。",
-      "descriptionEn": "Public GitHub discovery candidate: vidence about - agents on mart hain, gathered by calling them. awal dials the endpoint a registration declares, keeps every result, and writes the measurements back into the eputation egistry. hain hackathon",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/PugarHuda/kawal",
-      "website": "https://github.com/PugarHuda/kawal",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1352254215"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/PugarHuda/kawal"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1386001710",
       "name": "infraarchagent",
       "descriptionZh": "基于多 Agent 的自然语言基础设施设计研究项目，BSC 关联证据不足，等待进一步核验。",
@@ -8610,44 +8738,6 @@
         {
           "source": "github",
           "url": "https://github.com/bishara74/infraarchagent"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1433349314",
-      "name": "headroom",
-      "descriptionZh": "BNB Chain 资产清算安全边际报告 Agent，项目称可向其他 Agent 提供分析服务，具体机制待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: ave liquidation headroom reports on hain, sold through okter ( - / - agent)",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/successaje/headroom",
-      "website": "https://github.com/successaje/headroom",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1433349314"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/successaje/headroom"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -8997,44 +9087,6 @@
       "featured": false
     },
     {
-      "id": "github-1347490756",
-      "name": "dolphin",
-      "descriptionZh": "BNB Chain 上的 Agent 服务市场概念，公开说明提到发现、雇用 Agent 以及托管结算；资料尚不完整。",
-      "descriptionEn": "Public GitHub discovery candidate: olphin, the agent marketplace on hain. ind, hire and build - agents hires settle through - escrow.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Nnadijoshuac/dolphin",
-      "website": "https://github.com/Nnadijoshuac/dolphin",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1347490756"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Nnadijoshuac/dolphin"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1361556271",
       "name": "dojo",
       "descriptionZh": "面向 BNB Chain Agent 的功能与证据评分目录，尝试通过接口检测和链上记录验证功能。",
@@ -9124,8 +9176,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9428,8 +9480,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-13",
+      "date": "2026-11-13",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11659,11 +11711,11 @@
   "inputCounts": {
     "projects": 192,
     "external": 40,
-    "x": 309,
+    "x": 322,
     "mint": 25
   },
-  "candidateRecords": 346,
-  "mergedGroups": 295,
-  "reviewCount": 220,
+  "candidateRecords": 349,
+  "mergedGroups": 296,
+  "reviewCount": 230,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
