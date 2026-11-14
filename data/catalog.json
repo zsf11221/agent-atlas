@@ -1,6 +1,44 @@
 {
-  "updatedAt": "2026-11-14T14:10:40.504965+00:00",
+  "updatedAt": "2026-11-14T19:11:24.858064+00:00",
   "projects": [
+    {
+      "id": "dex-bsc-0xcb7c441d599f190831d6e3f3faceee5853d84444",
+      "name": "这才是正确的名字",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「这才是正确的名字」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0xcb7c441d599f190831d6e3f3faceee5853d84444:4meme",
+      "website": "https://dexscreener.com/bsc/0xcb7c441d599f190831d6e3f3faceee5853d84444:4meme",
+      "socialX": "",
+      "contractAddress": "0xcb7c441d599f190831d6e3f3faceee5853d84444",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-03-03",
+      "date": "2026-03-03",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0xcb7c441d599f190831d6e3f3faceee5853d84444"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0xcb7c441d599f190831d6e3f3faceee5853d84444:4meme"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1457558748",
       "name": "wallet-platform-skills",
@@ -33,6 +71,82 @@
         {
           "source": "github",
           "url": "https://github.com/jesshqi/wallet-platform-skills"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1457946871",
+      "name": "wallet-guard-agent",
+      "descriptionZh": "仓库「wallet-guard-agent」公开介绍：A wallet security guard for BSC: screens a transaction or approval before you sign it — safe / caution / danger, with on-chain checks. Agent Games Wildcard entry by hendryzu.",
+      "descriptionEn": "Public GitHub discovery candidate: A wallet security guard for BSC: screens a transaction or approval before you sign it — safe / caution / danger, with on-chain checks. Agent Games Wildcard entry by hendryzu.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/atomicbyte2-ai/wallet-guard-agent",
+      "website": "https://github.com/atomicbyte2-ai/wallet-guard-agent",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1457946871"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/atomicbyte2-ai/wallet-guard-agent"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1457866837",
+      "name": "token-guard",
+      "descriptionZh": "仓库「token-guard」公开介绍：Token Guard — BSC token risk screener, zkVerify Agent Games Wildcard entry",
+      "descriptionEn": "Public GitHub discovery candidate: Token Guard — BSC token risk screener, zkVerify Agent Games Wildcard entry",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Alive199/token-guard",
+      "website": "https://github.com/Alive199/token-guard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1457866837"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Alive199/token-guard"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -109,6 +223,272 @@
         {
           "source": "github",
           "url": "https://github.com/jesshqi/onchain-read-toolkit"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458026933",
+      "name": "month-agent",
+      "descriptionZh": "仓库「month-agent」公开介绍：Meet month — an AI agent that hunts free NFT mints on BNB Chain and verifies everything on-chain before it mints. Agent Games Creator Track entry.",
+      "descriptionEn": "Public GitHub discovery candidate: Meet month — an AI agent that hunts free NFT mints on BNB Chain and verifies everything on-chain before it mints. Agent Games Creator Track entry.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Javi77777/month-agent",
+      "website": "https://github.com/Javi77777/month-agent",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458026933"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Javi77777/month-agent"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458036913",
+      "name": "mintguard",
+      "descriptionZh": "仓库「mintguard」公开介绍：Read-only BSC mint-safety verifier for AI agents: bytecode, source verification, ownership, dangerous functions, trading locks, liquidity and domain age checks with deterministic PASS/CAUTION/BLOCK ve",
+      "descriptionEn": "Public GitHub discovery candidate: Read-only BSC mint-safety verifier for AI agents: bytecode, source verification, ownership, dangerous functions, trading locks, liquidity and domain age checks with deterministic PASS/CAUTION/BLOCK verdicts.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Endangdanngz/mintguard",
+      "website": "https://github.com/Endangdanngz/mintguard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458036913"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Endangdanngz/mintguard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458045831",
+      "name": "mintguard",
+      "descriptionZh": "仓库「mintguard」公开介绍：MintGuard — wallet & transaction guard for BNB Chain. Agent Games Season 01, Wildcard track.",
+      "descriptionEn": "Public GitHub discovery candidate: MintGuard — wallet & transaction guard for BNB Chain. Agent Games Season 01, Wildcard track.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Abidzaenal/mintguard",
+      "website": "https://github.com/Abidzaenal/mintguard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458045831"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Abidzaenal/mintguard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458074424",
+      "name": "free-mint-hunter",
+      "descriptionZh": "仓库「free-mint-hunter」公开介绍：Free-mint hunter agent for BSC — polls hidden mint windows, solves puzzles, and verifies everything on-chain before spending gas.",
+      "descriptionEn": "Public GitHub discovery candidate: Free-mint hunter agent for BSC — polls hidden mint windows, solves puzzles, and verifies everything on-chain before spending gas.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/kampret44/free-mint-hunter",
+      "website": "https://github.com/kampret44/free-mint-hunter",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458074424"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/kampret44/free-mint-hunter"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458019173",
+      "name": "claimguard",
+      "descriptionZh": "仓库「claimguard」公开介绍：ClaimGuard — a safety-gated FCFS claim agent for BSC free mints and claims. Agent Games 2026 Wildcard entry.",
+      "descriptionEn": "Public GitHub discovery candidate: ClaimGuard — a safety-gated FCFS claim agent for BSC free mints and claims. Agent Games 2026 Wildcard entry.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/jeffmarket12/claimguard",
+      "website": "https://github.com/jeffmarket12/claimguard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458019173"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/jeffmarket12/claimguard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1457915157",
+      "name": "bsc-audit-agent",
+      "descriptionZh": "仓库「bsc-audit-agent」公开介绍：BSC Audit Agent — check a BSC token contract before you buy. AgentGames Wildcard entry.",
+      "descriptionEn": "Public GitHub discovery candidate: BSC Audit Agent — check a BSC token contract before you buy. AgentGames Wildcard entry.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Rilorpa/bsc-audit-agent",
+      "website": "https://github.com/Rilorpa/bsc-audit-agent",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1457915157"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Rilorpa/bsc-audit-agent"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1457971161",
+      "name": "astuti-agent",
+      "descriptionZh": "仓库「astuti-agent」公开介绍：Astuti — autonomous Agent ID free-mint screener on BNB Chain (Agent Games zkVerify Wildcard entry)",
+      "descriptionEn": "Public GitHub discovery candidate: Astuti — autonomous Agent ID free-mint screener on BNB Chain (Agent Games zkVerify Wildcard entry)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/axiesc/astuti-agent",
+      "website": "https://github.com/axiesc/astuti-agent",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1457971161"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/axiesc/astuti-agent"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -337,6 +717,44 @@
         {
           "source": "github",
           "url": "https://github.com/Puyu46/agentgames-wildcard-agent"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1457911283",
+      "name": "agentgames-wallet-guard",
+      "descriptionZh": "仓库「agentgames-wallet-guard」公开介绍：Wallet Guard — read-only BSC wallet & transaction security guard agent for zkVerify Agent Games (Wildcard track)",
+      "descriptionEn": "Public GitHub discovery candidate: Wallet Guard — read-only BSC wallet & transaction security guard agent for zkVerify Agent Games (Wildcard track)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/frii25/agentgames-wallet-guard",
+      "website": "https://github.com/frii25/agentgames-wallet-guard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1457911283"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/frii25/agentgames-wallet-guard"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -7380,8 +7798,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-04",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8802,44 +9220,6 @@
       "featured": false
     },
     {
-      "id": "github-1264420018",
-      "name": "calibrated-conviction",
-      "descriptionZh": "仓库「calibrated-conviction」公开介绍：A crypto trading Skill that outputs calibrated probabilities and sizes by fractional Kelly — built to survive, not just to score.",
-      "descriptionEn": "Public GitHub discovery candidate: A crypto trading Skill that outputs calibrated probabilities and sizes by fractional Kelly — built to survive, not just to score.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/ryonzhang/calibrated-conviction",
-      "website": "https://github.com/ryonzhang/calibrated-conviction",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-06-09",
-      "date": "2026-06-09",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1264420018"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/ryonzhang/calibrated-conviction"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1443179311",
       "name": "bng-api-index",
       "descriptionZh": "WordPress 插件，为网站发布便于 Agent 读取的 API 索引，面向智能体工具发现。",
@@ -9461,8 +9841,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10474,44 +10854,6 @@
       "featured": false
     },
     {
-      "id": "github-1319483961",
-      "name": "web3",
-      "descriptionZh": "BNB Chain 上的全链游戏项目，包含文明建设与策略机制；AI Agent 功能尚待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: Silent Expanse: Strife — fully on-chain 3D MMO SLG on BNB Chain (BSC). Dark Forest-inspired; build civilizations, plunder, alliances, AI Agent auto-defense.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/silent-expanse/web3",
-      "website": "https://github.com/silent-expanse/web3",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-08-30",
-      "date": "2026-08-30",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1319483961"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/silent-expanse/web3"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "virtuals-acp",
       "name": "Virtuals ACP",
       "descriptionZh": "用于 Agent 之间任务协作、结算与跨链交易的商业协议。",
@@ -10548,44 +10890,6 @@
       "evidenceLevel": "source-backed-product",
       "mintTypes": [],
       "featured": true
-    },
-    {
-      "id": "github-1271797349",
-      "name": "undertow",
-      "descriptionZh": "CoinMarketCap Agent 策略 Skill，通过市场情绪和持仓状态差异研究交易信号。",
-      "descriptionEn": "Public GitHub discovery candidate: CoinMarketCap AI-Agent Strategy Skill that trades the gap between what the crowd feels and how it's positioned — backtested, reproducible, native to the CMC Agent Hub (MCP · x402 · CLI · Skills · IDE).",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/tang-vu/undertow",
-      "website": "https://github.com/tang-vu/undertow",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-07-13",
-      "date": "2026-07-13",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1271797349"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/tang-vu/undertow"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
     },
     {
       "id": "tearline",
@@ -10815,44 +11119,6 @@
       "featured": false
     },
     {
-      "id": "github-1261192966",
-      "name": "plimsoll",
-      "descriptionZh": "BNB Chain 自主交易 Agent，方案包含大语言模型提议、规则化风险检查与执行控制。",
-      "descriptionEn": "Public GitHub discovery candidate: Autonomous BNB-Chain trading agent you can actually let run — an LLM proposes, a deterministic risk kernel decides, Trust Wallet signs. Reads the chain natively, pays for data via x402, learns skill-from-luck, and commits its risk",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/thopatevijay/plimsoll",
-      "website": "https://github.com/thopatevijay/plimsoll",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-06-22",
-      "date": "2026-06-22",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1261192966"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/thopatevijay/plimsoll"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "pieverse",
       "name": "Pieverse AI",
       "descriptionZh": "BNB Chain 官方生态页面收录的 AI Agent 应用。功能与代币细节需进一步核验。",
@@ -10928,44 +11194,6 @@
       "featured": false
     },
     {
-      "id": "github-1355734607",
-      "name": "osh- ore",
-      "descriptionZh": "仓库「osh- ore」公开介绍：air-launch protocol on mart hain (v live) inance gent -gated genesis sale, a ancake wap n inity hook per project, permanently locked liquidity, and a shel ladder whose revenue deepens the pool. or , n",
-      "descriptionEn": "Public GitHub discovery candidate: air-launch protocol on mart hain (v live) inance gent -gated genesis sale, a ancake wap n inity hook per project, permanently locked liquidity, and a shel ladder whose revenue deepens the pool. or , non-upgr",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/jayoo101/Tosh-Core",
-      "website": "https://github.com/jayoo101/Tosh-Core",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1355734607"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/jayoo101/Tosh-Core"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1356693725",
       "name": "optic-binance",
       "descriptionZh": "仓库「optic-binance」公开介绍：Optic for Binance — one agent that reads the Binance exchange, onchain, prediction markets and social attention as one economy, and reports where they stop agreeing. Built on Binance Agent OS.",
@@ -11035,44 +11263,6 @@
         {
           "source": "github",
           "url": "https://github.com/Areyaaa/MileAI"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1300390299",
-      "name": "mefai-signal-agent",
-      "descriptionZh": "BNB Chain 上的自动交易信号 Agent，围绕可验证的链上任务交付交易信号。",
-      "descriptionEn": "Public GitHub discovery candidate: Autonomous AI agent on BNB Chain that sells MEFAI's live trading signals as verifiable on-chain jobs. ERC-8004 identity, ERC-8183 escrow, x402 self-funding, BNB-native LLM.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/mefai-dev/mefai-signal-agent",
-      "website": "https://github.com/mefai-dev/mefai-signal-agent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-07-14",
-      "date": "2026-07-14",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1300390299"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/mefai-dev/mefai-signal-agent"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11190,44 +11380,6 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1440948757",
-      "name": "gridsentry",
-      "descriptionZh": "仓库「gridsentry」公开介绍：rid rading gent or hain estnet",
-      "descriptionEn": "Public GitHub discovery candidate: rid rading gent or hain estnet",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/hadidzn/gridsentry",
-      "website": "https://github.com/hadidzn/gridsentry",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1440948757"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/hadidzn/gridsentry"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -11691,82 +11843,6 @@
       "featured": true
     },
     {
-      "id": "github-1260426791",
-      "name": "bnbagent",
-      "descriptionZh": "BNB Chain 自主交易 Agent，项目声明支持自主执行及用户一键停止，实际权限模型待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: Autonomous BSC trading agent. You sign once, it runs solo, you can kill it with one button. CoinMarketCap x402 data ($0.01/call), Trust Wallet signed txs (keys never leave the host), BNB Chain ERC-8004 identity + ERC-8183 escrow.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/ggBlaze/bnbagent",
-      "website": "https://github.com/ggBlaze/bnbagent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-06-28",
-      "date": "2026-06-28",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1260426791"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/ggBlaze/bnbagent"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1400035234",
-      "name": "bagipanen",
-      "descriptionZh": "仓库「bagipanen」公开介绍：🌾 agi anen — anpa ijon, tanpa tengkulak. endanaan modal tanam petani ndonesia di hain escrow per musim, pencairan dua kunci (agen - + koperasi), bagi hasil otomatis, apor etani onchain.",
-      "descriptionEn": "Public GitHub discovery candidate: 🌾 agi anen — anpa ijon, tanpa tengkulak. endanaan modal tanam petani ndonesia di hain escrow per musim, pencairan dua kunci (agen - + koperasi), bagi hasil otomatis, apor etani onchain.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/MrPrinceAli/bagipanen",
-      "website": "https://github.com/MrPrinceAli/bagipanen",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1400035234"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/MrPrinceAli/bagipanen"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "ark-defai",
       "name": "ARK DeFAI",
       "descriptionZh": "BNB Chain 生态中的 DeFAI / Agent 应用，收益和安全性不作推定。",
@@ -11805,44 +11881,6 @@
       "evidenceLevel": "source-backed-product",
       "mintTypes": [],
       "featured": true
-    },
-    {
-      "id": "github-1141276458",
-      "name": "ai-meme-trader",
-      "descriptionZh": "仓库「ai-meme-trader」公开介绍：Hackathon prototype (24h) — natural-language & voice order UI for meme coins via Claude/GPT, with a conditional-order engine and pluggable chain strategies. Trade execution is simulated; market data i",
-      "descriptionEn": "Public GitHub discovery candidate: Hackathon prototype (24h) — natural-language & voice order UI for meme coins via Claude/GPT, with a conditional-order engine and pluggable chain strategies. Trade execution is simulated; market data is mocked.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/yifengingit/ai-meme-trader",
-      "website": "https://github.com/yifengingit/ai-meme-trader",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-08-04",
-      "date": "2026-08-04",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1141276458"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/yifengingit/ai-meme-trader"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
     },
     {
       "id": "agent0",
@@ -12147,12 +12185,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 50,
-    "x": 406,
+    "external": 51,
+    "x": 408,
     "mint": 25
   },
-  "candidateRecords": 363,
-  "mergedGroups": 307,
-  "reviewCount": 311,
+  "candidateRecords": 364,
+  "mergedGroups": 308,
+  "reviewCount": 314,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

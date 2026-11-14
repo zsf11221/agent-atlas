@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T14:10:40.504965+00:00",
+  "updatedAt": "2026-11-14T19:11:24.858064+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -156,6 +156,18 @@
       "name": "Xom",
       "reason": "x-post-without-specific-product-evidence",
       "source": "https://x.com/i/web/status/2121435393895932235"
+    },
+    {
+      "id": "x-post-2121644798679331288",
+      "name": "X 早期项目线索 · 331288",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121644798679331288"
+    },
+    {
+      "id": "x-post-2121654639628313021",
+      "name": "X 早期项目线索 · 313021",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121654639628313021"
     },
     {
       "id": "x-post-2121388001238642707",
@@ -1845,6 +1857,15 @@
         "dex-bsc-0xf30e443aa53e99a4b630ee48f6cc6937c6bb7777"
       ],
       "source": "https://github.com/agentic-labs-hq/agentic-protocol"
+    },
+    {
+      "name": "mintguard",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1458036913",
+        "github-1458045831"
+      ],
+      "source": "https://github.com/Endangdanngz/mintguard"
     },
     {
       "name": "Agentic X402",
