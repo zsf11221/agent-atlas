@@ -1,6 +1,44 @@
 {
-  "updatedAt": "2026-11-13T23:36:10.499293+00:00",
+  "updatedAt": "2026-11-14T06:27:01.028210+00:00",
   "projects": [
+    {
+      "id": "github-1457394225",
+      "name": "Anvil",
+      "descriptionZh": "仓库「Anvil」公开介绍：ANVIL — 3,333 animated GIF agents on BNB Chain.",
+      "descriptionEn": "Public GitHub discovery candidate: ANVIL — 3,333 animated GIF agents on BNB Chain.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/encangmulyana-lang/Anvil",
+      "website": "https://github.com/encangmulyana-lang/Anvil",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1457394225"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/encangmulyana-lang/Anvil"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1456181844",
       "name": "supaboard",
@@ -346,8 +384,8 @@
     {
       "id": "github-1455918173",
       "name": "BNB-SKILLS",
-      "descriptionZh": "仓库「BNB-SKILLS」公开介绍：61 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
-      "descriptionEn": "Public GitHub discovery candidate: 61 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
+      "descriptionZh": "仓库「BNB-SKILLS」公开介绍：72 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
+      "descriptionEn": "Public GitHub discovery candidate: 72 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
       "descriptionBasis": "github-repository-description",
       "category": "developer",
       "chain": "BNB Chain",
@@ -357,8 +395,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-13",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -1883,8 +1921,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -2815,8 +2853,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3857,8 +3895,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5561,8 +5599,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-06",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -7378,8 +7416,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8777,8 +8815,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8815,8 +8853,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9043,8 +9081,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9081,8 +9119,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9410,44 +9448,6 @@
       "featured": false
     },
     {
-      "id": "github-1441808596",
-      "name": "entropy i-protocol",
-      "descriptionZh": "BNB Chain 上的自主 Agent 协议概念项目，原始简介损坏，项目能力待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: ntropy i () — irst autonomous synthetic agent core protocol on hain, natively engineered or inance gentic allets.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/attnk2-oss/entropyfi-protocol",
-      "website": "https://github.com/attnk2-oss/entropyfi-protocol",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "",
-      "date": "",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1441808596"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/attnk2-oss/entropyfi-protocol"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1438831520",
       "name": "element-listing-agent",
       "descriptionZh": "个人使用的 NFT 挂单工具，通过 Binance Agentic Wallet 和 Element 接口处理 BSC NFT 挂单。",
@@ -9537,8 +9537,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11397,8 +11397,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-10",
-      "date": "2026-11-10",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11996,11 +11996,11 @@
   "inputCounts": {
     "projects": 192,
     "external": 46,
-    "x": 377,
+    "x": 391,
     "mint": 25
   },
   "candidateRecords": 359,
   "mergedGroups": 303,
-  "reviewCount": 281,
+  "reviewCount": 295,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
