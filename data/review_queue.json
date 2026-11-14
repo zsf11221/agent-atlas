@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T06:27:01.028210+00:00",
+  "updatedAt": "2026-11-14T14:10:40.504965+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -66,6 +66,96 @@
       "name": "Pro",
       "reason": "x-post-without-specific-product-evidence",
       "source": "https://x.com/i/web/status/2121416084838617362"
+    },
+    {
+      "id": "x-post-2121517382061707359",
+      "name": "celiuz.id",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121517382061707359"
+    },
+    {
+      "id": "x-post-2121516948118987134",
+      "name": "entr0pic.com",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121516948118987134"
+    },
+    {
+      "id": "x-post-2121433175008448686",
+      "name": "bscscan.com",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121433175008448686"
+    },
+    {
+      "id": "x-post-2121513469237477697",
+      "name": "X 早期项目线索 · 477697",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121513469237477697"
+    },
+    {
+      "id": "x-post-2121501421572911187",
+      "name": "vault-pass.surge.sh",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121501421572911187"
+    },
+    {
+      "id": "x-post-2121490149569900659",
+      "name": "X 早期项目线索 · 900659",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121490149569900659"
+    },
+    {
+      "id": "x-post-2121483023137071186",
+      "name": "vault-pass.surge.sh",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121483023137071186"
+    },
+    {
+      "id": "x-post-2121482523758952951",
+      "name": "vault-pass.surge.sh",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121482523758952951"
+    },
+    {
+      "id": "x-post-2121480586405756957",
+      "name": "vault-pass.surge.sh",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121480586405756957"
+    },
+    {
+      "id": "x-post-2121477346918351320",
+      "name": "X 早期项目线索 · 351320",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121477346918351320"
+    },
+    {
+      "id": "x-roundup-2121435393895932235-gang",
+      "name": "GANG",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121435393895932235"
+    },
+    {
+      "id": "x-roundup-2121435393895932235-gamelife",
+      "name": "GameLife",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121435393895932235"
+    },
+    {
+      "id": "x-roundup-2121435393895932235-weekly",
+      "name": "Weekly",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121435393895932235"
+    },
+    {
+      "id": "x-roundup-2121435393895932235-pancake",
+      "name": "Pancake",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121435393895932235"
+    },
+    {
+      "id": "x-roundup-2121435393895932235-xom",
+      "name": "Xom",
+      "reason": "x-post-without-specific-product-evidence",
+      "source": "https://x.com/i/web/status/2121435393895932235"
     },
     {
       "id": "x-post-2121388001238642707",
@@ -1743,6 +1833,18 @@
         "github-1150379199"
       ],
       "source": "https://www.bnbchain.org/en/solutions/ai-agent"
+    },
+    {
+      "name": "agentic-protocol",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1439641297",
+        "dex-bsc-0x80f05a3f3799499638b2ebedf72b97a3f42affff",
+        "dex-bsc-0x8a74aa95bb913f93db94755e135caaeca09b8888",
+        "dex-bsc-0xe4272c43775703e7ba517b5aeb64d8de1320ffff",
+        "dex-bsc-0xf30e443aa53e99a4b630ee48f6cc6937c6bb7777"
+      ],
+      "source": "https://github.com/agentic-labs-hq/agentic-protocol"
     },
     {
       "name": "Agentic X402",
