@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T08:32:38.866115+00:00",
+  "updatedAt": "2026-11-14T17:33:44.582172+00:00",
   "projects": [
     {
       "id": "x-post-2121420724619575525",
@@ -779,6 +779,66 @@
       "lastCheckedAt": "2026-11-14T08:32:38.866115+00:00",
       "discoverySource": "x-morning-report",
       "verification": "roundup-mention-only",
+      "mint": "unknown"
+    },
+    {
+      "id": "x-post-2121644798679331288",
+      "name": "X 早期项目线索 · 331288",
+      "symbol": "X",
+      "category": "early",
+      "chain": "BNB Chain (X claim only)",
+      "type": "candidate",
+      "stage": "x-lead-unverified",
+      "source": "https://x.com/i/web/status/2121644798679331288",
+      "website": "https://x.com/i/web/status/2121644798679331288",
+      "authorId": "1428195159737389058",
+      "postId": "2121644798679331288",
+      "descriptionZh": "X 上发现与 BSC AI Agent 相关的Mint 或参与公告。该帖所指项目的身份、功能与上线时间尚未独立核实。 尚未发现独立项目官网。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "mintSignal": "mint",
+      "claimedMintCost": "free",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "evidence": "Public X post ID and author ID; no independently verified project identity",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "lastCheckedAt": "2026-11-14T17:33:44.582172+00:00",
+      "discoverySource": "x-recent-search",
+      "verification": "x-post-claim-only",
+      "mint": "unknown"
+    },
+    {
+      "id": "x-post-2121654639628313021",
+      "name": "X 早期项目线索 · 313021",
+      "symbol": "X",
+      "category": "early",
+      "chain": "BNB Chain (X claim only)",
+      "type": "candidate",
+      "stage": "x-lead-unverified",
+      "source": "https://x.com/i/web/status/2121654639628313021",
+      "website": "https://x.com/i/web/status/2121654639628313021",
+      "authorId": "1441709926598864897",
+      "postId": "2121654639628313021",
+      "descriptionZh": "X 上发现与 BSC AI Agent 相关的Mint 或参与公告。该帖所指项目的身份、功能与上线时间尚未独立核实。 尚未发现独立项目官网。",
+      "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
+      "mintSignal": "mint",
+      "claimedMintCost": "free",
+      "tags": [
+        "X",
+        "Early lead",
+        "Unverified"
+      ],
+      "evidence": "Public X post ID and author ID; no independently verified project identity",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "lastCheckedAt": "2026-11-14T17:33:44.582172+00:00",
+      "discoverySource": "x-recent-search",
+      "verification": "x-post-claim-only",
       "mint": "unknown"
     },
     {
