@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T21:46:06.441579+00:00",
+  "updatedAt": "2026-11-14T01:56:04.253227+00:00",
   "profiles": [
     {
       "domain": "aesthetic-kleicha-a343ba.netlify.app",
@@ -48,7 +48,7 @@
       "descriptionEn": "10,000 bunnies, drawn by the contract itself.",
       "source": "https://agentbunnies.pages.dev/",
       "sourceKind": "website-metadata",
-      "checkedAt": "2026-11-07T08:09:02.583068+00:00",
+      "checkedAt": "2026-11-14T01:56:04.253227+00:00",
       "firstSeen": "2026-11-07"
     },
     {
@@ -603,6 +603,6 @@
     }
   ],
   "scannedThisRun": 12,
-  "newProfiles": 1,
+  "newProfiles": 0,
   "methodology": "Public HTTPS metadata only. Descriptions are sourced summaries or quotes, not independent verification."
 }
