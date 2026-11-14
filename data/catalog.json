@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T19:11:24.858064+00:00",
+  "updatedAt": "2026-11-14T22:59:22.869801+00:00",
   "projects": [
     {
       "id": "dex-bsc-0xcb7c441d599f190831d6e3f3faceee5853d84444",
@@ -116,6 +116,44 @@
       "featured": false
     },
     {
+      "id": "github-1458168519",
+      "name": "unsolvable-agent",
+      "descriptionZh": "仓库「unsolvable-agent」公开介绍：Autonomous free-mint agent for UNSOLVABLE on BSC: 30s window watcher, EIP-712 login via Binance Agentic Wallet, 3-stage puzzle solvers (SAT/CDCL, graph coloring, subset-sum) + Wesolowski VDF (RSA-2048",
+      "descriptionEn": "Public GitHub discovery candidate: Autonomous free-mint agent for UNSOLVABLE on BSC: 30s window watcher, EIP-712 login via Binance Agentic Wallet, 3-stage puzzle solvers (SAT/CDCL, graph coloring, subset-sum) + Wesolowski VDF (RSA-2048, T=4M in ~33.6s), one-shot on",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Anyeps/unsolvable-agent",
+      "website": "https://github.com/Anyeps/unsolvable-agent",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458168519"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Anyeps/unsolvable-agent"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1457866837",
       "name": "token-guard",
       "descriptionZh": "仓库「token-guard」公开介绍：Token Guard — BSC token risk screener, zkVerify Agent Games Wildcard entry",
@@ -147,6 +185,44 @@
         {
           "source": "github",
           "url": "https://github.com/Alive199/token-guard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458191019",
+      "name": "sandi26-agent",
+      "descriptionZh": "仓库「sandi26-agent」公开介绍：sandi26.ai — autonomous free-mint hunter on BNB Smart Chain. Agent Games 2026 Wildcard submission.",
+      "descriptionEn": "Public GitHub discovery candidate: sandi26.ai — autonomous free-mint hunter on BNB Smart Chain. Agent Games 2026 Wildcard submission.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/maulana0319/sandi26-agent",
+      "website": "https://github.com/maulana0319/sandi26-agent",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458191019"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/maulana0319/sandi26-agent"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -344,6 +420,82 @@
       "featured": false
     },
     {
+      "id": "github-1458121526",
+      "name": "kanbara-guard",
+      "descriptionZh": "仓库「kanbara-guard」公开介绍：Kanbara Guard — a read-only BSC transaction guard. Pre-sign GO/CAUTION/BLOCK verdicts for contract calls. Built for zkVerify Agent Games Wildcard.",
+      "descriptionEn": "Public GitHub discovery candidate: Kanbara Guard — a read-only BSC transaction guard. Pre-sign GO/CAUTION/BLOCK verdicts for contract calls. Built for zkVerify Agent Games Wildcard.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/kanbara12/kanbara-guard",
+      "website": "https://github.com/kanbara12/kanbara-guard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458121526"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/kanbara12/kanbara-guard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458181218",
+      "name": "kadocay-shield",
+      "descriptionZh": "仓库「kadocay-shield」公开介绍：Wallet security scanner agent — screens a BSC wallet for drain/scam risk before signing. Agent Games Wildcard entry.",
+      "descriptionEn": "Public GitHub discovery candidate: Wallet security scanner agent — screens a BSC wallet for drain/scam risk before signing. Agent Games Wildcard entry.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/kadocay/kadocay-shield",
+      "website": "https://github.com/kadocay/kadocay-shield",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458181218"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/kadocay/kadocay-shield"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1458074424",
       "name": "free-mint-hunter",
       "descriptionZh": "仓库「free-mint-hunter」公开介绍：Free-mint hunter agent for BSC — polls hidden mint windows, solves puzzles, and verifies everything on-chain before spending gas.",
@@ -413,6 +565,44 @@
         {
           "source": "github",
           "url": "https://github.com/jeffmarket12/claimguard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458122076",
+      "name": "bsc-contract-guard",
+      "descriptionZh": "仓库「bsc-contract-guard」公开介绍：BSC Contract Guard — read-only BSC contract audit agent with zkVerify Groth16 verdict-commitment proofs (Agent Games Wildcard entry)",
+      "descriptionEn": "Public GitHub discovery candidate: BSC Contract Guard — read-only BSC contract audit agent with zkVerify Groth16 verdict-commitment proofs (Agent Games Wildcard entry)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/promoba/bsc-contract-guard",
+      "website": "https://github.com/promoba/bsc-contract-guard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-14",
+      "lastActivityAt": "2026-11-14",
+      "date": "2026-11-14",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458122076"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/promoba/bsc-contract-guard"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -10929,44 +11119,6 @@
       "featured": true
     },
     {
-      "id": "github-1396084105",
-      "name": "tapak",
-      "descriptionZh": "面向转账诈骗受害者的 AI 助手，通过 Telegram 提供初步处理支持与链上证据记录。",
-      "descriptionEn": "Public GitHub discovery candidate: Tapak AI — copilot respons awal bagi korban penipuan transfer. Telegram bot + Cloudflare Workers + BNB Chain evidence registry. Indonesia Web3 Hackathon 2026.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/baguskto/tapak",
-      "website": "https://github.com/baguskto/tapak",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-09-29",
-      "date": "2026-09-29",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1396084105"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/baguskto/tapak"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1437171077",
       "name": "skill",
       "descriptionZh": "SUAN Agent 发射平台的交易 Skill，帮助 Agent 查询发行阶段、手续费与报价等信息。",
@@ -11194,82 +11346,6 @@
       "featured": false
     },
     {
-      "id": "github-1356693725",
-      "name": "optic-binance",
-      "descriptionZh": "仓库「optic-binance」公开介绍：Optic for Binance — one agent that reads the Binance exchange, onchain, prediction markets and social attention as one economy, and reports where they stop agreeing. Built on Binance Agent OS.",
-      "descriptionEn": "Public GitHub discovery candidate: Optic for Binance — one agent that reads the Binance exchange, onchain, prediction markets and social attention as one economy, and reports where they stop agreeing. Built on Binance Agent OS.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/neromtoobad/optic-binance",
-      "website": "https://github.com/neromtoobad/optic-binance",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-09-05",
-      "date": "2026-09-05",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1356693725"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/neromtoobad/optic-binance"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1369919460",
-      "name": "MileAI",
-      "descriptionZh": "BNB Chain 上基于 AI 任务验收的里程碑托管机制，按照任务验证结果释放资金。",
-      "descriptionEn": "Public GitHub discovery candidate: AI-staked milestone escrow on BNB Smart Chain, fund unlocks automatically when an AI agent verifies the work.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Areyaaa/MileAI",
-      "website": "https://github.com/Areyaaa/MileAI",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-09-23",
-      "date": "2026-09-23",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1369919460"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Areyaaa/MileAI"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1433109941",
       "name": "hashkitty-skill",
       "descriptionZh": "面向 Agent 的 HashKitty NFT 铸造 Skill，帮助完成解谜、凭证及 Mint 流程。",
@@ -11415,44 +11491,6 @@
         {
           "source": "github",
           "url": "https://github.com/gangfun/gang-launchpad"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1354225449",
-      "name": "Deltr",
-      "descriptionZh": "基于 Binance Agent OS 的 CEX/DEX 中性策略 Agent，涉及 PancakeSwap V3 与资金费率套利。",
-      "descriptionEn": "Public GitHub discovery candidate: Delta-neutral CEX/DEX basis and funding arbitrage agent on Binance Agent OS. Long PancakeSwap V3 on BNB Chain, short the Binance USDⓈ-M perp, every order through a deterministic 19-check risk gate. MCP server with 22 tools, Skills",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/mrnetwork0001/Deltr",
-      "website": "https://github.com/mrnetwork0001/Deltr",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-09-08",
-      "date": "2026-09-08",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1354225449"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/mrnetwork0001/Deltr"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -12031,44 +12069,6 @@
         }
       ],
       "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1358258243",
-      "name": "ach-agent",
-      "descriptionZh": "面向 BNB Chain 的交易执行 Agent，结合市场信息与路由工具选择交易路径。",
-      "descriptionEn": "Public GitHub discovery candidate: An intelligent BNB Chain execution agent that finds the best way to trade — Binance Agent OS market intelligence + routing across PancakeSwap, Uniswap and LI.FI.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Asif2902/ach-agent",
-      "website": "https://github.com/Asif2902/ach-agent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-09-07",
-      "date": "2026-09-07",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1358258243"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Asif2902/ach-agent"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
       "mintTypes": [],
       "featured": false
     },
