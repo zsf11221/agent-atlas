@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:44:00.160661+00:00",
+  "updatedAt": "2026-11-15T22:50:25.546605+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -12,19 +12,19 @@
     },
     "search-agent": {
       "ok": true,
-      "qualified": 5
+      "qualified": 4
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 12
+      "qualified": 9
     },
     "bnbchain-official": {
       "ok": true,
       "qualified": 6
     }
   },
-  "newCount": 6,
-  "changedCount": 2,
+  "newCount": 1,
+  "changedCount": 0,
   "projects": [
     {
       "id": "bnb-official-mention-pieverse",
@@ -363,6 +363,34 @@
       "projectCreatedAt": "2026-11-15",
       "firstSeen": "2026-11-15",
       "lastCheckedAt": "2026-11-15T17:44:00.160661+00:00",
+      "discoverySource": "dexscreener-search-agentic",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0x444419f986dd51bece4fd7760e256cb2efd2075a",
+      "name": "Agentic Wallet",
+      "symbol": "Agentic Wallet",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0x444419f986dd51bece4fd7760e256cb2efd2075a:4meme",
+      "website": "https://dexscreener.com/bsc/0x444419f986dd51bece4fd7760e256cb2efd2075a:4meme",
+      "socialX": "",
+      "contractAddress": "0x444419f986Dd51BECE4FD7760E256CB2Efd2075A",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-04-21",
+      "projectCreatedAt": "2026-04-21",
+      "firstSeen": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T22:50:25.546605+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },

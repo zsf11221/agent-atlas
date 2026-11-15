@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:44:02.325930+00:00",
+  "updatedAt": "2026-11-15T22:50:27.551989+00:00",
   "projects": [
     {
       "id": "github-1458385470",
@@ -192,6 +192,44 @@
       "featured": false
     },
     {
+      "id": "github-1459264986",
+      "name": "obito-guard",
+      "descriptionZh": "仓库「obito-guard」公开介绍：Obito Guard — a read-only wallet/transaction guard for BSC. Screens a transaction preview before signing and returns CLEAN or NOT CLEAN with reasons. Agent Games Season 01, Wildcard track.",
+      "descriptionEn": "Public GitHub discovery candidate: Obito Guard — a read-only wallet/transaction guard for BSC. Screens a transaction preview before signing and returns CLEAN or NOT CLEAN with reasons. Agent Games Season 01, Wildcard track.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/iuzuka/obito-guard",
+      "website": "https://github.com/iuzuka/obito-guard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1459264986"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/iuzuka/obito-guard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1458884743",
       "name": "mintwatch",
       "descriptionZh": "仓库「mintwatch」公开介绍：MintWatch — BSC Free-Mint Radar Agent (AgentGames Wildcard)",
@@ -375,6 +413,82 @@
         {
           "source": "github",
           "url": "https://github.com/lumengray123-rgb/fastmint-guard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1459191618",
+      "name": "erc8004-fleet-agents",
+      "descriptionZh": "仓库「erc8004-fleet-agents」公开介绍：ERC-8004 agent registration files for a 51-wallet agent fleet on BNB Smart Chain.",
+      "descriptionEn": "Public GitHub discovery candidate: ERC-8004 agent registration files for a 51-wallet agent fleet on BNB Smart Chain.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Endangdanngz/erc8004-fleet-agents",
+      "website": "https://github.com/Endangdanngz/erc8004-fleet-agents",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1459191618"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Endangdanngz/erc8004-fleet-agents"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1315339467",
+      "name": "cabalspy-x402",
+      "descriptionZh": "仓库「cabalspy-x402」公开介绍：x402 client for the CabalSpy KOL API — AI agents pay per request in USDC, no account or API key. Query KOL, smart money and whale wallets on Solana, Base, BNB Chain, Ethereum and Robinhood Chain, with",
+      "descriptionEn": "Public GitHub discovery candidate: x402 client for the CabalSpy KOL API — AI agents pay per request in USDC, no account or API key. Query KOL, smart money and whale wallets on Solana, Base, BNB Chain, Ethereum and Robinhood Chain, with built-in spend limits so a ru",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/CabalSpy/cabalspy-x402",
+      "website": "https://github.com/CabalSpy/cabalspy-x402",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1315339467"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/CabalSpy/cabalspy-x402"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -644,6 +758,44 @@
         }
       ],
       "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x444419f986dd51bece4fd7760e256cb2efd2075a",
+      "name": "Agentic Wallet",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic Wallet」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x444419f986dd51bece4fd7760e256cb2efd2075a:4meme",
+      "website": "https://dexscreener.com/bsc/0x444419f986dd51bece4fd7760e256cb2efd2075a:4meme",
+      "socialX": "",
+      "contractAddress": "0x444419f986dd51bece4fd7760e256cb2efd2075a",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-04-21",
+      "date": "2026-04-21",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x444419f986dd51bece4fd7760e256cb2efd2075a"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x444419f986dd51bece4fd7760e256cb2efd2075a:4meme"
+        }
+      ],
+      "evidenceLevel": "early-lead",
       "mintTypes": [],
       "featured": false
     },
@@ -2322,8 +2474,8 @@
     {
       "id": "github-1455918173",
       "name": "BNB-SKILLS",
-      "descriptionZh": "仓库「BNB-SKILLS」公开介绍：72 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
-      "descriptionEn": "Public GitHub discovery candidate: 72 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
+      "descriptionZh": "仓库「BNB-SKILLS」公开介绍：83 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
+      "descriptionEn": "Public GitHub discovery candidate: 83 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
       "descriptionBasis": "github-repository-description",
       "category": "developer",
       "chain": "BNB Chain",
@@ -2684,8 +2836,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-12",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -2798,8 +2950,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-12",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4791,8 +4943,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8076,8 +8228,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-05",
-      "lastActivityAt": "2026-11-05",
-      "date": "2026-11-05",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11158,44 +11310,6 @@
       "featured": false
     },
     {
-      "id": "github-1436826271",
-      "name": "gmgn-binance-agent",
-      "descriptionZh": "BSC 悬浮式交易面板，结合 Binance Agentic Wallet 和多个代币发射平台。",
-      "descriptionEn": "Public GitHub discovery candidate: GMGN BSC 悬浮交易面板，接入 Binance Agentic Wallet，支持 Gang、Flap 与 Four Agent ID 路由",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/0xGriffinN/gmgn-binance-agent",
-      "website": "https://github.com/0xGriffinN/gmgn-binance-agent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-10-29",
-      "date": "2026-10-29",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1436826271"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/0xGriffinN/gmgn-binance-agent"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1440570803",
       "name": "genesis1999",
       "descriptionZh": "BNB Chain 上的折纸主题 NFT 项目，声称支持 Agent 参与铸造，条件待核验。",
@@ -11272,44 +11386,6 @@
       "featured": false
     },
     {
-      "id": "github-1437766469",
-      "name": "District9",
-      "descriptionZh": "面向 BSC 多个发射平台的本地交易终端，计划配合 Binance Agentic Wallet 使用。",
-      "descriptionEn": "Public GitHub discovery candidate: Local BSC trading terminal for Gang.fun, Flap.sh and Four.meme using Binance Agentic Wallet",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/pearl4979/District9",
-      "website": "https://github.com/pearl4979/District9",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-10-29",
-      "date": "2026-10-29",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1437766469"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/pearl4979/District9"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1261329396",
       "name": "cmc-leverage-divergence",
       "descriptionZh": "CoinMarketCap Agent Skill 策略项目，涉及资金费率验证、动量策略和多资产回测，属于开发者工具线索。",
@@ -11344,44 +11420,6 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1434231558",
-      "name": "bsc-agent",
-      "descriptionZh": "仓库「bsc-agent」公开介绍：BSC Agent is a local BSC market, quoting, and trading terminal with a GMGN-style trenches view, K-line charts, holdings, and opt-in automated strategies.",
-      "descriptionEn": "Public GitHub discovery candidate: BSC Agent is a local BSC market, quoting, and trading terminal with a GMGN-style trenches view, K-line charts, holdings, and opt-in automated strategies.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/H-eartbreaker/bsc-agent",
-      "website": "https://github.com/H-eartbreaker/bsc-agent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-10-29",
-      "date": "2026-10-29",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1434231558"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/H-eartbreaker/bsc-agent"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -12451,12 +12489,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 58,
+    "external": 59,
     "x": 408,
     "mint": 25
   },
-  "candidateRecords": 371,
-  "mergedGroups": 315,
+  "candidateRecords": 372,
+  "mergedGroups": 316,
   "reviewCount": 318,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
