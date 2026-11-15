@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T10:56:48.998858+00:00",
+  "updatedAt": "2026-11-15T17:44:02.325930+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1933,6 +1933,25 @@
         "dex-bsc-0xd679aa19f8b0228729e05622c48c6084cc057777"
       ],
       "source": "https://dexscreener.com/bsc/0xfce81ee5f756f55cca91bdfb6a5aaa72860dac33"
+    },
+    {
+      "name": "Agentic Network 404",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "dex-bsc-0x4bb9ecef27fd95212437443cfb72b3e0ded5ffff",
+        "dex-bsc-0x7d6b0ac4a8bd131827ed09c9ae039a866a017777",
+        "dex-bsc-0xebb5101bfa878f79f92e3550179402e022968888"
+      ],
+      "source": "https://dexscreener.com/bsc/0x4bb9ecef27fd95212437443cfb72b3e0ded5ffff:4meme"
+    },
+    {
+      "name": "Agentic Coin",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "dex-bsc-0x547d7f33f13ac7a9490d9680859db43b16bbffff",
+        "dex-bsc-0x9572cb59b5b53538b704b89b71b304cf18a4ffff"
+      ],
+      "source": "https://dexscreener.com/bsc/0x547d7f33f13ac7a9490d9680859db43b16bbffff:4meme"
     },
     {
       "name": "agentic money",
