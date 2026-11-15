@@ -1,9 +1,9 @@
 {
   "monthUTC": "2026-11",
-  "reservedPostReads": 1470,
+  "reservedPostReads": 1480,
   "maxMonthlyPostReads": 2400,
-  "worstCaseEstimatedUSD": 7.35,
-  "checkedAt": "2026-11-15T08:44:04.794903+00:00",
+  "worstCaseEstimatedUSD": 7.4,
+  "checkedAt": "2026-11-15T18:22:52.051276+00:00",
   "state": "error",
   "sources": [
     {
