@@ -1,6 +1,272 @@
 {
-  "updatedAt": "2026-11-14T22:59:22.869801+00:00",
+  "updatedAt": "2026-11-15T02:41:52.799154+00:00",
   "projects": [
+    {
+      "id": "github-1458298444",
+      "name": "wallet-guard",
+      "descriptionZh": "仓库「wallet-guard」公开介绍：Wallet Guard — screen a BSC contract before you sign (zkVerify Agent Games Wildcard)",
+      "descriptionEn": "Public GitHub discovery candidate: Wallet Guard — screen a BSC contract before you sign (zkVerify Agent Games Wildcard)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/blacktokyo96/wallet-guard",
+      "website": "https://github.com/blacktokyo96/wallet-guard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458298444"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/blacktokyo96/wallet-guard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458346751",
+      "name": "mintguard",
+      "descriptionZh": "仓库「mintguard」公开介绍：MintGuard — a BSC mint-safety checker agent: paste a contract address, get Sourcify verification status, free/paid mint routes, live supply state and a plain verdict before you spend gas.",
+      "descriptionEn": "Public GitHub discovery candidate: MintGuard — a BSC mint-safety checker agent: paste a contract address, get Sourcify verification status, free/paid mint routes, live supply state and a plain verdict before you spend gas.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Jackxyz72/mintguard",
+      "website": "https://github.com/Jackxyz72/mintguard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458346751"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Jackxyz72/mintguard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458302263",
+      "name": "bsc-unlimited-approval-finder",
+      "descriptionZh": "仓库「bsc-unlimited-approval-finder」公开介绍：BSC Unlimited Approval Finder — a read-only Node.js agent that finds unlimited ERC-20 token approvals on BNB Smart Chain and quantifies the drainable balance at risk.",
+      "descriptionEn": "Public GitHub discovery candidate: BSC Unlimited Approval Finder — a read-only Node.js agent that finds unlimited ERC-20 token approvals on BNB Smart Chain and quantifies the drainable balance at risk.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/jonsonbmth/bsc-unlimited-approval-finder",
+      "website": "https://github.com/jonsonbmth/bsc-unlimited-approval-finder",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458302263"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/jonsonbmth/bsc-unlimited-approval-finder"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458304236",
+      "name": "bsc-spender-reputation-checker",
+      "descriptionZh": "仓库「bsc-spender-reputation-checker」公开介绍：BSC Spender Reputation Checker — a read-only Node.js agent that classifies ERC-20 approval spenders on BNB Smart Chain as known-safe, unknown, dormant, or EOA and scores the wallet's approval risk.",
+      "descriptionEn": "Public GitHub discovery candidate: BSC Spender Reputation Checker — a read-only Node.js agent that classifies ERC-20 approval spenders on BNB Smart Chain as known-safe, unknown, dormant, or EOA and scores the wallet's approval risk.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/xiaomimontek/bsc-spender-reputation-checker",
+      "website": "https://github.com/xiaomimontek/bsc-spender-reputation-checker",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458304236"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/xiaomimontek/bsc-spender-reputation-checker"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458305678",
+      "name": "bsc-dust-approval-cleaner",
+      "descriptionZh": "仓库「bsc-dust-approval-cleaner」公开介绍：BSC Dust Approval Cleaner — a read-only Node.js agent that finds dust ERC-20 approvals on BNB Smart Chain and generates the revoke calldata to clean them up.",
+      "descriptionEn": "Public GitHub discovery candidate: BSC Dust Approval Cleaner — a read-only Node.js agent that finds dust ERC-20 approvals on BNB Smart Chain and generates the revoke calldata to clean them up.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/quipmontek/bsc-dust-approval-cleaner",
+      "website": "https://github.com/quipmontek/bsc-dust-approval-cleaner",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458305678"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/quipmontek/bsc-dust-approval-cleaner"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458308228",
+      "name": "bsc-approval-risk-scorer",
+      "descriptionZh": "仓库「bsc-approval-risk-scorer」公开介绍：BSC Approval Risk Scorer — a read-only Node.js agent that scores a wallet's ERC-20 approval risk on BNB Smart Chain from 0 to 100 and ranks the revokes worth doing first.",
+      "descriptionEn": "Public GitHub discovery candidate: BSC Approval Risk Scorer — a read-only Node.js agent that scores a wallet's ERC-20 approval risk on BNB Smart Chain from 0 to 100 and ranks the revokes worth doing first.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/ujangolisampink/bsc-approval-risk-scorer",
+      "website": "https://github.com/ujangolisampink/bsc-approval-risk-scorer",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458308228"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/ujangolisampink/bsc-approval-risk-scorer"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1458298375",
+      "name": "bsc-approval-auditor",
+      "descriptionZh": "仓库「bsc-approval-auditor」公开介绍：BSC Approval Auditor — a read-only Node.js agent that audits ERC-20 token approvals on BNB Smart Chain and flags unlimited approvals, unknown spenders, and dust approvals.",
+      "descriptionEn": "Public GitHub discovery candidate: BSC Approval Auditor — a read-only Node.js agent that audits ERC-20 token approvals on BNB Smart Chain and flags unlimited approvals, unknown spenders, and dust approvals.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/musengplenger/bsc-approval-auditor",
+      "website": "https://github.com/musengplenger/bsc-approval-auditor",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-15",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1458298375"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/musengplenger/bsc-approval-auditor"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "dex-bsc-0xcb7c441d599f190831d6e3f3faceee5853d84444",
       "name": "这才是正确的名字",
@@ -205,8 +471,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-14",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -395,8 +661,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-14",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -585,8 +851,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-14",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4104,8 +4370,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4807,8 +5073,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9689,8 +9955,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9727,8 +9993,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9917,8 +10183,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9955,8 +10221,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10563,8 +10829,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11308,44 +11574,6 @@
       "featured": true
     },
     {
-      "id": "github-1411079558",
-      "name": "pact",
-      "descriptionZh": "自主任务执行 Agent，用户提供工作目标后由 Agent 处理；附带多链链上版本。",
-      "descriptionEn": "Public GitHub discovery candidate: Pact: an autonomous work agent. Give it a job, get the finished work back. Includes Pact Onchain for Robinhood Chain, Base, BNB Chain and Solana.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/runpactfamily/pact",
-      "website": "https://github.com/runpactfamily/pact",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-09",
-      "date": "2026-10-09",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1411079558"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/runpactfamily/pact"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1433109941",
       "name": "hashkitty-skill",
       "descriptionZh": "面向 Agent 的 HashKitty NFT 铸造 Skill，帮助完成解谜、凭证及 Mint 流程。",
@@ -11529,234 +11757,6 @@
         {
           "source": "github",
           "url": "https://github.com/suan-launchpad/contracts"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1422299214",
-      "name": "chord-whale-flow",
-      "descriptionZh": "仓库「chord-whale-flow」公开介绍：Follows tokens that several large wallets are net buying, from Chord's trade tape. Paper by default.",
-      "descriptionEn": "Public GitHub discovery candidate: Follows tokens that several large wallets are net buying, from Chord's trade tape. Paper by default.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/tuantqse90/chord-whale-flow",
-      "website": "https://github.com/tuantqse90/chord-whale-flow",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-16",
-      "date": "2026-10-16",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1422299214"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/tuantqse90/chord-whale-flow"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1422300029",
-      "name": "chord-trend-hunter",
-      "descriptionZh": "仓库「chord-trend-hunter」公开介绍：Scores momentum on every busy token of a chain from Chord's board and hourly candles and rides the strongest trends. Paper by default.",
-      "descriptionEn": "Public GitHub discovery candidate: Scores momentum on every busy token of a chain from Chord's board and hourly candles and rides the strongest trends. Paper by default.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/tuantqse90/chord-trend-hunter",
-      "website": "https://github.com/tuantqse90/chord-trend-hunter",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-16",
-      "date": "2026-10-16",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1422300029"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/tuantqse90/chord-trend-hunter"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1422300522",
-      "name": "chord-token-risk-scanner",
-      "descriptionZh": "仓库「chord-token-risk-scanner」公开介绍：Never trades: lists tokens Chord's scam screen hides, checks your watch list for dumps and pulled liquidity, writes a blocklist any bot can read.",
-      "descriptionEn": "Public GitHub discovery candidate: Never trades: lists tokens Chord's scam screen hides, checks your watch list for dumps and pulled liquidity, writes a blocklist any bot can read.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/tuantqse90/chord-token-risk-scanner",
-      "website": "https://github.com/tuantqse90/chord-token-risk-scanner",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-16",
-      "date": "2026-10-16",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1422300522"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/tuantqse90/chord-token-risk-scanner"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1422299814",
-      "name": "chord-stable-peg-monitor",
-      "descriptionZh": "仓库「chord-stable-peg-monitor」公开介绍：Prices every dollar stablecoin on a chain at trade size through Chord's router and buys a depeg under 0.996. Paper by default.",
-      "descriptionEn": "Public GitHub discovery candidate: Prices every dollar stablecoin on a chain at trade size through Chord's router and buys a depeg under 0.996. Paper by default.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/tuantqse90/chord-stable-peg-monitor",
-      "website": "https://github.com/tuantqse90/chord-stable-peg-monitor",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-16",
-      "date": "2026-10-16",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1422299814"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/tuantqse90/chord-stable-peg-monitor"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1422299619",
-      "name": "chord-dca-bot",
-      "descriptionZh": "仓库「chord-dca-bot」公开介绍：Dollar-cost averages into a token list, buying only below the 24h VWAP. Tokenized stocks on Robinhood by default. Paper by default.",
-      "descriptionEn": "Public GitHub discovery candidate: Dollar-cost averages into a token list, buying only below the 24h VWAP. Tokenized stocks on Robinhood by default. Paper by default.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/tuantqse90/chord-dca-bot",
-      "website": "https://github.com/tuantqse90/chord-dca-bot",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-16",
-      "date": "2026-10-16",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1422299619"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/tuantqse90/chord-dca-bot"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1422301044",
-      "name": "chord-agent-templates",
-      "descriptionZh": "基于 Chord 的交易及研究 Agent 模板，涉及巨鲸资金流、定投、稳定币锚定等策略。",
-      "descriptionEn": "Public GitHub discovery candidate: Standalone trading and research agents built on Chord: whale flow, smart money copy, DCA, stable pegs, trends, stock rotation, token risk, LP ranges.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/tuantqse90/chord-agent-templates",
-      "website": "https://github.com/tuantqse90/chord-agent-templates",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-16",
-      "date": "2026-10-16",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1422301044"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/tuantqse90/chord-agent-templates"
         }
       ],
       "evidenceLevel": "source-backed-product",
