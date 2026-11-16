@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T18:22:52.299762+00:00",
+  "updatedAt": "2026-11-16T01:31:22.701969+00:00",
   "profiles": [
     {
       "domain": "aesthetic-kleicha-a343ba.netlify.app",
@@ -73,12 +73,12 @@
     },
     {
       "domain": "agentmalta.pages.dev",
-      "name": "agentmalta.pages.dev",
-      "descriptionZh": "官网介绍「AGENT MALTA on BNB Chain: a fixed pool of 100,000 shares, 1 share = 1,000,000 MALTA. Agent ID holders only — your first share is FREE, then a flat 0.001 BN」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
-      "descriptionEn": "AGENT MALTA on BNB Chain: a fixed pool of 100,000 shares, 1 share = 1,000,000 MALTA. Agent ID holders only — your first share is FREE, then a flat 0.001 BNB per share. Invite buyers with your referral link to raise your ",
+      "name": "AGENT MALTA — Share Sale",
+      "descriptionZh": "官网介绍「First share FREE for every Agent ID holder. 100,000 shares × 1,000,000 MALTA, plus a liquidity reserve with every share.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "descriptionEn": "First share FREE for every Agent ID holder. 100,000 shares × 1,000,000 MALTA, plus a liquidity reserve with every share.",
       "source": "https://agentmalta.pages.dev/",
       "sourceKind": "website-metadata",
-      "checkedAt": "2026-11-09T08:57:20.274708+00:00",
+      "checkedAt": "2026-11-16T01:31:22.701969+00:00",
       "firstSeen": "2026-11-09"
     },
     {
