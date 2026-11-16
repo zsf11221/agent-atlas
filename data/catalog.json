@@ -1,6 +1,44 @@
 {
-  "updatedAt": "2026-11-16T02:45:04.659897+00:00",
+  "updatedAt": "2026-11-16T11:23:49.179845+00:00",
   "projects": [
+    {
+      "id": "github-1459723480",
+      "name": "zkverify-vetting-agent",
+      "descriptionZh": "仓库「zkverify-vetting-agent」公开介绍：Mint Vetting Agent — zkVerify Agent Games (Wildcard): does this BSC token have a real market or is it a trap? DexScreener + on-chain evidence, zero-dependency Node.",
+      "descriptionEn": "Public GitHub discovery candidate: Mint Vetting Agent — zkVerify Agent Games (Wildcard): does this BSC token have a real market or is it a trap? DexScreener + on-chain evidence, zero-dependency Node.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/vidovizio/zkverify-vetting-agent",
+      "website": "https://github.com/vidovizio/zkverify-vetting-agent",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1459723480"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/vidovizio/zkverify-vetting-agent"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1459428553",
       "name": "zkguard-wildcard",
@@ -38,6 +76,119 @@
       "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
+    },
+    {
+      "id": "github-1459521853",
+      "name": "urbanova-districts",
+      "descriptionZh": "仓库「urbanova-districts」公开介绍：Urbanova Districts: a city built one district a day by agents, on BNB Chain. Site for urbanova.app.",
+      "descriptionEn": "Public GitHub discovery candidate: Urbanova Districts: a city built one district a day by agents, on BNB Chain. Site for urbanova.app.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/yusufsafary/urbanova-districts",
+      "website": "https://github.com/yusufsafary/urbanova-districts",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1459521853"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/yusufsafary/urbanova-districts"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1459564010",
+      "name": "QQAI",
+      "descriptionZh": "仓库「QQAI」公开介绍：QQAI — QQ Agentic ID NFT + $QQAI token on BNB Chain. Agent ID-gated mint, escrow milestones, KEEP/COLLAPSE claims, mining thermostat, auto-liquidity.",
+      "descriptionEn": "Public GitHub discovery candidate: QQAI — QQ Agentic ID NFT + $QQAI token on BNB Chain. Agent ID-gated mint, escrow milestones, KEEP/COLLAPSE claims, mining thermostat, auto-liquidity.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/QQAgentID/QQAI",
+      "website": "https://github.com/QQAgentID/QQAI",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1459564010"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/QQAgentID/QQAI"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "bnb-official-mention-neosoul",
+      "name": "NeoSoul",
+      "descriptionZh": "BNB Chain 生态目录列出了「NeoSoul」，可从来源页面了解其产品和进展。",
+      "descriptionEn": "Mentioned on BNB Chain's official ecosystem page; independent product details and launch date are not verified.",
+      "descriptionBasis": "official-directory-mention",
+      "category": "ecosystem",
+      "chain": "BNB Chain",
+      "type": "ecosystem",
+      "source": "https://www.bnbchain.org/en/solutions/ai-agent",
+      "website": "https://dappbay.bnbchain.org/detail/neosoul",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
+      "tags": [
+        "Official source mention",
+        "Ecosystem"
+      ],
+      "origins": [
+        "official"
+      ],
+      "origin": "official",
+      "recordIds": [
+        "bnb-official-mention-neosoul"
+      ],
+      "sources": [
+        {
+          "source": "official",
+          "url": "https://www.bnbchain.org/en/solutions/ai-agent"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": true
     },
     {
       "id": "github-1443244504",
@@ -109,6 +260,44 @@
         {
           "source": "github",
           "url": "https://github.com/skfan135/fan-nft"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1459548879",
+      "name": "duke-agent",
+      "descriptionZh": "仓库「duke-agent」公开介绍：Duke — AI agent for Agent Games (zkVerify). Verification-first agent: BSC free-mint hunting, contract verification and bug bounty.",
+      "descriptionEn": "Public GitHub discovery candidate: Duke — AI agent for Agent Games (zkVerify). Verification-first agent: BSC free-mint hunting, contract verification and bug bounty.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/marjafidsid/duke-agent",
+      "website": "https://github.com/marjafidsid/duke-agent",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1459548879"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/marjafidsid/duke-agent"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -9356,8 +9545,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-04",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10412,7 +10601,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0xe56041cddbb46db01c67b7a62684f428a04db8c6"
+          "url": "https://dexscreener.com/bsc/0x0fc5a0f0167bc4003066ae60289c40b93f935b9a"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -10677,8 +10866,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11196,44 +11385,6 @@
       "featured": false
     },
     {
-      "id": "github-1441182474",
-      "name": "mintsniper",
-      "descriptionZh": "BSC 早期 Mint 发现工具，使用公开开发线索和其他只读信息源追踪新铸造项目。",
-      "descriptionEn": "Public GitHub discovery candidate: Early discovery of BSC mint projects (incl. Binance Agent ID gated launches). Three read-only layers: GitHub dev signals, on-chain ERC-721/ERC-1155 mint detection, watched-wallet activity. No wallet, no signing, no trading.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/menghaoran214-lang/mintsniper",
-      "website": "https://github.com/menghaoran214-lang/mintsniper",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-10-31",
-      "date": "2026-10-31",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1441182474"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/menghaoran214-lang/mintsniper"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1356225494",
       "name": "Marque",
       "descriptionZh": "面向 BNB Chain 的 Agent 服务市场，围绕钱包资产识别、可用 Agent 发现和执行能力检查设计。",
@@ -11247,8 +11398,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11386,44 +11537,6 @@
       "featured": false
     },
     {
-      "id": "github-1441854209",
-      "name": "guarddog-rs",
-      "descriptionZh": "基于 Rust 的代币风险检查工具，面向 Agent 提供蜜罐等风险信号检测，支持包括 BSC 在内的多链。",
-      "descriptionEn": "Public GitHub discovery candidate: Token safety check for Rust agents: PASS/WARN/BITE in 23ms. Honeypot detection for ETH/BSC/Base/Solana.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Guarddog-top/guarddog-rs",
-      "website": "https://github.com/Guarddog-top/guarddog-rs",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-01",
-      "date": "2026-11-01",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1441854209"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Guarddog-top/guarddog-rs"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1179404554",
       "name": "gmgn-skills",
       "descriptionZh": "为 AI Agent 提供 GMGN 接口能力的工具集合，涵盖代币、钱包、市场信息查询及部分链上操作。",
@@ -11513,8 +11626,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11589,8 +11702,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11665,8 +11778,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11797,44 +11910,6 @@
         {
           "source": "github",
           "url": "https://github.com/VaitaR/aiochainscan"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1441883606",
-      "name": "agent-nx",
-      "descriptionZh": "BNB Chain 的 Agent Nexus Pass 数字通行证，项目说明强调 Agent ID 持有人参与铸造。",
-      "descriptionEn": "Public GitHub discovery candidate: Agent Nexus Pass (ANP) — BSC 上仅限 .ai 持有者铸造的链上通行证",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/mo602192466/agent-nx",
-      "website": "https://github.com/mo602192466/agent-nx",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-01",
-      "date": "2026-11-01",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1441883606"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/mo602192466/agent-nx"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -12069,44 +12144,6 @@
       "featured": false
     },
     {
-      "id": "github-1406193991",
-      "name": "redeye",
-      "descriptionZh": "面向 BNB Chain 代币化股票的自主 Agent，围绕非交易时段提前设定交易计划。",
-      "descriptionEn": "Public GitHub discovery candidate: Autonomous AI agent for when Wall Street is closed: locks your plan for tokenized stocks on BNB Chain before the bell, acts on the 24/7 price, and is graded on chain at the open.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Jennycruzy/redeye",
-      "website": "https://github.com/Jennycruzy/redeye",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-01",
-      "date": "2026-11-01",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1406193991"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Jennycruzy/redeye"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "pieverse",
       "name": "Pieverse AI",
       "descriptionZh": "BNB Chain 官方生态页面收录的 AI Agent 应用。功能与代币细节需进一步核验。",
@@ -12157,8 +12194,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12489,12 +12526,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 59,
+    "external": 60,
     "x": 408,
     "mint": 25
   },
-  "candidateRecords": 372,
-  "mergedGroups": 316,
+  "candidateRecords": 373,
+  "mergedGroups": 317,
   "reviewCount": 318,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
