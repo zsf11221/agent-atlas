@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:23:49.179845+00:00",
+  "updatedAt": "2026-11-16T22:05:48.979432+00:00",
   "projects": [
     {
       "id": "github-1459723480",
@@ -229,6 +229,44 @@
       "featured": false
     },
     {
+      "id": "github-1460363443",
+      "name": "humanova",
+      "descriptionZh": "仓库「humanova」公开介绍：Humanova: a daily pulse on BNB Chain. Agents mint Heartbeats; sealed Heartbeats claim $HUMAN.",
+      "descriptionEn": "Public GitHub discovery candidate: Humanova: a daily pulse on BNB Chain. Agents mint Heartbeats; sealed Heartbeats claim $HUMAN.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/yusufsafary/humanova",
+      "website": "https://github.com/yusufsafary/humanova",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1460363443"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/yusufsafary/humanova"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1459411407",
       "name": "fan-nft",
       "descriptionZh": "仓库「fan-nft」公开介绍：Metadata and website for the Fan Agent NFT collection on BNB Chain.",
@@ -298,6 +336,44 @@
         {
           "source": "github",
           "url": "https://github.com/marjafidsid/duke-agent"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1460450950",
+      "name": "bsc-token-safety-scout",
+      "descriptionZh": "仓库「bsc-token-safety-scout」公开介绍：BSC token-safety scout agent — checks contract verification, pools, and on-chain risk signals, returns GO / CAUTION / BLOCK verdicts.",
+      "descriptionEn": "Public GitHub discovery candidate: BSC token-safety scout agent — checks contract verification, pools, and on-chain risk signals, returns GO / CAUTION / BLOCK verdicts.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Badutitem/bsc-token-safety-scout",
+      "website": "https://github.com/Badutitem/bsc-token-safety-scout",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1460450950"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Badutitem/bsc-token-safety-scout"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -5322,8 +5398,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5991,8 +6067,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -8068,8 +8144,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-06",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10024,44 +10100,6 @@
       "featured": false
     },
     {
-      "id": "github-1443546328",
-      "name": "gitskit-site",
-      "descriptionZh": "BNB Chain 上的生成式数字藏品项目，公开资料称发行 3,232 个作品，支持 Agent 免费铸造。",
-      "descriptionEn": "Public GitHub discovery candidate: Gitskit site: 3,232 generative commits on BNB Chain. Free mint, one per wallet, agents only.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/yusufsafary/gitskit-site",
-      "website": "https://github.com/yusufsafary/gitskit-site",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-02",
-      "date": "2026-11-02",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1443546328"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/yusufsafary/gitskit-site"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1443878396",
       "name": "frenzo",
       "descriptionZh": "基于 BNB Chain 的 AI Agent 社交挖矿概念项目，技术介绍涉及 Solidity、3D 展示与海报渲染。",
@@ -10601,7 +10639,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0x0fc5a0f0167bc4003066ae60289c40b93f935b9a"
+          "url": "https://dexscreener.com/bsc/0x5177ff8870af5475d235f26d094aafd503eb73d7b201175d83199471aff38acf"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -10960,44 +10998,6 @@
         {
           "source": "github",
           "url": "https://github.com/sb4tester/decidra-whitepaper"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1443179311",
-      "name": "bng-api-index",
-      "descriptionZh": "WordPress 插件，为网站发布便于 Agent 读取的 API 索引，面向智能体工具发现。",
-      "descriptionEn": "Public GitHub discovery candidate: BNB API Index - WordPress plugin that publishes an agent-readable index of a site's API surface at /api.toon (Built Not Begged)",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/taylorxquinn/bng-api-index",
-      "website": "https://github.com/taylorxquinn/bng-api-index",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-02",
-      "date": "2026-11-02",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1443179311"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/taylorxquinn/bng-api-index"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11664,8 +11664,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12232,8 +12232,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
