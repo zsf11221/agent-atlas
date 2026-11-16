@@ -1,6 +1,196 @@
 {
-  "updatedAt": "2026-11-15T22:50:27.551989+00:00",
+  "updatedAt": "2026-11-16T02:45:04.659897+00:00",
   "projects": [
+    {
+      "id": "github-1459428553",
+      "name": "zkguard-wildcard",
+      "descriptionZh": "仓库「zkguard-wildcard」公开介绍：zkGuard: Verifiable EVM/BSC Wallet & Transaction Security Agent (zkVerify Agent Games Wildcard)",
+      "descriptionEn": "Public GitHub discovery candidate: zkGuard: Verifiable EVM/BSC Wallet & Transaction Security Agent (zkVerify Agent Games Wildcard)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/DaddyUnikii/zkguard-wildcard",
+      "website": "https://github.com/DaddyUnikii/zkguard-wildcard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1459428553"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/DaddyUnikii/zkguard-wildcard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1443244504",
+      "name": "luna-phase-agents",
+      "descriptionZh": "仓库「luna-phase-agents」公开介绍：7,777 Agent ID moon phase NFTs on BSC. On-chain art. 7,000 free",
+      "descriptionEn": "Public GitHub discovery candidate: 7,777 Agent ID moon phase NFTs on BSC. On-chain art. 7,000 free",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Ernestopapa/luna-phase-agents",
+      "website": "https://github.com/Ernestopapa/luna-phase-agents",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1443244504"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Ernestopapa/luna-phase-agents"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1459411407",
+      "name": "fan-nft",
+      "descriptionZh": "仓库「fan-nft」公开介绍：Metadata and website for the Fan Agent NFT collection on BNB Chain.",
+      "descriptionEn": "Public GitHub discovery candidate: Metadata and website for the Fan Agent NFT collection on BNB Chain.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/skfan135/fan-nft",
+      "website": "https://github.com/skfan135/fan-nft",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1459411407"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/skfan135/fan-nft"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1443322075",
+      "name": "aura-agents",
+      "descriptionZh": "仓库「aura-agents」公开介绍：8,000 Agent ID aura NFTs on BSC, 16 auras. 7,200 free, 800 paid",
+      "descriptionEn": "Public GitHub discovery candidate: 8,000 Agent ID aura NFTs on BSC, 16 auras. 7,200 free, 800 paid",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Ernestopapa/aura-agents",
+      "website": "https://github.com/Ernestopapa/aura-agents",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1443322075"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Ernestopapa/aura-agents"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1443363092",
+      "name": "agent-key-pass",
+      "descriptionZh": "仓库「agent-key-pass」公开介绍：444 transferable Agent ID passes on BSC. 77 free, 367 paid at $1.00",
+      "descriptionEn": "Public GitHub discovery candidate: 444 transferable Agent ID passes on BSC. 77 free, 367 paid at $1.00",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Ernestopapa/agent-key-pass",
+      "website": "https://github.com/Ernestopapa/agent-key-pass",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-16",
+      "lastActivityAt": "2026-11-15",
+      "date": "2026-11-15",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1443363092"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Ernestopapa/agent-key-pass"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1458385470",
       "name": "wizzy-hunter",
@@ -2825,8 +3015,8 @@
     {
       "id": "github-1455114137",
       "name": "seven-sigma",
-      "descriptionZh": "仓库「seven-sigma」公开介绍：SEVEN SIGMA — 777 Agent ID NFT nodes on BSC. 150 free, 627 paid at $0.30.",
-      "descriptionEn": "Public GitHub discovery candidate: SEVEN SIGMA — 777 Agent ID NFT nodes on BSC. 150 free, 627 paid at $0.30.",
+      "descriptionZh": "仓库「seven-sigma」公开介绍：seven-sigma: 777 Agent ID Sigma Node NFTs on BSC. 150 free, 627 paid at $0.30",
+      "descriptionEn": "Public GitHub discovery candidate: seven-sigma: 777 Agent ID Sigma Node NFTs on BSC. 150 free, 627 paid at $0.30",
       "descriptionBasis": "github-repository-description",
       "category": "developer",
       "chain": "BNB Chain",
@@ -2939,8 +3129,8 @@
     {
       "id": "github-1455114599",
       "name": "neon-fox-agents",
-      "descriptionZh": "仓库「neon-fox-agents」公开介绍：Neon Fox Agents — 3,333 Agent ID NFTs on BSC. First 1,000 free, rest 0.00007 BNB.",
-      "descriptionEn": "Public GitHub discovery candidate: Neon Fox Agents — 3,333 Agent ID NFTs on BSC. First 1,000 free, rest 0.00007 BNB.",
+      "descriptionZh": "仓库「neon-fox-agents」公开介绍：neon-fox-agents: 3,333 Agent ID fox NFTs on BSC. First 1,000 free, rest 0.00007 BNB.",
+      "descriptionEn": "Public GitHub discovery candidate: neon-fox-agents: 3,333 Agent ID fox NFTs on BSC. First 1,000 free, rest 0.00007 BNB.",
       "descriptionBasis": "github-repository-description",
       "category": "developer",
       "chain": "BNB Chain",
@@ -4011,8 +4201,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5690,8 +5880,8 @@
     },
     {
       "id": "x-post-2119714824376525099",
-      "name": "agentmalta.pages.dev",
-      "descriptionZh": "官网介绍「AGENT MALTA on BNB Chain: a fixed pool of 100,000 shares, 1 share = 1,000,000 MALTA. Agent ID holders only — your first share is FREE, then a flat 0.001 BN」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
+      "name": "AGENT MALTA — Share Sale",
+      "descriptionZh": "官网介绍「First share FREE for every Agent ID holder. 100,000 shares × 1,000,000 MALTA, plus a liquidity reserve with every share.」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
       "descriptionEn": "Public X lead mentioning BSC and AI agents. Project identity, product functionality and launch time are unverified.",
       "descriptionBasis": "website-metadata",
       "category": "early",
@@ -5985,8 +6175,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10281,8 +10471,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10867,8 +11057,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10905,8 +11095,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10923,44 +11113,6 @@
         {
           "source": "github",
           "url": "https://github.com/pengupunk/pengupunk"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1439871413",
-      "name": "nft-play-with-bsc-agentic-ai-and-make-mining-concept",
-      "descriptionZh": "BSC 上的 Agent 主题 NFT 与挖矿玩法概念仓库，公开简介较少，具体功能待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: nft play with bsc agentic ai and make mining concept",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/gabankick888/nft-play-with-bsc-agentic-ai-and-make-mining-concept",
-      "website": "https://github.com/gabankick888/nft-play-with-bsc-agentic-ai-and-make-mining-concept",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-10-30",
-      "date": "2026-10-30",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1439871413"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/gabankick888/nft-play-with-bsc-agentic-ai-and-make-mining-concept"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11133,8 +11285,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
+      "lastActivityAt": "2026-11-16",
+      "date": "2026-11-16",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11341,44 +11493,6 @@
         {
           "source": "github",
           "url": "https://github.com/MrMxBlack/genesis1999"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1438831520",
-      "name": "element-listing-agent",
-      "descriptionZh": "个人使用的 NFT 挂单工具，通过 Binance Agentic Wallet 和 Element 接口处理 BSC NFT 挂单。",
-      "descriptionEn": "Public GitHub discovery candidate: Personal tool that lists my own NFTs on Element (BSC) through the Element API, using a Binance Agentic Wallet. No marketplace, no aggregation, no third-party assets.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/MehediHasan69-bd/element-listing-agent",
-      "website": "https://github.com/MehediHasan69-bd/element-listing-agent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-10-29",
-      "date": "2026-10-29",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1438831520"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/MehediHasan69-bd/element-listing-agent"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11690,44 +11804,6 @@
       "featured": false
     },
     {
-      "id": "github-1439641357",
-      "name": "agentswap-cli",
-      "descriptionZh": "面向 BSC 的 Agentswap 命令行及 MCP 工具，支持查询代币、池子、报价和交易相关操作。",
-      "descriptionEn": "Public GitHub discovery candidate: Agentswap CLI and MCP server for gated token, pool, LP, quote, and swap operations on BSC",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/agentic-labs-hq/agentswap-cli",
-      "website": "https://github.com/agentic-labs-hq/agentswap-cli",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-10-30",
-      "date": "2026-10-30",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1439641357"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/agentic-labs-hq/agentswap-cli"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1441883606",
       "name": "agent-nx",
       "descriptionZh": "BNB Chain 的 Agent Nexus Pass 数字通行证，项目说明强调 Agent ID 持有人参与铸造。",
@@ -11955,44 +12031,6 @@
       "featured": true
     },
     {
-      "id": "github-1437171077",
-      "name": "skill",
-      "descriptionZh": "SUAN Agent 发射平台的交易 Skill，帮助 Agent 查询发行阶段、手续费与报价等信息。",
-      "descriptionEn": "Public GitHub discovery candidate: Agent skill for trading tokens on the SUAN Agent Launchpad (BNB Chain): stages, fees, quotes and Binance Agentic Wallet transactions.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/suan-launchpad/skill",
-      "website": "https://github.com/suan-launchpad/skill",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-30",
-      "date": "2026-10-30",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1437171077"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/suan-launchpad/skill"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1377038456",
       "name": "rwa-stock-arbitrage",
       "descriptionZh": "仓库「rwa-stock-arbitrage」公开介绍：BNB Chain Tokenized Stocks (RWA) Arbitrage Suite — Real-Time Market-Hours & Cross-Protocol Spread Engine for BNB hackathon",
@@ -12137,44 +12175,6 @@
         {
           "source": "github",
           "url": "https://github.com/gangfun/gang-launchpad"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1437170928",
-      "name": "contracts",
-      "descriptionZh": "SUAN Agent 发射平台的 BNB Chain 合约仓库，涉及 Agent ID 准入及流动性池设计。",
-      "descriptionEn": "Public GitHub discovery candidate: Smart contracts of the SUAN Agent Launchpad on BNB Chain: .ai Agent ID launches in one locked PancakeSwap Infinity pool; platform fees buy back and burn $SUAN.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/suan-launchpad/contracts",
-      "website": "https://github.com/suan-launchpad/contracts",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-10-30",
-      "date": "2026-10-30",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1437170928"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/suan-launchpad/contracts"
         }
       ],
       "evidenceLevel": "source-backed-product",
