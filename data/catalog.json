@@ -1,6 +1,44 @@
 {
-  "updatedAt": "2026-11-17T14:27:56.548375+00:00",
+  "updatedAt": "2026-11-17T22:54:26.139393+00:00",
   "projects": [
+    {
+      "id": "github-1461860969",
+      "name": "vitaliq",
+      "descriptionZh": "仓库「vitaliq」公开介绍：Vitaliq: The Daily Reading on BNB Chain. Agents mint Scans; sealed Scans claim $VITAL.",
+      "descriptionEn": "Public GitHub discovery candidate: Vitaliq: The Daily Reading on BNB Chain. Agents mint Scans; sealed Scans claim $VITAL.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/yusufsafary/vitaliq",
+      "website": "https://github.com/yusufsafary/vitaliq",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1461860969"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/yusufsafary/vitaliq"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1460840488",
       "name": "vaultra-agentpay",
@@ -78,6 +116,44 @@
       "featured": false
     },
     {
+      "id": "github-1405876611",
+      "name": "sharesend",
+      "descriptionZh": "仓库「sharesend」公开介绍：Gift anyone a slice of a real US company over WhatsApp. They claim it with just their email. An autonomous agent, registered on BNB Chain, buys the stock, keeps it safe and sends back whatever isn't c",
+      "descriptionEn": "Public GitHub discovery candidate: Gift anyone a slice of a real US company over WhatsApp. They claim it with just their email. An autonomous agent, registered on BNB Chain, buys the stock, keeps it safe and sends back whatever isn't claimed.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/ETIM-PAUL/sharesend",
+      "website": "https://github.com/ETIM-PAUL/sharesend",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1405876611"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/ETIM-PAUL/sharesend"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "github-1461486585",
       "name": "open-agentic-web-mint-verifier",
       "descriptionZh": "仓库「open-agentic-web-mint-verifier」公开介绍：Mint Verifier — an open agentic website that checks a BSC contract before you mint. Open Agentic Web Challenge entry.",
@@ -109,6 +185,82 @@
         {
           "source": "github",
           "url": "https://github.com/buahrasa01-hub/open-agentic-web-mint-verifier"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1461935383",
+      "name": "dextrading-skills",
+      "descriptionZh": "仓库「dextrading-skills」公开介绍：Official DexTrading agent skills and MCP server config: copy trading and smart-money data for AI agents on BNB Chain, Solana, Base and more.",
+      "descriptionEn": "Public GitHub discovery candidate: Official DexTrading agent skills and MCP server config: copy trading and smart-money data for AI agents on BNB Chain, Solana, Base and more.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/harrywalkr/dextrading-skills",
+      "website": "https://github.com/harrywalkr/dextrading-skills",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1461935383"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/harrywalkr/dextrading-skills"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1446804750",
+      "name": "chaink9-mcp",
+      "descriptionZh": "仓库「chaink9-mcp」公开介绍：ChainK9 MCP server: honeypot and token trap checks for AI agents on BNB Chain, Ethereum, Base and Arc, paid per call with x402",
+      "descriptionEn": "Public GitHub discovery candidate: ChainK9 MCP server: honeypot and token trap checks for AI agents on BNB Chain, Ethereum, Base and Arc, paid per call with x402",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/ChainK9/chaink9-mcp",
+      "website": "https://github.com/ChainK9/chaink9-mcp",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1446804750"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/ChainK9/chaink9-mcp"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -188,6 +340,44 @@
         }
       ],
       "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1461907219",
+      "name": "agentgrind",
+      "descriptionZh": "仓库「agentgrind」公开介绍：AgentGrind ($GRIND) — free token claim for Agent ID holders on BSC",
+      "descriptionEn": "Public GitHub discovery candidate: AgentGrind ($GRIND) — free token claim for Agent ID holders on BSC",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/kangelon-max/agentgrind",
+      "website": "https://github.com/kangelon-max/agentgrind",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1461907219"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/kangelon-max/agentgrind"
+        }
+      ],
+      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -9874,44 +10064,6 @@
       "featured": false
     },
     {
-      "id": "github-1443708983",
-      "name": "zurpik-contracts",
-      "descriptionZh": "ZURPIK 的 BNB Chain 机器人铸造合约仓库。项目说明提出 Agent 专属 Mint、总量 3,333，并通过 Binance Agentic Wallet 参与。",
-      "descriptionEn": "Public GitHub discovery candidate: ZURPIK — Web3 robot minting contracts on BNB Chain. Agent-only mint via Binance Agentic Wallet, supply 3,333, mint price 0.0002 BNB, proceeds forwarded directly to treasury.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/nugian10/zurpik-contracts",
-      "website": "https://github.com/nugian10/zurpik-contracts",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1443708983"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/nugian10/zurpik-contracts"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1443736184",
       "name": "zurpik",
       "descriptionZh": "BNB Chain 上的机器人主题 Mint 项目，声称发行 3,333 个机器人作品，仅允许符合条件的 Agent 参与铸造。",
@@ -10063,44 +10215,6 @@
       "featured": false
     },
     {
-      "id": "github-1443921266",
-      "name": "piupiu",
-      "descriptionZh": "面向 BNB Chain 的桌面交易终端，可配合 Binance Agentic Wallet 使用；是否具备自主 Agent 能力待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: A desktop trading terminal for Binance Agentic Wallet on BNB Chain.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/anglee0323/piupiu",
-      "website": "https://github.com/anglee0323/piupiu",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1443921266"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/anglee0323/piupiu"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "bnb-official-mention-pieverse",
       "name": "Pieverse",
       "descriptionZh": "BNB Chain 生态目录列出了「Pieverse」，可从来源页面了解其产品和进展。",
@@ -10214,44 +10328,6 @@
       "featured": false
     },
     {
-      "id": "github-1443969605",
-      "name": "kavonyx",
-      "descriptionZh": "BNB Smart Chain 上的自主 Agent 资产金库框架，重点强调支出上限、权限限制与资金操作控制。",
-      "descriptionEn": "Public GitHub discovery candidate: Owner-controlled vault framework for autonomous agents on BNB Smart Chain. Four ramparts bound every call: spend caps, an allowlist, a time lock, and an owner freeze.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/kavonyx-Labs/kavonyx",
-      "website": "https://github.com/kavonyx-Labs/kavonyx",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1443969605"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/kavonyx-Labs/kavonyx"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1398962791",
       "name": "kaiba-ultimate-agent-public",
       "descriptionZh": "实验性的自主交易与情报 Agent，覆盖 BNB 等多条链，使用大语言模型组织操作。",
@@ -10283,44 +10359,6 @@
         {
           "source": "github",
           "url": "https://github.com/kryptoxerk-dot/kaiba-ultimate-agent-public"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1443878396",
-      "name": "frenzo",
-      "descriptionZh": "基于 BNB Chain 的 AI Agent 社交挖矿概念项目，技术介绍涉及 Solidity、3D 展示与海报渲染。",
-      "descriptionEn": "Public GitHub discovery candidate: AI Agent 社交挖矿协议 · BNB Chain · Solidity + 3D viewer + poster renderer",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/frenzo-tech/frenzo",
-      "website": "https://github.com/frenzo-tech/frenzo",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1443878396"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/frenzo-tech/frenzo"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -10512,44 +10550,6 @@
         }
       ],
       "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1444327506",
-      "name": "bnbloc-mysql",
-      "descriptionZh": "让 Agent 访问用户授权 MySQL 数据库的 MCP 组件，目标是支持自然语言数据查询与工具调用。",
-      "descriptionEn": "Public GitHub discovery candidate: A bnbloc agent queries the MySQL databases you connect, as you: an installable MCP tool component. Reads run at once; changes wait for your click on your own computer; the password never reaches the agent.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/luckylhb90/bnbloc-mysql",
-      "website": "https://github.com/luckylhb90/bnbloc-mysql",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1444327506"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/luckylhb90/bnbloc-mysql"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
       "mintTypes": [],
       "featured": false
     },
@@ -10791,7 +10791,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0xe56041cddbb46db01c67b7a62684f428a04db8c6"
+          "url": "https://dexscreener.com/bsc/0x5177ff8870af5475d235f26d094aafd503eb73d7b201175d83199471aff38acf"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11778,8 +11778,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
