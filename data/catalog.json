@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:30:00.364527+00:00",
+  "updatedAt": "2026-11-17T14:27:56.548375+00:00",
   "projects": [
     {
       "id": "github-1460840488",
@@ -78,6 +78,44 @@
       "featured": false
     },
     {
+      "id": "github-1461486585",
+      "name": "open-agentic-web-mint-verifier",
+      "descriptionZh": "仓库「open-agentic-web-mint-verifier」公开介绍：Mint Verifier — an open agentic website that checks a BSC contract before you mint. Open Agentic Web Challenge entry.",
+      "descriptionEn": "Public GitHub discovery candidate: Mint Verifier — an open agentic website that checks a BSC contract before you mint. Open Agentic Web Challenge entry.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/buahrasa01-hub/open-agentic-web-mint-verifier",
+      "website": "https://github.com/buahrasa01-hub/open-agentic-web-mint-verifier",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1461486585"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/buahrasa01-hub/open-agentic-web-mint-verifier"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
       "id": "dex-bsc-0xfb7051ef82663c7e10f969bee77f19a2a6080e4b",
       "name": "AI Agent",
       "descriptionZh": "在 BSC 的 DEX 资料中发现「AI Agent」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
@@ -112,6 +150,82 @@
         }
       ],
       "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0x2860ba3d03d2f66a458af820ee76466a0b227777",
+      "name": "Agentic Coin",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「Agentic Coin」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x955c05eda04760199171538ff7afb4534911f482",
+      "website": "https://dexscreener.com/bsc/0x955c05eda04760199171538ff7afb4534911f482",
+      "socialX": "",
+      "contractAddress": "0x2860ba3d03d2f66a458af820ee76466a0b227777",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0x2860ba3d03d2f66a458af820ee76466a0b227777"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x955c05eda04760199171538ff7afb4534911f482"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1461116318",
+      "name": "agent-draw.github.io",
+      "descriptionZh": "仓库「agent-draw.github.io」公开介绍：Agent Draw — daily BNB raffle for Agent ID holders",
+      "descriptionEn": "Public GitHub discovery candidate: Agent Draw — daily BNB raffle for Agent ID holders",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/agent-draw/agent-draw.github.io",
+      "website": "https://github.com/agent-draw/agent-draw.github.io",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1461116318"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/agent-draw/agent-draw.github.io"
+        }
+      ],
+      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -5512,8 +5626,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6181,8 +6295,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10075,8 +10189,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-14",
-      "date": "2026-11-14",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10172,44 +10286,6 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1444391596",
-      "name": "imars",
-      "descriptionZh": "仓库「imars」公开介绍：IMARS verified BSC contracts and Binance Agentic Wallet mint integration guide",
-      "descriptionEn": "Public GitHub discovery candidate: IMARS verified BSC contracts and Binance Agentic Wallet mint integration guide",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/0xfansheng/imars",
-      "website": "https://github.com/0xfansheng/imars",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1444391596"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/0xfansheng/imars"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -10398,44 +10474,6 @@
         }
       ],
       "evidenceLevel": "early-lead",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1444391482",
-      "name": "burn-agent",
-      "descriptionZh": "仓库「burn-agent」公开介绍：Burn Agent verified BSC contracts and Binance Agentic Wallet mint integration guide",
-      "descriptionEn": "Public GitHub discovery candidate: Burn Agent verified BSC contracts and Binance Agentic Wallet mint integration guide",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/0xfansheng/burn-agent",
-      "website": "https://github.com/0xfansheng/burn-agent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-03",
-      "date": "2026-11-03",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1444391482"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/0xfansheng/burn-agent"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -10753,7 +10791,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0x5177ff8870af5475d235f26d094aafd503eb73d7b201175d83199471aff38acf"
+          "url": "https://dexscreener.com/bsc/0xe56041cddbb46db01c67b7a62684f428a04db8c6"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11512,8 +11550,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-05",
-      "date": "2026-11-05",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12232,8 +12270,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12564,12 +12602,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 61,
+    "external": 62,
     "x": 408,
     "mint": 25
   },
-  "candidateRecords": 374,
-  "mergedGroups": 318,
+  "candidateRecords": 375,
+  "mergedGroups": 319,
   "reviewCount": 318,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
