@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T22:05:48.979432+00:00",
+  "updatedAt": "2026-11-17T04:30:00.364527+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1917,7 +1917,8 @@
       "recordIds": [
         "dex-bsc-0x3215ab151918e1755bf13fe8f7d9162091011223",
         "dex-bsc-0x575766af0e9c3e96a8c3f262912de47eddd59c68",
-        "dex-bsc-0x7aede49f29bf7bc643853c1136854ea8e4da7777"
+        "dex-bsc-0x7aede49f29bf7bc643853c1136854ea8e4da7777",
+        "dex-bsc-0xfb7051ef82663c7e10f969bee77f19a2a6080e4b"
       ],
       "source": "https://dexscreener.com/bsc/0x1536b6e3db39f3390a323a6b5332faf7bfa641e0"
     },

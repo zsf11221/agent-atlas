@@ -1,6 +1,120 @@
 {
-  "updatedAt": "2026-11-16T22:05:48.979432+00:00",
+  "updatedAt": "2026-11-17T04:30:00.364527+00:00",
   "projects": [
+    {
+      "id": "github-1460840488",
+      "name": "vaultra-agentpay",
+      "descriptionZh": "仓库「vaultra-agentpay」公开介绍：AI agent per-call payments on BNB Chain - escrow settlement, on-chain arbitration, 402 challenge flow, provider dashboard",
+      "descriptionEn": "Public GitHub discovery candidate: AI agent per-call payments on BNB Chain - escrow settlement, on-chain arbitration, 402 challenge flow, provider dashboard",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/yhemeo613/vaultra-agentpay",
+      "website": "https://github.com/yhemeo613/vaultra-agentpay",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1460840488"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/yhemeo613/vaultra-agentpay"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1460804170",
+      "name": "signguard",
+      "descriptionZh": "仓库「signguard」公开介绍：SignGuard — BSC/EVM pre-signing transaction guard (zkVerify Agent Games Wildcard)",
+      "descriptionEn": "Public GitHub discovery candidate: SignGuard — BSC/EVM pre-signing transaction guard (zkVerify Agent Games Wildcard)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Ryukein19/signguard",
+      "website": "https://github.com/Ryukein19/signguard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1460804170"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Ryukein19/signguard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0xfb7051ef82663c7e10f969bee77f19a2a6080e4b",
+      "name": "AI Agent",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「AI Agent」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0x30dc6ee992d03a5ac0edce0a8174eb125c200994",
+      "website": "https://dexscreener.com/bsc/0x30dc6ee992d03a5ac0edce0a8174eb125c200994",
+      "socialX": "",
+      "contractAddress": "0xfb7051ef82663c7e10f969bee77f19a2a6080e4b",
+      "firstSeen": "2026-11-17",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0xfb7051ef82663c7e10f969bee77f19a2a6080e4b"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0x30dc6ee992d03a5ac0edce0a8174eb125c200994"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1459723480",
       "name": "zkverify-vetting-agent",
@@ -6440,8 +6554,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10698,8 +10812,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10922,82 +11036,6 @@
         {
           "source": "github",
           "url": "https://github.com/vike-io/vike-data-cli"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1443273126",
-      "name": "eonvera",
-      "descriptionZh": "BNB Chain 上的数字藏品铸造网站，宣称通过 Binance Agentic Wallet 进行 Agent 专属 Mint，总量 3,333。",
-      "descriptionEn": "Public GitHub discovery candidate: EONVERA — Web3 minting site on BNB Chain. Agent-only mint via Binance Agentic Wallet, single series, supply 3,333.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/nugian10/eonvera",
-      "website": "https://github.com/nugian10/eonvera",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-02",
-      "date": "2026-11-02",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1443273126"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/nugian10/eonvera"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1442838326",
-      "name": "decidra-whitepaper",
-      "descriptionZh": "研究数据访问权限和受限 Agent 授权的数据基础设施白皮书，公开资料提到 BSC 测试网原型。",
-      "descriptionEn": "Public GitHub discovery candidate: Decidra whitepaper: rights-aware data infrastructure and bounded agent access. Public discussion draft; BSC Testnet prototype.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/sb4tester/decidra-whitepaper",
-      "website": "https://github.com/sb4tester/decidra-whitepaper",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-02",
-      "date": "2026-11-02",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1442838326"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/sb4tester/decidra-whitepaper"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11246,8 +11284,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11284,8 +11322,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11398,8 +11436,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11436,8 +11474,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11626,8 +11664,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11778,8 +11816,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-16",
-      "date": "2026-11-16",
+      "lastActivityAt": "2026-11-17",
+      "date": "2026-11-17",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12526,12 +12564,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 60,
+    "external": 61,
     "x": 408,
     "mint": 25
   },
-  "candidateRecords": 373,
-  "mergedGroups": 317,
+  "candidateRecords": 374,
+  "mergedGroups": 318,
   "reviewCount": 318,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
