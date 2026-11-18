@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T04:24:08.530283+00:00",
+  "updatedAt": "2026-11-18T14:01:42.313681+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1886,6 +1886,56 @@
         "github-1458407779"
       ],
       "source": "https://github.com/Andysyahputra/agent-games-wildcard"
+    },
+    {
+      "name": "agentgate",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462639125",
+        "github-1462718439",
+        "github-1462866411"
+      ],
+      "source": "https://github.com/Vibibiys/agentgate"
+    },
+    {
+      "name": "agent-id-daily-checkin",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462779043",
+        "github-1462822406"
+      ],
+      "source": "https://github.com/iqballher/agent-id-daily-checkin"
+    },
+    {
+      "name": "agentwall",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462795669",
+        "github-1462799000",
+        "github-1462801057",
+        "github-1462809354",
+        "github-1462816935",
+        "github-1462827797"
+      ],
+      "source": "https://github.com/Marito273/agentwall"
+    },
+    {
+      "name": "agent-badge",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462808341",
+        "github-1462812532"
+      ],
+      "source": "https://github.com/Muhsafsla3/agent-badge"
+    },
+    {
+      "name": "agent-passport",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462853062",
+        "github-1462870868"
+      ],
+      "source": "https://github.com/OhhRayy/agent-passport"
     },
     {
       "name": "Agentic X402",
