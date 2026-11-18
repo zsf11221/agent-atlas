@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T14:01:42.313681+00:00",
+  "updatedAt": "2026-11-18T21:58:21.044585+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1838,25 +1838,13 @@
       "source": "https://x.com/i/web/status/2118057691931345248"
     },
     {
-      "name": "BNBAgent SDK",
+      "name": "agent-atlas",
       "reason": "same-name-different-identity-review",
       "recordIds": [
-        "bnb-agent-sdk",
-        "github-1150379199"
+        "github-1430809241",
+        "github-1463314700"
       ],
-      "source": "https://www.bnbchain.org/en/solutions/ai-agent"
-    },
-    {
-      "name": "agentic-protocol",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1439641297",
-        "dex-bsc-0x80f05a3f3799499638b2ebedf72b97a3f42affff",
-        "dex-bsc-0x8a74aa95bb913f93db94755e135caaeca09b8888",
-        "dex-bsc-0xe4272c43775703e7ba517b5aeb64d8de1320ffff",
-        "dex-bsc-0xf30e443aa53e99a4b630ee48f6cc6937c6bb7777"
-      ],
-      "source": "https://github.com/agentic-labs-hq/agentic-protocol"
+      "source": "https://github.com/tagai-dao/agent-atlas"
     },
     {
       "name": "mintguard",
@@ -1865,7 +1853,8 @@
         "github-1458036913",
         "github-1458045831",
         "github-1458346751",
-        "github-1458495728"
+        "github-1458495728",
+        "github-1463236467"
       ],
       "source": "https://github.com/Endangdanngz/mintguard"
     },
@@ -1893,9 +1882,20 @@
       "recordIds": [
         "github-1462639125",
         "github-1462718439",
-        "github-1462866411"
+        "github-1462866411",
+        "github-1462916414"
       ],
       "source": "https://github.com/Vibibiys/agentgate"
+    },
+    {
+      "name": "agentstreak",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462755340",
+        "github-1463044781",
+        "github-1463051420"
+      ],
+      "source": "https://github.com/yungkaaii/agentstreak"
     },
     {
       "name": "agent-id-daily-checkin",
@@ -1924,9 +1924,29 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462808341",
-        "github-1462812532"
+        "github-1462812532",
+        "github-1463183764"
       ],
       "source": "https://github.com/Muhsafsla3/agent-badge"
+    },
+    {
+      "name": "agentboard",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462819652",
+        "github-1463049901",
+        "github-1463363288"
+      ],
+      "source": "https://github.com/ifulchina-ops/agentboard"
+    },
+    {
+      "name": "agenttip",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462823368",
+        "github-1463117203"
+      ],
+      "source": "https://github.com/todorichi/agenttip"
     },
     {
       "name": "agent-passport",
@@ -1936,6 +1956,15 @@
         "github-1462870868"
       ],
       "source": "https://github.com/OhhRayy/agent-passport"
+    },
+    {
+      "name": "agent-checkin",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463067756",
+        "github-1463088419"
+      ],
+      "source": "https://github.com/Irwansupian/agent-checkin"
     },
     {
       "name": "Agentic X402",
@@ -2004,6 +2033,17 @@
         "dex-bsc-0xebb5101bfa878f79f92e3550179402e022968888"
       ],
       "source": "https://dexscreener.com/bsc/0x4bb9ecef27fd95212437443cfb72b3e0ded5ffff:4meme"
+    },
+    {
+      "name": "Agentic Protocol",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "dex-bsc-0x80f05a3f3799499638b2ebedf72b97a3f42affff",
+        "dex-bsc-0x8a74aa95bb913f93db94755e135caaeca09b8888",
+        "dex-bsc-0xe4272c43775703e7ba517b5aeb64d8de1320ffff",
+        "dex-bsc-0xf30e443aa53e99a4b630ee48f6cc6937c6bb7777"
+      ],
+      "source": "https://dexscreener.com/bsc/0x80f05a3f3799499638b2ebedf72b97a3f42affff:4meme"
     },
     {
       "name": "agentic money",
