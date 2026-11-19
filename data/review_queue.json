@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T03:31:51.166939+00:00",
+  "updatedAt": "2026-11-19T13:12:43.381145+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1838,25 +1838,16 @@
       "source": "https://x.com/i/web/status/2118057691931345248"
     },
     {
-      "name": "agent-atlas",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1430809241",
-        "github-1463314700"
-      ],
-      "source": "https://github.com/tagai-dao/agent-atlas"
-    },
-    {
       "name": "mintguard",
       "reason": "same-name-different-identity-review",
       "recordIds": [
-        "github-1458036913",
         "github-1458045831",
         "github-1458346751",
         "github-1458495728",
-        "github-1463236467"
+        "github-1463236467",
+        "github-1463985144"
       ],
-      "source": "https://github.com/Endangdanngz/mintguard"
+      "source": "https://github.com/Abidzaenal/mintguard"
     },
     {
       "name": "wallet-guard",
@@ -1883,7 +1874,8 @@
         "github-1462639125",
         "github-1462718439",
         "github-1462866411",
-        "github-1462916414"
+        "github-1462916414",
+        "github-1464016595"
       ],
       "source": "https://github.com/Vibibiys/agentgate"
     },
@@ -1902,7 +1894,8 @@
       "recordIds": [
         "github-1462755340",
         "github-1463044781",
-        "github-1463051420"
+        "github-1463051420",
+        "github-1464026963"
       ],
       "source": "https://github.com/yungkaaii/agentstreak"
     },
@@ -1954,7 +1947,8 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462823368",
-        "github-1463117203"
+        "github-1463117203",
+        "github-1464075971"
       ],
       "source": "https://github.com/todorichi/agenttip"
     },
@@ -1963,7 +1957,8 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462853062",
-        "github-1462870868"
+        "github-1462870868",
+        "github-1463978511"
       ],
       "source": "https://github.com/OhhRayy/agent-passport"
     },
@@ -2038,9 +2033,9 @@
         "dex-bsc-0x425e4968051bcae208cf282568af6aa5cdd67777",
         "dex-bsc-0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777",
         "dex-bsc-0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc",
+        "dex-bsc-0x9842b1e4be97441fc8bb4b0bb4300e6080b97777",
         "dex-bsc-0xbdfcd595f1d8d2d9b8c7e9754e2636cf29fd7777",
-        "dex-bsc-0xc9baeba48051799a3239e4b3e102ab7a2e4e7777",
-        "dex-bsc-0xd679aa19f8b0228729e05622c48c6084cc057777"
+        "dex-bsc-0xc9baeba48051799a3239e4b3e102ab7a2e4e7777"
       ],
       "source": "https://dexscreener.com/bsc/0xfce81ee5f756f55cca91bdfb6a5aaa72860dac33"
     },

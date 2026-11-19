@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-19T03:31:49.691178+00:00",
+  "updatedAt": "2026-11-19T13:12:41.519614+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
       "ok": true,
-      "qualified": 1
+      "qualified": 0
     },
     "boosts": {
       "ok": true,
@@ -16,7 +16,7 @@
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 9
+      "qualified": 8
     },
     "bnbchain-official": {
       "ok": true,
@@ -24,7 +24,7 @@
     }
   },
   "newCount": 1,
-  "changedCount": 0,
+  "changedCount": 1,
   "projects": [
     {
       "id": "bnb-official-mention-pieverse",
@@ -220,6 +220,34 @@
       "firstSeen": "2026-11-19",
       "lastCheckedAt": "2026-11-19T03:31:49.691178+00:00",
       "discoverySource": "dexscreener-profiles",
+      "verification": "token-metadata-only"
+    },
+    {
+      "id": "dex-bsc-0x9842b1e4be97441fc8bb4b0bb4300e6080b97777",
+      "name": "Agentic Inu",
+      "symbol": ".ai",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0x139cc14e63011f3c94b5e6b76ee70c185c3398a1",
+      "website": "https://dexscreener.com/bsc/0x139cc14e63011f3c94b5e6b76ee70c185c3398a1",
+      "socialX": "",
+      "contractAddress": "0x9842B1E4BE97441FC8bb4b0bb4300E6080B97777",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "2026-10-20",
+      "projectCreatedAt": "2026-10-20",
+      "firstSeen": "2026-11-19",
+      "lastCheckedAt": "2026-11-19T13:12:41.519614+00:00",
+      "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
     {
@@ -1714,7 +1742,7 @@
       "chain": "BNB Chain",
       "type": "candidate",
       "stage": "unverified",
-      "source": "https://dexscreener.com/bsc/0xe013ed0da9e0e8776f7d29494e0d3cf4f29bd60e01c71974c6421930587e011d",
+      "source": "https://dexscreener.com/bsc/0x5177ff8870af5475d235f26d094aafd503eb73d7b201175d83199471aff38acf",
       "website": "https://agcc.fun/",
       "socialX": "https://x.com/Agentic_coin",
       "contractAddress": "0x63dea5aCdbE1F27c968907D08610A5f0A0284bA6",
@@ -1727,10 +1755,10 @@
       ],
       "mint": "unknown",
       "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
-      "date": "2026-11-05",
-      "projectCreatedAt": "2026-11-05",
+      "date": "2026-11-02",
+      "projectCreatedAt": "2026-11-02",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-18T14:01:40.787091+00:00",
+      "lastCheckedAt": "2026-11-19T13:12:41.519614+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
