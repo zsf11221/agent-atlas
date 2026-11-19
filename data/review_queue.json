@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T21:58:21.044585+00:00",
+  "updatedAt": "2026-11-19T03:31:51.166939+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1888,6 +1888,15 @@
       "source": "https://github.com/Vibibiys/agentgate"
     },
     {
+      "name": "agent-id-hub",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462719153",
+        "github-1463560567"
+      ],
+      "source": "https://github.com/faisalridhomp/agent-id-hub"
+    },
+    {
       "name": "agentstreak",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1905,6 +1914,17 @@
         "github-1462822406"
       ],
       "source": "https://github.com/iqballher/agent-id-daily-checkin"
+    },
+    {
+      "name": "agentboard",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462782172",
+        "github-1462819652",
+        "github-1463049901",
+        "github-1463363288"
+      ],
+      "source": "https://github.com/bondan0/agentboard"
     },
     {
       "name": "agentwall",
@@ -1930,16 +1950,6 @@
       "source": "https://github.com/Muhsafsla3/agent-badge"
     },
     {
-      "name": "agentboard",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462819652",
-        "github-1463049901",
-        "github-1463363288"
-      ],
-      "source": "https://github.com/ifulchina-ops/agentboard"
-    },
-    {
       "name": "agenttip",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1962,9 +1972,19 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1463067756",
-        "github-1463088419"
+        "github-1463088419",
+        "github-1463589411"
       ],
       "source": "https://github.com/Irwansupian/agent-checkin"
+    },
+    {
+      "name": "agentpay",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463269256",
+        "github-1463579223"
+      ],
+      "source": "https://github.com/Jaw1jennaira/agentpay"
     },
     {
       "name": "Agentic X402",

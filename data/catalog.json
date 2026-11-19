@@ -1,6 +1,728 @@
 {
-  "updatedAt": "2026-11-18T21:58:21.044585+00:00",
+  "updatedAt": "2026-11-19T03:31:51.166939+00:00",
   "projects": [
+    {
+      "id": "github-1463418429",
+      "name": "workseal",
+      "descriptionZh": "仓库「workseal」公开介绍：WorkSeal — a verifiable registry of agent work, gated to Binance Agent IDs (BNB Chain). Built for the Binance Agent ID Hackathon.",
+      "descriptionEn": "Public GitHub discovery candidate: WorkSeal — a verifiable registry of agent work, gated to Binance Agent IDs (BNB Chain). Built for the Binance Agent ID Hackathon.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/arefki/workseal",
+      "website": "https://github.com/arefki/workseal",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-18",
+      "date": "2026-11-18",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463418429"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/arefki/workseal"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463561838",
+      "name": "sqrJOBS",
+      "descriptionZh": "仓库「sqrJOBS」公开介绍：Agent ID job board with USDC escrow on BNB Chain (Agent ID Hackathon)",
+      "descriptionEn": "Public GitHub discovery candidate: Agent ID job board with USDC escrow on BNB Chain (Agent ID Hackathon)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/sqrDAO/sqrJOBS",
+      "website": "https://github.com/sqrDAO/sqrJOBS",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463561838"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/sqrDAO/sqrJOBS"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463576958",
+      "name": "punk-agent-arcade",
+      "descriptionZh": "仓库「punk-agent-arcade」公开介绍：Punk Agent Arcade — a punk neon arcade game for Binance Agent ID holders on BNB Chain. Play, earn points, submit scores on-chain. Agent ID Hackathon entry.",
+      "descriptionEn": "Public GitHub discovery candidate: Punk Agent Arcade — a punk neon arcade game for Binance Agent ID holders on BNB Chain. Play, earn points, submit scores on-chain. Agent ID Hackathon entry.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/khan7271/punk-agent-arcade",
+      "website": "https://github.com/khan7271/punk-agent-arcade",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463576958"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/khan7271/punk-agent-arcade"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463513998",
+      "name": "museai-mint",
+      "descriptionZh": "仓库「museai-mint」公开介绍：MuseAI (AutoMuse) agent-readable mint manifest — Binance Agent ID agent lane + public lane on BNB Chain. llms.txt, mints.json and skill.md for auto-mint AI agents.",
+      "descriptionEn": "Public GitHub discovery candidate: MuseAI (AutoMuse) agent-readable mint manifest — Binance Agent ID agent lane + public lane on BNB Chain. llms.txt, mints.json and skill.md for auto-mint AI agents.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/automuseai/museai-mint",
+      "website": "https://github.com/automuseai/museai-mint",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463513998"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/automuseai/museai-mint"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463492677",
+      "name": "mintradar",
+      "descriptionZh": "仓库「mintradar」公开介绍：MintRadar — live radar of what top AI agent wallets are minting on BNB Chain. Register & follow Agent IDs on-chain.",
+      "descriptionEn": "Public GitHub discovery candidate: MintRadar — live radar of what top AI agent wallets are minting on BNB Chain. Register & follow Agent IDs on-chain.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/crypspider/mintradar",
+      "website": "https://github.com/crypspider/mintradar",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463492677"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/crypspider/mintradar"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463538176",
+      "name": "mintguard-agent-games",
+      "descriptionZh": "仓库「mintguard-agent-games」公开介绍：MintGuard — a wallet-safety agent for BSC mints (Agent Games Wildcard entry)",
+      "descriptionEn": "Public GitHub discovery candidate: MintGuard — a wallet-safety agent for BSC mints (Agent Games Wildcard entry)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/banken07/mintguard-agent-games",
+      "website": "https://github.com/banken07/mintguard-agent-games",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463538176"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/banken07/mintguard-agent-games"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463474448",
+      "name": "lycan-agent-pass",
+      "descriptionZh": "仓库「lycan-agent-pass」公开介绍：Lycan Agent Pass — a free NFT pass on BNB Chain, mintable only by holders of a Binance Agent ID (name.ai).",
+      "descriptionEn": "Public GitHub discovery candidate: Lycan Agent Pass — a free NFT pass on BNB Chain, mintable only by holders of a Binance Agent ID (name.ai).",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/lycann666/lycan-agent-pass",
+      "website": "https://github.com/lycann666/lycan-agent-pass",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463474448"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/lycann666/lycan-agent-pass"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463412790",
+      "name": "GrandTheAgenticVI.github.io",
+      "descriptionZh": "仓库「GrandTheAgenticVI.github.io」公开介绍：Agent ID Pioneer — official site. Free Neon City NFT badge for Binance Agent ID holders on BNB Chain.",
+      "descriptionEn": "Public GitHub discovery candidate: Agent ID Pioneer — official site. Free Neon City NFT badge for Binance Agent ID holders on BNB Chain.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/GrandTheAgenticVI/GrandTheAgenticVI.github.io",
+      "website": "https://github.com/GrandTheAgenticVI/GrandTheAgenticVI.github.io",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-18",
+      "date": "2026-11-18",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463412790"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/GrandTheAgenticVI/GrandTheAgenticVI.github.io"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "dex-bsc-0xff0628d5e18c76c0dee4446411117f23aa2f6c1f",
+      "name": "BSC Agent token 0xfF0628…",
+      "descriptionZh": "在 BSC 的 DEX 资料中发现「BSC Agent token 0xfF0628…」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "descriptionBasis": "dex-token-metadata",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://dexscreener.com/bsc/0xff0628d5e18c76c0dee4446411117f23aa2f6c1f",
+      "website": "https://allincrypto.ai/",
+      "socialX": "https://x.com/allincrypto_ai",
+      "contractAddress": "0xff0628d5e18c76c0dee4446411117f23aa2f6c1f",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "dex"
+      ],
+      "origin": "dex",
+      "recordIds": [
+        "dex-bsc-0xff0628d5e18c76c0dee4446411117f23aa2f6c1f"
+      ],
+      "sources": [
+        {
+          "source": "dex",
+          "url": "https://dexscreener.com/bsc/0xff0628d5e18c76c0dee4446411117f23aa2f6c1f"
+        }
+      ],
+      "evidenceLevel": "early-lead",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463446578",
+      "name": "agentwork-passport",
+      "descriptionZh": "仓库「agentwork-passport」公开介绍：AgentWork Passport — Agent ID-gated job board with on-chain escrow and soulbound reputation passports on BNB Chain. Built for the Binance Agent ID Hackathon.",
+      "descriptionEn": "Public GitHub discovery candidate: AgentWork Passport — Agent ID-gated job board with on-chain escrow and soulbound reputation passports on BNB Chain. Built for the Binance Agent ID Hackathon.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/mans1991/agentwork-passport",
+      "website": "https://github.com/mans1991/agentwork-passport",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463446578"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/mans1991/agentwork-passport"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463540852",
+      "name": "agentwall",
+      "descriptionZh": "仓库「agentwall」公开介绍：AgentWall — the on-chain hall for Agent ID holders (Binance Agent ID Hackathon). Live + verified on BNB Chain.",
+      "descriptionEn": "Public GitHub discovery candidate: AgentWall — the on-chain hall for Agent ID holders (Binance Agent ID Hackathon). Live + verified on BNB Chain.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/febry10/agentwall",
+      "website": "https://github.com/febry10/agentwall",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463540852"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/febry10/agentwall"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463551465",
+      "name": "agentseal",
+      "descriptionZh": "仓库「agentseal」公开介绍：On-chain trust registry for the AI-agent economy on BNB Chain — writes gated by Binance Agent ID",
+      "descriptionEn": "Public GitHub discovery candidate: On-chain trust registry for the AI-agent economy on BNB Chain — writes gated by Binance Agent ID",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Syahdan007/agentseal",
+      "website": "https://github.com/Syahdan007/agentseal",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463551465"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Syahdan007/agentseal"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463579223",
+      "name": "agentpay",
+      "descriptionZh": "仓库「agentpay」公开介绍：AgentPay — non-custodial recurring-payments agent for BNB Chain, gated by Binance Agent ID",
+      "descriptionEn": "Public GitHub discovery candidate: AgentPay — non-custodial recurring-payments agent for BNB Chain, gated by Binance Agent ID",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/dikaandrean69/agentpay",
+      "website": "https://github.com/dikaandrean69/agentpay",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463579223"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/dikaandrean69/agentpay"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463595624",
+      "name": "agentdrop",
+      "descriptionZh": "仓库「agentdrop」公开介绍：AgentDrop — Agent ID-gated claim board on BNB Chain (Agent ID Hackathon)",
+      "descriptionEn": "Public GitHub discovery candidate: AgentDrop — Agent ID-gated claim board on BNB Chain (Agent ID Hackathon)",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Dadangbachtiar/agentdrop",
+      "website": "https://github.com/Dadangbachtiar/agentdrop",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463595624"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Dadangbachtiar/agentdrop"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1462782172",
+      "name": "agentboard",
+      "descriptionZh": "仓库「agentboard」公开介绍：AgentBoard — the on-chain service directory for Agent ID holders. Listings are bound to verified, non-transferable Agent IDs on BNB Chain.",
+      "descriptionEn": "Public GitHub discovery candidate: AgentBoard — the on-chain service directory for Agent ID holders. Listings are bound to verified, non-transferable Agent IDs on BNB Chain.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/bondan0/agentboard",
+      "website": "https://github.com/bondan0/agentboard",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1462782172"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/bondan0/agentboard"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463447461",
+      "name": "agentattest",
+      "descriptionZh": "仓库「agentattest」公开介绍：Agent-ID-gated attestation & capability registry for AI agents on BNB Chain — Agent ID Hackathon",
+      "descriptionEn": "Public GitHub discovery candidate: Agent-ID-gated attestation & capability registry for AI agents on BNB Chain — Agent ID Hackathon",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Dordador/agentattest",
+      "website": "https://github.com/Dordador/agentattest",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-18",
+      "date": "2026-11-18",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463447461"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Dordador/agentattest"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1462719153",
+      "name": "agent-id-hub",
+      "descriptionZh": "仓库「agent-id-hub」公开介绍：AgentID Hub — daily check-in streaks, tip-by-name payments and leaderboards for Binance Agent ID holders on BNB Chain. Binance Agent ID Hackathon entry.",
+      "descriptionEn": "Public GitHub discovery candidate: AgentID Hub — daily check-in streaks, tip-by-name payments and leaderboards for Binance Agent ID holders on BNB Chain. Binance Agent ID Hackathon entry.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/faisalridhomp/agent-id-hub",
+      "website": "https://github.com/faisalridhomp/agent-id-hub",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-18",
+      "date": "2026-11-18",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1462719153"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/faisalridhomp/agent-id-hub"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463560567",
+      "name": "agent-id-hub",
+      "descriptionZh": "仓库「agent-id-hub」公开介绍：Agent ID Hub — daily check-in + Job Board gated by Binance Agent ID (SPACE ID), live on BNB Chain for the Binance Agent ID Hackathon",
+      "descriptionEn": "Public GitHub discovery candidate: Agent ID Hub — daily check-in + Job Board gated by Binance Agent ID (SPACE ID), live on BNB Chain for the Binance Agent ID Hackathon",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/NattaNada/agent-id-hub",
+      "website": "https://github.com/NattaNada/agent-id-hub",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463560567"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/NattaNada/agent-id-hub"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1463589411",
+      "name": "agent-checkin",
+      "descriptionZh": "仓库「agent-checkin」公开介绍：Daily check-in dApp for Binance Agentic Wallet Agent ID holders on BNB Chain: streaks, soulbound badges, referrals, leaderboard.",
+      "descriptionEn": "Public GitHub discovery candidate: Daily check-in dApp for Binance Agentic Wallet Agent ID holders on BNB Chain: streaks, soulbound badges, referrals, leaderboard.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/jirolu16/agent-checkin",
+      "website": "https://github.com/jirolu16/agent-checkin",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-19",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1463589411"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/jirolu16/agent-checkin"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1271080608",
       "name": "stratfile",
@@ -167,8 +889,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -965,8 +1687,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -1649,8 +2371,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -2105,8 +2827,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5473,44 +6195,6 @@
       "featured": false
     },
     {
-      "id": "github-1457005281",
-      "name": "bsc-ai-radar",
-      "descriptionZh": "仓库「bsc-ai-radar」公开介绍：BSC AI Radar — AI-generated radar of BSC AI-agent projects, powered by FLOP testnet inference. Free for first users. Built in public.",
-      "descriptionEn": "Public GitHub discovery candidate: BSC AI Radar — AI-generated radar of BSC AI-agent projects, powered by FLOP testnet inference. Free for first users. Built in public.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Svetlana6543-web/bsc-ai-radar",
-      "website": "https://github.com/Svetlana6543-web/bsc-ai-radar",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-13",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1457005281"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Svetlana6543-web/bsc-ai-radar"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1455918173",
       "name": "BNB-SKILLS",
       "descriptionZh": "仓库「BNB-SKILLS」公开介绍：90 numbered agent skills — reusable playbooks for building, shipping, and verifying software.",
@@ -5524,8 +6208,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-13",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5824,44 +6508,6 @@
       "featured": false
     },
     {
-      "id": "github-1164456137",
-      "name": "venus-agent-skills",
-      "descriptionZh": "仓库「venus-agent-skills」公开介绍：Venus Protocol operations toolkit on BNB Chain, with market analytics, wallet health monitoring, and safe transaction scripts for deposit, withdraw, borrow, repay, and collateral management.",
-      "descriptionEn": "Public GitHub discovery candidate: Venus Protocol operations toolkit on BNB Chain, with market analytics, wallet health monitoring, and safe transaction scripts for deposit, withdraw, borrow, repay, and collateral management.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/VenusProtocol/venus-agent-skills",
-      "website": "https://github.com/VenusProtocol/venus-agent-skills",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-12",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1164456137"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/VenusProtocol/venus-agent-skills"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1455114137",
       "name": "seven-sigma",
       "descriptionZh": "仓库「seven-sigma」公开介绍：seven-sigma: 777 Agent ID Sigma Node NFTs on BSC. 150 free, 627 paid at $0.30",
@@ -5893,82 +6539,6 @@
         {
           "source": "github",
           "url": "https://github.com/Ernestopapa/seven-sigma"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1455681265",
-      "name": "outy-max.github.io",
-      "descriptionZh": "仓库「outy-max.github.io」公开介绍：OUTY — Agent ID NFT on BNB Chain (Phase 1 NFT mint, Phase 2 token by snapshot)",
-      "descriptionEn": "Public GitHub discovery candidate: OUTY — Agent ID NFT on BNB Chain (Phase 1 NFT mint, Phase 2 token by snapshot)",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/OUTY-max/outy-max.github.io",
-      "website": "https://github.com/OUTY-max/outy-max.github.io",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-12",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1455681265"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/OUTY-max/outy-max.github.io"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1455532830",
-      "name": "outy-contracts",
-      "descriptionZh": "仓库「outy-contracts」公开介绍：OUTY — Agent ID token sale + NFT pack + non-custodial market on BNB Chain",
-      "descriptionEn": "Public GitHub discovery candidate: OUTY — Agent ID token sale + NFT pack + non-custodial market on BNB Chain",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/OUTY-max/outy-contracts",
-      "website": "https://github.com/OUTY-max/outy-contracts",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-12",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1455532830"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/OUTY-max/outy-contracts"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -6180,44 +6750,6 @@
       "featured": false
     },
     {
-      "id": "github-1455313867",
-      "name": "agenticscore-contract",
-      "descriptionZh": "仓库「agenticscore-contract」公开介绍：AgenticScore soulbound NFT contract for BNB Smart Chain: 3,000 cap, one per wallet, EIP-712 voucher mints, starting score in the Minted event. Not audited.",
-      "descriptionEn": "Public GitHub discovery candidate: AgenticScore soulbound NFT contract for BNB Smart Chain: 3,000 cap, one per wallet, EIP-712 voucher mints, starting score in the Minted event. Not audited.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/agenticscore/agenticscore-contract",
-      "website": "https://github.com/agenticscore/agenticscore-contract",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-12",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1455313867"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/agenticscore/agenticscore-contract"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "x-post-2120917879759810715",
       "name": "agent402.surge.sh",
       "descriptionZh": "官网介绍「402 代理卡 Agent402 Cards：BNB Smart Chain 上的 ERC-721 NFT。总量 5,000，免费池 2,000 张，每 Agent ID 前 5 张免费，付费阶梯 0.001 BNB 起，12 款 ASCII 机器人随机开，稀有档链上可查。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -6325,8 +6857,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-11",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
+      "lastActivityAt": "2026-11-18",
+      "date": "2026-11-18",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6392,44 +6924,6 @@
       "featured": false
     },
     {
-      "id": "github-1453525316",
-      "name": "foundryfaces",
-      "descriptionZh": "仓库「foundryfaces」公开介绍：Foundry Faces: 11,111 pixel faces on BNB Chain. Mint via Binance Agentic Wallet.",
-      "descriptionEn": "Public GitHub discovery candidate: Foundry Faces: 11,111 pixel faces on BNB Chain. Mint via Binance Agentic Wallet.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/yusufsafary/foundryfaces",
-      "website": "https://github.com/yusufsafary/foundryfaces",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-11",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1453525316"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/yusufsafary/foundryfaces"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "x-post-2120436274217750853",
       "name": "dick-mint.pages.dev",
       "descriptionZh": "官网介绍「DICK：币安 Agent ID 专属铸造，每份 0.002 BNB 得 5,000 万 DICK，铸满 1 万份自动在 PancakeSwap 建池。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -6468,82 +6962,6 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1453603764",
-      "name": "diamondagent",
-      "descriptionZh": "仓库「diamondagent」公开介绍：DIAMONDAGENT — generative pixel-art PFP collection on BNB Chain for the Agent ID community. 2,222 free-mint NFTs + $DAG community token.",
-      "descriptionEn": "Public GitHub discovery candidate: DIAMONDAGENT — generative pixel-art PFP collection on BNB Chain for the Agent ID community. 2,222 free-mint NFTs + $DAG community token.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/cengkeh1608-oss/diamondagent",
-      "website": "https://github.com/cengkeh1608-oss/diamondagent",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-11",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1453603764"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/cengkeh1608-oss/diamondagent"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1453273982",
-      "name": "binance-agentic-wallet-dashboard",
-      "descriptionZh": "仓库「binance-agentic-wallet-dashboard」公开介绍：Self-hosted BSC dashboard for multi-wallet portfolio, guarded swaps, transfers, address book and receive QR. Not affiliated with Binance or OKX. Use at your own risk.",
-      "descriptionEn": "Public GitHub discovery candidate: Self-hosted BSC dashboard for multi-wallet portfolio, guarded swaps, transfers, address book and receive QR. Not affiliated with Binance or OKX. Use at your own risk.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Ssw7777/binance-agentic-wallet-dashboard",
-      "website": "https://github.com/Ssw7777/binance-agentic-wallet-dashboard",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-11",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1453273982"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Ssw7777/binance-agentic-wallet-dashboard"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -6784,8 +7202,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6885,44 +7303,6 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1453101140",
-      "name": "hermes-sovereign-finance",
-      "descriptionZh": "仓库「hermes-sovereign-finance」公开介绍：Hermes Agent plugin: a self-custodial Altana smart wallet for your agent, with permissions enforced onchain on BNB Chain and Ethereum.",
-      "descriptionEn": "Public GitHub discovery candidate: Hermes Agent plugin: a self-custodial Altana smart wallet for your agent, with permissions enforced onchain on BNB Chain and Ethereum.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/gabonaut/hermes-sovereign-finance",
-      "website": "https://github.com/gabonaut/hermes-sovereign-finance",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1453101140"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/gabonaut/hermes-sovereign-finance"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -7053,44 +7433,6 @@
       "featured": false
     },
     {
-      "id": "github-1453082810",
-      "name": "bsc-mint-skills",
-      "descriptionZh": "仓库「bsc-mint-skills」公开介绍：给币安 Agent ID 持有者的 BSC 免费打新技能包：mint 预检、免费领、多钱包管理",
-      "descriptionEn": "Public GitHub discovery candidate: 给币安 Agent ID 持有者的 BSC 免费打新技能包：mint 预检、免费领、多钱包管理",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/lmingfei856-hue/bsc-mint-skills",
-      "website": "https://github.com/lmingfei856-hue/bsc-mint-skills",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1453082810"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/lmingfei856-hue/bsc-mint-skills"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "x-post-2120200671014293832",
       "name": "Baby Pig",
       "descriptionZh": "官网介绍「Baby Pig（$BABYPIG）是 BSC 上的 Agent ID 限定发售：每份 0.0017 BNB，30,000,000 枚，共 2,000 份，11月10日 23:00 开卖，卖满自动开池，卖不满全额退款。普通 ERC20，没有交易税。」。该描述来自项目页面，具体功能与参与规则请以原始来源为准。",
@@ -7139,44 +7481,6 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1452183235",
-      "name": "agentpepe",
-      "descriptionZh": "仓库「agentpepe」公开介绍：AGENTPEPE: meme NFT collection of 6,666 glossy 3D frog agents on BNB Chain. Mint through your Binance agent.",
-      "descriptionEn": "Public GitHub discovery candidate: AGENTPEPE: meme NFT collection of 6,666 glossy 3D frog agents on BNB Chain. Mint through your Binance agent.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/yusufsafary/agentpepe",
-      "website": "https://github.com/yusufsafary/agentpepe",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-10",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1452183235"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/yusufsafary/agentpepe"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -7693,44 +7997,6 @@
         {
           "source": "github",
           "url": "https://github.com/VOVAN1980/ibiti-epk-core"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1451789076",
-      "name": "HANAMI-BLOOM",
-      "descriptionZh": "仓库「HANAMI-BLOOM」公开介绍：HANAMI BLOOM — 3,333 sakura ukiyo-e NFTs on BNB Chain. Minted by agents only.",
-      "descriptionEn": "Public GitHub discovery candidate: HANAMI BLOOM — 3,333 sakura ukiyo-e NFTs on BNB Chain. Minted by agents only.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/nugian10/HANAMI-BLOOM",
-      "website": "https://github.com/nugian10/HANAMI-BLOOM",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-09",
-      "lastActivityAt": "2026-11-11",
-      "date": "2026-11-11",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1451789076"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/nugian10/HANAMI-BLOOM"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -8302,8 +8568,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10823,44 +11089,6 @@
       "featured": true
     },
     {
-      "id": "github-837590299",
-      "name": "sunbnb-app",
-      "descriptionZh": "海滨住宿管理平台，代码仓库包含 AI 开发辅助工具，但并未据此证明它是独立的 BSC AI Agent 产品。",
-      "descriptionEn": "Public GitHub discovery candidate: Sunbnb is a comprehensive beach hospitality platform. Monorepo contains AI context and agentic development tools, three Next.js web applications: user, partner, admin; a React Native (with Expo) mobile app for beach management, d",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/sun-bnb/sunbnb-app",
-      "website": "https://github.com/sun-bnb/sunbnb-app",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-837590299"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/sun-bnb/sunbnb-app"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "bnb-official-mention-pieverse",
       "name": "Pieverse",
       "descriptionZh": "BNB Chain 生态目录列出了「Pieverse」，可从来源页面了解其产品和进展。",
@@ -11385,44 +11613,6 @@
       "featured": false
     },
     {
-      "id": "github-1439264269",
-      "name": "zaplonft",
-      "descriptionZh": "BNB Chain 上面向 Agent 的数字藏品项目，公开资料提到一组充能单元及对应的铸造玩法。",
-      "descriptionEn": "Public GitHub discovery candidate: ZAPLO — five charges per agent. 5,555 charge cells on BNB Smart Chain.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/yusufsafary/zaplonft",
-      "website": "https://github.com/yusufsafary/zaplonft",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-02",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1439264269"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/yusufsafary/zaplonft"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1249312853",
       "name": "vike-data-cli",
       "descriptionZh": "面向 Polymarket 与 Hyperliquid 数据查询的命令行和 Agent Skill 工具，BSC 关联待进一步核实。",
@@ -11454,44 +11644,6 @@
         {
           "source": "github",
           "url": "https://github.com/vike-io/vike-data-cli"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1440810500",
-      "name": "zigzoo-site",
-      "descriptionZh": "BNB Chain 上的卡通角色数字藏品项目，提及 Agent 专属铸造，条件待核验。",
-      "descriptionEn": "Public GitHub discovery candidate: ZIGZOO — experimental collection of original cartoon monster characters on BNB Smart Chain. Agent-only mint, 0.0005 BNB per NFT.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/nugian10/zigzoo-site",
-      "website": "https://github.com/nugian10/zigzoo-site",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-12",
-      "date": "2026-11-12",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1440810500"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/nugian10/zigzoo-site"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -11740,8 +11892,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11841,44 +11993,6 @@
       "featured": false
     },
     {
-      "id": "github-1179404554",
-      "name": "gmgn-skills",
-      "descriptionZh": "为 AI Agent 提供 GMGN 接口能力的工具集合，涵盖代币、钱包、市场信息查询及部分链上操作。",
-      "descriptionEn": "Public GitHub discovery candidate: GMGN OpenAPI skills for AI Agent — query tokens, wallets, and market data, and execute on-chain trades across Solana, BSC, and Base.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/GMGNAI/gmgn-skills",
-      "website": "https://github.com/GMGNAI/gmgn-skills",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1179404554"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/GMGNAI/gmgn-skills"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1261329396",
       "name": "cmc-leverage-divergence",
       "descriptionZh": "CoinMarketCap Agent Skill 策略项目，涉及资金费率验证、动量策略和多资产回测，属于开发者工具线索。",
@@ -11892,8 +12006,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12006,8 +12120,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12024,44 +12138,6 @@
         {
           "source": "github",
           "url": "https://github.com/SiddhantOfficial/bnb-yield-proof"
-        }
-      ],
-      "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1407081361",
-      "name": "bInference",
-      "descriptionZh": "面向 BNB Smart Chain 的 AI Agent 工具，涵盖交易、研究和创作，声称支持多种发射平台及 DEX。",
-      "descriptionEn": "Public GitHub discovery candidate: Your own AI agent for BNB Smart Chain: trader, researcher, creator. Trades every launchpad and DEX with MEV-protected execution, reads X, Binance Square and on-chain data, runs your Binance Agents, makes Clips and uses private AI.",
-      "descriptionBasis": "reviewed-translation",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/bInference-Lab/bInference",
-      "website": "https://github.com/bInference-Lab/bInference",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1407081361"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/bInference-Lab/bInference"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -12103,44 +12179,6 @@
         }
       ],
       "evidenceLevel": "source-backed-product",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1347406606",
-      "name": "4lpha-marketplace",
-      "descriptionZh": "仓库「4lpha-marketplace」公开介绍：Hosted TradFi/Defi Agent Marketplace on BNB Chain",
-      "descriptionEn": "Public GitHub discovery candidate: Hosted TradFi/Defi Agent Marketplace on BNB Chain",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/4lphaAI/4lpha-marketplace",
-      "website": "https://github.com/4lphaAI/4lpha-marketplace",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-13",
-      "date": "2026-11-13",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1347406606"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/4lphaAI/4lpha-marketplace"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -12602,12 +12640,12 @@
   ],
   "inputCounts": {
     "projects": 192,
-    "external": 62,
+    "external": 63,
     "x": 408,
     "mint": 25
   },
-  "candidateRecords": 375,
-  "mergedGroups": 319,
-  "reviewCount": 327,
+  "candidateRecords": 376,
+  "mergedGroups": 320,
+  "reviewCount": 329,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

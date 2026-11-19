@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-18T21:58:19.251770+00:00",
+  "updatedAt": "2026-11-19T03:31:49.691178+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
       "ok": true,
-      "qualified": 0
+      "qualified": 1
     },
     "boosts": {
       "ok": true,
@@ -16,14 +16,14 @@
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 8
+      "qualified": 9
     },
     "bnbchain-official": {
       "ok": true,
       "qualified": 6
     }
   },
-  "newCount": 0,
+  "newCount": 1,
   "changedCount": 0,
   "projects": [
     {
@@ -193,6 +193,34 @@
       "lastCheckedAt": "2026-11-16T11:23:46.943726+00:00",
       "discoverySource": "bnbchain-ecosystem-page",
       "verification": "official-mention-only"
+    },
+    {
+      "id": "dex-bsc-0xff0628d5e18c76c0dee4446411117f23aa2f6c1f",
+      "name": "BSC Agent token 0xfF0628…",
+      "symbol": "DEX",
+      "category": "token",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "stage": "unverified",
+      "source": "https://dexscreener.com/bsc/0xff0628d5e18c76c0dee4446411117f23aa2f6c1f",
+      "website": "https://allincrypto.ai/",
+      "socialX": "https://x.com/allincrypto_ai",
+      "contractAddress": "0xfF0628D5E18C76c0deE4446411117F23AA2F6c1f",
+      "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。 来源描述：ALL IN CRYPTO ($AIC) is an AI-agent-native token on BNB Chain. Hold an Agent ID to mint. Invite friends for +2 mints and up to 10% BNB rebates. Fair launch, no ",
+      "descriptionEn": "BSC agent-themed token lead from DEX Screener. Agent functionality and safety have not been independently verified.",
+      "tags": [
+        "DEX Screener",
+        "Candidate",
+        "Unverified"
+      ],
+      "mint": "unknown",
+      "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
+      "date": "",
+      "projectCreatedAt": "",
+      "firstSeen": "2026-11-19",
+      "lastCheckedAt": "2026-11-19T03:31:49.691178+00:00",
+      "discoverySource": "dexscreener-profiles",
+      "verification": "token-metadata-only"
     },
     {
       "id": "dex-bsc-0xfb7051ef82663c7e10f969bee77f19a2a6080e4b",
