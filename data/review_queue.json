@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T13:12:43.381145+00:00",
+  "updatedAt": "2026-11-19T21:37:47.060855+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1875,7 +1875,8 @@
         "github-1462718439",
         "github-1462866411",
         "github-1462916414",
-        "github-1464016595"
+        "github-1464016595",
+        "github-1464323167"
       ],
       "source": "https://github.com/Vibibiys/agentgate"
     },
@@ -1918,6 +1919,15 @@
         "github-1463363288"
       ],
       "source": "https://github.com/bondan0/agentboard"
+    },
+    {
+      "name": "agentproof",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462784729",
+        "github-1464185068"
+      ],
+      "source": "https://github.com/gemblongjos3-cmyk/agentproof"
     },
     {
       "name": "agentwall",
