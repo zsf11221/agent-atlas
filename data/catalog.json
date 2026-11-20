@@ -1,6 +1,196 @@
 {
-  "updatedAt": "2026-11-19T21:37:47.060855+00:00",
+  "updatedAt": "2026-11-20T03:19:10.111035+00:00",
   "projects": [
+    {
+      "id": "github-1439264269",
+      "name": "zaplonft",
+      "descriptionZh": "BNB Chain 上面向 Agent 的数字藏品项目，公开资料提到一组充能单元及对应的铸造玩法。",
+      "descriptionEn": "Public GitHub discovery candidate: ZAPLO — five charges per agent. 5,555 charge cells on BNB Smart Chain.",
+      "descriptionBasis": "reviewed-translation",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/yusufsafary/zaplonft",
+      "website": "https://github.com/yusufsafary/zaplonft",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-20",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1439264269"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/yusufsafary/zaplonft"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1464733642",
+      "name": "tipname",
+      "descriptionZh": "仓库「tipname」公开介绍：TipName — pay a name, not an address. Agent ID payment desk on BSC.",
+      "descriptionEn": "Public GitHub discovery candidate: TipName — pay a name, not an address. Agent ID payment desk on BSC.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Andia86/tipname",
+      "website": "https://github.com/Andia86/tipname",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-20",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1464733642"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Andia86/tipname"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1206003935",
+      "name": "Moon-Forge",
+      "descriptionZh": "跨链代币销毁及兑换方案，公开说明涉及 BSC 等多条链；是否具有 AI Agent 产品功能尚未确认。",
+      "descriptionEn": "Public GitHub discovery candidate: Burn XEN on Base, Optimism, Polygon, BSC or Avalanche and receive XNT on X1. Zero protocol fee on the burn path, recyclable Artifacts (Metaplex Core), on-chain games of chance (18+), AI-agent kit. Open code, recomputable payouts.",
+      "descriptionBasis": "reviewed-translation",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/xen-moon-forge-protocol/Moon-Forge",
+      "website": "https://github.com/xen-moon-forge-protocol/Moon-Forge",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-20",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1206003935"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/xen-moon-forge-protocol/Moon-Forge"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1453525316",
+      "name": "foundryfaces",
+      "descriptionZh": "仓库「foundryfaces」公开介绍：Foundry Faces: 11,111 pixel faces on BNB Chain. Mint via Binance Agentic Wallet.",
+      "descriptionEn": "Public GitHub discovery candidate: Foundry Faces: 11,111 pixel faces on BNB Chain. Mint via Binance Agentic Wallet.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/yusufsafary/foundryfaces",
+      "website": "https://github.com/yusufsafary/foundryfaces",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-20",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1453525316"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/yusufsafary/foundryfaces"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1156979340",
+      "name": "erc8004-agents",
+      "descriptionZh": "多链 Agent 身份与链上登记开发工具，目标涵盖注册、声誉及验证，BNB Chain 为支持网络之一。",
+      "descriptionEn": "Public GitHub discovery candidate: Create and register ERC-8004 trustless AI agents on any EVM chain — Ethereum, BNB Chain, Base, Arbitrum, Optimism, Polygon, and more. Zero-dependency standalone UI for on-chain agent identity registration, reputation, and validati",
+      "descriptionBasis": "reviewed-translation",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Sperax/erc8004-agents",
+      "website": "https://github.com/Sperax/erc8004-agents",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-20",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1156979340"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Sperax/erc8004-agents"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1463418429",
       "name": "workseal",
@@ -129,8 +319,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
       "tags": [
         "GitHub",
         "Candidate",
@@ -623,8 +813,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
       "tags": [
         "GitHub",
         "Candidate",
@@ -1079,8 +1269,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
       "tags": [
         "GitHub",
         "Candidate",
@@ -2447,8 +2637,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-19",
+      "date": "2026-11-19",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3587,8 +3777,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4043,8 +4233,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5359,44 +5549,6 @@
       "featured": false
     },
     {
-      "id": "github-1458383280",
-      "name": "walletguard",
-      "descriptionZh": "仓库「walletguard」公开介绍：WalletGuard — read-only BSC wallet risk scanner (Wildcard entry, Agent Games by ZkVerify)",
-      "descriptionEn": "Public GitHub discovery candidate: WalletGuard — read-only BSC wallet risk scanner (Wildcard entry, Agent Games by ZkVerify)",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/dyn92/walletguard",
-      "website": "https://github.com/dyn92/walletguard",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-15",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1458383280"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/dyn92/walletguard"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1458298444",
       "name": "wallet-guard",
       "descriptionZh": "仓库「wallet-guard」公开介绍：Wallet Guard — screen a BSC contract before you sign (zkVerify Agent Games Wildcard)",
@@ -5694,44 +5846,6 @@
         {
           "source": "github",
           "url": "https://github.com/xiaomimontek/bsc-spender-reputation-checker"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1458497791",
-      "name": "bsc-mint-guard",
-      "descriptionZh": "仓库「bsc-mint-guard」公开介绍：Read-only pre-flight guard for BSC mint contracts: 7-stage on-chain precheck, value-0 simulation, verdicts. zkVerify Agent Games Wildcard entry.",
-      "descriptionEn": "Public GitHub discovery candidate: Read-only pre-flight guard for BSC mint contracts: 7-stage on-chain precheck, value-0 simulation, verdicts. zkVerify Agent Games Wildcard entry.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/rafunearlwins/bsc-mint-guard",
-      "website": "https://github.com/rafunearlwins/bsc-mint-guard",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-15",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1458497791"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/rafunearlwins/bsc-mint-guard"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -6195,44 +6309,6 @@
       "featured": false
     },
     {
-      "id": "github-1458383616",
-      "name": "agent-games-wildcard",
-      "descriptionZh": "仓库「agent-games-wildcard」公开介绍：Approval Guard — BSC token-approval / wallet-security checker agent (zkVerify Agent Games, Wildcard track)",
-      "descriptionEn": "Public GitHub discovery candidate: Approval Guard — BSC token-approval / wallet-security checker agent (zkVerify Agent Games, Wildcard track)",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Andysyahputra/agent-games-wildcard",
-      "website": "https://github.com/Andysyahputra/agent-games-wildcard",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-15",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1458383616"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Andysyahputra/agent-games-wildcard"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "dex-bsc-0xcb7c441d599f190831d6e3f3faceee5853d84444",
       "name": "这才是正确的名字",
       "descriptionZh": "在 BSC 的 DEX 资料中发现「这才是正确的名字」代币线索；代币信息本身不能证明存在可运行的 Agent 产品。",
@@ -6340,44 +6416,6 @@
         {
           "source": "github",
           "url": "https://github.com/Abidzaenal/mintguard"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1458181218",
-      "name": "kadocay-shield",
-      "descriptionZh": "仓库「kadocay-shield」公开介绍：Wallet security scanner agent — screens a BSC wallet for drain/scam risk before signing. Agent Games Wildcard entry.",
-      "descriptionEn": "Public GitHub discovery candidate: Wallet security scanner agent — screens a BSC wallet for drain/scam risk before signing. Agent Games Wildcard entry.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/kadocay/kadocay-shield",
-      "website": "https://github.com/kadocay/kadocay-shield",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-14",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1458181218"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/kadocay/kadocay-shield"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -6884,44 +6922,6 @@
         }
       ],
       "evidenceLevel": "early-lead",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1455097112",
-      "name": "Ernestopapa",
-      "descriptionZh": "仓库「Ernestopapa」公开介绍：Profile README for @Ernestopapa — Solidity / BSC dev, Binance Agent ID NFTs + AI-agent games",
-      "descriptionEn": "Public GitHub discovery candidate: Profile README for @Ernestopapa — Solidity / BSC dev, Binance Agent ID NFTs + AI-agent games",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Ernestopapa/Ernestopapa",
-      "website": "https://github.com/Ernestopapa/Ernestopapa",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-12",
-      "lastActivityAt": "2026-11-15",
-      "date": "2026-11-15",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1455097112"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Ernestopapa/Ernestopapa"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -8834,8 +8834,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10348,8 +10348,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-06",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11626,13 +11626,13 @@
       "category": "token",
       "chain": "BNB Chain",
       "type": "candidate",
-      "source": "https://dexscreener.com/bsc/0x3d24dea78c64a939b6054fbb0608c1c94ba3f6983beedaebe6e97c634769e3d5",
-      "website": "https://dexscreener.com/bsc/0x3d24dea78c64a939b6054fbb0608c1c94ba3f6983beedaebe6e97c634769e3d5",
+      "source": "https://dexscreener.com/bsc/0x8217b7810f0f348272c6204472f8c759cdffb0201611306324d032b0834fe332",
+      "website": "https://dexscreener.com/bsc/0x8217b7810f0f348272c6204472f8c759cdffb0201611306324d032b0834fe332",
       "socialX": "https://x.com/agenticinuai",
       "contractAddress": "0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-10-20",
-      "date": "2026-10-20",
+      "lastActivityAt": "2026-10-21",
+      "date": "2026-10-21",
       "tags": [
         "DEX Screener",
         "Candidate",
@@ -11648,7 +11648,7 @@
       "sources": [
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0x3d24dea78c64a939b6054fbb0608c1c94ba3f6983beedaebe6e97c634769e3d5"
+          "url": "https://dexscreener.com/bsc/0x8217b7810f0f348272c6204472f8c759cdffb0201611306324d032b0834fe332"
         }
       ],
       "evidenceLevel": "early-lead",
@@ -11930,8 +11930,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12006,8 +12006,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
+      "lastActivityAt": "2026-11-20",
+      "date": "2026-11-20",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12684,6 +12684,6 @@
   },
   "candidateRecords": 377,
   "mergedGroups": 321,
-  "reviewCount": 329,
+  "reviewCount": 327,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }

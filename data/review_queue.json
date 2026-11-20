@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T21:37:47.060855+00:00",
+  "updatedAt": "2026-11-20T03:19:10.111035+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1848,24 +1848,6 @@
         "github-1463985144"
       ],
       "source": "https://github.com/Abidzaenal/mintguard"
-    },
-    {
-      "name": "wallet-guard",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1458298444",
-        "github-1458383280"
-      ],
-      "source": "https://github.com/blacktokyo96/wallet-guard"
-    },
-    {
-      "name": "agent-games-wildcard",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1458383616",
-        "github-1458407779"
-      ],
-      "source": "https://github.com/Andysyahputra/agent-games-wildcard"
     },
     {
       "name": "agentgate",
