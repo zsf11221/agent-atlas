@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T12:55:58.569912+00:00",
+  "updatedAt": "2026-11-20T21:07:32.716108+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -16,7 +16,7 @@
     },
     "search-agentic": {
       "ok": true,
-      "qualified": 7
+      "qualified": 11
     },
     "bnbchain-official": {
       "ok": true,
@@ -24,7 +24,7 @@
     }
   },
   "newCount": 0,
-  "changedCount": 2,
+  "changedCount": 3,
   "projects": [
     {
       "id": "bnb-official-mention-pieverse",
@@ -678,7 +678,7 @@
       "chain": "BNB Chain",
       "type": "candidate",
       "stage": "unverified",
-      "source": "https://dexscreener.com/bsc/0x5ba8e0a79b44199700e19b8e228ed09390f81a51",
+      "source": "https://dexscreener.com/bsc/0x7b00e66d43df403289e7f985583a9f9275153bb6683caaff865b9f874d175917",
       "website": "https://investopedia.dev",
       "socialX": "https://x.com/cz_binance/status/2049279102876827747",
       "contractAddress": "0xaE71fd8baCc2f17C43a01C3F4aFF6dEEbc194444",
@@ -691,10 +691,10 @@
       ],
       "mint": "unknown",
       "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
-      "date": "2026-04-29",
-      "projectCreatedAt": "2026-04-29",
+      "date": "2026-05-01",
+      "projectCreatedAt": "2026-05-01",
       "firstSeen": "2026-11-13",
-      "lastCheckedAt": "2026-11-13T09:33:59.568144+00:00",
+      "lastCheckedAt": "2026-11-20T21:07:32.716108+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
@@ -1686,8 +1686,8 @@
       "chain": "BNB Chain",
       "type": "candidate",
       "stage": "unverified",
-      "source": "https://dexscreener.com/bsc/0x4206466fc95b35d92fc2440c5253a85f5448520e",
-      "website": "https://dexscreener.com/bsc/0x4206466fc95b35d92fc2440c5253a85f5448520e",
+      "source": "https://dexscreener.com/bsc/0x8217b7810f0f348272c6204472f8c759cdffb0201611306324d032b0834fe332",
+      "website": "https://dexscreener.com/bsc/0x8217b7810f0f348272c6204472f8c759cdffb0201611306324d032b0834fe332",
       "socialX": "https://x.com/agenticinuai",
       "contractAddress": "0x7FfcF7b3b52AdCc00C76F50ce2e37BF3C7E215dc",
       "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
@@ -1699,10 +1699,10 @@
       ],
       "mint": "unknown",
       "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
-      "date": "2026-10-22",
-      "projectCreatedAt": "2026-10-22",
+      "date": "2026-10-21",
+      "projectCreatedAt": "2026-10-21",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-20T12:55:58.569912+00:00",
+      "lastCheckedAt": "2026-11-20T21:07:32.716108+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
@@ -1742,7 +1742,7 @@
       "chain": "BNB Chain",
       "type": "candidate",
       "stage": "unverified",
-      "source": "https://dexscreener.com/bsc/0x0fc5a0f0167bc4003066ae60289c40b93f935b9a",
+      "source": "https://dexscreener.com/bsc/0xe56041cddbb46db01c67b7a62684f428a04db8c6",
       "website": "https://agcc.fun/",
       "socialX": "https://x.com/Agentic_coin",
       "contractAddress": "0x63dea5aCdbE1F27c968907D08610A5f0A0284bA6",
@@ -1755,10 +1755,10 @@
       ],
       "mint": "unknown",
       "evidence": "DEX Screener public profile or pair metadata only; token listing does not establish an AI Agent product.",
-      "date": "2026-11-04",
-      "projectCreatedAt": "2026-11-04",
+      "date": "2026-11-02",
+      "projectCreatedAt": "2026-11-02",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-20T12:55:58.569912+00:00",
+      "lastCheckedAt": "2026-11-20T21:07:32.716108+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },

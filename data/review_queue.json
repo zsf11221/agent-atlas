@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T12:56:00.325401+00:00",
+  "updatedAt": "2026-11-20T21:07:34.742408+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1872,6 +1872,17 @@
       "source": "https://github.com/yungkaaii/agentstreak"
     },
     {
+      "name": "agentbadge",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462769047",
+        "github-1462808341",
+        "github-1462812532",
+        "github-1463183764"
+      ],
+      "source": "https://github.com/acilpiw/agentbadge"
+    },
+    {
       "name": "agent-id-daily-checkin",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1914,16 +1925,6 @@
       "source": "https://github.com/Marito273/agentwall"
     },
     {
-      "name": "agent-badge",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462808341",
-        "github-1462812532",
-        "github-1463183764"
-      ],
-      "source": "https://github.com/Muhsafsla3/agent-badge"
-    },
-    {
       "name": "agenttip",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1959,7 +1960,8 @@
       "recordIds": [
         "github-1463236467",
         "github-1463985144",
-        "github-1465259352"
+        "github-1465259352",
+        "github-1465722146"
       ],
       "source": "https://github.com/abihidayat/mintguard"
     },
