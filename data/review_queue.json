@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T03:19:10.111035+00:00",
+  "updatedAt": "2026-11-20T12:56:00.325401+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1838,18 +1838,6 @@
       "source": "https://x.com/i/web/status/2118057691931345248"
     },
     {
-      "name": "mintguard",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1458045831",
-        "github-1458346751",
-        "github-1458495728",
-        "github-1463236467",
-        "github-1463985144"
-      ],
-      "source": "https://github.com/Abidzaenal/mintguard"
-    },
-    {
       "name": "agentgate",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1878,7 +1866,8 @@
         "github-1462755340",
         "github-1463044781",
         "github-1463051420",
-        "github-1464026963"
+        "github-1464026963",
+        "github-1465212623"
       ],
       "source": "https://github.com/yungkaaii/agentstreak"
     },
@@ -1965,6 +1954,16 @@
       "source": "https://github.com/Irwansupian/agent-checkin"
     },
     {
+      "name": "mintguard",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463236467",
+        "github-1463985144",
+        "github-1465259352"
+      ],
+      "source": "https://github.com/abihidayat/mintguard"
+    },
+    {
       "name": "agentpay",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1972,6 +1971,15 @@
         "github-1463579223"
       ],
       "source": "https://github.com/Jaw1jennaira/agentpay"
+    },
+    {
+      "name": "agentmint",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463945988",
+        "github-1465053228"
+      ],
+      "source": "https://github.com/adhais23/agentmint"
     },
     {
       "name": "Agentic X402",
