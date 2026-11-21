@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T11:05:51.676624+00:00",
+  "updatedAt": "2026-11-21T17:59:06.397962+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1844,9 +1844,9 @@
         "github-1462639125",
         "github-1462718439",
         "github-1462866411",
-        "github-1462916414",
         "github-1464016595",
-        "github-1464323167"
+        "github-1464323167",
+        "github-1465302770"
       ],
       "source": "https://github.com/Vibibiys/agentgate"
     },
@@ -1864,7 +1864,6 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462755340",
-        "github-1463044781",
         "github-1464026963",
         "github-1465212623",
         "github-1466157139"
@@ -1877,8 +1876,7 @@
       "recordIds": [
         "github-1462769047",
         "github-1462808341",
-        "github-1462812532",
-        "github-1463183764"
+        "github-1462812532"
       ],
       "source": "https://github.com/acilpiw/agentbadge"
     },
@@ -1912,6 +1910,15 @@
       "source": "https://github.com/gemblongjos3-cmyk/agentproof"
     },
     {
+      "name": "agent-roll-call",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462794546",
+        "github-1466398107"
+      ],
+      "source": "https://github.com/iambangees/agent-roll-call"
+    },
+    {
       "name": "agentwall",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1929,7 +1936,6 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462823368",
-        "github-1463117203",
         "github-1464075971"
       ],
       "source": "https://github.com/todorichi/agenttip"
@@ -1961,7 +1967,8 @@
         "github-1463985144",
         "github-1465259352",
         "github-1465722146",
-        "github-1466381351"
+        "github-1466381351",
+        "github-1466741563"
       ],
       "source": "https://github.com/abihidayat/mintguard"
     },
