@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T17:59:05.043657+00:00",
+  "updatedAt": "2026-11-21T23:19:35.251270+00:00",
   "methodology": "DEX Screener metadata + BNB Chain official source mentions. Candidate is NOT a verified Agent, free mint, endorsement, or safety audit. firstSeen is Atlas collection time, not a launch date.",
   "sources": {
     "profiles": {
@@ -23,8 +23,8 @@
       "qualified": 6
     }
   },
-  "newCount": 1,
-  "changedCount": 0,
+  "newCount": 0,
+  "changedCount": 1,
   "projects": [
     {
       "id": "bnb-official-mention-pieverse",
@@ -1714,8 +1714,8 @@
       "chain": "BNB Chain",
       "type": "candidate",
       "stage": "unverified",
-      "source": "https://dexscreener.com/bsc/0xcbc77d857d11d9a8407b6e580010540d885b0b40",
-      "website": "https://dexscreener.com/bsc/0xcbc77d857d11d9a8407b6e580010540d885b0b40",
+      "source": "https://dexscreener.com/bsc/0x2c361e99418722f541dc1f3a6fef04d28a6ee30bbd8f19771924b2e8cc16422d",
+      "website": "https://dexscreener.com/bsc/0x2c361e99418722f541dc1f3a6fef04d28a6ee30bbd8f19771924b2e8cc16422d",
       "socialX": "https://x.com/agenticinuai",
       "contractAddress": "0x7FfcF7b3b52AdCc00C76F50ce2e37BF3C7E215dc",
       "descriptionZh": "DEX Screener 发现的 BSC Agent 主题代币线索。项目的 AI Agent 功能及安全性未经独立核验。",
@@ -1730,7 +1730,7 @@
       "date": "2026-10-20",
       "projectCreatedAt": "2026-10-20",
       "firstSeen": "2026-11-03",
-      "lastCheckedAt": "2026-11-21T02:18:00.026246+00:00",
+      "lastCheckedAt": "2026-11-21T23:19:35.251270+00:00",
       "discoverySource": "dexscreener-search-agentic",
       "verification": "token-metadata-only"
     },
