@@ -1,14 +1,14 @@
 {
   "monthUTC": "2026-11",
-  "reservedPostReads": 1610,
+  "reservedPostReads": 1620,
   "maxMonthlyPostReads": 2400,
-  "worstCaseEstimatedUSD": 8.05,
-  "checkedAt": "2026-11-21T09:04:09.719995+00:00",
+  "worstCaseEstimatedUSD": 8.1,
+  "checkedAt": "2026-11-21T18:34:45.900251+00:00",
   "state": "error",
   "sources": [
     {
       "state": "http-error",
-      "status": 402
+      "status": 403
     }
   ],
   "newLeads": 0,
