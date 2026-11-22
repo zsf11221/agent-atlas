@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T06:51:40.611066+00:00",
+  "updatedAt": "2026-11-22T15:20:09.389678+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1845,7 +1845,8 @@
         "github-1462866411",
         "github-1464016595",
         "github-1464323167",
-        "github-1465302770"
+        "github-1465302770",
+        "github-1467618388"
       ],
       "source": "https://github.com/wellyparker/agentgate"
     },
@@ -1857,36 +1858,6 @@
         "github-1463560567"
       ],
       "source": "https://github.com/faisalridhomp/agent-id-hub"
-    },
-    {
-      "name": "agentstreak",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462755340",
-        "github-1464026963",
-        "github-1465212623",
-        "github-1466157139"
-      ],
-      "source": "https://github.com/yungkaaii/agentstreak"
-    },
-    {
-      "name": "agentbadge",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462769047",
-        "github-1462808341",
-        "github-1462812532"
-      ],
-      "source": "https://github.com/acilpiw/agentbadge"
-    },
-    {
-      "name": "agent-id-daily-checkin",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462779043",
-        "github-1462822406"
-      ],
-      "source": "https://github.com/iqballher/agent-id-daily-checkin"
     },
     {
       "name": "agentboard",
@@ -1903,22 +1874,22 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462794546",
-        "github-1466398107"
+        "github-1466398107",
+        "github-1467345285"
       ],
       "source": "https://github.com/iambangees/agent-roll-call"
     },
     {
-      "name": "agentwall",
+      "name": "agent-wall",
       "reason": "same-name-different-identity-review",
       "recordIds": [
-        "github-1462795669",
-        "github-1462799000",
         "github-1462801057",
-        "github-1462809354",
-        "github-1462816935",
-        "github-1462827797"
+        "github-1462827797",
+        "github-1463540852",
+        "github-1465417966",
+        "github-1465699896"
       ],
-      "source": "https://github.com/Marito273/agentwall"
+      "source": "https://github.com/Ismailzilud/agent-wall"
     },
     {
       "name": "agenttip",
@@ -1949,6 +1920,15 @@
       "source": "https://github.com/Jaw1jennaira/agentpay"
     },
     {
+      "name": "agentdrop",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463595624",
+        "github-1467676408"
+      ],
+      "source": "https://github.com/Dadangbachtiar/agentdrop"
+    },
+    {
       "name": "agentmint",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1968,6 +1948,16 @@
         "github-1466741563"
       ],
       "source": "https://github.com/adenragilnasrulloh/mintguard"
+    },
+    {
+      "name": "AgentStreak",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1464026963",
+        "github-1465212623",
+        "github-1466157139"
+      ],
+      "source": "https://github.com/Sinmimm/AgentStreak"
     },
     {
       "name": "AgentProof",
@@ -2020,7 +2010,8 @@
       "recordIds": [
         "dex-bsc-0x2860ba3d03d2f66a458af820ee76466a0b227777",
         "dex-bsc-0x547d7f33f13ac7a9490d9680859db43b16bbffff",
-        "dex-bsc-0x9572cb59b5b53538b704b89b71b304cf18a4ffff"
+        "dex-bsc-0x9572cb59b5b53538b704b89b71b304cf18a4ffff",
+        "dex-bsc-0xc0354d9a081c756540bc76a48caaa0996bca7777"
       ],
       "source": "https://dexscreener.com/bsc/0x955c05eda04760199171538ff7afb4534911f482"
     },
