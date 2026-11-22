@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T23:19:37.414485+00:00",
+  "updatedAt": "2026-11-22T06:51:40.611066+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1841,14 +1841,13 @@
       "name": "agentgate",
       "reason": "same-name-different-identity-review",
       "recordIds": [
-        "github-1462639125",
         "github-1462718439",
         "github-1462866411",
         "github-1464016595",
         "github-1464323167",
         "github-1465302770"
       ],
-      "source": "https://github.com/Vibibiys/agentgate"
+      "source": "https://github.com/wellyparker/agentgate"
     },
     {
       "name": "agent-id-hub",
@@ -1894,19 +1893,10 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462782172",
-        "github-1462819652"
+        "github-1462819652",
+        "github-1463778975"
       ],
       "source": "https://github.com/bondan0/agentboard"
-    },
-    {
-      "name": "agentproof",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462784729",
-        "github-1464185068",
-        "github-1466071031"
-      ],
-      "source": "https://github.com/gemblongjos3-cmyk/agentproof"
     },
     {
       "name": "agent-roll-call",
@@ -1980,6 +1970,15 @@
       "source": "https://github.com/adenragilnasrulloh/mintguard"
     },
     {
+      "name": "AgentProof",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1464185068",
+        "github-1466071031"
+      ],
+      "source": "https://github.com/belski21-growl/AgentProof"
+    },
+    {
       "name": "Agentic X402",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1989,6 +1988,18 @@
         "dex-bsc-0xf334039c3b0abde100887d17a476952d3e992eb0"
       ],
       "source": "https://dexscreener.com/bsc/0xd43a8aaa214684dd71a6af07d5818de085e76397"
+    },
+    {
+      "name": "Agentic Protocol",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "dex-bsc-0x21251f35c913320d0c5932bcfb1309f49ecf7777",
+        "dex-bsc-0x80f05a3f3799499638b2ebedf72b97a3f42affff",
+        "dex-bsc-0x8a74aa95bb913f93db94755e135caaeca09b8888",
+        "dex-bsc-0xe4272c43775703e7ba517b5aeb64d8de1320ffff",
+        "dex-bsc-0xf30e443aa53e99a4b630ee48f6cc6937c6bb7777"
+      ],
+      "source": "https://dexscreener.com/bsc/0x26762a74faae296beb4f8afdaf3a3154a7cf6a9f"
     },
     {
       "name": "Agentic",
@@ -2046,17 +2057,6 @@
         "dex-bsc-0xebb5101bfa878f79f92e3550179402e022968888"
       ],
       "source": "https://dexscreener.com/bsc/0x4bb9ecef27fd95212437443cfb72b3e0ded5ffff:4meme"
-    },
-    {
-      "name": "Agentic Protocol",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "dex-bsc-0x80f05a3f3799499638b2ebedf72b97a3f42affff",
-        "dex-bsc-0x8a74aa95bb913f93db94755e135caaeca09b8888",
-        "dex-bsc-0xe4272c43775703e7ba517b5aeb64d8de1320ffff",
-        "dex-bsc-0xf30e443aa53e99a4b630ee48f6cc6937c6bb7777"
-      ],
-      "source": "https://dexscreener.com/bsc/0x80f05a3f3799499638b2ebedf72b97a3f42affff:4meme"
     },
     {
       "name": "agentic money",
