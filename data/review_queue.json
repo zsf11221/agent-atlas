@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:20:09.389678+00:00",
+  "updatedAt": "2026-11-22T21:47:33.077548+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1880,25 +1880,15 @@
       "source": "https://github.com/iambangees/agent-roll-call"
     },
     {
-      "name": "agent-wall",
+      "name": "agentwall",
       "reason": "same-name-different-identity-review",
       "recordIds": [
-        "github-1462801057",
         "github-1462827797",
         "github-1463540852",
         "github-1465417966",
         "github-1465699896"
       ],
-      "source": "https://github.com/Ismailzilud/agent-wall"
-    },
-    {
-      "name": "agenttip",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462823368",
-        "github-1464075971"
-      ],
-      "source": "https://github.com/todorichi/agenttip"
+      "source": "https://github.com/MangFiksi/agentwall"
     },
     {
       "name": "agent-passport",

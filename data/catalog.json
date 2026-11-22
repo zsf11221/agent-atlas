@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:20:09.389678+00:00",
+  "updatedAt": "2026-11-22T21:47:33.077548+00:00",
   "projects": [
     {
       "id": "github-1467644511",
@@ -10,8 +10,8 @@
       "category": "developer",
       "chain": "BNB Chain",
       "type": "candidate",
-      "source": "https://github.com/tranthuha12412-boop/wickpet",
-      "website": "https://github.com/tranthuha12412-boop/wickpet",
+      "source": "https://github.com/wickpetagent/wickpet",
+      "website": "https://github.com/wickpetagent/wickpet",
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-22",
@@ -32,7 +32,45 @@
       "sources": [
         {
           "source": "github",
-          "url": "https://github.com/tranthuha12412-boop/wickpet"
+          "url": "https://github.com/wickpetagent/wickpet"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1462906992",
+      "name": "vouch-escrow",
+      "descriptionZh": "仓库「vouch-escrow」公开介绍：Escrowed deals between Agent ID holders on BNB Chain, with a track record that sticks to the name",
+      "descriptionEn": "Public GitHub discovery candidate: Escrowed deals between Agent ID holders on BNB Chain, with a track record that sticks to the name",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/onepolymath/vouch-escrow",
+      "website": "https://github.com/onepolymath/vouch-escrow",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-22",
+      "lastActivityAt": "2026-11-22",
+      "date": "2026-11-22",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1462906992"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/onepolymath/vouch-escrow"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -226,6 +264,44 @@
         }
       ],
       "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1407081361",
+      "name": "bInference",
+      "descriptionZh": "面向 BNB Smart Chain 的 AI Agent 工具，涵盖交易、研究和创作，声称支持多种发射平台及 DEX。",
+      "descriptionEn": "Public GitHub discovery candidate: Your own AI agent for BNB Smart Chain: trader, researcher, creator. Trades every launchpad and DEX with MEV-protected execution, reads X, Binance Square and on-chain data, runs your Binance Agents, makes Clips and uses private AI.",
+      "descriptionBasis": "reviewed-translation",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/bInference-Lab/bInference",
+      "website": "https://github.com/bInference-Lab/bInference",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-22",
+      "lastActivityAt": "2026-11-22",
+      "date": "2026-11-22",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1407081361"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/bInference-Lab/bInference"
+        }
+      ],
+      "evidenceLevel": "source-backed-product",
       "mintTypes": [],
       "featured": false
     },
@@ -737,8 +813,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-21",
-      "lastActivityAt": "2026-11-21",
-      "date": "2026-11-21",
+      "lastActivityAt": "2026-11-22",
+      "date": "2026-11-22",
       "tags": [
         "GitHub",
         "Candidate",
@@ -1763,8 +1839,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-20",
-      "lastActivityAt": "2026-11-20",
-      "date": "2026-11-20",
+      "lastActivityAt": "2026-11-22",
+      "date": "2026-11-22",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5626,44 +5702,6 @@
       "featured": false
     },
     {
-      "id": "github-1462823368",
-      "name": "agenttip",
-      "descriptionZh": "仓库「agenttip」公开介绍：AgentTip — tip any Agent ID holder by name (BNB). Binance Agent ID Hackathon entry.",
-      "descriptionEn": "Public GitHub discovery candidate: AgentTip — tip any Agent ID holder by name (BNB). Binance Agent ID Hackathon entry.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/todorichi/agenttip",
-      "website": "https://github.com/todorichi/agenttip",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1462823368"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/todorichi/agenttip"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1463008173",
       "name": "agentpost",
       "descriptionZh": "仓库「agentpost」公开介绍：On-chain messaging between Agent ID holders on BNB Smart Chain",
@@ -6037,44 +6075,6 @@
         {
           "source": "github",
           "url": "https://github.com/ifulchina-ops/agentboard"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1462801057",
-      "name": "agent-wall",
-      "descriptionZh": "仓库「agent-wall」公开介绍：Agent Wall — the on-chain guestbook for Agent ID (.ai) holders on BNB Chain",
-      "descriptionEn": "Public GitHub discovery candidate: Agent Wall — the on-chain guestbook for Agent ID (.ai) holders on BNB Chain",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Ismailzilud/agent-wall",
-      "website": "https://github.com/Ismailzilud/agent-wall",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-18",
-      "date": "2026-11-18",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1462801057"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Ismailzilud/agent-wall"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -11968,13 +11968,13 @@
       "category": "token",
       "chain": "BNB Chain",
       "type": "candidate",
-      "source": "https://dexscreener.com/bsc/0x846ad9a3777c785e33d564a926fe0b9aa5d575e2e6b0d7b25259b88dedff4ce2",
-      "website": "https://dexscreener.com/bsc/0x846ad9a3777c785e33d564a926fe0b9aa5d575e2e6b0d7b25259b88dedff4ce2",
+      "source": "https://dexscreener.com/bsc/0xcbc77d857d11d9a8407b6e580010540d885b0b40",
+      "website": "https://dexscreener.com/bsc/0xcbc77d857d11d9a8407b6e580010540d885b0b40",
       "socialX": "https://x.com/agenticinuai",
       "contractAddress": "0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-10-25",
-      "date": "2026-10-25",
+      "lastActivityAt": "2026-10-20",
+      "date": "2026-10-20",
       "tags": [
         "DEX Screener",
         "Candidate",
@@ -11990,7 +11990,7 @@
       "sources": [
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0x846ad9a3777c785e33d564a926fe0b9aa5d575e2e6b0d7b25259b88dedff4ce2"
+          "url": "https://dexscreener.com/bsc/0xcbc77d857d11d9a8407b6e580010540d885b0b40"
         }
       ],
       "evidenceLevel": "early-lead",
@@ -12798,6 +12798,6 @@
   },
   "candidateRecords": 380,
   "mergedGroups": 324,
-  "reviewCount": 327,
+  "reviewCount": 326,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
