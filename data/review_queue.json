@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T02:47:07.455360+00:00",
+  "updatedAt": "2026-11-23T12:47:44.869212+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1864,7 +1864,6 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462782172",
-        "github-1462819652",
         "github-1463778975"
       ],
       "source": "https://github.com/bondan0/agentboard"
@@ -1880,23 +1879,13 @@
       "source": "https://github.com/iambangees/agent-roll-call"
     },
     {
-      "name": "agentwall",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462827797",
-        "github-1463540852",
-        "github-1465417966",
-        "github-1465699896"
-      ],
-      "source": "https://github.com/MangFiksi/agentwall"
-    },
-    {
       "name": "agent-passport",
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462853062",
         "github-1462870868",
-        "github-1463978511"
+        "github-1463978511",
+        "github-1468477635"
       ],
       "source": "https://github.com/OhhRayy/agent-passport"
     },
@@ -1908,6 +1897,16 @@
         "github-1463579223"
       ],
       "source": "https://github.com/Jaw1jennaira/agentpay"
+    },
+    {
+      "name": "agentwall",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463540852",
+        "github-1465417966",
+        "github-1465699896"
+      ],
+      "source": "https://github.com/febry10/agentwall"
     },
     {
       "name": "agentdrop",
@@ -2012,6 +2011,7 @@
         "dex-bsc-0x3215ab151918e1755bf13fe8f7d9162091011223",
         "dex-bsc-0x575766af0e9c3e96a8c3f262912de47eddd59c68",
         "dex-bsc-0x7aede49f29bf7bc643853c1136854ea8e4da7777",
+        "dex-bsc-0xbdb06b12258bd2d333f2ce059c5157103829632d",
         "dex-bsc-0xfb7051ef82663c7e10f969bee77f19a2a6080e4b"
       ],
       "source": "https://dexscreener.com/bsc/0x1536b6e3db39f3390a323a6b5332faf7bfa641e0"
