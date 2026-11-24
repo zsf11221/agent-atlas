@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T00:53:37.312040+00:00",
+  "updatedAt": "2026-11-24T10:57:36.509504+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1842,7 +1842,6 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462718439",
-        "github-1462866411",
         "github-1464016595",
         "github-1464323167",
         "github-1465302770",
@@ -1858,6 +1857,15 @@
         "github-1463560567"
       ],
       "source": "https://github.com/faisalridhomp/agent-id-hub"
+    },
+    {
+      "name": "agentbadge",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1462769047",
+        "github-1469681989"
+      ],
+      "source": "https://github.com/acilpiw/agentbadge"
     },
     {
       "name": "agentboard",
@@ -1877,16 +1885,6 @@
         "github-1467345285"
       ],
       "source": "https://github.com/iambangees/agent-roll-call"
-    },
-    {
-      "name": "agent-passport",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462870868",
-        "github-1463978511",
-        "github-1468477635"
-      ],
-      "source": "https://github.com/Aneukbate/agent-passport"
     },
     {
       "name": "agentpay",
@@ -1917,6 +1915,15 @@
       "source": "https://github.com/Dadangbachtiar/agentdrop"
     },
     {
+      "name": "agentpulse",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463730358",
+        "github-1469849705"
+      ],
+      "source": "https://github.com/Kivye/agentpulse"
+    },
+    {
       "name": "agentfair",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1933,6 +1940,15 @@
         "github-1465053228"
       ],
       "source": "https://github.com/adhais23/agentmint"
+    },
+    {
+      "name": "agent-passport",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463978511",
+        "github-1468477635"
+      ],
+      "source": "https://github.com/abangdwie/agent-passport"
     },
     {
       "name": "mintguard",
