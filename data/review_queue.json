@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:47:44.869212+00:00",
+  "updatedAt": "2026-11-24T00:53:37.312040+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1882,12 +1882,11 @@
       "name": "agent-passport",
       "reason": "same-name-different-identity-review",
       "recordIds": [
-        "github-1462853062",
         "github-1462870868",
         "github-1463978511",
         "github-1468477635"
       ],
-      "source": "https://github.com/OhhRayy/agent-passport"
+      "source": "https://github.com/Aneukbate/agent-passport"
     },
     {
       "name": "agentpay",
@@ -1916,6 +1915,15 @@
         "github-1467676408"
       ],
       "source": "https://github.com/Dadangbachtiar/agentdrop"
+    },
+    {
+      "name": "agentfair",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463743352",
+        "github-1464245037"
+      ],
+      "source": "https://github.com/Asepaaa/agentfair"
     },
     {
       "name": "agentmint",
