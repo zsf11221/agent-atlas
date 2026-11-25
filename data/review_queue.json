@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T14:34:52.369474+00:00",
+  "updatedAt": "2026-11-25T23:38:58.111966+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1947,16 +1947,6 @@
       "source": "https://github.com/adenragilnasrulloh/mintguard"
     },
     {
-      "name": "AgentStreak",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1464026963",
-        "github-1465212623",
-        "github-1466157139"
-      ],
-      "source": "https://github.com/Sinmimm/AgentStreak"
-    },
-    {
       "name": "AgentProof",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1964,6 +1954,24 @@
         "github-1466071031"
       ],
       "source": "https://github.com/belski21-growl/AgentProof"
+    },
+    {
+      "name": "agentstreak",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1465212623",
+        "github-1466157139"
+      ],
+      "source": "https://github.com/willdinata/agentstreak"
+    },
+    {
+      "name": "agent-passport",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1468477635",
+        "github-1472425803"
+      ],
+      "source": "https://github.com/Donnyp21/agent-passport"
     },
     {
       "name": "agentpass",
