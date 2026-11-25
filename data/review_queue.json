@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T04:16:19.092067+00:00",
+  "updatedAt": "2026-11-25T14:34:52.369474+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1842,7 +1842,7 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1462718439",
-        "github-1464016595",
+        "github-1464323167",
         "github-1465302770",
         "github-1467618388"
       ],
@@ -1901,9 +1901,19 @@
       "recordIds": [
         "github-1463540852",
         "github-1465417966",
-        "github-1465699896"
+        "github-1465699896",
+        "github-1471332603"
       ],
       "source": "https://github.com/febry10/agentwall"
+    },
+    {
+      "name": "agentseal",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463551465",
+        "github-1471380317"
+      ],
+      "source": "https://github.com/Syahdan007/agentseal"
     },
     {
       "name": "agentdrop",
@@ -1923,24 +1933,6 @@
         "github-1470813588"
       ],
       "source": "https://github.com/Kivye/agentpulse"
-    },
-    {
-      "name": "agentmint",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1463945988",
-        "github-1465053228"
-      ],
-      "source": "https://github.com/adhais23/agentmint"
-    },
-    {
-      "name": "agent-passport",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1463978511",
-        "github-1468477635"
-      ],
-      "source": "https://github.com/abangdwie/agent-passport"
     },
     {
       "name": "mintguard",
@@ -2024,6 +2016,7 @@
       "recordIds": [
         "dex-bsc-0x2860ba3d03d2f66a458af820ee76466a0b227777",
         "dex-bsc-0x547d7f33f13ac7a9490d9680859db43b16bbffff",
+        "dex-bsc-0x7075f668788e7053eaeb77c0cb01fb6912c97777",
         "dex-bsc-0x9572cb59b5b53538b704b89b71b304cf18a4ffff",
         "dex-bsc-0xc0354d9a081c756540bc76a48caaa0996bca7777"
       ],
