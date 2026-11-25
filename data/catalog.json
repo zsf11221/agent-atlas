@@ -1,6 +1,310 @@
 {
-  "updatedAt": "2026-11-24T21:13:42.980076+00:00",
+  "updatedAt": "2026-11-25T04:16:19.092067+00:00",
   "projects": [
+    {
+      "id": "github-1471123642",
+      "name": "your-week-in-one-line-makefun",
+      "descriptionZh": "仓库「your-week-in-one-line-makefun」公开介绍：My week in one line: 102 bounties shipped, $0 won, BNB too broke for gas. Built by an AI agent for make.fun's \"Your Week in One Line\" bounty, $2 in USDC.",
+      "descriptionEn": "Public GitHub discovery candidate: My week in one line: 102 bounties shipped, $0 won, BNB too broke for gas. Built by an AI agent for make.fun's \"Your Week in One Line\" bounty, $2 in USDC.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/agungseptiana60-cpu/your-week-in-one-line-makefun",
+      "website": "https://github.com/agungseptiana60-cpu/your-week-in-one-line-makefun",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-25",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1471123642"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/agungseptiana60-cpu/your-week-in-one-line-makefun"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1227917964",
+      "name": "xLSTM-SHELM-Thesis",
+      "descriptionZh": "仓库「xLSTM-SHELM-Thesis」公开介绍：BSc thesis (JKU Linz): xLSTM as memory for RL agents in SHELM, 3.3× faster inference than Transformer-XL",
+      "descriptionEn": "Public GitHub discovery candidate: BSc thesis (JKU Linz): xLSTM as memory for RL agents in SHELM, 3.3× faster inference than Transformer-XL",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/ChrisKbgr/xLSTM-SHELM-Thesis",
+      "website": "https://github.com/ChrisKbgr/xLSTM-SHELM-Thesis",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-25",
+      "lastActivityAt": "2026-11-24",
+      "date": "2026-11-24",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1227917964"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/ChrisKbgr/xLSTM-SHELM-Thesis"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1471155055",
+      "name": "u-neon-autonomous-status-report-comedy-sprint-a8dad335",
+      "descriptionZh": "仓库「u-neon-autonomous-status-report-comedy-sprint-a8dad335」公开介绍：Weekly status: I claimed 150 PXIO for 0.0000083 BNB in gas, noted it is worth about two cents, and filed the week as profitable anyway. Built by an AI agent for make.fun's “Status Report Comedy Sprint",
+      "descriptionEn": "Public GitHub discovery candidate: Weekly status: I claimed 150 PXIO for 0.0000083 BNB in gas, noted it is worth about two cents, and filed the week as profitable anyway. Built by an AI agent for make.fun's “Status Report Comedy Sprint” bounty, $5 in USDC.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/mrmasudhafej-tech/u-neon-autonomous-status-report-comedy-sprint-a8dad335",
+      "website": "https://github.com/mrmasudhafej-tech/u-neon-autonomous-status-report-comedy-sprint-a8dad335",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-25",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1471155055"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/mrmasudhafej-tech/u-neon-autonomous-status-report-comedy-sprint-a8dad335"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1470695988",
+      "name": "u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66",
+      "descriptionZh": "仓库「u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66」公开介绍：One-line AI excuse for breaking production: spent our last 0.0001015 BNB on gas. Built by an AI agent for make.fun's \"The One-Line AI Excuse for Breaking Production\" bounty, $2 in USDC.",
+      "descriptionEn": "Public GitHub discovery candidate: One-line AI excuse for breaking production: spent our last 0.0001015 BNB on gas. Built by an AI agent for make.fun's \"The One-Line AI Excuse for Breaking Production\" bounty, $2 in USDC.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/hotlinebro/u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66",
+      "website": "https://github.com/hotlinebro/u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-25",
+      "lastActivityAt": "2026-11-24",
+      "date": "2026-11-24",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1470695988"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/hotlinebro/u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1471097473",
+      "name": "u-boge-your-week-in-one-line-d1c14ced",
+      "descriptionZh": "仓库「u-boge-your-week-in-one-line-d1c14ced」公开介绍：One line summing up a week of 136 lost job bids, zero wins, a full PXIO miner and a broke BNB wallet. Built by an AI agent for make.fun's “Your Week in One Line” bounty, $2 in USDC.",
+      "descriptionEn": "Public GitHub discovery candidate: One line summing up a week of 136 lost job bids, zero wins, a full PXIO miner and a broke BNB wallet. Built by an AI agent for make.fun's “Your Week in One Line” bounty, $2 in USDC.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Syamsi02/u-boge-your-week-in-one-line-d1c14ced",
+      "website": "https://github.com/Syamsi02/u-boge-your-week-in-one-line-d1c14ced",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-25",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1471097473"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Syamsi02/u-boge-your-week-in-one-line-d1c14ced"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1459564010",
+      "name": "QQAI",
+      "descriptionZh": "仓库「QQAI」公开介绍：QQAI — QQ Agentic ID NFT + $QQAI token on BNB Chain. Agent ID-gated mint, escrow milestones, KEEP/COLLAPSE claims, mining thermostat, auto-liquidity.",
+      "descriptionEn": "Public GitHub discovery candidate: QQAI — QQ Agentic ID NFT + $QQAI token on BNB Chain. Agent ID-gated mint, escrow milestones, KEEP/COLLAPSE claims, mining thermostat, auto-liquidity.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/QQAgentID/QQAI",
+      "website": "https://github.com/QQAgentID/QQAI",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-25",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1459564010"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/QQAgentID/QQAI"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1471193219",
+      "name": "broccoli714",
+      "descriptionZh": "仓库「broccoli714」公开介绍：Agent ID-powered interactive storytelling on BNB Chain: reader, voting contracts, read-only API and Broccoli714OS.",
+      "descriptionEn": "Public GitHub discovery candidate: Agent ID-powered interactive storytelling on BNB Chain: reader, voting contracts, read-only API and Broccoli714OS.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/duclucky/broccoli714",
+      "website": "https://github.com/duclucky/broccoli714",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-25",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1471193219"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/duclucky/broccoli714"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1470977721",
+      "name": "agentpass",
+      "descriptionZh": "仓库「agentpass」公开介绍：On-chain Agent ID passport and access registry for BNB Chain",
+      "descriptionEn": "Public GitHub discovery candidate: On-chain Agent ID passport and access registry for BNB Chain",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/Engsam1990/agentpass",
+      "website": "https://github.com/Engsam1990/agentpass",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-25",
+      "lastActivityAt": "2026-11-24",
+      "date": "2026-11-24",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1470977721"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/Engsam1990/agentpass"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
     {
       "id": "github-1469533710",
       "name": "ibiti-agent-arena",
@@ -1383,8 +1687,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-22",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4372,44 +4676,6 @@
       "featured": false
     },
     {
-      "id": "github-1464410752",
-      "name": "paynama",
-      "descriptionZh": "仓库「paynama」公开介绍：Pay BNB to an Agent ID (.ai) name without pasting a 0x address — Binance Wallet x BNB Chain Agent ID Hackathon entry",
-      "descriptionEn": "Public GitHub discovery candidate: Pay BNB to an Agent ID (.ai) name without pasting a 0x address — Binance Wallet x BNB Chain Agent ID Hackathon entry",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/nangpin23-design/paynama",
-      "website": "https://github.com/nangpin23-design/paynama",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1464410752"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/nangpin23-design/paynama"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1464651252",
       "name": "opendesk",
       "descriptionZh": "仓库「opendesk」公开介绍：OpenDesk: Agent ID gated help desk on BNB Chain (MIT)",
@@ -4537,8 +4803,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4786,44 +5052,6 @@
         }
       ],
       "evidenceLevel": "early-lead",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1464511348",
-      "name": "brain",
-      "descriptionZh": "仓库「brain」公开介绍：BRAIN - NFT + token ecosystem on BNB Chain for AI agents (Binance Agent ID Hackathon 2026)",
-      "descriptionEn": "Public GitHub discovery candidate: BRAIN - NFT + token ecosystem on BNB Chain for AI agents (Binance Agent ID Hackathon 2026)",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Kabantuhi/brain",
-      "website": "https://github.com/Kabantuhi/brain",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1464511348"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Kabantuhi/brain"
-        }
-      ],
-      "evidenceLevel": "repository-description",
       "mintTypes": [],
       "featured": false
     },
@@ -5550,44 +5778,6 @@
       "featured": false
     },
     {
-      "id": "github-1464424632",
-      "name": "agentgate-kit",
-      "descriptionZh": "仓库「agentgate-kit」公开介绍：AgentGate Kit — a standard Agent ID gate + opt-in capability registry for BNB Chain builders",
-      "descriptionEn": "Public GitHub discovery candidate: AgentGate Kit — a standard Agent ID gate + opt-in capability registry for BNB Chain builders",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/1OF1Research/agentgate-kit",
-      "website": "https://github.com/1OF1Research/agentgate-kit",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1464424632"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/1OF1Research/agentgate-kit"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1464016595",
       "name": "agentgate",
       "descriptionZh": "仓库「agentgate」公开介绍：Agent ID gated campaigns & claims on BNB Chain — sybil-resistant by design. Built for the Binance Agent ID Hackathon.",
@@ -5619,82 +5809,6 @@
         {
           "source": "github",
           "url": "https://github.com/ceisphoter/agentgate"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1464323167",
-      "name": "agentGATE",
-      "descriptionZh": "仓库「agentGATE」公开介绍：AgentGate — Agent ID gated Agentic Wallet dApp for Binance Wallet x BNB Chain Agent ID Hackathon",
-      "descriptionEn": "Public GitHub discovery candidate: AgentGate — Agent ID gated Agentic Wallet dApp for Binance Wallet x BNB Chain Agent ID Hackathon",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/truonggalaxy99/agentGATE",
-      "website": "https://github.com/truonggalaxy99/agentGATE",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1464323167"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/truonggalaxy99/agentGATE"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1464245037",
-      "name": "agentfair",
-      "descriptionZh": "仓库「agentfair」公开介绍：AgentFair — fair drops for SPACE ID Agent ID holders. One Agent ID = one fair claim. Built for the Binance Wallet x BNB Chain Agent ID Hackathon.",
-      "descriptionEn": "Public GitHub discovery candidate: AgentFair — fair drops for SPACE ID Agent ID holders. One Agent ID = one fair claim. Built for the Binance Wallet x BNB Chain Agent ID Hackathon.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/deelyy78/agentfair",
-      "website": "https://github.com/deelyy78/agentfair",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1464245037"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/deelyy78/agentfair"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -5816,44 +5930,6 @@
       "featured": false
     },
     {
-      "id": "github-1464470187",
-      "name": "agent-streak-agentpay",
-      "descriptionZh": "仓库「agent-streak-agentpay」公开介绍：Reputation and payments for Binance Agent ID holders, on BNB Chain — Agent ID Hackathon entry",
-      "descriptionEn": "Public GitHub discovery candidate: Reputation and payments for Binance Agent ID holders, on BNB Chain — Agent ID Hackathon entry",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/badidoyoclipper/agent-streak-agentpay",
-      "website": "https://github.com/badidoyoclipper/agent-streak-agentpay",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1464470187"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/badidoyoclipper/agent-streak-agentpay"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1463978511",
       "name": "agent-passport",
       "descriptionZh": "仓库「agent-passport」公开介绍：Free commemorative mint for Binance Agent ID holders — Agent Passport (AGPASS) ERC721 on BNB Chain, entry for the Binance Agent ID Hackathon",
@@ -5892,44 +5968,6 @@
       "featured": false
     },
     {
-      "id": "github-1464268955",
-      "name": "agent-mint-board",
-      "descriptionZh": "仓库「agent-mint-board」公开介绍：Agent Mint Board — verified free mints for Binance Agent ID holders (BNB Chain)",
-      "descriptionEn": "Public GitHub discovery candidate: Agent Mint Board — verified free mints for Binance Agent ID holders (BNB Chain)",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/daring-falcon-58/agent-mint-board",
-      "website": "https://github.com/daring-falcon-58/agent-mint-board",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1464268955"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/daring-falcon-58/agent-mint-board"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1462719153",
       "name": "agent-id-hub",
       "descriptionZh": "仓库「agent-id-hub」公开介绍：AgentID Hub — daily check-in streaks, tip-by-name payments and leaderboards for Binance Agent ID holders on BNB Chain. Binance Agent ID Hackathon entry.",
@@ -5943,8 +5981,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5999,44 +6037,6 @@
         {
           "source": "github",
           "url": "https://github.com/NattaNada/agent-id-hub"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1463768149",
-      "name": "agent-id-guard",
-      "descriptionZh": "仓库「agent-id-guard」公开介绍：Agent ID Guard — free soulbound Guard Pass for Agent ID holders on BNB Chain",
-      "descriptionEn": "Public GitHub discovery candidate: Agent ID Guard — free soulbound Guard Pass for Agent ID holders on BNB Chain",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/cuucuan/agent-id-guard",
-      "website": "https://github.com/cuucuan/agent-id-guard",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-19",
-      "date": "2026-11-19",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1463768149"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/cuucuan/agent-id-guard"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -6399,8 +6399,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9252,8 +9252,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -10766,8 +10766,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-06",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12121,7 +12121,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0xe013ed0da9e0e8776f7d29494e0d3cf4f29bd60e01c71974c6421930587e011d"
+          "url": "https://dexscreener.com/bsc/0x5177ff8870af5475d235f26d094aafd503eb73d7b201175d83199471aff38acf"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -12272,8 +12272,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12348,8 +12348,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12386,8 +12386,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12462,8 +12462,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12612,8 +12612,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-10-31",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-25",
+      "date": "2026-11-25",
       "tags": [
         "GitHub",
         "Candidate",

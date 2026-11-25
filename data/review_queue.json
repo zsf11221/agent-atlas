@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T21:13:42.980076+00:00",
+  "updatedAt": "2026-11-25T04:16:19.092067+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1843,7 +1843,6 @@
       "recordIds": [
         "github-1462718439",
         "github-1464016595",
-        "github-1464323167",
         "github-1465302770",
         "github-1467618388"
       ],
@@ -1926,15 +1925,6 @@
       "source": "https://github.com/Kivye/agentpulse"
     },
     {
-      "name": "agentfair",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1463743352",
-        "github-1464245037"
-      ],
-      "source": "https://github.com/Asepaaa/agentfair"
-    },
-    {
       "name": "agentmint",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1982,6 +1972,15 @@
         "github-1466071031"
       ],
       "source": "https://github.com/belski21-growl/AgentProof"
+    },
+    {
+      "name": "agentpass",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1468633161",
+        "github-1470977721"
+      ],
+      "source": "https://github.com/Ragilsetiyo/agentpass"
     },
     {
       "name": "Agentic X402",
