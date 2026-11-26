@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T08:22:32.284686+00:00",
+  "updatedAt": "2026-11-26T19:02:05.798094+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1849,15 +1849,6 @@
       "source": "https://github.com/wellyparker/agentgate"
     },
     {
-      "name": "agentbadge",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462769047",
-        "github-1469681989"
-      ],
-      "source": "https://github.com/acilpiw/agentbadge"
-    },
-    {
       "name": "agent-roll-call",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1866,15 +1857,6 @@
         "github-1467345285"
       ],
       "source": "https://github.com/iambangees/agent-roll-call"
-    },
-    {
-      "name": "agentpay",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1463269256",
-        "github-1463579223"
-      ],
-      "source": "https://github.com/Jaw1jennaira/agentpay"
     },
     {
       "name": "agentdrop",
@@ -1900,7 +1882,8 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "github-1463778975",
-        "github-1470686405"
+        "github-1470686405",
+        "github-1473202568"
       ],
       "source": "https://github.com/qazzk13/agentboard"
     },
@@ -1910,7 +1893,6 @@
       "recordIds": [
         "github-1463985144",
         "github-1465259352",
-        "github-1465722146",
         "github-1466381351",
         "github-1466741563"
       ],
