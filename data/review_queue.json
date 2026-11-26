@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:38:58.111966+00:00",
+  "updatedAt": "2026-11-26T08:22:32.284686+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1849,15 +1849,6 @@
       "source": "https://github.com/wellyparker/agentgate"
     },
     {
-      "name": "agent-id-hub",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462719153",
-        "github-1463560567"
-      ],
-      "source": "https://github.com/faisalridhomp/agent-id-hub"
-    },
-    {
       "name": "agentbadge",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1865,16 +1856,6 @@
         "github-1469681989"
       ],
       "source": "https://github.com/acilpiw/agentbadge"
-    },
-    {
-      "name": "agentboard",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462782172",
-        "github-1463778975",
-        "github-1470686405"
-      ],
-      "source": "https://github.com/bondan0/agentboard"
     },
     {
       "name": "agent-roll-call",
@@ -1896,26 +1877,6 @@
       "source": "https://github.com/Jaw1jennaira/agentpay"
     },
     {
-      "name": "agentwall",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1463540852",
-        "github-1465417966",
-        "github-1465699896",
-        "github-1471332603"
-      ],
-      "source": "https://github.com/febry10/agentwall"
-    },
-    {
-      "name": "agentseal",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1463551465",
-        "github-1471380317"
-      ],
-      "source": "https://github.com/Syahdan007/agentseal"
-    },
-    {
       "name": "agentdrop",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1933,6 +1894,15 @@
         "github-1470813588"
       ],
       "source": "https://github.com/Kivye/agentpulse"
+    },
+    {
+      "name": "agentboard",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1463778975",
+        "github-1470686405"
+      ],
+      "source": "https://github.com/qazzk13/agentboard"
     },
     {
       "name": "mintguard",
@@ -1963,6 +1933,16 @@
         "github-1466157139"
       ],
       "source": "https://github.com/willdinata/agentstreak"
+    },
+    {
+      "name": "agentwall",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1465417966",
+        "github-1465699896",
+        "github-1471332603"
+      ],
+      "source": "https://github.com/Azharodan/agentwall"
     },
     {
       "name": "agent-passport",
@@ -2023,6 +2003,7 @@
       "reason": "same-name-different-identity-review",
       "recordIds": [
         "dex-bsc-0x2860ba3d03d2f66a458af820ee76466a0b227777",
+        "dex-bsc-0x3f9dae76c6fec40b898f8b9da3002a4192e27777",
         "dex-bsc-0x547d7f33f13ac7a9490d9680859db43b16bbffff",
         "dex-bsc-0x7075f668788e7053eaeb77c0cb01fb6912c97777",
         "dex-bsc-0x9572cb59b5b53538b704b89b71b304cf18a4ffff",
