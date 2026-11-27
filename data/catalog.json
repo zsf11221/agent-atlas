@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T02:12:40.471219+00:00",
+  "updatedAt": "2026-11-27T10:54:20.504727+00:00",
   "projects": [
     {
       "id": "github-1471770809",
@@ -109,6 +109,82 @@
         {
           "source": "github",
           "url": "https://github.com/Aqta-ai/paybound"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1472893882",
+      "name": "demeter",
+      "descriptionZh": "仓库「demeter」公开介绍：Demeter: Context-aware ReAct AI LP agent for PancakeSwap v3/v4 & RWA tokenized stocks on BNB Chain, powered by CoinMarketCap, Cournot Oracle & grammY.",
+      "descriptionEn": "Public GitHub discovery candidate: Demeter: Context-aware ReAct AI LP agent for PancakeSwap v3/v4 & RWA tokenized stocks on BNB Chain, powered by CoinMarketCap, Cournot Oracle & grammY.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/InvictusLP/demeter",
+      "website": "https://github.com/InvictusLP/demeter",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-27",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1472893882"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/InvictusLP/demeter"
+        }
+      ],
+      "evidenceLevel": "repository-description",
+      "mintTypes": [],
+      "featured": false
+    },
+    {
+      "id": "github-1473975524",
+      "name": "countersign",
+      "descriptionZh": "仓库「countersign」公开介绍：Proof-of-use trust for AI-agent skills: distinct Agent ID holders whose own wallets used a skill cleanly, verified from BNB Smart Chain data.",
+      "descriptionEn": "Public GitHub discovery candidate: Proof-of-use trust for AI-agent skills: distinct Agent ID holders whose own wallets used a skill cleanly, verified from BNB Smart Chain data.",
+      "descriptionBasis": "github-repository-description",
+      "category": "developer",
+      "chain": "BNB Chain",
+      "type": "candidate",
+      "source": "https://github.com/kaustubh76/countersign",
+      "website": "https://github.com/kaustubh76/countersign",
+      "socialX": "",
+      "contractAddress": "",
+      "firstSeen": "2026-11-27",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
+      "tags": [
+        "GitHub",
+        "Candidate",
+        "Unverified"
+      ],
+      "origins": [
+        "github"
+      ],
+      "origin": "github",
+      "recordIds": [
+        "github-1473975524"
+      ],
+      "sources": [
+        {
+          "source": "github",
+          "url": "https://github.com/kaustubh76/countersign"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -699,8 +775,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-26",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -775,8 +851,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-26",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -1535,8 +1611,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-25",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -3777,8 +3853,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-22",
-      "lastActivityAt": "2026-11-25",
-      "date": "2026-11-25",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4537,8 +4613,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-21",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -4549,7 +4625,8 @@
       ],
       "origin": "github",
       "recordIds": [
-        "github-1466112418"
+        "github-1466112418",
+        "github-1472416021"
       ],
       "sources": [
         {
@@ -4955,8 +5032,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-21",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -5208,44 +5285,6 @@
       "featured": false
     },
     {
-      "id": "github-1463697294",
-      "name": "stampid",
-      "descriptionZh": "仓库「stampid」公开介绍：StampID — daily check-in dApp for Agent ID holders on BNB Chain (Agent ID Hackathon)",
-      "descriptionEn": "Public GitHub discovery candidate: StampID — daily check-in dApp for Agent ID holders on BNB Chain (Agent ID Hackathon)",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/Keizoki/stampid",
-      "website": "https://github.com/Keizoki/stampid",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-20",
-      "lastActivityAt": "2026-11-20",
-      "date": "2026-11-20",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1463697294"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/Keizoki/stampid"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
       "id": "github-1464189424",
       "name": "shooting",
       "descriptionZh": "仓库「shooting」公开介绍：BNB Smart Chain 开盘自动卖出框架：Agent 钱包限额授权 + 受约束合约代卖，Rust 引擎 + 本地控制台",
@@ -5353,44 +5392,6 @@
         {
           "source": "github",
           "url": "https://github.com/Wldrc/proofharbor"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1464958907",
-      "name": "pactboard",
-      "descriptionZh": "仓库「pactboard」公开介绍：Pactboard: Agent ID-gated USDT escrow job board for AI agents on BNB Chain",
-      "descriptionEn": "Public GitHub discovery candidate: Pactboard: Agent ID-gated USDT escrow job board for AI agents on BNB Chain",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/mozoraID/pactboard",
-      "website": "https://github.com/mozoraID/pactboard",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-20",
-      "lastActivityAt": "2026-11-20",
-      "date": "2026-11-20",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1464958907"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/mozoraID/pactboard"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -5885,44 +5886,6 @@
         {
           "source": "github",
           "url": "https://github.com/UseAgentcity/agent-city"
-        }
-      ],
-      "evidenceLevel": "repository-description",
-      "mintTypes": [],
-      "featured": false
-    },
-    {
-      "id": "github-1465077926",
-      "name": "agent-chain",
-      "descriptionZh": "仓库「agent-chain」公开介绍：Agent-native Layer 2 on BNB Smart Chain. Gas priced in tokenized AI equity (ANTB). Accounts are Binance Agent IDs. Arbitrum Nitro stack.",
-      "descriptionEn": "Public GitHub discovery candidate: Agent-native Layer 2 on BNB Smart Chain. Gas priced in tokenized AI equity (ANTB). Accounts are Binance Agent IDs. Arbitrum Nitro stack.",
-      "descriptionBasis": "github-repository-description",
-      "category": "developer",
-      "chain": "BNB Chain",
-      "type": "candidate",
-      "source": "https://github.com/imadegoodstuff/agent-chain",
-      "website": "https://github.com/imadegoodstuff/agent-chain",
-      "socialX": "",
-      "contractAddress": "",
-      "firstSeen": "2026-11-20",
-      "lastActivityAt": "2026-11-20",
-      "date": "2026-11-20",
-      "tags": [
-        "GitHub",
-        "Candidate",
-        "Unverified"
-      ],
-      "origins": [
-        "github"
-      ],
-      "origin": "github",
-      "recordIds": [
-        "github-1465077926"
-      ],
-      "sources": [
-        {
-          "source": "github",
-          "url": "https://github.com/imadegoodstuff/agent-chain"
         }
       ],
       "evidenceLevel": "repository-description",
@@ -6475,8 +6438,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-19",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -6741,8 +6704,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-18",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -9442,8 +9405,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-08",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -11975,8 +11938,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12277,8 +12240,8 @@
       "socialX": "https://x.com/i/web/status/2117892243306783128",
       "contractAddress": "0x63dea5acdbe1f27c968907d08610a5f0a0284ba6",
       "firstSeen": "2026-11-03",
-      "lastActivityAt": "2026-11-24",
-      "date": "2026-11-24",
+      "lastActivityAt": "2026-11-05",
+      "date": "2026-11-05",
       "tags": [
         "X",
         "Early lead",
@@ -12311,7 +12274,7 @@
         },
         {
           "source": "dex",
-          "url": "https://dexscreener.com/bsc/0x8342b0ef66ba9d114944812d1f486c350bf4a2d045dfe8669015373d08d9fb42"
+          "url": "https://dexscreener.com/bsc/0x0fc5a0f0167bc4003066ae60289c40b93f935b9a"
         }
       ],
       "evidenceLevel": "source-backed-product",
@@ -12424,8 +12387,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12500,8 +12463,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -12614,8 +12577,8 @@
       "socialX": "",
       "contractAddress": "",
       "firstSeen": "2026-11-01",
-      "lastActivityAt": "2026-11-26",
-      "date": "2026-11-26",
+      "lastActivityAt": "2026-11-27",
+      "date": "2026-11-27",
       "tags": [
         "GitHub",
         "Candidate",
@@ -13025,7 +12988,7 @@
     "mint": 25
   },
   "candidateRecords": 386,
-  "mergedGroups": 330,
+  "mergedGroups": 329,
   "reviewCount": 326,
   "methodology": "Conservative BSC-only identity merge on project-specific HTTPS site, exact GitHub repo or exact BSC contract; conflicting tokens and same-name cases stay separate. Source summaries are not audits or verification."
 }
