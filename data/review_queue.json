@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T19:58:40.505745+00:00",
+  "updatedAt": "2026-11-28T02:42:34.894342+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1907,14 +1907,13 @@
       "source": "https://github.com/belski21-growl/AgentProof"
     },
     {
-      "name": "agentwall",
+      "name": "agent-wall",
       "reason": "same-name-different-identity-review",
       "recordIds": [
-        "github-1465417966",
         "github-1465699896",
         "github-1471332603"
       ],
-      "source": "https://github.com/Azharodan/agentwall"
+      "source": "https://github.com/zera1yth-id/agent-wall"
     },
     {
       "name": "agent-arena",
@@ -1988,7 +1987,7 @@
         "dex-bsc-0x3f9dae76c6fec40b898f8b9da3002a4192e27777",
         "dex-bsc-0x547d7f33f13ac7a9490d9680859db43b16bbffff",
         "dex-bsc-0x7075f668788e7053eaeb77c0cb01fb6912c97777",
-        "dex-bsc-0x9572cb59b5b53538b704b89b71b304cf18a4ffff"
+        "dex-bsc-0x8f6341176c7793f18a706b17214a76166114ffff"
       ],
       "source": "https://dexscreener.com/bsc/0x955c05eda04760199171538ff7afb4534911f482"
     },
