@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T02:42:34.894342+00:00",
+  "updatedAt": "2026-11-28T11:49:20.007262+00:00",
   "items": [
     {
       "id": "x-post-2121420724619575525",
@@ -1838,16 +1838,6 @@
       "source": "https://x.com/i/web/status/2118057691931345248"
     },
     {
-      "name": "agentgate",
-      "reason": "same-name-different-identity-review",
-      "recordIds": [
-        "github-1462718439",
-        "github-1464323167",
-        "github-1467618388"
-      ],
-      "source": "https://github.com/wellyparker/agentgate"
-    },
-    {
       "name": "agent-roll-call",
       "reason": "same-name-different-identity-review",
       "recordIds": [
@@ -1892,8 +1882,7 @@
       "recordIds": [
         "github-1463985144",
         "github-1465259352",
-        "github-1466381351",
-        "github-1466741563"
+        "github-1466381351"
       ],
       "source": "https://github.com/adenragilnasrulloh/mintguard"
     },
@@ -1905,6 +1894,15 @@
         "github-1466071031"
       ],
       "source": "https://github.com/belski21-growl/AgentProof"
+    },
+    {
+      "name": "agentGATE",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1464323167",
+        "github-1467618388"
+      ],
+      "source": "https://github.com/truonggalaxy99/agentGATE"
     },
     {
       "name": "agent-wall",
@@ -1941,6 +1939,15 @@
         "github-1470977721"
       ],
       "source": "https://github.com/Ragilsetiyo/agentpass"
+    },
+    {
+      "name": "parley",
+      "reason": "same-name-different-identity-review",
+      "recordIds": [
+        "github-1473145978",
+        "github-1475030258"
+      ],
+      "source": "https://github.com/0xCaptain888/parley"
     },
     {
       "name": "Agentic X402",
